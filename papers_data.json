@@ -1,0 +1,144 @@
+{
+  "latest": [
+    {
+      "paperId": "test1",
+      "title": "Prescribed-Time Control Barrier Functions for Safety-Critical Systems",
+      "authors": [
+        "John Smith",
+        "Jane Doe",
+        "Bob Wilson"
+      ],
+      "year": 2025,
+      "date": "2025-06-15",
+      "citations": 45,
+      "arxivId": "",
+      "doi": "10.1109/TAC.2025.123456",
+      "url": "https://doi.org/10.1109/TAC.2025.123456",
+      "abstract": "This paper presents a prescribed-time control barrier function approach for ensuring safety of dynamical systems within a user-specified time horizon.",
+      "journal": "IEEE Transactions on Automatic Control",
+      "venue": "",
+      "venueLabel": "TAC",
+      "subjects": []
+    },
+    {
+      "paperId": "test2",
+      "title": "Adaptive Robust CBF for Uncertain Robotic Systems",
+      "authors": [
+        "Alice Chen",
+        "Tom Lee"
+      ],
+      "year": 2025,
+      "date": "2025-05-20",
+      "citations": 12,
+      "arxivId": "",
+      "doi": "10.1109/LRA.2025.654321",
+      "url": "https://doi.org/10.1109/LRA.2025.654321",
+      "abstract": "We propose an adaptive robust control barrier function framework for robotic systems with parametric uncertainties and external disturbances.",
+      "journal": "IEEE Robotics and Automation Letters",
+      "venue": "",
+      "venueLabel": "RA-L",
+      "subjects": []
+    },
+    {
+      "paperId": "test3",
+      "title": "Event-Triggered CBF for Multi-Agent Systems",
+      "authors": [
+        "Mike Brown",
+        "Sarah Davis"
+      ],
+      "year": 2024,
+      "date": "2024-12-01",
+      "citations": 28,
+      "arxivId": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2412.00001",
+      "abstract": "This work develops an event-triggered control barrier function framework for distributed safety in multi-agent systems.",
+      "journal": "Automatica",
+      "venue": "",
+      "venueLabel": "Automatica",
+      "subjects": []
+    },
+    {
+      "paperId": "test4",
+      "title": "Learning-Based CBF with Neural Network Approximations",
+      "authors": [
+        "Emily Zhang",
+        "Frank Li"
+      ],
+      "year": 2024,
+      "date": "2024-10-15",
+      "citations": 56,
+      "arxivId": "",
+      "doi": "10.1109/CDC.2024.123456",
+      "url": "https://doi.org/10.1109/CDC.2024.123456",
+      "abstract": "We propose a learning-based approach to construct control barrier functions using neural network approximations for high-dimensional systems.",
+      "journal": "IEEE Control Systems Letters",
+      "venue": "",
+      "venueLabel": "L-CSS",
+      "subjects": []
+    },
+    {
+      "paperId": "test5",
+      "title": "High-Order CBF for Fixed-Time Safety Guarantees",
+      "authors": [
+        "David Kim",
+        "Grace Park"
+      ],
+      "year": 2025,
+      "date": "2025-03-10",
+      "citations": 8,
+      "arxivId": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2503.10001",
+      "abstract": "A high-order control barrier function framework providing fixed-time safety guarantees for nonlinear control systems.",
+      "journal": "",
+      "venue": "IEEE Conference on Decision and Control",
+      "venueLabel": "CDC",
+      "subjects": []
+    }
+  ],
+  "high_cited": [
+    {
+      "paperId": "hc1",
+      "title": "Control Barrier Functions: Theory and Applications",
+      "authors": [
+        "Aaron Ames",
+        "Xiangru Xu",
+        "Jessy Grizzle",
+        "Paulo Tabuada"
+      ],
+      "year": 2019,
+      "date": "2019-01-01",
+      "citations": 1234,
+      "arxivId": "",
+      "doi": "10.1109/TAC.2019.123456",
+      "url": "https://doi.org/10.1109/TAC.2019.123456",
+      "abstract": "This paper provides a comprehensive introduction to control barrier functions (CBFs) and their applications in safety-critical control systems.",
+      "journal": "IEEE Transactions on Automatic Control",
+      "venue": "",
+      "venueLabel": "TAC",
+      "subjects": []
+    },
+    {
+      "paperId": "hc2",
+      "title": "Safety-Critical Model Predictive Control with Control Barrier Functions",
+      "authors": [
+        "Ugo Rosolia",
+        "Aaron Ames"
+      ],
+      "year": 2020,
+      "date": "2020-06-01",
+      "citations": 345,
+      "arxivId": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2006.12345",
+      "abstract": "A framework combining model predictive control with control barrier functions for safety-critical applications.",
+      "journal": "Automatica",
+      "venue": "",
+      "venueLabel": "Automatica",
+      "subjects": []
+    }
+  ],
+  "arxiv": [],
+  "updated": "2025-07-27T00:00:00Z"
+}

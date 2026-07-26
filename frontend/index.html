@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IEEE CBF Paper Tracker</title>
+<script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div id="app">
+  <header class="header">
+    <h1>IEEE CBF Paper Tracker</h1>
+    <p>Control Barrier Function papers from top IEEE journals and conferences</p>
+    <div class="header-info">
+      <span class="status-dot" :class="{ online: cacheLoaded, offline: !cacheLoaded }"></span>
+      <span>{{ cacheLoaded ? 'Cache loaded' : 'No cache data' }}</span>
+      <span v-if="cacheLoaded" class="cache-stats">
+        | Papers: {{ totalCached }} cached
+      </span>
+    </div>
+  </header>
+
+  <nav class="tabs">
+    <button
+      v-for="tab in tabs"
+      :key="tab.id"
+      :class="['tab', { active: activeTab === tab.id }]"
+      @click="activeTab = tab.id"
+    >{{ tab.label }}</button>
+  </nav>
+
+  <div class="search-panel">
+    <div class="search-row">
+      <input
+        v-model="searchKeyword"
+        type="text"
+        class="search-input"
+        placeholder="Enter custom keywords to refine CBF search (e.g., prescribed-time, adaptive, safety-critical)... "
+        @input="onSearchInput"
+      />
+      <div class="sort-wrap">
+        <button class="sort-button" @click="sortOpen = !sortOpen">
+          <span>{{ sortLabel }}</span><span>▾</span>
+        </button>
+        <div v-if="sortOpen" class="sort-menu">
+          <button :class="['sort-option', { active: sortBy === 'date' }]" @click="chooseSort('date')">Sort by Time</button>
+          <button :class="['sort-option', { active: sortBy === 'citations' }]" @click="chooseSort('citations')">Sort by Citations</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="refined-section">
+      <span class="refined-label">Refined Directions:</span>
+      <div class="refined-chips">
+        <button
+          v-for="kw in refinedKeywords"
+          :key="kw.code"
+          :class="['chip', { active: isRefinedActive(kw.code) }]"
+          @click="toggleRefined(kw.code)"
+          :title="kw.zh"
+        >{{ kw.label }}</button>
+        <button
+          :class="['chip chip-add', { active: customKeywordMode }]"
+          @click="customKeywordMode = !customKeywordMode"
+        >+ Custom</button>
+      </div>
+      <div v-if="customKeywordMode" class="custom-keyword-wrap">
+        <input
+          v-model="customKeywords"
+          type="text"
+          class="custom-keyword-input"
+          placeholder="Enter custom keywords (comma-separated)..."
+          @input="onSearchInput"
+        />
+      </div>
+    </div>
+
+    <div class="venue-section" v-if="venues.length > 0">
+      <span class="refined-label">Venue Filter:</span>
+      <div class="refined-chips">
+        <button
+          :class="['chip', { active: venueFilter === '' }]"
+          @click="venueFilter = ''"
+        >All</button>
+        <button
+          v-for="v in venues.slice(0, 20)"
+          :key="v.name"
+          :class="['chip', { active: venueFilter === v.name }]"
+          @click="venueFilter = venueFilter === v.name ? '' : v.name"
+        >{{ v.name }} ({{ v.count }})</button>
+      </div>
+    </div>
+
+    <div class="search-actions">
+      <button class="btn btn-primary" @click="doRealtimeSearch" :disabled="searching">
+        {{ searching ? 'Searching...' : 'Real-time Search API' }}
+      </button>
+      <button class="btn btn-secondary" @click="doLocalSearch">Search Local Cache</button>
+      <button class="btn btn-outline" @click="doRefreshCache" :disabled="refreshing">
+        {{ refreshing ? 'Refreshing Cache...' : 'Refresh Cache' }}
+      </button>
+    </div>
+  </div>
+
+  <div class="results-info" v-if="currentPapers.length > 0">
+    Showing {{ currentPapers.length }} of {{ totalPapers }} papers
+    <span v-if="searching" class="searching-indicator"> | Searching live API...</span>
+  </div>
+
+  <div class="results-info" v-else-if="!searching && hasSearched">
+    No papers found matching your criteria.
+  </div>
+
+  <div class="papers-grid">
+    <div
+      v-for="(paper, idx) in currentPapers"
+      :key="paper.paperId || idx"
+      class="paper-card"
+    >
+      <div class="card-header">
+        <span class="badge badge-venue">{{ paper.venueLabel || 'Other' }}</span>
+        <span class="badge badge-citations" v-if="paper.citations">{{ paper.citations }} citations</span>
+        <span class="badge badge-date" v-if="paper.date || paper.year">{{ paper.date || paper.year }}</span>
+      </div>
+      <h3>
+        <a :href="paper.url" target="_blank" class="paper-link">{{ paper.title }}</a>
+      </h3>
+      <p class="authors">{{ paper.authors.slice(0, 5).join(', ') }}<span v-if="paper.authors.length > 5"> et al.</span></p>
+      <p class="abstract" v-if="paper.abstract">{{ paper.abstract.slice(0, 400) }}{{ paper.abstract.length > 400 ? '...' : '' }}</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    IEEECBF Paper Tracker | Auto-update via GitHub Actions | Powered by Semantic Scholar API
+  </footer>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>

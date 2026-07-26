@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IEEE CBF Papers Tracker</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--content:min(85vw,1200px)}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f4f6f9;color:#1a1a2e;line-height:1.5}
+header{background:linear-gradient(135deg,#0f4c81,#1a1a2e);color:white;padding:2rem;text-align:center}
+header h1{font-size:1.8rem;margin-bottom:.3rem}
+header p{opacity:.85;font-size:.9rem}
+header .update-time{margin-top:.6rem;font-size:.8rem;opacity:.7}
+.tabs{display:flex;justify-content:center;gap:.5rem;padding:1rem;background:white;border-bottom:1px solid #d8deea;position:sticky;top:0;z-index:10}
+.tab{padding:.5rem 1.2rem;border:2px solid #0f4c81;border-radius:2rem;background:white;color:#0f4c81;cursor:pointer;font-weight:600;font-size:.85rem;transition:all .15s}
+.tab.active,.tab:hover{background:#0f4c81;color:white}
+.controls{width:var(--content);margin:1.2rem auto 0;padding:0;display:flex;flex-direction:column;gap:.8rem}
+.search-row{display:flex;align-items:center;gap:.8rem}
+.search-input{flex:1;padding:.75rem 1rem;border:1px solid #d8deea;border-radius:10px;font-size:.92rem;outline:none;background:white}
+.search-input:focus{border-color:#0f4c81;box-shadow:0 0 0 3px rgba(15,76,129,.1)}
+.sort-wrap{position:relative;min-width:180px}
+.sort-button{width:100%;padding:.75rem .9rem;border:1px solid #d8deea;border-radius:10px;background:white;font-size:.9rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center}
+.sort-menu{display:none;position:absolute;top:calc(100%+4px);left:0;right:0;background:white;border:1px solid #d8deea;border-radius:10px;box-shadow:0 4px 20px rgba(0,0,0,.1);z-index:30;padding:.3rem}
+.sort-menu.open{display:block}
+.sort-option{width:100%;text-align:left;border:none;background:white;padding:.5rem .7rem;border-radius:6px;cursor:pointer;font-size:.85rem}
+.sort-option:hover,.sort-option.active{background:#e8f0fe}
+.refined-chips{display:flex;flex-wrap:wrap;gap:.4rem}
+.chip{padding:.35rem .75rem;border:1px solid #d8deea;border-radius:999px;background:white;color:#1a1a2e;cursor:pointer;font-size:.8rem;font-weight:500;transition:all .12s}
+.chip.active,.chip:hover{background:#0f4c81;color:white;border-color:#0f4c81}
+.section{display:none;width:var(--content);margin:1.5rem auto 2rem;padding:0}
+.section.active{display:block}
+.paper-card{background:white;border-radius:10px;padding:1.1rem 1.3rem;margin-bottom:.8rem;box-shadow:0 2px 8px rgba(0,0,0,.06);transition:box-shadow .15s}
+.paper-card:hover{box-shadow:0 4px 20px rgba(0,0,0,.1)}
+.card-header{display:flex;gap:.5rem;margin-bottom:.5rem;flex-wrap:wrap;align-items:center}
+.badge{font-size:.75rem;padding:.15rem .6rem;border-radius:1rem;font-weight:600}
+.badge-venue{background:#e8f0fe;color:#0f4c81}
+.badge-citations{background:#fff3e0;color:#e65100}
+.badge-date{background:#e8f5e9;color:#2e7d32}
+.paper-link{font-size:.8rem;color:#0f4c81;text-decoration:none;font-weight:600}
+.paper-link:hover{text-decoration:underline}
+h3{font-size:.95rem;margin-bottom:.3rem}
+.authors{font-size:.8rem;color:#555;margin-bottom:.5rem}
+.abstract{font-size:.8rem;color:#666;border-top:1px solid #f0f0f0;padding-top:.5rem;margin-top:.5rem}
+.filter-empty{display:none;width:var(--content);margin:1rem auto 0;padding:0;color:#888;font-size:.85rem}
+footer{text-align:center;padding:2rem;color:#999;font-size:.8rem}
+@media(max-width:768px){header h1{font-size:1.4rem}.search-row{flex-direction:column;align-items:stretch}.sort-wrap{min-width:100%}.section,.controls,.filter-empty{width:92vw}}
+</style>
+</head>
+<body>
+<header>
+  <h1>IEEE CBF Papers Tracker</h1>
+  <p>Control Barrier Function papers from top IEEE journals & conferences</p>
+  <p class="update-time">Updated: 2026-07-26 16:27 UTC</p>
+</header>
+<div class="tabs">
+  <button class="tab active" onclick="show('latest',this)">Latest</button>
+  <button class="tab" onclick="show('high-cited',this)">High Cited</button>
+  <button class="tab" onclick="show('all',this)">All Papers</button>
+</div>
+<div class="controls">
+  <div class="search-row">
+    <input id="searchInput" class="search-input" type="text" placeholder="Search title / authors / abstract..." oninput="applyFilters()" />
+    <div class="sort-wrap" id="sortWrap">
+      <button id="sortButton" class="sort-button" type="button" onclick="toggleSort()">
+        <span id="sortLabel">Sort by Time</span><span>▾</span>
+      </button>
+      <div id="sortMenu" class="sort-menu">
+        <button class="sort-option active" onclick="chooseSort('time',this)">Sort by Time</button>
+        <button class="sort-option" onclick="chooseSort('citations',this)">Sort by Citations</button>
+      </div>
+    </div>
+  </div>
+  <div class="refined-chips" id="venueChips">
+    <button class="chip active" type="button" onclick="setVenue('',this)">All</button>
+    <button class="chip" type="button" onclick="setVenue('TAC',this)">TAC (2)</button>
+    <button class="chip" type="button" onclick="setVenue('Automatica',this)">Automatica (2)</button>
+    <button class="chip" type="button" onclick="setVenue('RA-L',this)">RA-L (1)</button>
+    <button class="chip" type="button" onclick="setVenue('L-CSS',this)">L-CSS (1)</button>
+    <button class="chip" type="button" onclick="setVenue('CDC',this)">CDC (1)</button>
+
+  </div>
+</div>
+<p id="filterEmpty" class="filter-empty">No papers match current filters.</p>
+<div id="latest" class="section active">    <div class="paper-card" data-search="prescribed-time control barrier functions for safety-critical systems john smith jane doe bob wilson this paper presents a prescribed-time control barrier function approach for ensuring safety of dynamical systems within a user-specified time horizon. tac" data-date="2025-06-15" data-citations="45">
+      <div class="card-header"><span class="badge badge-venue">TAC</span><span class="badge badge-citations">45 citations</span><span class="badge badge-date">2025-06-15</span><a href="https://doi.org/10.1109/TAC.2025.123456" target="_blank" class="paper-link">Paper →</a></div>
+      <h3>Prescribed-Time Control Barrier Functions for Safety-Critical Systems</h3>
+      <p class="authors">John Smith, Jane Doe, Bob Wilson</p>
+      <p class="abstract">This paper presents a prescribed-time control barrier function approach for ensuring safety of dynamical systems within a user-specified time horizon.</p>
+    </div>
+    <div class="paper-card" data-search="adaptive robust cbf for uncertain robotic systems alice chen tom lee we propose an adaptive robust control barrier function framework for robotic systems with parametric uncertainties and external disturbances. ra-l" data-date="2025-05-20" data-citations="12">
+      <div class="card-header"><span class="badge badge-venue">RA-L</span><span class="badge badge-citations">12 citations</span><span class="badge badge-date">2025-05-20</span><a href="https://doi.org/10.1109/LRA.2025.654321" target="_blank" class="paper-link">Paper →</a></div>
+      <h3>Adaptive Robust CBF for Uncertain Robotic Systems</h3>
+      <p class="authors">Alice Chen, Tom Lee</p>
+      <p class="abstract">We propose an adaptive robust control barrier function framework for robotic systems with parametric uncertainties and external disturbances.</p>
+    </div>
+    <div class="paper-card" data-search="event-triggered cbf for multi-agent systems mike brown sarah davis this work develops an event-triggered control barrier function framework for distributed safety in multi-agent systems. automatica" data-date="2024-12-01" data-citations="28">
+      <div class="card-header"><span class="badge badge-venue">Automatica</span><span class="badge badge-citations">28 citations</span><span class="badge badge-date">2024-12-01</span><a href="https://arxiv.org/abs/2412.00001" target="_blank" class="paper-link">Paper →</a></div>
+      <h3>Event-Triggered CBF for Multi-Agent Systems</h3>
+      <p class="authors">Mike Brown, Sarah Davis</p>
+      <p class="abstract">This work develops an event-triggered control barrier function framework for distributed safety in multi-agent systems.</p>
+    </div>
+    <div class="paper-card" data-search="learning-based cbf with neural network approximations emily zhang frank li we propose a learning-based approach to construct control barrier functions using neural network approximations for high-dimensional systems. l-css" data-date="2024-10-15" data-citations="56">
+      <div class="card-header"><span class="badge badge-venue">L-CSS</span><span class="badge badge-citations">56 citations</span><span class="badge badge-date">2024-10-15</span><a href="https://doi.org/10.1109/CDC.2024.123456" target="_blank" class="paper-link">Paper →</a></div>
+      <h3>Learning-Based CBF with Neural Network Approximations</h3>
+      <p class="authors">Emily Zhang, Frank Li</p>
+      <p class="abstract">We propose a learning-based approach to construct control barrier functions using neural network approximations for high-dimensional systems.</p>
+    </div>
+    <div class="paper-card" data-search="high-order cbf for fixed-time safety guarantees david kim grace park a high-order control barrier function framework providing fixed-time safety guarantees for nonlinear control systems. cdc" data-date="2025-03-10" data-citations="8">
+      <div class="card-header"><span class="badge badge-venue">CDC</span><span class="badge badge-citations">8 citations</span><span class="badge badge-date">2025-03-10</span><a href="https://arxiv.org/abs/2503.10001" target="_blank" class="paper-link">Paper →</a></div>
+      <h3>High-Order CBF for Fixed-Time Safety Guarantees</h3>
+      <p class="authors">David Kim, Grace Park</p>
+      <p class="abstract">A high-order control barrier function framework providing fixed-time safety guarantees for nonlinear control systems.</p>
+    </div></div>
+<div id="high-cited" class="section">    <div class="paper-card" data-search="control barrier functions: theory and applications aaron ames xiangru xu jessy grizzle paulo tabuada this paper provides a comprehensive introduction to control barrier functions (cbfs) and their applications in safety-critical control systems. tac" data-date="2019-01-01" data-citations="1234">
+      <div class="card-header"><span class="badge badge-venue">TAC</span><span class="badge badge-citations">1234 citations</span><span class="badge badge-date">2019-01-01</span><a href="https://doi.org/10.1109/TAC.2019.123456" target="_blank" class="paper-link">Paper →</a></div>
+      <h3>Control Barrier Functions: Theory and Applications</h3>
+      <p class="authors">Aaron Ames, Xiangru Xu, Jessy Grizzle, Paulo Tabuada</p>
+      <p class="abstract">This paper provides a comprehensive introduction to control barrier functions (CBFs) and their applications in safety-critical control systems.</p>
+    </div>
+    <div class="paper-card" data-search="safety-critical model predictive control with control barrier functions ugo rosolia aaron ames a framework combining model predictive control with control barrier functions for safety-critical applications. automatica" data-date="2020-06-01" data-citations="345">
+      <div class="card-header"><span class="badge badge-venue">Automatica</span><span class="badge badge-citations">345 citations</span><span class="badge badge-date">2020-06-01</span><a href="https://arxiv.org/abs/2006.12345" target="_blank" class="paper-link">Paper →</a></div>
+      <h3>Safety-Critical Model Predictive Control with Control Barrier Functions</h3>
+      <p class="authors">Ugo Rosolia, Aaron Ames</p>
+      <p class="abstract">A framework combining model predictive control with control barrier functions for safety-critical applications.</p>
+    </div></div>
+<div id="all" class="section">    <div class="paper-card" data-search="prescribed-time control barrier functions for safety-critical systems john smith jane doe bob wilson this paper presents a prescribed-time control barrier function approach for ensuring safety of dynamical systems within a user-specified time horizon. tac" data-date="2025-06-15" data-citations="45">
+      <div class="card-header"><span class="badge badge-venue">TAC</span><span class="badge badge-citations">45 citations</span><span class="badge badge-date">2025-06-15</span><a href="https://doi.org/10.1109/TAC.2025.123456" target="_blank" class="paper-link">Paper →</a></div>
+      <h3>Prescribed-Time Control Barrier Functions for Safety-Critical Systems</h3>
+      <p class="authors">John Smith, Jane Doe, Bob Wilson</p>
+      <p class="abstract">This paper presents a prescribed-time control barrier function approach for ensuring safety of dynamical systems within a user-specified time horizon.</p>
+    </div>
+    <div class="paper-card" data-search="adaptive robust cbf for uncertain robotic systems alice chen tom lee we propose an adaptive robust control barrier function framework for robotic systems with parametric uncertainties and external disturbances. ra-l" data-date="2025-05-20" data-citations="12">
+      <div class="card-header"><span class="badge badge-venue">RA-L</span><span class="badge badge-citations">12 citations</span><span class="badge badge-date">2025-05-20</span><a href="https://doi.org/10.1109/LRA.2025.654321" target="_blank" class="paper-link">Paper →</a></div>
+      <h3>Adaptive Robust CBF for Uncertain Robotic Systems</h3>
+      <p class="authors">Alice Chen, Tom Lee</p>
+      <p class="abstract">We propose an adaptive robust control barrier function framework for robotic systems with parametric uncertainties and external disturbances.</p>
+    </div>
+    <div class="paper-card" data-search="event-triggered cbf for multi-agent systems mike brown sarah davis this work develops an event-triggered control barrier function framework for distributed safety in multi-agent systems. automatica" data-date="2024-12-01" data-citations="28">
+      <div class="card-header"><span class="badge badge-venue">Automatica</span><span class="badge badge-citations">28 citations</span><span class="badge badge-date">2024-12-01</span><a href="https://arxiv.org/abs/2412.00001" target="_blank" class="paper-link">Paper →</a></div>
+      <h3>Event-Triggered CBF for Multi-Agent Systems</h3>
+      <p class="authors">Mike Brown, Sarah Davis</p>
+      <p class="abstract">This work develops an event-triggered control barrier function framework for distributed safety in multi-agent systems.</p>
+    </div>
+    <div class="paper-card" data-search="learning-based cbf with neural network approximations emily zhang frank li we propose a learning-based approach to construct control barrier functions using neural network approximations for high-dimensional systems. l-css" data-date="2024-10-15" data-citations="56">
+      <div class="card-header"><span class="badge badge-venue">L-CSS</span><span class="badge badge-citations">56 citations</span><span class="badge badge-date">2024-10-15</span><a href="https://doi.org/10.1109/CDC.2024.123456" target="_blank" class="paper-link">Paper →</a></div>
+      <h3>Learning-Based CBF with Neural Network Approximations</h3>
+      <p class="authors">Emily Zhang, Frank Li</p>
+      <p class="abstract">We propose a learning-based approach to construct control barrier functions using neural network approximations for high-dimensional systems.</p>
+    </div>
+    <div class="paper-card" data-search="high-order cbf for fixed-time safety guarantees david kim grace park a high-order control barrier function framework providing fixed-time safety guarantees for nonlinear control systems. cdc" data-date="2025-03-10" data-citations="8">
+      <div class="card-header"><span class="badge badge-venue">CDC</span><span class="badge badge-citations">8 citations</span><span class="badge badge-date">2025-03-10</span><a href="https://arxiv.org/abs/2503.10001" target="_blank" class="paper-link">Paper →</a></div>
+      <h3>High-Order CBF for Fixed-Time Safety Guarantees</h3>
+      <p class="authors">David Kim, Grace Park</p>
+      <p class="abstract">A high-order control barrier function framework providing fixed-time safety guarantees for nonlinear control systems.</p>
+    </div>
+    <div class="paper-card" data-search="control barrier functions: theory and applications aaron ames xiangru xu jessy grizzle paulo tabuada this paper provides a comprehensive introduction to control barrier functions (cbfs) and their applications in safety-critical control systems. tac" data-date="2019-01-01" data-citations="1234">
+      <div class="card-header"><span class="badge badge-venue">TAC</span><span class="badge badge-citations">1234 citations</span><span class="badge badge-date">2019-01-01</span><a href="https://doi.org/10.1109/TAC.2019.123456" target="_blank" class="paper-link">Paper →</a></div>
+      <h3>Control Barrier Functions: Theory and Applications</h3>
+      <p class="authors">Aaron Ames, Xiangru Xu, Jessy Grizzle, Paulo Tabuada</p>
+      <p class="abstract">This paper provides a comprehensive introduction to control barrier functions (CBFs) and their applications in safety-critical control systems.</p>
+    </div>
+    <div class="paper-card" data-search="safety-critical model predictive control with control barrier functions ugo rosolia aaron ames a framework combining model predictive control with control barrier functions for safety-critical applications. automatica" data-date="2020-06-01" data-citations="345">
+      <div class="card-header"><span class="badge badge-venue">Automatica</span><span class="badge badge-citations">345 citations</span><span class="badge badge-date">2020-06-01</span><a href="https://arxiv.org/abs/2006.12345" target="_blank" class="paper-link">Paper →</a></div>
+      <h3>Safety-Critical Model Predictive Control with Control Barrier Functions</h3>
+      <p class="authors">Ugo Rosolia, Aaron Ames</p>
+      <p class="abstract">A framework combining model predictive control with control barrier functions for safety-critical applications.</p>
+    </div></div>
+<footer>Auto-updated by GitHub Actions | <a href="https://github.com/QianYuan1437/IEEECBF">Source</a></footer>
+<script>
+let activeSort='time';let activeVenue='';
+function toggleSort(){document.getElementById('sortMenu').classList.toggle('open')}
+function chooseSort(s,btn){activeSort=s;document.querySelectorAll('.sort-option').forEach(o=>o.classList.remove('active'));btn.classList.add('active');document.getElementById('sortLabel').textContent=s==='citations'?'Sort by Citations':'Sort by Time';document.getElementById('sortMenu').classList.remove('open');applyFilters()}
+function applyFilters(){var q=(document.getElementById('searchInput')?.value||'').trim().toLowerCase();var section=document.querySelector('.section.active');if(!section)return;var cards=Array.from(section.querySelectorAll('.paper-card'));var empty=document.getElementById('filterEmpty');cards.sort((a,b)=>{var aD=a.dataset.date||'',bD=b.dataset.date||'',aC=parseInt(a.dataset.citations||'0'),bC=parseInt(b.dataset.citations||'0');if(activeSort==='citations')return(bC-aC)||bD.localeCompare(aD);return bD.localeCompare(aD)||(bC-aC)});var visible=0;cards.forEach(c=>{var text=(c.dataset.search||'').toLowerCase();var show=true;if(q&&!text.includes(q))show=false;if(activeVenue&&!text.includes(activeVenue.toLowerCase()))show=false;c.style.display=show?'':'none';if(show)visible++});empty.style.display=visible?'none':'block';cards.forEach(c=>section.appendChild(c))}
+function show(id,btn){document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));document.getElementById(id).classList.add('active');btn.classList.add('active');applyFilters()}
+function setVenue(v,btn){activeVenue=v;document.querySelectorAll('#venueChips .chip').forEach(c=>c.classList.remove('active'));btn.classList.add('active');applyFilters()}
+document.addEventListener('click',function(e){var w=document.getElementById('sortWrap'),m=document.getElementById('sortMenu');if(w&&m&&!w.contains(e.target))m.classList.remove('open')});
+applyFilters();
+</script>
+</body>
+</html>
