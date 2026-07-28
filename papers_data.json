@@ -426,7 +426,7 @@
       ],
       "year": 2016,
       "date": "2016-09-21",
-      "citations": 2673,
+      "citations": 2676,
       "arxivId": "1609.06408",
       "doi": "10.1109/TAC.2016.2638961",
       "url": "https://doi.org/10.1109/TAC.2016.2638961",
@@ -1116,26 +1116,6 @@
       "subjects": []
     },
     {
-      "paperId": "b871ee44f68bb5001696d00b49c17275774fee27",
-      "title": "Safe Consensus Tracking With Guaranteed Full State and Input Constraints: A Control Barrier Function-Based Approach",
-      "authors": [
-        "Junjie Fu",
-        "G. Wen",
-        "Xinghuo Yu"
-      ],
-      "year": 2023,
-      "date": "2023-12-01",
-      "citations": 56,
-      "arxivId": "",
-      "doi": "10.1109/TAC.2023.3283697",
-      "url": "https://doi.org/10.1109/TAC.2023.3283697",
-      "abstract": "In this article, we consider the safe consensus tracking problem for uncertain second-order nonlinear multiagent systems subject to position, velocity, and input constraints. The agents are required to cooperatively track a desired leader's trajectory while always satisfying their local state and input constraints. Therefore, conflicting objectives may exist for an agent when the desired trajectory violates its local constraints. We propose to solve this problem using a control barrier function (CBF)-based approach. The cooperative tracking objective is encoded by a novel control Lyapunov function-based condition while the state and input constraints are handled by CBF-based constraints. For the relative degree two position constraint, two classes of CBF-based conditions are proposed based on high-order CBFs and a modified CBF design, respectively. It is proven that, with the modified CBF, there always exist feasible control inputs that satisfy all the CBF-based constraints. Then, unified quadratic programming-based controllers are formulated and the performances are analyzed. Simulation examples are provided to verify the obtained results.",
-      "journal": "IEEE Transactions on Automatic Control",
-      "venue": "IEEE Transactions on Automatic Control",
-      "venueLabel": "TAC",
-      "subjects": []
-    },
-    {
       "paperId": "ff9f6f543cd477773f8336b36a1df1bad123c799",
       "title": "Multi-UAV Safe Collaborative Transportation Based on Adaptive Control Barrier Function",
       "authors": [
@@ -1153,6 +1133,26 @@
       "journal": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
       "venue": "IEEE Transactions on Systems, Man & Cybernetics. Systems",
       "venueLabel": "TSMC",
+      "subjects": []
+    },
+    {
+      "paperId": "b871ee44f68bb5001696d00b49c17275774fee27",
+      "title": "Safe Consensus Tracking With Guaranteed Full State and Input Constraints: A Control Barrier Function-Based Approach",
+      "authors": [
+        "Junjie Fu",
+        "G. Wen",
+        "Xinghuo Yu"
+      ],
+      "year": 2023,
+      "date": "2023-12-01",
+      "citations": 56,
+      "arxivId": "",
+      "doi": "10.1109/TAC.2023.3283697",
+      "url": "https://doi.org/10.1109/TAC.2023.3283697",
+      "abstract": "In this article, we consider the safe consensus tracking problem for uncertain second-order nonlinear multiagent systems subject to position, velocity, and input constraints. The agents are required to cooperatively track a desired leader's trajectory while always satisfying their local state and input constraints. Therefore, conflicting objectives may exist for an agent when the desired trajectory violates its local constraints. We propose to solve this problem using a control barrier function (CBF)-based approach. The cooperative tracking objective is encoded by a novel control Lyapunov function-based condition while the state and input constraints are handled by CBF-based constraints. For the relative degree two position constraint, two classes of CBF-based conditions are proposed based on high-order CBFs and a modified CBF design, respectively. It is proven that, with the modified CBF, there always exist feasible control inputs that satisfy all the CBF-based constraints. Then, unified quadratic programming-based controllers are formulated and the performances are analyzed. Simulation examples are provided to verify the obtained results.",
+      "journal": "IEEE Transactions on Automatic Control",
+      "venue": "IEEE Transactions on Automatic Control",
+      "venueLabel": "TAC",
       "subjects": []
     },
     {
@@ -2650,5 +2650,5 @@
       ]
     }
   ],
-  "updated": "2026-07-28T06:34:10.372405+00:00"
+  "updated": "2026-07-28T11:17:41.454751+00:00"
 }
