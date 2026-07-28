@@ -1540,6 +1540,28 @@
   ],
   "arxiv": [
     {
+      "paperId": "arxiv:2607.23839v1",
+      "title": "Flight Envelope Protection for a Hypersonic Glide Vehicle Using Adaptive Safety-Critical Control",
+      "authors": [
+        "Johannes Autenrieb",
+        "Peter A. Fisher",
+        "Anuradha Annaswamy"
+      ],
+      "year": null,
+      "date": "2026-07-26",
+      "citations": 0,
+      "arxivId": "2607.23839v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2607.23839v1",
+      "abstract": "This paper presents an adaptive safety-critical control framework for flight envelope protection (FEP) of hypersonic glide vehicles (HGVs) under model uncertainty. The proposed architecture treats input and state constraints through two complementary but distinct mechanisms. At the input end, an adaptive controller with a calibrated closed-loop reference model (CCRM) is designed to accommodate magnitude-limited control inputs and the effects of actuator saturation. Building on this input-constrained adaptive control architecture, flight envelope state constraints are enforced at the state end by an error-based safety filter (EBSF) based on control barrier functions (CBFs). The EBSF modifies the reference command and adapts the admissible safe set online using the measured mismatch between the reference model and the uncertain plant, thereby preserving forward invariance during transient adaptation. Simulation results for the DLR generic hypersonic glide vehicle 2 (GHGV-2) demonstrate stable, high-performance tracking under magnitude-limited control inputs while maintaining flight envelope constraints in the presence of model uncertainty.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
+    {
       "paperId": "arxiv:2607.21794v1",
       "title": "Safe Stabilizing Linear Feedback: Necessary and Sufficient Conditions, Optimality, and Margins",
       "authors": [
@@ -2626,29 +2648,7 @@
         "eess.SY",
         "math.OC"
       ]
-    },
-    {
-      "paperId": "arxiv:2606.02949v1",
-      "title": "Power System CBFs",
-      "authors": [
-        "Abdallah Alalem B. Albustami",
-        "Ahmad F. Taha",
-        "Taylor T. Johnson"
-      ],
-      "year": null,
-      "date": "2026-06-01",
-      "citations": 0,
-      "arxivId": "2606.02949v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2606.02949v1",
-      "abstract": "Control barrier functions (CBFs) have become a standard tool in safety critical-control systems. CBFs convert state constraints into real time control conditions that certify forward invariance (meaning that once the system starts in a safe region, it remains there for all future times) and minimally modify a nominal controller only when safety is at risk. In power systems, CBF based methods have been proposed for frequency and voltage safety, but they largely remain disconnected from three key features that are central to power system operation: differential algebraic equation (DAE) models that capture network power flow constraints, safety specifications involving algebraic variables such as bus voltages, and formal verification of the resulting closed loop system. This paper closes this gap by developing a CBF framework for power system DAE models that supports safety constraints on both dynamic and algebraic variables. The framework provides real time safety filtering through an optimization layer that wraps around an existing controller and minimally modifies its command to enforce safety. In addition, it provides formal verification (i.e., a mathematical guarantee that all admissible trajectories satisfy the prescribed safety constraints) through an offline reachability based certificate of safe operation. The result is a unified filter and verify methodology for enforcing and certifying frequency and voltage safety in power systems while preserving the DAE structure of the underlying model.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY"
-      ]
     }
   ],
-  "updated": "2026-07-28T00:12:21.071596+00:00"
+  "updated": "2026-07-28T06:34:10.372405+00:00"
 }
