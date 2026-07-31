@@ -1958,6 +1958,26 @@
       "subjects": []
     },
     {
+      "paperId": "d9a7ef6bb3c2a4bd8f7bb6b832a55c6bbf0039fc",
+      "title": "Safety-Critical Control and Planning for Obstacle Avoidance between Polytopes with Control Barrier Functions",
+      "authors": [
+        "A. Thirugnanam",
+        "Jun Zeng",
+        "K. Sreenath"
+      ],
+      "year": 2021,
+      "date": "2021-09-25",
+      "citations": 109,
+      "arxivId": "2109.12313",
+      "doi": "10.1109/icra46639.2022.9812334",
+      "url": "https://doi.org/10.1109/icra46639.2022.9812334",
+      "abstract": "Obstacle avoidance between polytopes is a chal-lenging topic for optimal control and optimization-based tra-jectory planning problems. Existing work either solves this problem through mixed-integer optimization, relying on simpli-fication of system dynamics, or through model predictive control with dual variables using distance constraints, requiring long horizons for obstacle avoidance. In either case, the solution can only be applied as an offline planning algorithm. In this paper, we exploit the property that a smaller horizon is sufficient for obstacle avoidance by using discrete-time control barrier function (DCBF) constraints and we propose a novel optimization formulation with dual variables based on DCBFs to generate a collision-free dynamically-feasible trajectory. The proposed optimization formulation has lower computational complexity compared to existing work and can be used as a fast online algorithm for control and planning for general nonlinear dynamical systems. We validate our algorithm on different robot shapes using numerical simulations with a kinematic bicycle model, resulting in successful navigation through maze environments with polytopic obstacles.",
+      "journal": "2022 International Conference on Robotics and Automation (ICRA)",
+      "venue": "IEEE International Conference on Robotics and Automation",
+      "venueLabel": "ICRA",
+      "subjects": []
+    },
+    {
       "paperId": "84cfe50ed4e7fc3a254ec0d4e678373307c2bfe1",
       "title": "Discrete-Time Control Barrier Function: High-Order Case and Adaptive Case",
       "authors": [
@@ -2016,25 +2036,6 @@
       "journal": "IEEE Transactions on Control of Network Systems",
       "venue": "IEEE Transactions on Control of Network Systems",
       "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
-      "paperId": "d1f651bafb24c630533acb198b2b4c14c75f1c18",
-      "title": "Predictive Control Barrier Functions: Enhanced Safety Mechanisms for Learning-Based Control",
-      "authors": [
-        "K. P. Wabersich",
-        "M. Zeilinger"
-      ],
-      "year": 2021,
-      "date": "2021-05-21",
-      "citations": 93,
-      "arxivId": "2105.10241",
-      "doi": "10.1109/TAC.2022.3175628",
-      "url": "https://doi.org/10.1109/TAC.2022.3175628",
-      "abstract": "While learning-based control techniques often outperform classical controller designs, safety requirements limit the acceptance of such methods in many applications. Recent developments address this issue through so-called predictive safety filters, which assess if a proposed learning-based control input can lead to constraint violations and modifies it if necessary to ensure safety for all future time steps. The theoretical guarantees of such predictive safety filters rely on the model assumptions and minor deviations can lead to failure of the filter putting the system at risk. This article introduces an auxiliary soft-constrained predictive control problem that is always feasible at each time step and asymptotically stabilizes the feasible set of the original predictive safety filter problem, thereby providing a recovery mechanism in safety–critical situations. This is achieved by a simple constraint tightening in combination with a terminal control barrier function. By extending discrete-time control barrier function theory, we establish that the proposed auxiliary problem provides a “predictive” control barrier function. The resulting algorithm is demonstrated using numerical examples.",
-      "journal": "IEEE Transactions on Automatic Control",
-      "venue": "IEEE Transactions on Automatic Control",
-      "venueLabel": "TAC",
       "subjects": []
     },
     {
@@ -3921,5 +3922,5 @@
       ]
     }
   ],
-  "updated": "2026-07-31T06:50:11.558641+00:00"
+  "updated": "2026-07-31T11:31:10.593119+00:00"
 }
