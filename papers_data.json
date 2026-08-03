@@ -650,6 +650,54 @@
   ],
   "arxiv": [
     {
+      "paperId": "arxiv:2607.29569v1",
+      "title": "Safe Vision Language Action Models via Barrier Enhanced Flow Matching",
+      "authors": [
+        "Kasra Sinaei",
+        "Hung-Chieh Wu",
+        "Donald Ebeigbe"
+      ],
+      "year": null,
+      "date": "2026-07-31",
+      "citations": 0,
+      "arxivId": "2607.29569v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2607.29569v1",
+      "abstract": "This article presents a modular inference framework that integrates Flow Matching generative models with formal Control Barrier Function (CBF) safety guarantees. Unlike existing methods that apply external safety filters to a model's final output, our approach modifies the Flow Matching denoising process within the model to inherently generate safe trajectories. By employing a smooth Log-Sum-Exponential aggregate barrier, we enforce safety over entire action chunks. This aggregate barrier ensures a minimal increase in computational overhead and does not alter the semantic intent of the model. We show that, within the proposed framework, the 2-Wasserstein distance between the generated distribution and the target distribution remains bounded. Our method eliminates the need for safety-specific datasets or costly model retraining, providing a versatile solution for safe inference. We validate the approach on two robotic manipulation platforms and a 2D navigation benchmark, verifying that our framework achieves reliable safety without degrading the success rate of the model.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO",
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2607.28830v1",
+      "title": "Closed-Loop Model-Based Control Barrier Functions with Application to Robust Flight Envelope Protection",
+      "authors": [
+        "Johannes Autenrieb",
+        "Mark Spiller",
+        "Peter A. Fisher",
+        "Junhyeok Yoon",
+        "Spilios Theodoulis",
+        "Anuradha Annaswamy"
+      ],
+      "year": null,
+      "date": "2026-07-30",
+      "citations": 0,
+      "arxivId": "2607.28830v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2607.28830v1",
+      "abstract": "Ensuring operation of aerospace systems within prescribed flight envelope limits is a fundamental requirement for modern flight control architectures. Flight envelope protection aims to prevent violations of aerodynamic and structural constraints, thereby mitigating risks such as stall and excessive load factors. Control barrier functions (CBFs) have emerged as a principled tool for enforcing safety by ensuring that the system state remains within a prescribed safe set. In most existing approaches, safety constraints are imposed at the control input-level based on an open-loop model of the system. While this open-loop model-based CBF formulation enables modular design, it may alter the closed-loop system dynamics, potentially compromising robustness guarantees and complicating integration into existing flight control architectures. This paper proposes a closed-loop model-based control barrier function (CLM-CBF) framework for flight envelope protection. The key idea is to enforce safety at the reference-level using an explicit model of the closed-loop system, thereby preserving the stability and robustness properties of the underlying controller. This formulation enables safety filtering without modifying the control law, facilitating modular integration and retrofitting into existing systems.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
+    {
       "paperId": "arxiv:2607.28353v1",
       "title": "Input-to-state Stable Approximate Nonlinear Model Predictive Control with Realtime Feasibility",
       "authors": [
@@ -1712,49 +1760,7 @@
         "eess.SY",
         "math.OC"
       ]
-    },
-    {
-      "paperId": "arxiv:2606.08137v1",
-      "title": "A Barrier-Modulated Architecture for Safe Affine Formation Control in Second-Order Multi-Agent Systems",
-      "authors": [
-        "Ashik Abrar Naeem",
-        "Mohammad Ariful Haque"
-      ],
-      "year": null,
-      "date": "2026-06-06",
-      "citations": 0,
-      "arxivId": "2606.08137v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2606.08137v1",
-      "abstract": "Affine formation control offers immense flexibility for coordinating multi-agent maneuvers, but guaranteeing the safety of agents under parametric uncertainties remains an open challenge. This paper proposes a novel safe affine formation control framework for second-order multi-agent systems by integrating Higher-Order Control Barrier Functions (HOCBFs) with Adaptive Dynamic Programming (ADP). We introduce a barrier-modulated control architecture that smoothly attenuates the nominal formation tracking objective when agents approach safety boundaries, preventing conflicting control inputs. Within this architecture, two distinct safety controllers are developed: (1) an analytical barrier-gradient repulsive controller that provides a computationally efficient, rigorous mathematical baseline, and (2) a data-driven optimal safety controller. The data-driven approach utilizes an actor-critic neural network to solve the Hamilton-Jacobi-Bellman (HJB) equation online, enabling optimal collision avoidance even in the presence of unknown system parameters. Using Nagumo's theorem and Lyapunov stability analysis, we formally prove that both controllers guarantee the forward invariance of the safe set ensuring absolute collision avoidance while maintaining Uniformly Ultimately Bounded (UUB) formation tracking errors. Finally, simulations validate the theoretical findings and demonstrate the robustness of the proposed controllers in dynamic obstacle avoidance scenarios.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY"
-      ]
-    },
-    {
-      "paperId": "arxiv:2606.07892v1",
-      "title": "Verification Framework for the Union of Control Barrier Functions",
-      "authors": [
-        "Chuanrui Jiang",
-        "Andrew Clark"
-      ],
-      "year": null,
-      "date": "2026-06-05",
-      "citations": 0,
-      "arxivId": "2606.07892v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2606.07892v1",
-      "abstract": "Control Barrier Functions (CBFs) have been proposed to ensure safety of autonomous systems. This paper considers control policies that switch between CBF constraints. Under this approach, we represent a complex non-convex safe region as a union of sets that are computationally tractable to verify. We denote this framework as union-CBFs and make the following contributions. First, considering switching CBF-QP controllers, we propose a sufficient condition that ensures (i) the system undergoes a finite number of switches in any finite time interval and ensures (ii) the forward invariance of the closed-loop system in between switches. Second, we consider two types of switching strategies and propose union-CBFs conditions for each strategy to satisfy (i) and (ii). Third, we formulate Sum-of-Squares (SOS) algorithms to verify the conditions. The experiments show that our union-CBFs framework results in a larger safe region compared to high-degree polynomial CBFs. We also show the efficiency of the verification algorithms using a polynomial system model.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "math.OC"
-      ]
     }
   ],
-  "updated": "2026-08-03T00:09:07.628894+00:00"
+  "updated": "2026-08-03T07:33:58.951644+00:00"
 }
