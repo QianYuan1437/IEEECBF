@@ -468,7 +468,7 @@
       ],
       "year": 2016,
       "date": "2016-09-21",
-      "citations": 2694,
+      "citations": 2697,
       "arxivId": "1609.06408",
       "doi": "10.1109/TAC.2016.2638961",
       "url": "https://doi.org/10.1109/TAC.2016.2638961",
@@ -577,6 +577,27 @@
       "subjects": []
     },
     {
+      "paperId": "fa55d07755bf69dab45b8a197b8c7c28e08a5931",
+      "title": "Reinforcement Learning for Safety-Critical Control under Model Uncertainty, using Control Lyapunov Functions and Control Barrier Functions",
+      "authors": [
+        "Jason J. Choi",
+        "F. Castañeda",
+        "C. Tomlin",
+        "K. Sreenath"
+      ],
+      "year": 2020,
+      "date": "2020-04-16",
+      "citations": 235,
+      "arxivId": "2004.07584",
+      "doi": "10.15607/rss.2020.xvi.088",
+      "url": "https://doi.org/10.15607/rss.2020.xvi.088",
+      "abstract": "In this paper, the issue of model uncertainty in safety-critical control is addressed with a data-driven approach. For this purpose, we utilize the structure of an input-ouput linearization controller based on a nominal model along with a Control Barrier Function and Control Lyapunov Function based Quadratic Program (CBF-CLF-QP). Specifically, we propose a novel reinforcement learning framework which learns the model uncertainty present in the CBF and CLF constraints, as well as other control-affine dynamic constraints in the quadratic program. The trained policy is combined with the nominal model-based CBF-CLF-QP, resulting in the Reinforcement Learning-based CBF-CLF-QP (RL-CBF-CLF-QP), which addresses the problem of model uncertainty in the safety constraints. The performance of the proposed method is validated by testing it on an underactuated nonlinear bipedal robot walking on randomly spaced stepping stones with one step preview, obtaining stable and safe walking under model uncertainty.",
+      "journal": "ArXiv",
+      "venue": "Robotics: Science and Systems Conference",
+      "venueLabel": "RSS",
+      "subjects": []
+    },
+    {
       "paperId": "558e38786c18df7a217d719e08310e144a64dadb",
       "title": "Robust Control Barrier–Value Functions for Safety-Critical Control",
       "authors": [
@@ -632,7 +653,7 @@
       ],
       "year": 2022,
       "date": "2022-09-18",
-      "citations": 151,
+      "citations": 152,
       "arxivId": "2209.08539",
       "doi": "10.1109/ICRA48891.2023.10160857",
       "url": "https://doi.org/10.1109/ICRA48891.2023.10160857",
@@ -705,6 +726,26 @@
       "subjects": []
     },
     {
+      "paperId": "d9a7ef6bb3c2a4bd8f7bb6b832a55c6bbf0039fc",
+      "title": "Safety-Critical Control and Planning for Obstacle Avoidance between Polytopes with Control Barrier Functions",
+      "authors": [
+        "A. Thirugnanam",
+        "Jun Zeng",
+        "K. Sreenath"
+      ],
+      "year": 2021,
+      "date": "2021-09-25",
+      "citations": 109,
+      "arxivId": "2109.12313",
+      "doi": "10.1109/icra46639.2022.9812334",
+      "url": "https://doi.org/10.1109/icra46639.2022.9812334",
+      "abstract": "Obstacle avoidance between polytopes is a chal-lenging topic for optimal control and optimization-based tra-jectory planning problems. Existing work either solves this problem through mixed-integer optimization, relying on simpli-fication of system dynamics, or through model predictive control with dual variables using distance constraints, requiring long horizons for obstacle avoidance. In either case, the solution can only be applied as an offline planning algorithm. In this paper, we exploit the property that a smaller horizon is sufficient for obstacle avoidance by using discrete-time control barrier function (DCBF) constraints and we propose a novel optimization formulation with dual variables based on DCBFs to generate a collision-free dynamically-feasible trajectory. The proposed optimization formulation has lower computational complexity compared to existing work and can be used as a fast online algorithm for control and planning for general nonlinear dynamical systems. We validate our algorithm on different robot shapes using numerical simulations with a kinematic bicycle model, resulting in successful navigation through maze environments with polytopic obstacles.",
+      "journal": "2022 International Conference on Robotics and Automation (ICRA)",
+      "venue": "IEEE International Conference on Robotics and Automation",
+      "venueLabel": "ICRA",
+      "subjects": []
+    },
+    {
       "paperId": "84cfe50ed4e7fc3a254ec0d4e678373307c2bfe1",
       "title": "Discrete-Time Control Barrier Function: High-Order Case and Adaptive Case",
       "authors": [
@@ -766,22 +807,23 @@
       "subjects": []
     },
     {
-      "paperId": "d1f651bafb24c630533acb198b2b4c14c75f1c18",
-      "title": "Predictive Control Barrier Functions: Enhanced Safety Mechanisms for Learning-Based Control",
+      "paperId": "0c13840172cc23c7de650bd50f39954ae3fb8d3e",
+      "title": "Bridging the Gap between Optimal Trajectory Planning and Safety-Critical Control with Applications to Autonomous Vehicles",
       "authors": [
-        "K. P. Wabersich",
-        "M. Zeilinger"
+        "Wei Xiao",
+        "C. Cassandras",
+        "C. Belta"
       ],
-      "year": 2021,
-      "date": "2021-05-21",
-      "citations": 93,
-      "arxivId": "2105.10241",
-      "doi": "10.1109/TAC.2022.3175628",
-      "url": "https://doi.org/10.1109/TAC.2022.3175628",
-      "abstract": "While learning-based control techniques often outperform classical controller designs, safety requirements limit the acceptance of such methods in many applications. Recent developments address this issue through so-called predictive safety filters, which assess if a proposed learning-based control input can lead to constraint violations and modifies it if necessary to ensure safety for all future time steps. The theoretical guarantees of such predictive safety filters rely on the model assumptions and minor deviations can lead to failure of the filter putting the system at risk. This article introduces an auxiliary soft-constrained predictive control problem that is always feasible at each time step and asymptotically stabilizes the feasible set of the original predictive safety filter problem, thereby providing a recovery mechanism in safety–critical situations. This is achieved by a simple constraint tightening in combination with a terminal control barrier function. By extending discrete-time control barrier function theory, we establish that the proposed auxiliary problem provides a “predictive” control barrier function. The resulting algorithm is demonstrated using numerical examples.",
-      "journal": "IEEE Transactions on Automatic Control",
-      "venue": "IEEE Transactions on Automatic Control",
-      "venueLabel": "TAC",
+      "year": 2020,
+      "date": "2020-08-17",
+      "citations": 96,
+      "arxivId": "2008.07632",
+      "doi": "10.1016/J.AUTOMATICA.2021.109592",
+      "url": "https://doi.org/10.1016/J.AUTOMATICA.2021.109592",
+      "abstract": "We address the problem of optimizing the performance of a dynamic system while satisfying hard safety constraints at all times. Implementing an optimal control solution is limited by the computational cost required to derive it in real time, especially when constraints become active, as well as the need to rely on simple linear dynamics, simple objective functions, and ignoring noise. The recently proposed Control Barrier Function (CBF) method may be used for safety-critical control at the expense of sub-optimal performance. In this paper, we develop a real-time control framework that combines optimal trajectories generated through optimal control with the computationally efficient CBF method providing safety guarantees. We use Hamiltonian analysis to obtain a tractable optimal solution for a linear or linearized system, then employ High Order CBFs (HOCBFs) and Control Lyapunov Functions (CLFs) to account for constraints with arbitrary relative degrees and to track the optimal state, respectively. We further show how to deal with noise in arbitrary relative degree systems. The proposed framework is then applied to the optimal traffic merging problem for Connected and Automated Vehicles (CAVs) where the objective is to jointly minimize the travel time and energy consumption of each CAV subject to speed, acceleration, and speed-dependent safety constraints. In addition, when considering more complex objective functions, nonlinear dynamics and passenger comfort requirements for which analytical optimal control solutions are unavailable, we adapt the HOCBF method to such problems. Simulation examples are included to compare the performance of the proposed framework to optimal solutions (when available) and to a baseline provided by human-driven vehicles with results showing significant improvements in all metrics.",
+      "journal": "Autom.",
+      "venue": "at - Automatisierungstechnik",
+      "venueLabel": "at - Automatisierungstechnik",
       "subjects": []
     },
     {
@@ -806,6 +848,27 @@
       "journal": "2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
       "venue": "IEEE/RJS International Conference on Intelligent RObots and Systems",
       "venueLabel": "IROS",
+      "subjects": []
+    },
+    {
+      "paperId": "a7ce60b06b297b19cbcbac1d6c762935838a8af5",
+      "title": "Rule-Based Safety-Critical Control Design using Control Barrier Functions with Application to Autonomous Lane Change",
+      "authors": [
+        "Suiyi He",
+        "Jun Zeng",
+        "Bike Zhang",
+        "K. Sreenath"
+      ],
+      "year": 2021,
+      "date": "2021-03-23",
+      "citations": 88,
+      "arxivId": "2103.12382",
+      "doi": "10.23919/ACC50511.2021.9482848",
+      "url": "https://doi.org/10.23919/ACC50511.2021.9482848",
+      "abstract": "This paper develops a new control design for guaranteeing a vehicle's safety during lane change maneuvers in a complex traffic environment. The proposed method uses a finite state machine (FSM), where a quadratic program based optimization problem using control Lyapunov functions and control barrier functions (CLF-CBF-QP) is used to calculate the system's optimal inputs via rule-based control strategies. The FSM can make switches between different states automatically according to the command of driver and traffic environment, which makes the ego vehicle find a safe opportunity to do a collision-free lane change maneuver. By using a convex quadratic program, the controller can guarantee the system's safety at a high update frequency. A set of pre-designed typical lane change scenarios as well as randomly generated driving scenarios are simulated to show the performance of our controller.",
+      "journal": "2021 American Control Conference (ACC)",
+      "venue": "American Control Conference",
+      "venueLabel": "ACC",
       "subjects": []
     },
     {
@@ -1016,6 +1079,28 @@
       "subjects": []
     },
     {
+      "paperId": "5e30b0979904679d4d3dd962523dff6806c2ffec",
+      "title": "Pointwise Feasibility of Gaussian Process-based Safety-Critical Control under Model Uncertainty",
+      "authors": [
+        "F. Castañeda",
+        "Jason J. Choi",
+        "Bike Zhang",
+        "C. Tomlin",
+        "K. Sreenath"
+      ],
+      "year": 2021,
+      "date": "2021-06-13",
+      "citations": 65,
+      "arxivId": "2106.07108",
+      "doi": "10.1109/CDC45484.2021.9683743",
+      "url": "https://doi.org/10.1109/CDC45484.2021.9683743",
+      "abstract": "Control Barrier Functions (CBFs) and Control Lyapunov Functions (CLFs) are popular tools for enforcing safety and stability of a controlled system, respectively. They are commonly utilized to build constraints that can be incorpo-rated in a min-norm quadratic program (CBF-CLF-QP) which solves for a safety-critical control input. However, since these constraints rely on a model of the system, when this model is inaccurate the guarantees of safety and stability can be easily lost. In this paper, we present a Gaussian Process (GP)-based approach to tackle the problem of model uncertainty in safety-critical controllers that use CBFs and CLFs. The considered model uncertainty is affected by both state and control input. We derive probabilistic bounds on the effects that such model uncertainty has on the dynamics of the CBF and CLF. We then use these bounds to build safety and stability chance constraints that can be incorporated in a min-norm convex optimization-based controller, called GP-CBF-CLF-SOCP. As the main theoretical result of the paper, we present necessary and sufficient conditions for pointwise feasibility of the proposed optimization problem. We believe that these conditions could serve as a starting point towards understanding what are the minimal requirements on the distribution of data collected from the real system in order to guarantee safety. Finally, we validate the proposed framework with numerical simulations of an adaptive cruise controller for an automotive system.",
+      "journal": "2021 60th IEEE Conference on Decision and Control (CDC)",
+      "venue": "IEEE Conference on Decision and Control",
+      "venueLabel": "CDC",
+      "subjects": []
+    },
+    {
       "paperId": "f426fde01900bb7489ba6bdb83d1e3da6f468292",
       "title": "Distributed Implementation of Control Barrier Functions for Multi-agent Systems",
       "authors": [
@@ -1214,6 +1299,27 @@
       "journal": "IEEE Robotics and Automation Letters",
       "venue": "IEEE Robotics and Automation Letters",
       "venueLabel": "RA-L",
+      "subjects": []
+    },
+    {
+      "paperId": "4320ef668d456bb90e969eeb2fdfef25efb36e76",
+      "title": "Data-Driven Safety-Critical Control: Synthesizing Control Barrier Functions with Koopman Operators",
+      "authors": [
+        "C. Folkestad",
+        "Yuxiao Chen",
+        "A. Ames",
+        "J. Burdick"
+      ],
+      "year": 2021,
+      "date": "2021-05-25",
+      "citations": 45,
+      "arxivId": "",
+      "doi": "10.23919/ACC50511.2021.9483057",
+      "url": "https://doi.org/10.23919/ACC50511.2021.9483057",
+      "abstract": "Control barrier functions (CBFs) are a powerful tool to guarantee safety of autonomous systems, yet they rely on the computation of control invariant sets, which is notoriously difficult. A backup strategy employs an implicit control invariant set computed by forward integrating the system dynamics. However, this integration is prohibitively expensive for high dimensional systems, and inaccurate in the presence of unmodelled dynamics. We propose to learn discrete-time Koopman operators of the closed-loop dynamics under a backup strategy. This approach replaces forward integration by a simple matrix multiplication, which can mostly be computed offline. We also derive an error bound on the unmodeled dynamics in order to robustify the CBF controller. Our approach extends to multi-agent systems, and we demonstrate the method on collision avoidance for wheeled robots and quadrotors.",
+      "journal": "2021 American Control Conference (ACC)",
+      "venue": "American Control Conference",
+      "venueLabel": "ACC",
       "subjects": []
     },
     {
@@ -1499,6 +1605,25 @@
       "subjects": []
     },
     {
+      "paperId": "e1159d6ac75b533ddacd9462e3fd244882f79d49",
+      "title": "Predictive Control Barrier Functions for Online Safety Critical Control",
+      "authors": [
+        "J. Breeden",
+        "Dimitra Panagou"
+      ],
+      "year": 2022,
+      "date": "2022-04-01",
+      "citations": 31,
+      "arxivId": "2204.00208",
+      "doi": "10.1109/CDC51059.2022.9992926",
+      "url": "https://doi.org/10.1109/CDC51059.2022.9992926",
+      "abstract": "This paper presents a methodology for constructing Control Barrier Functions (CBFs) that proactively consider the future safety of a system along a nominal trajectory, and effect corrective action before the trajectory leaves a designated safe set. Specifically, this paper presents a systematic approach for propagating a nominal trajectory on a receding horizon, and then encoding the future safety of this trajectory into a CBF. If the propagated trajectory is unsafe, then a controller satisfying the CBF condition will modify the nominal trajectory before the trajectory becomes unsafe. Compared to existing CBF techniques, this strategy is proactive rather than reactive and thus potentially results in smaller modifications to the nominal trajectory. The proposed strategy is shown to be provably safe, and then is demonstrated in simulated scenarios where it would otherwise be difficult to construct a traditional CBF. In simulation, the predictive CBF results in less modification to the nominal trajectory and smaller control inputs than a traditional CBF, and faster computations than a nonlinear model predictive control approach.",
+      "journal": "2022 IEEE 61st Conference on Decision and Control (CDC)",
+      "venue": "IEEE Conference on Decision and Control",
+      "venueLabel": "CDC",
+      "subjects": []
+    },
+    {
       "paperId": "919afe3cf52b25952402861ce8a20f40949d4bfb",
       "title": "Comparison between safety methods control barrier function vs. reachability analysis",
       "authors": [
@@ -1561,6 +1686,30 @@
     }
   ],
   "arxiv": [
+    {
+      "paperId": "arxiv:2608.02079v1",
+      "title": "TANGO-VIO: Triangulation-Aware Navigation with Guaranteed Feature-Observability for Visual-Inertial Odometry",
+      "authors": [
+        "Ege C. Altunkaya",
+        "Abdülbaki Şanlan",
+        "Emre Koyuncu",
+        "İbrahim Özkol"
+      ],
+      "year": null,
+      "date": "2026-08-03",
+      "citations": 0,
+      "arxivId": "2608.02079v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2608.02079v1",
+      "abstract": "In vision-aided navigation and visual-inertial odometry, the quality of triangulated three-dimensional feature positions is a fundamental prerequisite for state estimation accuracy. Triangulation becomes ill-conditioned or even impossible when a camera undergoes pure rotation without translation, or when the observed bearing vectors provide insufficient parallax. Even though visual-inertial odometry has been extensively studied, the active maintenance of feature-observability during navigation has not been sufficiently addressed in the literature. To address this gap, this study presents TANGO-VIO, a triangulation-aware navigation framework that embeds a log-determinant metric of the feature-wise stacked-bearing matrix into a control barrier function. In this proposed method, the observability guarantee is established in the feature-geometric sense by enforcing a lower bound on the aggregate triangulation-information metric through a nominal-direction-weighted minimum-deviation velocity correction. The proposed architecture is evaluated through software-inthe- loop simulations and real flight experiments. The results show improved triangulation conditioning under low-parallax motion, while the flight response closely reproduces the corresponding simulation behavior and confirms the practical realizability of the proposed safety filter. Supplementary materials are available on the project webpage.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO",
+        "eess.SY"
+      ]
+    },
     {
       "paperId": "arxiv:2607.29569v1",
       "title": "Safe Vision Language Action Models via Barrier Enhanced Flow Matching",
@@ -2628,51 +2777,7 @@
       "subjects": [
         "cs.RO"
       ]
-    },
-    {
-      "paperId": "arxiv:2606.09719v1",
-      "title": "Safe Polytope-in-Polytope Motion Planning and Control with Control Barrier Functions",
-      "authors": [
-        "Alejandro Gonzalez-Garcia",
-        "Dries Dirckx",
-        "Jan Swevers",
-        "Wilm Decré"
-      ],
-      "year": null,
-      "date": "2026-06-08",
-      "citations": 0,
-      "arxivId": "2606.09719v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2606.09719v1",
-      "abstract": "Autonomous mobile robots operating in tight environments require motion planning frameworks that account for the physical footprint of the robot. Simplifying the geometry to a point or a circle is conservative and discards information needed to successfully and safely traverse narrow passages. This work proposes a safe local motion planning and control method that guarantees that a polytopic robot footprint stays inside a continuously updated convex free-space region. The containment condition is formulated as a set of discrete-time control barrier function constraints within a model predictive controller. The number of safety constraints depends on the complexity of the local free-space geometry and the robot shape, instead of the number of obstacles. The proposed free-space formulation does not need any obstacle detection or segmentation. A comparative analysis against a polytope-based obstacle avoidance formulation confirms favorable scaling up to a reduction of 91$\\times$ in computation time as the number of obstacles increases. The approach is validated in simulation with an autonomous surface vehicle and on hardware with a non-holonomic mobile robot, using both occupancy grids and LiDAR sensing. The experiments demonstrate safe real-time motion planning and control at 10~Hz on an onboard embedded computer, including reactive avoidance of dynamic obstacles.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO"
-      ]
-    },
-    {
-      "paperId": "arxiv:2606.08255v2",
-      "title": "Exactness Certificates for Closed-Form CBF Safety-Filter Projections",
-      "authors": [
-        "Ankit Goel"
-      ],
-      "year": null,
-      "date": "2026-06-06",
-      "citations": 0,
-      "arxivId": "2606.08255v2",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2606.08255v2",
-      "abstract": "For control-affine systems, standard and high-order control barrier function conditions are affine in the control input and are commonly enforced through quadratic-program-based safety filters. Although convex, these optimization problems may be undesirable in embedded, high-rate, or resource-limited implementations. This letter characterizes when the corresponding Euclidean projection can be recovered from the affine inequalities violated by a nominal control input. Given a nominal input, we form the violated set and compute the minimum-norm correction that enforces the violated inequalities with equality. This violated-set correction is closed form, but it need not equal the exact Euclidean projection onto the full feasible set. The main result gives a necessary and sufficient exactness certificate based on primal and dual feasibility, followed by structural sufficient conditions involving interactions among affine-inequality normals. An online certification algorithm is then presented to determine when the closed-form update is exact. When the certificate fails, a finite active-set search can be used to recover the exact projection. Numerical simulations illustrate that the violated-set correction can remain feasible while failing to be the exact projection due to dual infeasibility, and demonstrate computational speedup relative to a standard CBF-QP solver.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY",
-        "math.OC"
-      ]
     }
   ],
-  "updated": "2026-08-04T00:18:23.744021+00:00"
+  "updated": "2026-08-04T06:35:06.225153+00:00"
 }
