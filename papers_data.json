@@ -146,27 +146,6 @@
       "subjects": []
     },
     {
-      "paperId": "40c34cb0ccbef7dcb037459e9aac408908139bce",
-      "title": "Attitude-Position Obstacle Avoidance and Predefined-Time Safe Control for Fully Actuated Modeled eVTOL With Time-Varying Centroid",
-      "authors": [
-        "Feisheng Yang",
-        "Xiao Feng",
-        "Zhucheng Liu",
-        "Zhun-ga Liu"
-      ],
-      "year": 2026,
-      "date": "2026-08-01",
-      "citations": 0,
-      "arxivId": "",
-      "doi": "10.1109/TTE.2026.3682473",
-      "url": "https://doi.org/10.1109/TTE.2026.3682473",
-      "abstract": "This article proposes a tracking control strategy based on the fully actuated system (FAS) approach to address the obstacle avoidance problem in logistics transportation scenarios. For the electric vertical take-off and landing (eVTOL) with a time-varying centroid modeled by quaternions, the predefined-time observer and nominal controller are designed to ensure the convergence of both the observation errors and tracking errors of the attitude-position system. Using the implicit Lyapunov function (ILF) and homogeneity theory, the gain matrices of the observer and nominal controller are derived. To achieve attitude-position obstacle avoidance, the concept of an attitude mandatory zone is introduced for the first time, along with the design of an obstacle avoidance safe set. Under the framework of the control barrier function (CBF), the safe control problem is transformed into a quadratic program. Finally, numerical simulations verify the effectiveness of the proposed algorithm.",
-      "journal": "IEEE Transactions on Transportation Electrification",
-      "venue": "IEEE Transactions on Transportation Electrification",
-      "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
       "paperId": "8065dcff7a02b6608fb6a7db65bbb0fec0dcbf20",
       "title": "Space-Constrained Multi-Robot Formation Control via an Enhanced Discrete-Time Control Lyapunov and Barrier Function Approach",
       "authors": [
@@ -183,6 +162,27 @@
       "doi": "10.1109/TASE.2026.3669894",
       "url": "https://doi.org/10.1109/TASE.2026.3669894",
       "abstract": "This paper focuses on controller design for trajectory tracking and obstacle avoidance in robot formations operating within confined spaces. Specifically, to achieve obstacle avoidance, we approximate obstacles and robots as convex polyhedra and utilize the Lagrangian dual function to design an enhanced discrete-time control barrier function (DCBF). Moreover, a discrete-time control Lyapunov function (DCLF) algorithm is employed to maintain the formation while tracking a predefined trajectory. This enables the natural unification of DCBFs with DCLFs within a quadratic programming (QP) framework. The proposed method eliminates the nested optimization problem in the QP framework, and the solving time is significantly reduced. Theoretical analysis demonstrates the feasibility of the proposed method. Finally, simulations and hardware experiments are conducted to validate its effectiveness. Note to Practitioners—In real-world applications such as warehouse automation, indoor inspection, and tunnel operations, robots frequently operate in space-constrained areas where formation maintenance and collision avoidance are equally critical. To enhance obstacle avoidance precision and environmental adaptability, both robots and obstacles are modeled as convex polyhedra. However, this typically introduces nested optimization problems, increasing online computational complexity. To address this challenge, we develop enhanced discrete-time control barrier functions (DCBFs) and control Lyapunov functions (DCLFs), which are reformulated as equivalent constraints and embedded as a single-layer quadratic programming (QP) framework. This reformulation eliminates nested optimization structures and improves real-time computational efficiency. The proposed method is systematically compared with the nonlinear model predictive control-based DCBF (NMPC-DCBF) approach through simulations and hardware experiments, evaluating key metrics such as convergence performance, formation maintenance, and computation time. Practical implementation guidelines are provided based on these results. Future work will extend the framework to dynamic obstacles, perception uncertainty, and broader robotic platforms.",
+      "journal": "IEEE Transactions on Automation Science and Engineering",
+      "venue": "IEEE Transactions on Automation Science and Engineering",
+      "venueLabel": "IEEE Trans",
+      "subjects": []
+    },
+    {
+      "paperId": "4ec242123526e060e8f0a1e33a71c0032c4692f1",
+      "title": "Distributed Execution of Signal Temporal Logic Tasks in Open Networked Robotic System via Predefined-Time Control",
+      "authors": [
+        "Wen-Tao Zhang",
+        "Ming Chi",
+        "Zhiwei Liu",
+        "Jing-Zhe Xu"
+      ],
+      "year": 2026,
+      "date": null,
+      "citations": 0,
+      "arxivId": "",
+      "doi": "10.1109/TASE.2026.3658586",
+      "url": "https://doi.org/10.1109/TASE.2026.3658586",
+      "abstract": "This paper addresses the distributed execution of signal temporal logic (STL) tasks in second-order open networked robotic systems (ONRSs), where robots can dynamically join or leave during task execution. A novel control framework is developed that integrates a predefined-time state estimator, a distributed control barrier function-based optimization strategy, and a task decomposition and reconstruction mechanism. This approach enables each robot to accomplish temporally and logically constrained tasks using only local information from its neighbors, without relying on global communication. Theoretical analysis rigorously establishes predefined-time convergence of the estimator and optimality of the distributed control strategy, even under dynamic team compositions. Simulation and experimental results validate the proposed method’s effectiveness and robustness in executing complex temporal tasks in realistic multi-robot scenarios. Note to Practitioners—This study presents a distributed framework enabling multi-robot systems to reliably execute complex STL tasks despite communication constraints and dynamic team changes. The approach is particularly beneficial for real-world applications like logistics sorting, power grid inspection, and disaster response. Practitioners can directly deploy the developed predefined-time state estimator and distributed control barrier function (CBF)-based optimization algorithm on individual robots, eliminating centralized computations. This ensures real-time, scalable coordination, robust task execution under fluctuating team structures, and maintains task compliance during sudden robot arrivals or departures.",
       "journal": "IEEE Transactions on Automation Science and Engineering",
       "venue": "IEEE Transactions on Automation Science and Engineering",
       "venueLabel": "IEEE Trans",
@@ -210,23 +210,23 @@
       "subjects": []
     },
     {
-      "paperId": "4ec242123526e060e8f0a1e33a71c0032c4692f1",
-      "title": "Distributed Execution of Signal Temporal Logic Tasks in Open Networked Robotic System via Predefined-Time Control",
+      "paperId": "40c34cb0ccbef7dcb037459e9aac408908139bce",
+      "title": "Attitude-Position Obstacle Avoidance and Predefined-Time Safe Control for Fully Actuated Modeled eVTOL With Time-Varying Centroid",
       "authors": [
-        "Wen-Tao Zhang",
-        "Ming Chi",
-        "Zhiwei Liu",
-        "Jing-Zhe Xu"
+        "Feisheng Yang",
+        "Xiao Feng",
+        "Zhucheng Liu",
+        "Zhun-ga Liu"
       ],
       "year": 2026,
-      "date": null,
+      "date": "2026-08-01",
       "citations": 0,
       "arxivId": "",
-      "doi": "10.1109/TASE.2026.3658586",
-      "url": "https://doi.org/10.1109/TASE.2026.3658586",
-      "abstract": "This paper addresses the distributed execution of signal temporal logic (STL) tasks in second-order open networked robotic systems (ONRSs), where robots can dynamically join or leave during task execution. A novel control framework is developed that integrates a predefined-time state estimator, a distributed control barrier function-based optimization strategy, and a task decomposition and reconstruction mechanism. This approach enables each robot to accomplish temporally and logically constrained tasks using only local information from its neighbors, without relying on global communication. Theoretical analysis rigorously establishes predefined-time convergence of the estimator and optimality of the distributed control strategy, even under dynamic team compositions. Simulation and experimental results validate the proposed method’s effectiveness and robustness in executing complex temporal tasks in realistic multi-robot scenarios. Note to Practitioners—This study presents a distributed framework enabling multi-robot systems to reliably execute complex STL tasks despite communication constraints and dynamic team changes. The approach is particularly beneficial for real-world applications like logistics sorting, power grid inspection, and disaster response. Practitioners can directly deploy the developed predefined-time state estimator and distributed control barrier function (CBF)-based optimization algorithm on individual robots, eliminating centralized computations. This ensures real-time, scalable coordination, robust task execution under fluctuating team structures, and maintains task compliance during sudden robot arrivals or departures.",
-      "journal": "IEEE Transactions on Automation Science and Engineering",
-      "venue": "IEEE Transactions on Automation Science and Engineering",
+      "doi": "10.1109/TTE.2026.3682473",
+      "url": "https://doi.org/10.1109/TTE.2026.3682473",
+      "abstract": "This article proposes a tracking control strategy based on the fully actuated system (FAS) approach to address the obstacle avoidance problem in logistics transportation scenarios. For the electric vertical take-off and landing (eVTOL) with a time-varying centroid modeled by quaternions, the predefined-time observer and nominal controller are designed to ensure the convergence of both the observation errors and tracking errors of the attitude-position system. Using the implicit Lyapunov function (ILF) and homogeneity theory, the gain matrices of the observer and nominal controller are derived. To achieve attitude-position obstacle avoidance, the concept of an attitude mandatory zone is introduced for the first time, along with the design of an obstacle avoidance safe set. Under the framework of the control barrier function (CBF), the safe control problem is transformed into a quadratic program. Finally, numerical simulations verify the effectiveness of the proposed algorithm.",
+      "journal": "IEEE Transactions on Transportation Electrification",
+      "venue": "IEEE Transactions on Transportation Electrification",
       "venueLabel": "IEEE Trans",
       "subjects": []
     },
@@ -596,7 +596,7 @@
       ],
       "year": 2023,
       "date": "2023-07-01",
-      "citations": 41,
+      "citations": 42,
       "arxivId": "",
       "doi": "10.1109/JAS.2023.123573",
       "url": "https://doi.org/10.1109/JAS.2023.123573",
@@ -699,7 +699,7 @@
       ],
       "year": 2016,
       "date": "2016-09-21",
-      "citations": 2697,
+      "citations": 2701,
       "arxivId": "1609.06408",
       "doi": "10.1109/TAC.2016.2638961",
       "url": "https://doi.org/10.1109/TAC.2016.2638961",
@@ -777,7 +777,7 @@
       ],
       "year": 2020,
       "date": "2020-08-11",
-      "citations": 244,
+      "citations": 245,
       "arxivId": "",
       "doi": "10.1002/rnc.5132",
       "url": "https://doi.org/10.1002/rnc.5132",
@@ -805,6 +805,27 @@
       "journal": "2015 American Control Conference (ACC)",
       "venue": "American Control Conference",
       "venueLabel": "ACC",
+      "subjects": []
+    },
+    {
+      "paperId": "fa55d07755bf69dab45b8a197b8c7c28e08a5931",
+      "title": "Reinforcement Learning for Safety-Critical Control under Model Uncertainty, using Control Lyapunov Functions and Control Barrier Functions",
+      "authors": [
+        "Jason J. Choi",
+        "F. Castañeda",
+        "C. Tomlin",
+        "K. Sreenath"
+      ],
+      "year": 2020,
+      "date": "2020-04-16",
+      "citations": 235,
+      "arxivId": "2004.07584",
+      "doi": "10.15607/rss.2020.xvi.088",
+      "url": "https://doi.org/10.15607/rss.2020.xvi.088",
+      "abstract": "In this paper, the issue of model uncertainty in safety-critical control is addressed with a data-driven approach. For this purpose, we utilize the structure of an input-ouput linearization controller based on a nominal model along with a Control Barrier Function and Control Lyapunov Function based Quadratic Program (CBF-CLF-QP). Specifically, we propose a novel reinforcement learning framework which learns the model uncertainty present in the CBF and CLF constraints, as well as other control-affine dynamic constraints in the quadratic program. The trained policy is combined with the nominal model-based CBF-CLF-QP, resulting in the Reinforcement Learning-based CBF-CLF-QP (RL-CBF-CLF-QP), which addresses the problem of model uncertainty in the safety constraints. The performance of the proposed method is validated by testing it on an underactuated nonlinear bipedal robot walking on randomly spaced stepping stones with one step preview, obtaining stable and safe walking under model uncertainty.",
+      "journal": "ArXiv",
+      "venue": "Robotics: Science and Systems Conference",
+      "venueLabel": "RSS",
       "subjects": []
     },
     {
@@ -997,6 +1018,26 @@
       "subjects": []
     },
     {
+      "paperId": "0c13840172cc23c7de650bd50f39954ae3fb8d3e",
+      "title": "Bridging the Gap between Optimal Trajectory Planning and Safety-Critical Control with Applications to Autonomous Vehicles",
+      "authors": [
+        "Wei Xiao",
+        "C. Cassandras",
+        "C. Belta"
+      ],
+      "year": 2020,
+      "date": "2020-08-17",
+      "citations": 96,
+      "arxivId": "2008.07632",
+      "doi": "10.1016/J.AUTOMATICA.2021.109592",
+      "url": "https://doi.org/10.1016/J.AUTOMATICA.2021.109592",
+      "abstract": "We address the problem of optimizing the performance of a dynamic system while satisfying hard safety constraints at all times. Implementing an optimal control solution is limited by the computational cost required to derive it in real time, especially when constraints become active, as well as the need to rely on simple linear dynamics, simple objective functions, and ignoring noise. The recently proposed Control Barrier Function (CBF) method may be used for safety-critical control at the expense of sub-optimal performance. In this paper, we develop a real-time control framework that combines optimal trajectories generated through optimal control with the computationally efficient CBF method providing safety guarantees. We use Hamiltonian analysis to obtain a tractable optimal solution for a linear or linearized system, then employ High Order CBFs (HOCBFs) and Control Lyapunov Functions (CLFs) to account for constraints with arbitrary relative degrees and to track the optimal state, respectively. We further show how to deal with noise in arbitrary relative degree systems. The proposed framework is then applied to the optimal traffic merging problem for Connected and Automated Vehicles (CAVs) where the objective is to jointly minimize the travel time and energy consumption of each CAV subject to speed, acceleration, and speed-dependent safety constraints. In addition, when considering more complex objective functions, nonlinear dynamics and passenger comfort requirements for which analytical optimal control solutions are unavailable, we adapt the HOCBF method to such problems. Simulation examples are included to compare the performance of the proposed framework to optimal solutions (when available) and to a baseline provided by human-driven vehicles with results showing significant improvements in all metrics.",
+      "journal": "Autom.",
+      "venue": "at - Automatisierungstechnik",
+      "venueLabel": "at - Automatisierungstechnik",
+      "subjects": []
+    },
+    {
       "paperId": "d1f651bafb24c630533acb198b2b4c14c75f1c18",
       "title": "Predictive Control Barrier Functions: Enhanced Safety Mechanisms for Learning-Based Control",
       "authors": [
@@ -1005,7 +1046,7 @@
       ],
       "year": 2021,
       "date": "2021-05-21",
-      "citations": 93,
+      "citations": 94,
       "arxivId": "2105.10241",
       "doi": "10.1109/TAC.2022.3175628",
       "url": "https://doi.org/10.1109/TAC.2022.3175628",
@@ -1037,6 +1078,27 @@
       "journal": "2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
       "venue": "IEEE/RJS International Conference on Intelligent RObots and Systems",
       "venueLabel": "IROS",
+      "subjects": []
+    },
+    {
+      "paperId": "a7ce60b06b297b19cbcbac1d6c762935838a8af5",
+      "title": "Rule-Based Safety-Critical Control Design using Control Barrier Functions with Application to Autonomous Lane Change",
+      "authors": [
+        "Suiyi He",
+        "Jun Zeng",
+        "Bike Zhang",
+        "K. Sreenath"
+      ],
+      "year": 2021,
+      "date": "2021-03-23",
+      "citations": 88,
+      "arxivId": "2103.12382",
+      "doi": "10.23919/ACC50511.2021.9482848",
+      "url": "https://doi.org/10.23919/ACC50511.2021.9482848",
+      "abstract": "This paper develops a new control design for guaranteeing a vehicle's safety during lane change maneuvers in a complex traffic environment. The proposed method uses a finite state machine (FSM), where a quadratic program based optimization problem using control Lyapunov functions and control barrier functions (CLF-CBF-QP) is used to calculate the system's optimal inputs via rule-based control strategies. The FSM can make switches between different states automatically according to the command of driver and traffic environment, which makes the ego vehicle find a safe opportunity to do a collision-free lane change maneuver. By using a convex quadratic program, the controller can guarantee the system's safety at a high update frequency. A set of pre-designed typical lane change scenarios as well as randomly generated driving scenarios are simulated to show the performance of our controller.",
+      "journal": "2021 American Control Conference (ACC)",
+      "venue": "American Control Conference",
+      "venueLabel": "ACC",
       "subjects": []
     },
     {
@@ -1247,6 +1309,28 @@
       "subjects": []
     },
     {
+      "paperId": "5e30b0979904679d4d3dd962523dff6806c2ffec",
+      "title": "Pointwise Feasibility of Gaussian Process-based Safety-Critical Control under Model Uncertainty",
+      "authors": [
+        "F. Castañeda",
+        "Jason J. Choi",
+        "Bike Zhang",
+        "C. Tomlin",
+        "K. Sreenath"
+      ],
+      "year": 2021,
+      "date": "2021-06-13",
+      "citations": 65,
+      "arxivId": "2106.07108",
+      "doi": "10.1109/CDC45484.2021.9683743",
+      "url": "https://doi.org/10.1109/CDC45484.2021.9683743",
+      "abstract": "Control Barrier Functions (CBFs) and Control Lyapunov Functions (CLFs) are popular tools for enforcing safety and stability of a controlled system, respectively. They are commonly utilized to build constraints that can be incorpo-rated in a min-norm quadratic program (CBF-CLF-QP) which solves for a safety-critical control input. However, since these constraints rely on a model of the system, when this model is inaccurate the guarantees of safety and stability can be easily lost. In this paper, we present a Gaussian Process (GP)-based approach to tackle the problem of model uncertainty in safety-critical controllers that use CBFs and CLFs. The considered model uncertainty is affected by both state and control input. We derive probabilistic bounds on the effects that such model uncertainty has on the dynamics of the CBF and CLF. We then use these bounds to build safety and stability chance constraints that can be incorporated in a min-norm convex optimization-based controller, called GP-CBF-CLF-SOCP. As the main theoretical result of the paper, we present necessary and sufficient conditions for pointwise feasibility of the proposed optimization problem. We believe that these conditions could serve as a starting point towards understanding what are the minimal requirements on the distribution of data collected from the real system in order to guarantee safety. Finally, we validate the proposed framework with numerical simulations of an adaptive cruise controller for an automotive system.",
+      "journal": "2021 60th IEEE Conference on Decision and Control (CDC)",
+      "venue": "IEEE Conference on Decision and Control",
+      "venueLabel": "CDC",
+      "subjects": []
+    },
+    {
       "paperId": "f426fde01900bb7489ba6bdb83d1e3da6f468292",
       "title": "Distributed Implementation of Control Barrier Functions for Multi-agent Systems",
       "authors": [
@@ -1448,6 +1532,27 @@
       "subjects": []
     },
     {
+      "paperId": "4320ef668d456bb90e969eeb2fdfef25efb36e76",
+      "title": "Data-Driven Safety-Critical Control: Synthesizing Control Barrier Functions with Koopman Operators",
+      "authors": [
+        "C. Folkestad",
+        "Yuxiao Chen",
+        "A. Ames",
+        "J. Burdick"
+      ],
+      "year": 2021,
+      "date": "2021-05-25",
+      "citations": 45,
+      "arxivId": "",
+      "doi": "10.23919/ACC50511.2021.9483057",
+      "url": "https://doi.org/10.23919/ACC50511.2021.9483057",
+      "abstract": "Control barrier functions (CBFs) are a powerful tool to guarantee safety of autonomous systems, yet they rely on the computation of control invariant sets, which is notoriously difficult. A backup strategy employs an implicit control invariant set computed by forward integrating the system dynamics. However, this integration is prohibitively expensive for high dimensional systems, and inaccurate in the presence of unmodelled dynamics. We propose to learn discrete-time Koopman operators of the closed-loop dynamics under a backup strategy. This approach replaces forward integration by a simple matrix multiplication, which can mostly be computed offline. We also derive an error bound on the unmodeled dynamics in order to robustify the CBF controller. Our approach extends to multi-agent systems, and we demonstrate the method on collision avoidance for wheeled robots and quadrotors.",
+      "journal": "2021 American Control Conference (ACC)",
+      "venue": "American Control Conference",
+      "venueLabel": "ACC",
+      "subjects": []
+    },
+    {
       "paperId": "be27815994fcb50a4dc8c027f38e1eb03d2c80b8",
       "title": "Decentralized merging control in traffic networks: a control barrier function approach",
       "authors": [
@@ -1487,6 +1592,27 @@
       "subjects": []
     },
     {
+      "paperId": "7a9434acae747a0e4de8309a49384cdba8040d52",
+      "title": "Constrained Moving Path Following Control for UAV With Robust Control Barrier Function",
+      "authors": [
+        "Zewei Zheng",
+        "Jiazhe Li",
+        "Zhiyuan Guan",
+        "Z. Zuo"
+      ],
+      "year": 2023,
+      "date": "2023-07-01",
+      "citations": 42,
+      "arxivId": "",
+      "doi": "10.1109/JAS.2023.123573",
+      "url": "https://doi.org/10.1109/JAS.2023.123573",
+      "abstract": "This paper studies the moving path following (MPF) problem for fixed-wing unmanned aerial vehicle (UAV) under output constraints and wind disturbances. The vehicle is required to converge to a reference path moving with respect to the inertial frame, while the path following error is not expected to violate the predefined boundaries. Differently from existing moving path following guidance laws, the proposed method removes complex geometric transformation by formulating the moving path following problem into a second-order time-varying control problem. A nominal moving path following guidance law is designed with disturbances and their derivatives estimated by high-order disturbance observers. To guarantee that the path following error will not exceed the prescribed bounds, a robust control barrier function is developed and incorporated into controller design with quadratic program based framework. The proposed method does not require the initial position of the UAV to be within predefined boundaries. And the safety margin concept makes error-constraint be respected even if in a noisy environment. The proposed guidance law is validated through numerical simulations of shipboard landing and hardware-in-the-loop (HIL) experiments.",
+      "journal": "IEEE/CAA Journal of Automatica Sinica",
+      "venue": "IEEE/CAA Journal of Automatica Sinica",
+      "venueLabel": "Automatica",
+      "subjects": []
+    },
+    {
       "paperId": "91dfce0d44eef7203e2dce8e34a78edb33914688",
       "title": "A Robust, Multiple Control Barrier Function Framework for Input Constrained Systems",
       "authors": [
@@ -1504,27 +1630,6 @@
       "journal": "IEEE Control Systems Letters",
       "venue": "IEEE Control Systems Letters",
       "venueLabel": "L-CSS",
-      "subjects": []
-    },
-    {
-      "paperId": "7a9434acae747a0e4de8309a49384cdba8040d52",
-      "title": "Constrained Moving Path Following Control for UAV With Robust Control Barrier Function",
-      "authors": [
-        "Zewei Zheng",
-        "Jiazhe Li",
-        "Zhiyuan Guan",
-        "Z. Zuo"
-      ],
-      "year": 2023,
-      "date": "2023-07-01",
-      "citations": 41,
-      "arxivId": "",
-      "doi": "10.1109/JAS.2023.123573",
-      "url": "https://doi.org/10.1109/JAS.2023.123573",
-      "abstract": "This paper studies the moving path following (MPF) problem for fixed-wing unmanned aerial vehicle (UAV) under output constraints and wind disturbances. The vehicle is required to converge to a reference path moving with respect to the inertial frame, while the path following error is not expected to violate the predefined boundaries. Differently from existing moving path following guidance laws, the proposed method removes complex geometric transformation by formulating the moving path following problem into a second-order time-varying control problem. A nominal moving path following guidance law is designed with disturbances and their derivatives estimated by high-order disturbance observers. To guarantee that the path following error will not exceed the prescribed bounds, a robust control barrier function is developed and incorporated into controller design with quadratic program based framework. The proposed method does not require the initial position of the UAV to be within predefined boundaries. And the safety margin concept makes error-constraint be respected even if in a noisy environment. The proposed guidance law is validated through numerical simulations of shipboard landing and hardware-in-the-loop (HIL) experiments.",
-      "journal": "IEEE/CAA Journal of Automatica Sinica",
-      "venue": "IEEE/CAA Journal of Automatica Sinica",
-      "venueLabel": "Automatica",
       "subjects": []
     },
     {
@@ -1599,7 +1704,7 @@
       ],
       "year": 2023,
       "date": "2023-05-29",
-      "citations": 37,
+      "citations": 38,
       "arxivId": "",
       "doi": "10.1109/ICRA48891.2023.10160805",
       "url": "https://doi.org/10.1109/ICRA48891.2023.10160805",
@@ -1727,6 +1832,25 @@
       "journal": "ArXiv",
       "venue": "Neural Information Processing Systems",
       "venueLabel": "Neural Information Processing Systems",
+      "subjects": []
+    },
+    {
+      "paperId": "e1159d6ac75b533ddacd9462e3fd244882f79d49",
+      "title": "Predictive Control Barrier Functions for Online Safety Critical Control",
+      "authors": [
+        "J. Breeden",
+        "Dimitra Panagou"
+      ],
+      "year": 2022,
+      "date": "2022-04-01",
+      "citations": 31,
+      "arxivId": "2204.00208",
+      "doi": "10.1109/CDC51059.2022.9992926",
+      "url": "https://doi.org/10.1109/CDC51059.2022.9992926",
+      "abstract": "This paper presents a methodology for constructing Control Barrier Functions (CBFs) that proactively consider the future safety of a system along a nominal trajectory, and effect corrective action before the trajectory leaves a designated safe set. Specifically, this paper presents a systematic approach for propagating a nominal trajectory on a receding horizon, and then encoding the future safety of this trajectory into a CBF. If the propagated trajectory is unsafe, then a controller satisfying the CBF condition will modify the nominal trajectory before the trajectory becomes unsafe. Compared to existing CBF techniques, this strategy is proactive rather than reactive and thus potentially results in smaller modifications to the nominal trajectory. The proposed strategy is shown to be provably safe, and then is demonstrated in simulated scenarios where it would otherwise be difficult to construct a traditional CBF. In simulation, the predictive CBF results in less modification to the nominal trajectory and smaller control inputs than a traditional CBF, and faster computations than a nonlinear model predictive control approach.",
+      "journal": "2022 IEEE 61st Conference on Decision and Control (CDC)",
+      "venue": "IEEE Conference on Decision and Control",
+      "venueLabel": "CDC",
       "subjects": []
     },
     {
@@ -2885,5 +3009,5 @@
       ]
     }
   ],
-  "updated": "2026-08-04T11:23:45.042527+00:00"
+  "updated": "2026-08-05T00:14:54.172267+00:00"
 }
