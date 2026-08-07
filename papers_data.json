@@ -146,23 +146,23 @@
       "subjects": []
     },
     {
-      "paperId": "40c34cb0ccbef7dcb037459e9aac408908139bce",
-      "title": "Attitude-Position Obstacle Avoidance and Predefined-Time Safe Control for Fully Actuated Modeled eVTOL With Time-Varying Centroid",
+      "paperId": "4ec242123526e060e8f0a1e33a71c0032c4692f1",
+      "title": "Distributed Execution of Signal Temporal Logic Tasks in Open Networked Robotic System via Predefined-Time Control",
       "authors": [
-        "Feisheng Yang",
-        "Xiao Feng",
-        "Zhucheng Liu",
-        "Zhun-ga Liu"
+        "Wen-Tao Zhang",
+        "Ming Chi",
+        "Zhiwei Liu",
+        "Jing-Zhe Xu"
       ],
       "year": 2026,
-      "date": "2026-08-01",
+      "date": null,
       "citations": 0,
       "arxivId": "",
-      "doi": "10.1109/TTE.2026.3682473",
-      "url": "https://doi.org/10.1109/TTE.2026.3682473",
-      "abstract": "This article proposes a tracking control strategy based on the fully actuated system (FAS) approach to address the obstacle avoidance problem in logistics transportation scenarios. For the electric vertical take-off and landing (eVTOL) with a time-varying centroid modeled by quaternions, the predefined-time observer and nominal controller are designed to ensure the convergence of both the observation errors and tracking errors of the attitude-position system. Using the implicit Lyapunov function (ILF) and homogeneity theory, the gain matrices of the observer and nominal controller are derived. To achieve attitude-position obstacle avoidance, the concept of an attitude mandatory zone is introduced for the first time, along with the design of an obstacle avoidance safe set. Under the framework of the control barrier function (CBF), the safe control problem is transformed into a quadratic program. Finally, numerical simulations verify the effectiveness of the proposed algorithm.",
-      "journal": "IEEE Transactions on Transportation Electrification",
-      "venue": "IEEE Transactions on Transportation Electrification",
+      "doi": "10.1109/TASE.2026.3658586",
+      "url": "https://doi.org/10.1109/TASE.2026.3658586",
+      "abstract": "This paper addresses the distributed execution of signal temporal logic (STL) tasks in second-order open networked robotic systems (ONRSs), where robots can dynamically join or leave during task execution. A novel control framework is developed that integrates a predefined-time state estimator, a distributed control barrier function-based optimization strategy, and a task decomposition and reconstruction mechanism. This approach enables each robot to accomplish temporally and logically constrained tasks using only local information from its neighbors, without relying on global communication. Theoretical analysis rigorously establishes predefined-time convergence of the estimator and optimality of the distributed control strategy, even under dynamic team compositions. Simulation and experimental results validate the proposed method’s effectiveness and robustness in executing complex temporal tasks in realistic multi-robot scenarios. Note to Practitioners—This study presents a distributed framework enabling multi-robot systems to reliably execute complex STL tasks despite communication constraints and dynamic team changes. The approach is particularly beneficial for real-world applications like logistics sorting, power grid inspection, and disaster response. Practitioners can directly deploy the developed predefined-time state estimator and distributed control barrier function (CBF)-based optimization algorithm on individual robots, eliminating centralized computations. This ensures real-time, scalable coordination, robust task execution under fluctuating team structures, and maintains task compliance during sudden robot arrivals or departures.",
+      "journal": "IEEE Transactions on Automation Science and Engineering",
+      "venue": "IEEE Transactions on Automation Science and Engineering",
       "venueLabel": "IEEE Trans",
       "subjects": []
     },
@@ -189,6 +189,27 @@
       "subjects": []
     },
     {
+      "paperId": "40c34cb0ccbef7dcb037459e9aac408908139bce",
+      "title": "Attitude-Position Obstacle Avoidance and Predefined-Time Safe Control for Fully Actuated Modeled eVTOL With Time-Varying Centroid",
+      "authors": [
+        "Feisheng Yang",
+        "Xiao Feng",
+        "Zhucheng Liu",
+        "Zhun-ga Liu"
+      ],
+      "year": 2026,
+      "date": "2026-08-01",
+      "citations": 0,
+      "arxivId": "",
+      "doi": "10.1109/TTE.2026.3682473",
+      "url": "https://doi.org/10.1109/TTE.2026.3682473",
+      "abstract": "This article proposes a tracking control strategy based on the fully actuated system (FAS) approach to address the obstacle avoidance problem in logistics transportation scenarios. For the electric vertical take-off and landing (eVTOL) with a time-varying centroid modeled by quaternions, the predefined-time observer and nominal controller are designed to ensure the convergence of both the observation errors and tracking errors of the attitude-position system. Using the implicit Lyapunov function (ILF) and homogeneity theory, the gain matrices of the observer and nominal controller are derived. To achieve attitude-position obstacle avoidance, the concept of an attitude mandatory zone is introduced for the first time, along with the design of an obstacle avoidance safe set. Under the framework of the control barrier function (CBF), the safe control problem is transformed into a quadratic program. Finally, numerical simulations verify the effectiveness of the proposed algorithm.",
+      "journal": "IEEE Transactions on Transportation Electrification",
+      "venue": "IEEE Transactions on Transportation Electrification",
+      "venueLabel": "IEEE Trans",
+      "subjects": []
+    },
+    {
       "paperId": "82af3b1a54e49eaccebc16894157ed286c7c27ca",
       "title": "Predefined-Time Trajectory Tracking Control for Unmanned Aerial Vehicles Under Obstacle Avoidance Constraints",
       "authors": [
@@ -207,27 +228,6 @@
       "journal": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
       "venue": "",
       "venueLabel": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
-      "subjects": []
-    },
-    {
-      "paperId": "4ec242123526e060e8f0a1e33a71c0032c4692f1",
-      "title": "Distributed Execution of Signal Temporal Logic Tasks in Open Networked Robotic System via Predefined-Time Control",
-      "authors": [
-        "Wen-Tao Zhang",
-        "Ming Chi",
-        "Zhiwei Liu",
-        "Jing-Zhe Xu"
-      ],
-      "year": 2026,
-      "date": null,
-      "citations": 0,
-      "arxivId": "",
-      "doi": "10.1109/TASE.2026.3658586",
-      "url": "https://doi.org/10.1109/TASE.2026.3658586",
-      "abstract": "This paper addresses the distributed execution of signal temporal logic (STL) tasks in second-order open networked robotic systems (ONRSs), where robots can dynamically join or leave during task execution. A novel control framework is developed that integrates a predefined-time state estimator, a distributed control barrier function-based optimization strategy, and a task decomposition and reconstruction mechanism. This approach enables each robot to accomplish temporally and logically constrained tasks using only local information from its neighbors, without relying on global communication. Theoretical analysis rigorously establishes predefined-time convergence of the estimator and optimality of the distributed control strategy, even under dynamic team compositions. Simulation and experimental results validate the proposed method’s effectiveness and robustness in executing complex temporal tasks in realistic multi-robot scenarios. Note to Practitioners—This study presents a distributed framework enabling multi-robot systems to reliably execute complex STL tasks despite communication constraints and dynamic team changes. The approach is particularly beneficial for real-world applications like logistics sorting, power grid inspection, and disaster response. Practitioners can directly deploy the developed predefined-time state estimator and distributed control barrier function (CBF)-based optimization algorithm on individual robots, eliminating centralized computations. This ensures real-time, scalable coordination, robust task execution under fluctuating team structures, and maintains task compliance during sudden robot arrivals or departures.",
-      "journal": "IEEE Transactions on Automation Science and Engineering",
-      "venue": "IEEE Transactions on Automation Science and Engineering",
-      "venueLabel": "IEEE Trans",
       "subjects": []
     },
     {
@@ -607,6 +607,27 @@
       "subjects": []
     },
     {
+      "paperId": "b8d3fe3f0f3fc01d524192ea4d0ebf5516bd7cd8",
+      "title": "Null-Space Compliance Variation for Safe Human-Robot Collaboration in Redundant Manipulators using Safety Control Barrier Functions",
+      "authors": [
+        "Julian M. Salt Ducaju",
+        "Björn Olofsson",
+        "A. Robertsson",
+        "Rolf Johansson"
+      ],
+      "year": 2023,
+      "date": "2023-10-01",
+      "citations": 2,
+      "arxivId": "",
+      "doi": "10.1109/IROS55552.2023.10342181",
+      "url": "https://doi.org/10.1109/IROS55552.2023.10342181",
+      "abstract": "In this paper, Safety Control Barrier Functions (SCBFs) were used to adjust the null-space compliant behavior of a redundant robot to improve safety in Human-Robot Collaboration (HRC) without modifying the robot behavior with respect to its main Cartesian task. A Lyapunov function was included in an energy storage formulation compatible with strict passivity to provide global asymptotic stability guarantees for the null-space compliance variation, and the necessary conditions for stability were formulated as inequality constraints of the optimization problem used for the null-space compliance variation. Experimental validation was performed using a Franka Emika Panda robot for a collaborative assembly application and its results showed that safety can be improved by using SCBFs simultaneously to the optimization of the robot configuration, while employing a single degree of freedom.",
+      "journal": "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "venue": "IEEE/RJS International Conference on Intelligent RObots and Systems",
+      "venueLabel": "IROS",
+      "subjects": []
+    },
+    {
       "paperId": "c446870cfdac40bf40455ec582954c73bc01420c",
       "title": "Safety Predefined-Time Tracking Control of Second-Order Nonlinear Systems",
       "authors": [
@@ -644,6 +665,27 @@
       "journal": "IEEE Transactions on Intelligent Transportation Systems",
       "venue": "IEEE transactions on intelligent transportation systems (Print)",
       "venueLabel": "IEEE Trans",
+      "subjects": []
+    },
+    {
+      "paperId": "ba77f737938014efb8aa9ca6903c8fde0d5f4b6c",
+      "title": "Robot Cartesian Compliance Variation for Safe Kinesthetic Teaching using Safety Control Barrier Functions",
+      "authors": [
+        "Julian M. Salt Ducaju",
+        "Björn Olofsson",
+        "A. Robertsson",
+        "Rolf Johansson"
+      ],
+      "year": 2022,
+      "date": "2022-08-20",
+      "citations": 6,
+      "arxivId": "",
+      "doi": "10.1109/CASE49997.2022.9926525",
+      "url": "https://doi.org/10.1109/CASE49997.2022.9926525",
+      "abstract": "Kinesthetic teaching allows human operators to reprogram part of a robot’s trajectory by manually guiding the robot. To allow kinesthetic teaching, and also to avoid any harm to both the robot and its environment, Cartesian impedance control is here used for trajectory following. In this paper, we present an online method to modify the compliant behavior of a robot toward its environment, so that undesired parts of the robot’s workspace are avoided during kinesthetic teaching. The stability of the method is guaranteed by a well-known passivity-based energy-storage formulation that has been modified to include a strict Lyapunov function, i.e., its time derivative is a globally negative-definite function. Safety Control Barrier Functions (SCBFs) that consider the rigid-body dynamics of the robot are formulated as inequality constraints of a quadratic optimization (QP) problem to ensure forward invariance of the robot’s states in a safe set. An experimental evaluation using a Franka Emika Panda robot is provided.",
+      "journal": "2022 IEEE 18th International Conference on Automation Science and Engineering (CASE)",
+      "venue": "",
+      "venueLabel": "IEEE",
       "subjects": []
     },
     {
@@ -2908,5 +2950,5 @@
       ]
     }
   ],
-  "updated": "2026-08-07T01:48:27.610814+00:00"
+  "updated": "2026-08-07T05:46:05.850358+00:00"
 }
