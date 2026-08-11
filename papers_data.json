@@ -23,47 +23,6 @@
       "subjects": []
     },
     {
-      "paperId": "16a02d849961b48ee2b547aebe4d596d40d3a80a",
-      "title": "Constricting Tubes for Prescribed-Time Safe Control",
-      "authors": [
-        "D. Gadginmath",
-        "Ahmed Allibhoy",
-        "Fabio Pasqualetti"
-      ],
-      "year": 2026,
-      "date": "2026-03-17",
-      "citations": 2,
-      "arxivId": "2603.17003",
-      "doi": "10.1109/LCSYS.2026.3701849",
-      "url": "https://doi.org/10.1109/LCSYS.2026.3701849",
-      "abstract": "We propose a constricting Control Barrier Function (CBF) framework for prescribed-time control of control-affine systems with input constraints. Given a system starting outside a target safe set, we construct a time-varying safety tube that shrinks from a relaxed set containing the initial condition to the target set at a user-specified deadline. Any controller rendering this tube forward invariant guarantees prescribed-time recovery by construction. The constriction schedule is bounded and tunable by design, in contrast to prescribed-time methods where control effort diverges near the deadline. Feasibility under input constraints reduces to a single verifiable condition on the constriction rate, yielding a closed-form minimum recovery time as a function of control authority and initial violation. The framework imposes a single affine constraint per timestep regardless of state dimension, scaling to settings where grid-based reachability methods are intractable. We validate on an 18-dimensional multi-agent system, demonstrating scalability and prescribed-time recovery with bounded control effort.",
-      "journal": "IEEE Control Systems Letters",
-      "venue": "IEEE Control Systems Letters",
-      "venueLabel": "L-CSS",
-      "subjects": []
-    },
-    {
-      "paperId": "c17382d22153710cb528b2f31c9d9a83d7d63028",
-      "title": "Finite-time Convergent Control Barrier Functions with Feasibility Guarantees",
-      "authors": [
-        "Anni Li",
-        "Yingqing Chen",
-        "Christos G. Cassandras",
-        "Wei Xiao"
-      ],
-      "year": 2026,
-      "date": "2026-03-23",
-      "citations": 2,
-      "arxivId": "2603.22445",
-      "doi": "10.48550/arXiv.2603.22445",
-      "url": "https://doi.org/10.48550/arXiv.2603.22445",
-      "abstract": "This paper studies the problem of finite-time convergence to a prescribed safe set for nonlinear systems whose initial states violate the safety constraints. Existing Control Lyapunov-Barrier Functions (CLBFs) can enforce recovery to the safe set but may suffer from the issue of chattering and they do not explicitly consider control bounds. To address these limitations, we propose a new Control Barrier Function (CBF) formulation that guarantees finite-time convergence to the safe set while ensuring feasibility under control constraints. Specifically, we strengthen the initially violated safety constraint by introducing a parameter which enables the exploitation of the asymptotic property of a CBF to converge to the safe set in finite time. Furthermore, the conditions for the existence of such a CBF under control bounds to achieve finite-time convergence are derived via reachability analysis and constraint comparison, providing a systematic approach for parameter design. A case study on 2D obstacle avoidance is presented to demonstrate the effectiveness and advantages of the proposed method.",
-      "journal": "ArXiv",
-      "venue": "arXiv.org",
-      "venueLabel": "arXiv.org",
-      "subjects": []
-    },
-    {
       "paperId": "7e984216114d85c4d9020a9cf57e8ceedcbc5aa1",
       "title": "Safety-Critical Control Under Timed Reach–Avoid Specifications: A Backup Control Barrier Function Approach",
       "authors": [
@@ -82,67 +41,6 @@
       "journal": "IEEE Control Systems Letters",
       "venue": "IEEE Control Systems Letters",
       "venueLabel": "L-CSS",
-      "subjects": []
-    },
-    {
-      "paperId": "79178b51447a5706fcc141128679c70d82236633",
-      "title": "TTCBF: A Truncated Taylor Control Barrier Function for High-Order Safety Constraints",
-      "authors": [
-        "Jianye Xu",
-        "Bassam Alrifaee"
-      ],
-      "year": 2026,
-      "date": "2026-01-21",
-      "citations": 1,
-      "arxivId": "2601.15196",
-      "doi": "10.48550/arXiv.2601.15196",
-      "url": "https://doi.org/10.48550/arXiv.2601.15196",
-      "abstract": "Control Barrier Functions (CBFs) enforce safety by rendering a prescribed safe set forward invariant. However, standard CBFs are limited to safety constraints with relative degree one, while High-Order CBF (HOCBF) methods address higher relative degree at the cost of introducing a chain of auxiliary functions and multiple class K functions whose tuning scales with the relative degree. In this paper, we introduce a Truncated Taylor Control Barrier Function (TTCBF), which generalizes standard discrete-time CBFs to consider high-order safety constraints and requires only one class K function, independent of the relative degree. We also propose an adaptive variant, adaptive TTCBF (aTTCBF), that optimizes an online gain on the class K function to improve adaptability, while requiring fewer control design parameters than existing adaptive HOCBF variants. Numerical experiments in a relative-degree-six spring-mass system and a cluttered corridor navigation validate the above theoretical findings.",
-      "journal": "ArXiv",
-      "venue": "arXiv.org",
-      "venueLabel": "arXiv.org",
-      "subjects": []
-    },
-    {
-      "paperId": "c38f5c889f9a6ffe36b8eee34083b5b3c668b4cd",
-      "title": "Exact-Time Safety Recovery using Time-Varying Control Barrier Functions with Optimal Barrier Tracking",
-      "authors": [
-        "Yingqing Chen",
-        "Christos G. Cassandras",
-        "Wei Xiao",
-        "Anni Li"
-      ],
-      "year": 2026,
-      "date": "2026-03-19",
-      "citations": 1,
-      "arxivId": "2603.19119",
-      "doi": "10.48550/arXiv.2603.19119",
-      "url": "https://doi.org/10.48550/arXiv.2603.19119",
-      "abstract": "This paper is motivated by controllers developed for autonomous vehicles which occasionally result into conditions where safety is no longer guaranteed. We develop an exact-time safety recovery framework for any control-affine nonlinear system when its state is outside a safe region using time-varying Control Barrier Functions (CBFs) with optimal barrier tracking. Unlike conventional formulations that provide only conservative upper bounds on recovery time convergence, the proposed approach guarantees recovery to the safe set at a prescribed time. The key mechanism is an active barrier tracking condition that forces the barrier function to follow exactly a designer-specified recovery trajectory. This transforms safety recovery into a trajectory design problem. The recovery trajectory is parameterized and optimized to achieve optimal performance while preserving feasibility under input constraints, avoiding the aggressive corrective actions typically induced by conventional finite-time formulations. The safety recovery framework is applied to the roundabout traffic coordination problem for Connected and Automated Vehicles (CAVs), where any initially violated safe merging constraint is replaced by an exact-time recovery barrier constraint to ensure safety guarantee restoration before CAV conflict points are reached. Simulation results demonstrate improved feasibility and performance.",
-      "journal": "ArXiv",
-      "venue": "arXiv.org",
-      "venueLabel": "arXiv.org",
-      "subjects": []
-    },
-    {
-      "paperId": "6ca2a2c379965eb09928b1d650bf0e388e3fc1c1",
-      "title": "Prescribed-time active disturbance rejection control of aeroengine environment simulation system via robust control barrier function",
-      "authors": [
-        "X. Qi",
-        "Chao Zhai",
-        "Hehong Zhang",
-        "Wei Zhao"
-      ],
-      "year": 2026,
-      "date": null,
-      "citations": 0,
-      "arxivId": "",
-      "doi": "10.1016/j.conengprac.2026.107148",
-      "url": "https://doi.org/10.1016/j.conengprac.2026.107148",
-      "abstract": "",
-      "journal": "Control Engineering Practice",
-      "venue": "Control Engineering Practice",
-      "venueLabel": "Control Engineering Practice",
       "subjects": []
     },
     {
@@ -231,26 +129,6 @@
       "subjects": []
     },
     {
-      "paperId": "5e3f794914697fca8238a8c19bcb56ad724f30c7",
-      "title": "Hierarchical Reinforcement Learning for Stealthy Attacks via Control Barrier Functions",
-      "authors": [
-        "Kelin Yang",
-        "Qirui Zhang",
-        "Wei Dai"
-      ],
-      "year": 2026,
-      "date": "2026-05-08",
-      "citations": 0,
-      "arxivId": "",
-      "doi": "10.1109/ICAISISAS68969.2026.11567696",
-      "url": "https://doi.org/10.1109/ICAISISAS68969.2026.11567696",
-      "abstract": "This article, from the attacker’s standpoint, develops a model-free stealthy attack that can steer the system state to the predefined target value and evade detection. A hierarchical reinforcement learning algorithm is proposed to train the attacker’s policy. We quantify stealthiness using the residual and design a discrete-time control barrier function to enforce forward invariance of the residual trajectory, ensuring stepwise stealthiness. A restricted policy optimization is proposed to guarantee the stealthiness of the policy when the policy is updated for target-reaching. Simulations demonstrate effective target manipulation with residual constraints satisfied throughout the attack.",
-      "journal": "2026 Joint International Conference on Automation-Intelligence-Safety (ICAIS) & International Symposium on Autonomous Systems (ISAS)",
-      "venue": "",
-      "venueLabel": "2026 Joint International Conference on Automation-Intelligence-Safety (ICAIS) & International Symposium on Autonomous Systems (ISAS)",
-      "subjects": []
-    },
-    {
       "paperId": "66b18bdb8675459004bbd35677368a24029ac61d",
       "title": "Safety-Critical Control of Flexible Payload Manipulation Using High Order Control Barrier Functions*",
       "authors": [
@@ -274,90 +152,23 @@
       "subjects": []
     },
     {
-      "paperId": "f9b7cfc3d51ea24020766010352d509c2ad09e1b",
-      "title": "Constrained Safe Cooperative Maneuvering of Autonomous Surface Vehicles: A Control Barrier Function Approach",
+      "paperId": "5e3f794914697fca8238a8c19bcb56ad724f30c7",
+      "title": "Hierarchical Reinforcement Learning for Stealthy Attacks via Control Barrier Functions",
       "authors": [
-        "Wentao Wu",
-        "Yibo Zhang",
-        "Zhenhua Li",
-        "Junguo Lu",
-        "Weidong Zhang"
+        "Kelin Yang",
+        "Qirui Zhang",
+        "Wei Dai"
       ],
-      "year": 2025,
-      "date": "2025-01-01",
-      "citations": 33,
+      "year": 2026,
+      "date": "2026-05-08",
+      "citations": 0,
       "arxivId": "",
-      "doi": "10.1109/TSMC.2023.3345847",
-      "url": "https://doi.org/10.1109/TSMC.2023.3345847",
-      "abstract": "This article investigates a constrained safe cooperative maneuvering method for a group of autonomous surface vehicles (ASVs) with performance-quantized indices in an obstacle-loaded environment. Specifically, an avoidance-tolerant prescribed performance (ATPP) with one-sided tunnel bounds is designed to predetermine the cooperative maneuvering performance of multiple ASVs. Next, an auxiliary system is constructed to modify performance bounds of ATPP for tolerating possible collision avoidance actions of ASVs. In the guidance loop, nominal surge and yaw guidance laws are developed using the ATPP-based transformed relative distance and heading errors. A barrier-certified yaw velocity protocol is proposed by formulating a quadratic optimization problem, which unifies the nominal yaw guidance law and CBF-based collision-free constraints. In the control loop, two prescribed-time disturbance observers (PTDOs) are devised to estimate unknown external disturbances in the surge and yaw directions. The antidisturbance control laws are designed to track the guidance signals. By the stability and safety analysis, it is proved that error signals of the proposed closed-loop system are bounded and the multi- ASV system is input-to-state safe. Finally, simulation results are used to demonstrate the effectiveness of the presented constrained safe cooperative maneuvering method.",
-      "journal": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
-      "venue": "IEEE Transactions on Systems, Man & Cybernetics. Systems",
-      "venueLabel": "TSMC",
-      "subjects": []
-    },
-    {
-      "paperId": "ebe4e2b7c47bf755bebd6b8fee154a0c8cf83638",
-      "title": "Explicit Control Barrier Function-based Safety Filters and their Resource-Aware Computation",
-      "authors": [
-        "Pol Mestres",
-        "S. Mousavi",
-        "Pio Ong",
-        "Lizhi Yang",
-        "Ersin Daş",
-        "J. W. Burdick",
-        "A. Ames"
-      ],
-      "year": 2025,
-      "date": "2025-12-10",
-      "citations": 12,
-      "arxivId": "2512.10118",
-      "doi": "10.48550/arXiv.2512.10118",
-      "url": "https://doi.org/10.48550/arXiv.2512.10118",
-      "abstract": "This paper studies the efficient implementation of safety filters that are designed using control barrier functions (CBFs), which minimally modify a nominal controller to render it safe with respect to a prescribed set of states. Although CBF-based safety filters are often implemented by solving a quadratic program (QP) in real time, the use of off-the-shelf solvers for such optimization problems poses a challenge in applications where control actions need to be computed efficiently at very high frequencies. In this paper, we introduce a closed-form expression for controllers obtained through CBF-based safety filters. This expression is obtained by partitioning the state-space into different regions, with a different closed-form solution in each region. We leverage this formula to introduce a resource-aware implementation of CBF-based safety filters that detects changes in the partition region and uses the closed-form expression between changes. We showcase the applicability of our approach in examples ranging from aerospace control to safe reinforcement learning.",
-      "journal": "ArXiv",
-      "venue": "arXiv.org",
-      "venueLabel": "arXiv.org",
-      "subjects": []
-    },
-    {
-      "paperId": "4c439ac7fa78458daf9cf93563cdab330c543587",
-      "title": "Performance-Prescribed Optimal Control for Target Enclosing of Vehicles via Control Barrier Function-Based Reinforcement Learning",
-      "authors": [
-        "Fei Zhang",
-        "Guanghua Yang",
-        "G. Dimirovski"
-      ],
-      "year": 2025,
-      "date": "2025-04-01",
-      "citations": 9,
-      "arxivId": "",
-      "doi": "10.1109/TITS.2025.3540652",
-      "url": "https://doi.org/10.1109/TITS.2025.3540652",
-      "abstract": "The target enclosing control problem for autonomous vehicles with uncertainties necessitates simultaneous consideration of control optimality, robustness, and safety-guided performance constraints. This paper presents a performance-prescribed optimal control algorithm using control barrier function (CBF)-based reinforcement learning (RL) to address the above problem, which contains two key contributions. First, a special CBF-based argument term is developed and embedded into the reward function to characterize environmental feedback regarding the risk of violating constraints, which enables the controller to confine enclosing errors within declared boundaries with minimal intervention. Second, a critic-only neural network is utilized to synthesize the optimal control policy, where a novel fixed-time updating law is presented to accelerate the weight convergence to ideal values within a fixed settling time, thereby enhancing the online learning ability and further improving control performance. Theoretical outcomes related to learning convergence, safety, stability, and robustness are rigorously verified. Simulations reveal that the proposed strategy outperforms the previously designed enclosing controllers based on the non-RL and RL ways in terms of complying with prescribed safety constraints and optimizing long-term performance.",
-      "journal": "IEEE Transactions on Intelligent Transportation Systems",
-      "venue": "IEEE transactions on intelligent transportation systems (Print)",
-      "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
-      "paperId": "092eac9ce0272faa7e2c4ed22320534d226d63dc",
-      "title": "Prescribed-Time Safety Control for Unknown Systems and Its Application to Robotic Manipulator",
-      "authors": [
-        "Sihua Zhang",
-        "Dihua Zhai",
-        "Y. Xiong",
-        "Yuanqing Xia"
-      ],
-      "year": 2025,
-      "date": null,
-      "citations": 9,
-      "arxivId": "",
-      "doi": "10.1109/TASE.2024.3514680",
-      "url": "https://doi.org/10.1109/TASE.2024.3514680",
-      "abstract": "In this paper, the concept of prescribed-time safety is introduced in the case that initial states are not in a safe set, which requires that the trajectories of systems visit a safe set within the prescribed time and then remain in the safe set. In contrast to safety-critical applications that require trajectories to always be in the safe set, prescribed-time safety control presents a greater challenge due to the introduction of a convergence time constraint. This paper presents a method to ensure prescribed-time safety for robotic systems. First, the prescribed-time control barrier function (PTCBF) is proposed for systems with relative degree of one, and it is extended to prescribed-time high order control barrier function (PTHOCBF) for systems with arbitrary relative degrees. Then, quadratic programming (QP) subject to PTCBF condition is constructed to solve control input. However, the proposed method cannot guarantee safety for systems with uncertain models. To address this limitation, a prescribed-time sliding mode disturbance observer (PTSMDO) is proposed to estimate the uncertainty. The estimated error is close to 0 before the time that states stay in the safe set. Based on the observed value of the uncertainty, the control input is solved by QP. Finally, the effectiveness of the proposed method is verified by a simulation and a physical experiment on Franka Emika robot. Note to Practitioners—This paper is motivated by the challenge encountered in robotic systems, which necessitate the control of the system’s state to reach a predefined safe set and subsequently carry out tasks within this safe set in various practical applications, particularly in the realm of robot motion planning. In comparison to existing methods such as finite-time CBF and fixed-time CBF, the proposed prescribed-time CBF approach in this paper offers the advantage of allowing users to preselect the arrival time. Additionally, given that robot systems are typically subject to uncertainties stemming from parameter errors and external disturbances, this paper also introduces a method to the issue of prescribed-time safety for robot systems featuring uncertain models. The uncertain term within the model can be accurately estimated prior to the moment when the state arrives at the safe set, employing the proposed disturbance observer. Subsequently, the prescribed-time CBF is integrated with the estimation results to construct QP for control input. The simulation and experiment conducted on the Franka Emika robot verify that the proposed method is feasible.",
-      "journal": "IEEE Transactions on Automation Science and Engineering",
-      "venue": "IEEE Transactions on Automation Science and Engineering",
-      "venueLabel": "IEEE Trans",
+      "doi": "10.1109/ICAISISAS68969.2026.11567696",
+      "url": "https://doi.org/10.1109/ICAISISAS68969.2026.11567696",
+      "abstract": "This article, from the attacker’s standpoint, develops a model-free stealthy attack that can steer the system state to the predefined target value and evade detection. A hierarchical reinforcement learning algorithm is proposed to train the attacker’s policy. We quantify stealthiness using the residual and design a discrete-time control barrier function to enforce forward invariance of the residual trajectory, ensuring stepwise stealthiness. A restricted policy optimization is proposed to guarantee the stealthiness of the policy when the policy is updated for target-reaching. Simulations demonstrate effective target manipulation with residual constraints satisfied throughout the attack.",
+      "journal": "2026 Joint International Conference on Automation-Intelligence-Safety (ICAIS) & International Symposium on Autonomous Systems (ISAS)",
+      "venue": "",
+      "venueLabel": "2026 Joint International Conference on Automation-Intelligence-Safety (ICAIS) & International Symposium on Autonomous Systems (ISAS)",
       "subjects": []
     },
     {
@@ -378,90 +189,6 @@
       "journal": "ISA transactions",
       "venue": "ISA transactions",
       "venueLabel": "ISA transactions",
-      "subjects": []
-    },
-    {
-      "paperId": "5c8ddd281fff1099230cb9265a4455cd22c638e9",
-      "title": "A Safe, high-precision reinforcement learning-based optimal control of surgical continuum robots: A monotone tube boundary approach with prescribed-time control capability",
-      "authors": [
-        "Mohammad Jabari",
-        "Andrea Botta",
-        "Luigi Tagliavini",
-        "C. Visconte",
-        "Giuseppe Quaglia"
-      ],
-      "year": 2025,
-      "date": "2025-03-01",
-      "citations": 7,
-      "arxivId": "",
-      "doi": "10.1016/j.robot.2025.104992",
-      "url": "https://doi.org/10.1016/j.robot.2025.104992",
-      "abstract": "This paper introduces a novel approach to the prescribed-time control of continuum surgical robots, focusing on four key areas: enhanced system safety, tailored transient tracking, steady-state tracking enhancement, and optimal learned control. The main contribution is the application of system state constraints on tracking error, transforming these constraints into an unconstrained problem using a monotone tube boundary. This method avoids the complexity of Model Predictive Control (MPC) and Control Barrier Functions (CBF) techniques, as well as the conservatism and fixed-boundary issues associated with the Barrier Lyapunov Function (BLF) method. By using a monotone tube boundary, the approach allows for the pre-assignment of transient characteristics for tracking error, avoiding excessive overshoot and lack of adjustability seen with the Prescribed Performance Function (PPF). The prescribed-time control philosophy enables pre-determination of settling time, enhancing precision and convergence rates essential for surgical applications. Additionally, an optimized prescribed-time control strategy using an actor-critic neural network-based Reinforcement Learning (RL) approach ensures controller optimality, reducing control effort, power consumption, and heat generation in the robot ’ s actuators. The method adapts to dynamic environments, ensuring robust performance in various surgical scenarios. Simulation results on a two-segment continuum robot demonstrate the proposed method ’ s advantages over state-of-the-art techniques.",
-      "journal": "Robotics Auton. Syst.",
-      "venue": "",
-      "venueLabel": "Robotics Auton. Syst.",
-      "subjects": []
-    },
-    {
-      "paperId": "8e063eb1c699d438ddd0b98dda2f5ffc39b60246",
-      "title": "Probabilistic Control Barrier Functions: Safety in Probability for Discrete-Time Stochastic Systems",
-      "authors": [
-        "Pol Mestres",
-        "Blake Werner",
-        "Ryan K. Cosner",
-        "Aaron D. Ames"
-      ],
-      "year": 2025,
-      "date": "2025-10-01",
-      "citations": 7,
-      "arxivId": "2510.01501",
-      "doi": "10.48550/arXiv.2510.01501",
-      "url": "https://doi.org/10.48550/arXiv.2510.01501",
-      "abstract": "Control systems operating in the real world face countless sources of unpredictable uncertainties. These random disturbances can render deterministic guarantees inapplicable and cause catastrophic safety failures. To overcome this, this paper proposes a method for designing safe controllers for discrete-time stochastic systems that retain probabilistic guarantees of safety. To do this we modify the traditional notion of a control barrier function (CBF) to explicitly account for these stochastic uncertainties and call these new modified functions probabilistic CBFs. We show that probabilistic CBFs can be used to design controllers that guarantee safety over a finite number of time steps with a prescribed probability. Next, by leveraging various uncertainty quantification methods, such as concentration inequalities and the scenario approach, we provide a variety of sufficient conditions that result in computationally tractable controllers with tunable probabilistic guarantees across a plethora of practical scenarios. Finally, we showcase the applicability of our results in simulation and hardware for the control of a quadruped robot.",
-      "journal": "ArXiv",
-      "venue": "arXiv.org",
-      "venueLabel": "arXiv.org",
-      "subjects": []
-    },
-    {
-      "paperId": "4a3a3323d52170b0d79da7fb9e6c69da012a5f70",
-      "title": "Gaussian Process-Based Prescribed-Time Input-to-State Safety for Unknown System Control",
-      "authors": [
-        "Sihua Zhang",
-        "Dihua Zhai",
-        "Xiaobing Dai",
-        "Tzu-yuan Huang",
-        "Yuanqing Xia"
-      ],
-      "year": 2025,
-      "date": "2025-12-01",
-      "citations": 5,
-      "arxivId": "",
-      "doi": "10.1109/TIE.2025.3569955",
-      "url": "https://doi.org/10.1109/TIE.2025.3569955",
-      "abstract": "In dynamic systems, safety is typically guaranteed through control barrier functions that keep states within a designated safe set throughout the entire evolution of the system. However, in certain scenarios where states are initially unsafe, it is necessary for system states to enter the safe set within a specified time and subsequently remain there. To address this safety control challenge, the concept of Gaussian process-based prescribed-time input-to-state safety is developed for systems experiencing unknown input disturbances. This approach ensures that the states remain either inside or very close to a slightly larger safe set after initially entering the safe set within the prescribed timeframe. The larger safe set is determined by the prediction error of disturbances, modeled using Gaussian processes (GP), which can be established by collecting a sufficiently large dataset. Furthermore, a prescribed-time input-to-state control barrier function (PT-ISSf-CBF) is proposed to secure safety for systems with a relative degree of one. Additionally, the concept is expanded to develop a prescribed-time input-to-state high-order control barrier function (PT-ISSf-HOCBF) applicable to systems with arbitrary relative degrees, detailing the relationship between the new larger safe set and the parameters defined in the PT-ISSf-CBF condition. Finally, the proposed method’s effectiveness is validated through simulations and a physical experiment conducted on the Franka Emika robot.",
-      "journal": "IEEE Transactions on Industrial Electronics",
-      "venue": "IEEE transactions on industrial electronics (1982. Print)",
-      "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
-      "paperId": "adcb0b21e5266fbdf554f6cf906f8d33e230bd18",
-      "title": "Fixed time convergence guarantees for Higher Order Control Barrier Functions",
-      "authors": [
-        "K. JananiS",
-        "Shishir N Y Kolathaya"
-      ],
-      "year": 2025,
-      "date": "2025-07-18",
-      "citations": 3,
-      "arxivId": "2507.13888",
-      "doi": "10.48550/arXiv.2507.13888",
-      "url": "https://doi.org/10.48550/arXiv.2507.13888",
-      "abstract": "We present a novel method for designing higher-order Control Barrier Functions (CBFs) that guarantee convergence to a safe set within a user-specified finite. Traditional Higher Order CBFs (HOCBFs) ensure asymptotic safety but lack mechanisms for fixed-time convergence, which is critical in time-sensitive and safety-critical applications such as autonomous navigation. In contrast, our approach imposes a structured differential constraint using repeated roots in the characteristic polynomial, enabling closed-form polynomial solutions with exact convergence at a prescribed time. We derive conditions on the barrier function and its derivatives that ensure forward invariance and fixed-time reachability, and we provide an explicit formulation for second-order systems. Our method is evaluated on three robotic systems - a point-mass model, a unicycle, and a bicycle model and benchmarked against existing HOCBF approaches. Results demonstrate that our formulation reliably enforces convergence within the desired time, even when traditional methods fail. This work provides a tractable and robust framework for real-time control with provable finite-time safety guarantees.",
-      "journal": "ArXiv",
-      "venue": "arXiv.org",
-      "venueLabel": "arXiv.org",
       "subjects": []
     },
     {
@@ -507,45 +234,6 @@
       "subjects": []
     },
     {
-      "paperId": "de9ef4adf0e04b2ba376150292d5ca4d8a17a00c",
-      "title": "Approximation-Free Control Barrier Functions for Prescribed-Time Reach-Avoid of Unknown Systems",
-      "authors": [
-        "Shubham Sawarkar",
-        "Pushpak Jagtap"
-      ],
-      "year": 2025,
-      "date": "2025-11-28",
-      "citations": 0,
-      "arxivId": "2511.23022",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2511.23022",
-      "abstract": "We study the prescribed-time reach-avoid (PT-RA) control problem for nonlinear systems with unknown dynamics operating in environments with moving obstacles. Unlike robust or learning based Control Barrier Function (CBF) methods, the proposed framework requires neither online model learning nor uncertainty bound estimation. A CBF-based Quadratic Program (CBF-QP) is solved on a simple virtual system to generate a safe reference satisfying PT-RA conditions with respect to time-varying, tightened obstacle and goal sets. The true system is confined to a Virtual Confinement Zone (VCZ) around this reference using an approximation-free feedback law. This construction guarantees real-time safety and prescribed-time target reachability under unknown dynamics and dynamic constraints without explicit model identification or offline precomputation. Simulation results illustrate reliable dynamic obstacle avoidance and timely convergence to the target set.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "Unknown",
-      "subjects": []
-    },
-    {
-      "paperId": "c0ff1be97efc86f5520d77f1b21470d0efe64067",
-      "title": "Control Barrier Function-Based Prescribed-Performance Control for Variable-Order Fractional-Order Nonlinear Systems",
-      "authors": [
-        "Jie Kong",
-        "Hansong Li",
-        "Bo Zhao"
-      ],
-      "year": 2025,
-      "date": "2025-09-26",
-      "citations": 0,
-      "arxivId": "",
-      "doi": "10.1109/CAC67268.2025.11487439",
-      "url": "https://doi.org/10.1109/CAC67268.2025.11487439",
-      "abstract": "",
-      "journal": "2025 China Automation Congress (CAC)",
-      "venue": "ACM Cloud and Autonomic Computing Conference",
-      "venueLabel": "ACM Cloud and Autonomic Computing Conference",
-      "subjects": []
-    },
-    {
       "paperId": "30730333574feba8e0c2cfa0993a6ad9eba4fdc5",
       "title": "Robust Collision Avoidance and Path‐Following of USVs With Reduced Conservativeness: A Control Barrier Function‐Based Approach",
       "authors": [
@@ -565,47 +253,6 @@
       "journal": "Journal of Field Robotics",
       "venue": "",
       "venueLabel": "Journal of Field Robotics",
-      "subjects": []
-    },
-    {
-      "paperId": "63cda21d0e705b1441511cdc0e963e047a1c2443",
-      "title": "Prescribed-Time Collision-Free Trajectory Tracking Control for Spacecraft With Position-Only Measurements",
-      "authors": [
-        "Jun Li",
-        "Shenmin Song"
-      ],
-      "year": 2024,
-      "date": "2024-08-01",
-      "citations": 16,
-      "arxivId": "",
-      "doi": "10.1109/TAES.2024.3371965",
-      "url": "https://doi.org/10.1109/TAES.2024.3371965",
-      "abstract": "Safe and accurate spacecraft trajectory tracking is challenging with position-only measurements when there exist unmodeled dynamics, external disturbances, and static/moving obstacles. In this article, a collision-free strategy is investigated for achieving the satisfactory tracking performance. First, a prescribed-time extended state observer is introduced to obtain the estimations of lumped uncertainties and velocity using position measurements. It is proven that the devised observer provides the possibility to gain fast and robust control against uncertainties and unavailable velocity signal. Then, a control barrier function-based quadratic programming is constructed, with which the constrained problem is formulated to generate an optimal guidance law. The fully autonomous operating space can be, therefore, pursued in obstacle-cluttered environments. The stability analysis of the control system is given using the Lyapunov method, and the simulation results are presented to illustrate the effectiveness of the proposed strategy.",
-      "journal": "IEEE Transactions on Aerospace and Electronic Systems",
-      "venue": "IEEE Transactions on Aerospace and Electronic Systems",
-      "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
-      "paperId": "ea6447005fd7b20fa3011499af843e8d5027893a",
-      "title": "On the Equivalence Between Prescribed Performance Control and Control Barrier Functions",
-      "authors": [
-        "Ryo Namerikawa",
-        "A. Wiltz",
-        "Farhad Mehdifar",
-        "Toru Namerikawa",
-        "Dimos V. Dimarogonas"
-      ],
-      "year": 2024,
-      "date": "2024-07-10",
-      "citations": 11,
-      "arxivId": "",
-      "doi": "10.23919/ACC60939.2024.10644361",
-      "url": "https://doi.org/10.23919/ACC60939.2024.10644361",
-      "abstract": "In this paper, we show that Prescribed Performance Control (PPC) is a model-free Control Barrier Function (CBF)-based control approach. Specifically, we establish that a function utilized in the PPC design is a Time-Varying Reciprocal Control Barrier Function (TVRCBF). We demonstrate that PPC satisfies the same gradient condition that is well-known in the CBF literature, ensuring forward invariance. As a result, the control inputs generated by the PPC law belong to the input set characterized by the TVRCBF. Apart from assuming a certain controllability property, no further knowledge on the system dynamics is required. Our theoretical findings improve the understanding of the relationship between PPC and other CBF-based controllers. The theoretical results are validated through numerical simulations.",
-      "journal": "2024 American Control Conference (ACC)",
-      "venue": "American Control Conference",
-      "venueLabel": "ACC",
       "subjects": []
     },
     {
@@ -630,6 +277,27 @@
       "subjects": []
     },
     {
+      "paperId": "b8d3fe3f0f3fc01d524192ea4d0ebf5516bd7cd8",
+      "title": "Null-Space Compliance Variation for Safe Human-Robot Collaboration in Redundant Manipulators using Safety Control Barrier Functions",
+      "authors": [
+        "Julian M. Salt Ducaju",
+        "Björn Olofsson",
+        "A. Robertsson",
+        "Rolf Johansson"
+      ],
+      "year": 2023,
+      "date": "2023-10-01",
+      "citations": 2,
+      "arxivId": "",
+      "doi": "10.1109/IROS55552.2023.10342181",
+      "url": "https://doi.org/10.1109/IROS55552.2023.10342181",
+      "abstract": "In this paper, Safety Control Barrier Functions (SCBFs) were used to adjust the null-space compliant behavior of a redundant robot to improve safety in Human-Robot Collaboration (HRC) without modifying the robot behavior with respect to its main Cartesian task. A Lyapunov function was included in an energy storage formulation compatible with strict passivity to provide global asymptotic stability guarantees for the null-space compliance variation, and the necessary conditions for stability were formulated as inequality constraints of the optimization problem used for the null-space compliance variation. Experimental validation was performed using a Franka Emika Panda robot for a collaborative assembly application and its results showed that safety can be improved by using SCBFs simultaneously to the optimization of the robot configuration, while employing a single degree of freedom.",
+      "journal": "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "venue": "IEEE/RJS International Conference on Intelligent RObots and Systems",
+      "venueLabel": "IROS",
+      "subjects": []
+    },
+    {
       "paperId": "c446870cfdac40bf40455ec582954c73bc01420c",
       "title": "Safety Predefined-Time Tracking Control of Second-Order Nonlinear Systems",
       "authors": [
@@ -651,22 +319,24 @@
       "subjects": []
     },
     {
-      "paperId": "cc21131cf1147ca5895138750a3f4fb104bf237f",
-      "title": "Trust-Based and Individualizable Adaptive Cruise Control Using Control Barrier Function Approach With Prescribed Performance",
+      "paperId": "ba77f737938014efb8aa9ca6903c8fde0d5f4b6c",
+      "title": "Robot Cartesian Compliance Variation for Safe Kinesthetic Teaching using Safety Control Barrier Functions",
       "authors": [
-        "Chuan Hu",
-        "Junmin Wang"
+        "Julian M. Salt Ducaju",
+        "Björn Olofsson",
+        "A. Robertsson",
+        "Rolf Johansson"
       ],
       "year": 2022,
-      "date": "2022-07-01",
-      "citations": 56,
+      "date": "2022-08-20",
+      "citations": 6,
       "arxivId": "",
-      "doi": "10.1109/TITS.2021.3066154",
-      "url": "https://doi.org/10.1109/TITS.2021.3066154",
-      "abstract": "Trust is a crucial aspect for autonomous vehicles (AVs) and automated driving systems (ADSs) that maintains humans’ acceptance of such functions. However, trust dynamic models describing the human-vehicle relationship rarely exist. To this end, this paper develops a quantitative trust dynamic model of the driver to an adaptive cruise control (ACC) system and applies the proposed model to a trust-based ACC. Driver’s trust level is modeled as an objective evaluation index for assessing the individual perceived trustworthiness on automation. Three contributions have been made in this work: 1) a novel quantitative dynamic model describing the driver’s trust on ACC is proposed for the first time considering the effects of the driver’s taking-over and handing-over operations as well as the steady-state driving scenarios; 2) an improved control barrier function approach with guaranteed system stability and prescribed asymptotic performance is proposed to design the trusted-based ACC, satisfying the state, input, and safety constraints; and 3) a new prescribed performance function that does not require accurate value of the initial condition is proposed to restrict the tracking errors within the predefined asymptotic boundaries, given that the initial value of the trust is hard to obtain. High-fidelity CarSim-based simulations demonstrate the rationality of the proposed trust model and the validity of the proposed control approach.",
-      "journal": "IEEE Transactions on Intelligent Transportation Systems",
-      "venue": "IEEE transactions on intelligent transportation systems (Print)",
-      "venueLabel": "IEEE Trans",
+      "doi": "10.1109/CASE49997.2022.9926525",
+      "url": "https://doi.org/10.1109/CASE49997.2022.9926525",
+      "abstract": "Kinesthetic teaching allows human operators to reprogram part of a robot’s trajectory by manually guiding the robot. To allow kinesthetic teaching, and also to avoid any harm to both the robot and its environment, Cartesian impedance control is here used for trajectory following. In this paper, we present an online method to modify the compliant behavior of a robot toward its environment, so that undesired parts of the robot’s workspace are avoided during kinesthetic teaching. The stability of the method is guaranteed by a well-known passivity-based energy-storage formulation that has been modified to include a strict Lyapunov function, i.e., its time derivative is a globally negative-definite function. Safety Control Barrier Functions (SCBFs) that consider the rigid-body dynamics of the robot are formulated as inequality constraints of a quadratic optimization (QP) problem to ensure forward invariance of the robot’s states in a safe set. An experimental evaluation using a Franka Emika Panda robot is provided.",
+      "journal": "2022 IEEE 18th International Conference on Automation Science and Engineering (CASE)",
+      "venue": "",
+      "venueLabel": "IEEE",
       "subjects": []
     },
     {
@@ -722,7 +392,7 @@
       ],
       "year": 2016,
       "date": "2016-09-21",
-      "citations": 2731,
+      "citations": 2732,
       "arxivId": "1609.06408",
       "doi": "10.1109/TAC.2016.2638961",
       "url": "https://doi.org/10.1109/TAC.2016.2638961",
@@ -2070,5 +1740,5 @@
       ]
     }
   ],
-  "updated": "2026-08-10T23:45:35.070417+00:00"
+  "updated": "2026-08-11T05:14:25.905874+00:00"
 }
