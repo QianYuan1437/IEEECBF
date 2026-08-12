@@ -722,7 +722,7 @@
       ],
       "year": 2016,
       "date": "2016-09-21",
-      "citations": 2737,
+      "citations": 2739,
       "arxivId": "1609.06408",
       "doi": "10.1109/TAC.2016.2638961",
       "url": "https://doi.org/10.1109/TAC.2016.2638961",
@@ -761,7 +761,7 @@
       ],
       "year": 2021,
       "date": "2021-08-18",
-      "citations": 545,
+      "citations": 546,
       "arxivId": "",
       "doi": "10.1109/tac.2021.3105491",
       "url": "https://doi.org/10.1109/tac.2021.3105491",
@@ -781,7 +781,7 @@
       ],
       "year": 2020,
       "date": "2020-07-22",
-      "citations": 455,
+      "citations": 456,
       "arxivId": "2007.11718",
       "doi": "10.23919/ACC50511.2021.9483029",
       "url": "https://doi.org/10.23919/ACC50511.2021.9483029",
@@ -820,7 +820,7 @@
       ],
       "year": 2015,
       "date": "2015-07-01",
-      "citations": 242,
+      "citations": 243,
       "arxivId": "",
       "doi": "10.1109/ACC.2015.7172044",
       "url": "https://doi.org/10.1109/ACC.2015.7172044",
@@ -1130,6 +1130,26 @@
       "subjects": []
     },
     {
+      "paperId": "c075e8125dbdec69d674c05d31f65048a2a65227",
+      "title": "Safety-Critical Control With Control Barrier Function Based on Disturbance Observer",
+      "authors": [
+        "Jiankun Sun",
+        "Jun Yang",
+        "Zhigang Zeng"
+      ],
+      "year": 2024,
+      "date": "2024-07-01",
+      "citations": 77,
+      "arxivId": "",
+      "doi": "10.1109/TAC.2024.3352707",
+      "url": "https://doi.org/10.1109/TAC.2024.3352707",
+      "abstract": "In this article, we investigate the continuous and sampled-data safety-critical control problems with control barrier functions in the presence of time-varying disturbances. To this end, a nonlinear disturbance observer is first designed to estimate the disturbance, and the continuous safe control design of the nominal systems is formulated as a quadratic program. We then design a continuous composite controller by integrating the disturbance compensation term and the state feedback term computed via solving the quadratic program, such that the undesirable influence of time-varying disturbances on both control performance and safety property can be effectively attenuated. It shows that under the proposed continuous control method, the robust safety property of dynamical systems can be strictly guaranteed in the presence of time-varying disturbances. Moreover, the results on the continuous safe control are extended into the sampled-data case, where the control input keeps the same in the intersample time intervals. A practical example of adaptive cruise control is introduced, and the simulation results are presented to verify the superiorities of the proposed control method.",
+      "journal": "IEEE Transactions on Automatic Control",
+      "venue": "IEEE Transactions on Automatic Control",
+      "venueLabel": "TAC",
+      "subjects": []
+    },
+    {
       "paperId": "b51c01083f446a17f331b527d4c7e5be4a745478",
       "title": "A Control Barrier Function Approach for Maximizing Performance While Fulfilling to ISO/TS 15066 Regulations",
       "authors": [
@@ -1150,26 +1170,6 @@
       "journal": "IEEE Robotics and Automation Letters",
       "venue": "IEEE Robotics and Automation Letters",
       "venueLabel": "RA-L",
-      "subjects": []
-    },
-    {
-      "paperId": "c075e8125dbdec69d674c05d31f65048a2a65227",
-      "title": "Safety-Critical Control With Control Barrier Function Based on Disturbance Observer",
-      "authors": [
-        "Jiankun Sun",
-        "Jun Yang",
-        "Zhigang Zeng"
-      ],
-      "year": 2024,
-      "date": "2024-07-01",
-      "citations": 76,
-      "arxivId": "",
-      "doi": "10.1109/TAC.2024.3352707",
-      "url": "https://doi.org/10.1109/TAC.2024.3352707",
-      "abstract": "In this article, we investigate the continuous and sampled-data safety-critical control problems with control barrier functions in the presence of time-varying disturbances. To this end, a nonlinear disturbance observer is first designed to estimate the disturbance, and the continuous safe control design of the nominal systems is formulated as a quadratic program. We then design a continuous composite controller by integrating the disturbance compensation term and the state feedback term computed via solving the quadratic program, such that the undesirable influence of time-varying disturbances on both control performance and safety property can be effectively attenuated. It shows that under the proposed continuous control method, the robust safety property of dynamical systems can be strictly guaranteed in the presence of time-varying disturbances. Moreover, the results on the continuous safe control are extended into the sampled-data case, where the control input keeps the same in the intersample time intervals. A practical example of adaptive cruise control is introduced, and the simulation results are presented to verify the superiorities of the proposed control method.",
-      "journal": "IEEE Transactions on Automatic Control",
-      "venue": "IEEE Transactions on Automatic Control",
-      "venueLabel": "TAC",
       "subjects": []
     },
     {
@@ -1260,7 +1260,7 @@
       ],
       "year": 2022,
       "date": "2022-03-24",
-      "citations": 68,
+      "citations": 69,
       "arxivId": "2203.12855",
       "doi": "10.23919/ACC55779.2023.10156095",
       "url": "https://doi.org/10.23919/ACC55779.2023.10156095",
@@ -1298,7 +1298,7 @@
       ],
       "year": 2024,
       "date": "2024-01-03",
-      "citations": 63,
+      "citations": 64,
       "arxivId": "2401.01881",
       "doi": "10.1109/TAC.2025.3538742",
       "url": "https://doi.org/10.1109/TAC.2025.3538742",
@@ -2957,5 +2957,5 @@
       ]
     }
   ],
-  "updated": "2026-08-12T10:01:05.486953+00:00"
+  "updated": "2026-08-12T23:54:34.716736+00:00"
 }
