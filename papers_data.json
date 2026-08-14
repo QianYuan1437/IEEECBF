@@ -179,7 +179,7 @@
       ],
       "year": 2025,
       "date": null,
-      "citations": 9,
+      "citations": 10,
       "arxivId": "",
       "doi": "10.1109/TASE.2024.3514680",
       "url": "https://doi.org/10.1109/TASE.2024.3514680",
@@ -672,7 +672,7 @@
       ],
       "year": 2023,
       "date": "2023-03-01",
-      "citations": 119,
+      "citations": 120,
       "arxivId": "",
       "doi": "10.1109/JAS.2023.123075",
       "url": "https://doi.org/10.1109/JAS.2023.123075",
@@ -905,7 +905,7 @@
       ],
       "year": 2021,
       "date": "2021-04-30",
-      "citations": 76,
+      "citations": 78,
       "arxivId": "2104.14895",
       "doi": "10.1016/j.automatica.2023.111359",
       "url": "https://doi.org/10.1016/j.automatica.2023.111359",
@@ -2679,5 +2679,5 @@
       ]
     }
   ],
-  "updated": "2026-08-14T09:59:20.454281+00:00"
+  "updated": "2026-08-14T23:32:18.675855+00:00"
 }
