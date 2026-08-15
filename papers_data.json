@@ -395,6 +395,27 @@
       "subjects": []
     },
     {
+      "paperId": "b8d3fe3f0f3fc01d524192ea4d0ebf5516bd7cd8",
+      "title": "Null-Space Compliance Variation for Safe Human-Robot Collaboration in Redundant Manipulators using Safety Control Barrier Functions",
+      "authors": [
+        "Julian M. Salt Ducaju",
+        "Björn Olofsson",
+        "A. Robertsson",
+        "Rolf Johansson"
+      ],
+      "year": 2023,
+      "date": "2023-10-01",
+      "citations": 2,
+      "arxivId": "",
+      "doi": "10.1109/IROS55552.2023.10342181",
+      "url": "https://doi.org/10.1109/IROS55552.2023.10342181",
+      "abstract": "In this paper, Safety Control Barrier Functions (SCBFs) were used to adjust the null-space compliant behavior of a redundant robot to improve safety in Human-Robot Collaboration (HRC) without modifying the robot behavior with respect to its main Cartesian task. A Lyapunov function was included in an energy storage formulation compatible with strict passivity to provide global asymptotic stability guarantees for the null-space compliance variation, and the necessary conditions for stability were formulated as inequality constraints of the optimization problem used for the null-space compliance variation. Experimental validation was performed using a Franka Emika Panda robot for a collaborative assembly application and its results showed that safety can be improved by using SCBFs simultaneously to the optimization of the robot configuration, while employing a single degree of freedom.",
+      "journal": "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "venue": "IEEE/RJS International Conference on Intelligent RObots and Systems",
+      "venueLabel": "IROS",
+      "subjects": []
+    },
+    {
       "paperId": "cc21131cf1147ca5895138750a3f4fb104bf237f",
       "title": "Trust-Based and Individualizable Adaptive Cruise Control Using Control Barrier Function Approach With Prescribed Performance",
       "authors": [
@@ -411,6 +432,27 @@
       "journal": "IEEE Transactions on Intelligent Transportation Systems",
       "venue": "IEEE transactions on intelligent transportation systems (Print)",
       "venueLabel": "IEEE Trans",
+      "subjects": []
+    },
+    {
+      "paperId": "ba77f737938014efb8aa9ca6903c8fde0d5f4b6c",
+      "title": "Robot Cartesian Compliance Variation for Safe Kinesthetic Teaching using Safety Control Barrier Functions",
+      "authors": [
+        "Julian M. Salt Ducaju",
+        "Björn Olofsson",
+        "A. Robertsson",
+        "Rolf Johansson"
+      ],
+      "year": 2022,
+      "date": "2022-08-20",
+      "citations": 6,
+      "arxivId": "",
+      "doi": "10.1109/CASE49997.2022.9926525",
+      "url": "https://doi.org/10.1109/CASE49997.2022.9926525",
+      "abstract": "Kinesthetic teaching allows human operators to reprogram part of a robot’s trajectory by manually guiding the robot. To allow kinesthetic teaching, and also to avoid any harm to both the robot and its environment, Cartesian impedance control is here used for trajectory following. In this paper, we present an online method to modify the compliant behavior of a robot toward its environment, so that undesired parts of the robot’s workspace are avoided during kinesthetic teaching. The stability of the method is guaranteed by a well-known passivity-based energy-storage formulation that has been modified to include a strict Lyapunov function, i.e., its time derivative is a globally negative-definite function. Safety Control Barrier Functions (SCBFs) that consider the rigid-body dynamics of the robot are formulated as inequality constraints of a quadratic optimization (QP) problem to ensure forward invariance of the robot’s states in a safe set. An experimental evaluation using a Franka Emika Panda robot is provided.",
+      "journal": "2022 IEEE 18th International Conference on Automation Science and Engineering (CASE)",
+      "venue": "",
+      "venueLabel": "IEEE",
       "subjects": []
     }
   ],
@@ -2679,5 +2721,5 @@
       ]
     }
   ],
-  "updated": "2026-08-14T23:32:18.675855+00:00"
+  "updated": "2026-08-15T04:36:58.119736+00:00"
 }
