@@ -124,29 +124,6 @@
       "subjects": []
     },
     {
-      "paperId": "66b18bdb8675459004bbd35677368a24029ac61d",
-      "title": "Safety-Critical Control of Flexible Payload Manipulation Using High Order Control Barrier Functions*",
-      "authors": [
-        "Harun Tugal",
-        "Adam Slater",
-        "William Harwin",
-        "Samuel Herschmann",
-        "Kaiqiang Zhang",
-        "R. Skilton"
-      ],
-      "year": 2026,
-      "date": "2026-07-07",
-      "citations": 0,
-      "arxivId": "",
-      "doi": "",
-      "url": "https://www.semanticscholar.org/paper/66b18bdb8675459004bbd35677368a24029ac61d",
-      "abstract": "",
-      "journal": "2026 European Control Conference (ECC)",
-      "venue": "European Control Conference",
-      "venueLabel": "ECC",
-      "subjects": []
-    },
-    {
       "paperId": "f9b7cfc3d51ea24020766010352d509c2ad09e1b",
       "title": "Constrained Safe Cooperative Maneuvering of Autonomous Surface Vehicles: A Control Barrier Function Approach",
       "authors": [
@@ -191,6 +168,27 @@
       "subjects": []
     },
     {
+      "paperId": "cc71f7ab748265608f1b740311417feaff875601",
+      "title": "Conformal Prediction in the Loop: Risk-Aware Control Barrier Functions for Stochastic Systems With Data-Driven State Estimators",
+      "authors": [
+        "Junhui Zhang",
+        "Bardh Hoxha",
+        "Georgios Fainekos",
+        "Dimitra Panagou"
+      ],
+      "year": 2025,
+      "date": null,
+      "citations": 13,
+      "arxivId": "",
+      "doi": "10.1109/LCSYS.2025.3571828",
+      "url": "https://doi.org/10.1109/LCSYS.2025.3571828",
+      "abstract": "This letter proposes a sampled-data, measurement-robust, risk-aware control barrier function (RA-CBF) framework for stochastic systems with measurement uncertainty. In this framework, what is available for control design are measurements of the system states, which are subject to unknown noise. First, in order to estimate the system states from these measurements, an offline-trained neural network is employed as a state estimator. Next, to quantify the performance of the state estimator, the state space is discretized, and calibration datasets are sampled from the grid points. Conformal prediction is then implemented, providing the estimation error bound with user-defined probability. In addition, we leverage the estimation error bound into sampled-data robust RA-CBF design, such that the probability that the state of the system enters the unsafe set during a finite time horizon is bounded by a desired threshold. Various case studies demonstrate the effectiveness of the proposed method.",
+      "journal": "IEEE Control Systems Letters",
+      "venue": "IEEE Control Systems Letters",
+      "venueLabel": "L-CSS",
+      "subjects": []
+    },
+    {
       "paperId": "a4a2edd860ceeeb58aae7d6de1b2cf052731842a",
       "title": "Control Barrier Functions for Shared Control and Vehicle Safety",
       "authors": [
@@ -212,27 +210,6 @@
       "journal": "2025 American Control Conference (ACC)",
       "venue": "American Control Conference",
       "venueLabel": "ACC",
-      "subjects": []
-    },
-    {
-      "paperId": "cc71f7ab748265608f1b740311417feaff875601",
-      "title": "Conformal Prediction in the Loop: Risk-Aware Control Barrier Functions for Stochastic Systems With Data-Driven State Estimators",
-      "authors": [
-        "Junhui Zhang",
-        "Bardh Hoxha",
-        "Georgios Fainekos",
-        "Dimitra Panagou"
-      ],
-      "year": 2025,
-      "date": null,
-      "citations": 13,
-      "arxivId": "",
-      "doi": "10.1109/LCSYS.2025.3571828",
-      "url": "https://doi.org/10.1109/LCSYS.2025.3571828",
-      "abstract": "This letter proposes a sampled-data, measurement-robust, risk-aware control barrier function (RA-CBF) framework for stochastic systems with measurement uncertainty. In this framework, what is available for control design are measurements of the system states, which are subject to unknown noise. First, in order to estimate the system states from these measurements, an offline-trained neural network is employed as a state estimator. Next, to quantify the performance of the state estimator, the state space is discretized, and calibration datasets are sampled from the grid points. Conformal prediction is then implemented, providing the estimation error bound with user-defined probability. In addition, we leverage the estimation error bound into sampled-data robust RA-CBF design, such that the probability that the state of the system enters the unsafe set during a finite time horizon is bounded by a desired threshold. Various case studies demonstrate the effectiveness of the proposed method.",
-      "journal": "IEEE Control Systems Letters",
-      "venue": "IEEE Control Systems Letters",
-      "venueLabel": "L-CSS",
       "subjects": []
     },
     {
@@ -361,6 +338,27 @@
       "subjects": []
     },
     {
+      "paperId": "8e063eb1c699d438ddd0b98dda2f5ffc39b60246",
+      "title": "Probabilistic Control Barrier Functions: Safety in Probability for Discrete-Time Stochastic Systems",
+      "authors": [
+        "Pol Mestres",
+        "Blake Werner",
+        "Ryan K. Cosner",
+        "Aaron D. Ames"
+      ],
+      "year": 2025,
+      "date": "2025-10-01",
+      "citations": 7,
+      "arxivId": "2510.01501",
+      "doi": "10.48550/arXiv.2510.01501",
+      "url": "https://doi.org/10.48550/arXiv.2510.01501",
+      "abstract": "Control systems operating in the real world face countless sources of unpredictable uncertainties. These random disturbances can render deterministic guarantees inapplicable and cause catastrophic safety failures. To overcome this, this paper proposes a method for designing safe controllers for discrete-time stochastic systems that retain probabilistic guarantees of safety. To do this we modify the traditional notion of a control barrier function (CBF) to explicitly account for these stochastic uncertainties and call these new modified functions probabilistic CBFs. We show that probabilistic CBFs can be used to design controllers that guarantee safety over a finite number of time steps with a prescribed probability. Next, by leveraging various uncertainty quantification methods, such as concentration inequalities and the scenario approach, we provide a variety of sufficient conditions that result in computationally tractable controllers with tunable probabilistic guarantees across a plethora of practical scenarios. Finally, we showcase the applicability of our results in simulation and hardware for the control of a quadruped robot.",
+      "journal": "2026 American Control Conference (ACC)",
+      "venue": "American Control Conference",
+      "venueLabel": "ACC",
+      "subjects": []
+    },
+    {
       "paperId": "5c8ddd281fff1099230cb9265a4455cd22c638e9",
       "title": "A Safe, high-precision reinforcement learning-based optimal control of surgical continuum robots: A monotone tube boundary approach with prescribed-time control capability",
       "authors": [
@@ -380,27 +378,6 @@
       "journal": "Robotics Auton. Syst.",
       "venue": "",
       "venueLabel": "Robotics Auton. Syst.",
-      "subjects": []
-    },
-    {
-      "paperId": "8e063eb1c699d438ddd0b98dda2f5ffc39b60246",
-      "title": "Probabilistic Control Barrier Functions: Safety in Probability for Discrete-Time Stochastic Systems",
-      "authors": [
-        "Pol Mestres",
-        "Blake Werner",
-        "Ryan K. Cosner",
-        "Aaron D. Ames"
-      ],
-      "year": 2025,
-      "date": "2025-10-01",
-      "citations": 7,
-      "arxivId": "2510.01501",
-      "doi": "10.48550/arXiv.2510.01501",
-      "url": "https://doi.org/10.48550/arXiv.2510.01501",
-      "abstract": "Control systems operating in the real world face countless sources of unpredictable uncertainties. These random disturbances can render deterministic guarantees inapplicable and cause catastrophic safety failures. To overcome this, this paper proposes a method for designing safe controllers for discrete-time stochastic systems that retain probabilistic guarantees of safety. To do this we modify the traditional notion of a control barrier function (CBF) to explicitly account for these stochastic uncertainties and call these new modified functions probabilistic CBFs. We show that probabilistic CBFs can be used to design controllers that guarantee safety over a finite number of time steps with a prescribed probability. Next, by leveraging various uncertainty quantification methods, such as concentration inequalities and the scenario approach, we provide a variety of sufficient conditions that result in computationally tractable controllers with tunable probabilistic guarantees across a plethora of practical scenarios. Finally, we showcase the applicability of our results in simulation and hardware for the control of a quadruped robot.",
-      "journal": "2026 American Control Conference (ACC)",
-      "venue": "American Control Conference",
-      "venueLabel": "ACC",
       "subjects": []
     },
     {
@@ -524,6 +501,26 @@
       "subjects": []
     },
     {
+      "paperId": "24fe406680f93509d89622e2fb5ea3ceba385a96",
+      "title": "Safe Reinforcement Learning Tracking Control based on Tunable Input-to-State Safe Control Barrier Function",
+      "authors": [
+        "Soha Kanso",
+        "M. Jha",
+        "D. Theilliol"
+      ],
+      "year": 2025,
+      "date": "2025-07-08",
+      "citations": 3,
+      "arxivId": "",
+      "doi": "10.23919/ACC63710.2025.11108023",
+      "url": "https://doi.org/10.23919/ACC63710.2025.11108023",
+      "abstract": "This paper develops a novel off-policy safe Reinforcement Learning (RL) approach for optimal tracking of continuous-time nonlinear systems affine in control. The main contribution consists in the synthesis of an optimal tracker under safety guarantees enabling optimal tracking while satisfying state based safety constraints. To ensure safety during the exploration phase, even in the presence of model uncertainty, control inputs are dynamically adjusted. These adjustments, determined as solutions to a quadratic programming (QP) problem, incorporate tunable input-to-state safe control barrier function (TISSf-CBF) conditions. Additionally, the safety during exploitation (operational phase) of the learned policy is guaranteed by integrating a reciprocal control barrier function (RCBF) into the cost function, leading to an effective trade-off between safety and system performance. Novel mathematically rigorous proofs are developed to guarantee the safety, the stability and the convergence towards optimality. Finally, the effectiveness of the approach is assessed using a simulation example.",
+      "journal": "2025 American Control Conference (ACC)",
+      "venue": "American Control Conference",
+      "venueLabel": "ACC",
+      "subjects": []
+    },
+    {
       "paperId": "a967434a1ddc329d2e45a5e5fabb37133d578628",
       "title": "A Convex Model Predictive Control Barrier Function Approach for Differentially Flat Systems",
       "authors": [
@@ -562,26 +559,6 @@
       "journal": "IEEE Transactions on Control of Network Systems",
       "venue": "IEEE Transactions on Control of Network Systems",
       "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
-      "paperId": "24fe406680f93509d89622e2fb5ea3ceba385a96",
-      "title": "Safe Reinforcement Learning Tracking Control based on Tunable Input-to-State Safe Control Barrier Function",
-      "authors": [
-        "Soha Kanso",
-        "M. Jha",
-        "D. Theilliol"
-      ],
-      "year": 2025,
-      "date": "2025-07-08",
-      "citations": 3,
-      "arxivId": "",
-      "doi": "10.23919/ACC63710.2025.11108023",
-      "url": "https://doi.org/10.23919/ACC63710.2025.11108023",
-      "abstract": "This paper develops a novel off-policy safe Reinforcement Learning (RL) approach for optimal tracking of continuous-time nonlinear systems affine in control. The main contribution consists in the synthesis of an optimal tracker under safety guarantees enabling optimal tracking while satisfying state based safety constraints. To ensure safety during the exploration phase, even in the presence of model uncertainty, control inputs are dynamically adjusted. These adjustments, determined as solutions to a quadratic programming (QP) problem, incorporate tunable input-to-state safe control barrier function (TISSf-CBF) conditions. Additionally, the safety during exploitation (operational phase) of the learned policy is guaranteed by integrating a reciprocal control barrier function (RCBF) into the cost function, leading to an effective trade-off between safety and system performance. Novel mathematically rigorous proofs are developed to guarantee the safety, the stability and the convergence towards optimality. Finally, the effectiveness of the approach is assessed using a simulation example.",
-      "journal": "2025 American Control Conference (ACC)",
-      "venue": "American Control Conference",
-      "venueLabel": "ACC",
       "subjects": []
     },
     {
@@ -666,6 +643,27 @@
       "subjects": []
     },
     {
+      "paperId": "ef22284ffb14c47a7baf72bd227a13d4ea4818c0",
+      "title": "High-Order Control Barrier Function Based Tracking Control for USV With Unknown Time-Varying Disturbances and Input Saturation",
+      "authors": [
+        "Heng Zhang",
+        "Yujie Xu",
+        "Mingyu Fu",
+        "Zhipeng Fan"
+      ],
+      "year": 2025,
+      "date": "2025-05-16",
+      "citations": 1,
+      "arxivId": "",
+      "doi": "10.1109/CCDC65474.2025.11090950",
+      "url": "https://doi.org/10.1109/CCDC65474.2025.11090950",
+      "abstract": "This paper investigates the trajectory tracking control problem of an underactuated surface vessels (USVs) considering input saturation, marine environmental disturbances, and asymmetric output constraints. First, the underactuated problem is addressed through coordinate transformation. Adaptive laws are employed to estimate unknown time-varying disturbances, and a high-order control barrier function (HoCBF) is utilized to manage asymmetric output constraints. To mitigate the impact of input saturation on system stability, an auxiliary dynamic system is introduced. By integrating the control method of auxiliary dynamic systems with adaptive techniques and high-order control barrier functions, the vessel can effectively track the desired trajectory within the constraint range while remaining unaffected by the initial state. Finally, comparative simulation experiments under different initial conditions were conducted on the CyberShip II to validate the effectiveness of the proposed method.",
+      "journal": "2025 37th Chinese Control and Decision Conference (CCDC)",
+      "venue": "Chinese Control and Decision Conference",
+      "venueLabel": "Chinese Control and Decision Conference",
+      "subjects": []
+    },
+    {
       "paperId": "8ab46b7f85122e91b78fbe7f8064182f00681fae",
       "title": "Control barrier function-based fixed-time spacecraft attitude control under pointing constraints",
       "authors": [
@@ -685,6 +683,27 @@
       "journal": "International Journal of Control",
       "venue": "International Journal of Control",
       "venueLabel": "International Journal of Control",
+      "subjects": []
+    },
+    {
+      "paperId": "9dda3267a6fffe92dc4db395edc164c43d581b60",
+      "title": "Geometric Control Barrier Function: Extensions on the Lie Group SE(3)",
+      "authors": [
+        "Weijia Wang",
+        "Tao Meng",
+        "Kun Wang",
+        "Jiakun Lei"
+      ],
+      "year": 2025,
+      "date": "2025-05-16",
+      "citations": 1,
+      "arxivId": "",
+      "doi": "10.1109/CCDC65474.2025.11090631",
+      "url": "https://doi.org/10.1109/CCDC65474.2025.11090631",
+      "abstract": "This paper proposes a geometric control barrier function (Geometric CBF) for safety-critical systems evolving on $\\operatorname{SE}(3)$, addressing the fundamental incompatibility between classical Euclidean safety constraints and Lie group dynamics. Traditional CBFs fail to capture the geometric structure of $\\mathbb{S E}(3)$, where rotations and translations are inherently coupled. By rederiving CBF conditions through the Riemannian geometry of $\\mathbb{S E}(3)$, we construct forward invariant sets that respect the group's differential structure, enabling provably safe coordination. A decentralized geometric CBF based safety-filter architecture is developed, where each agent resolves local quadratic programming (QP) problems using only neighbor-relative configurations, minimizing control modifications while guaranteeing safety. Numerical validation demonstrates the framework's capability to coordinate heterogeneous super-ellipsoid rigid bodies with complex geometries through intricate spatial maneuvers, maintaining provable safety guarantees during aggressive trajectory tracking.",
+      "journal": "2025 37th Chinese Control and Decision Conference (CCDC)",
+      "venue": "Chinese Control and Decision Conference",
+      "venueLabel": "Chinese Control and Decision Conference",
       "subjects": []
     },
     {
@@ -710,65 +729,22 @@
       "subjects": []
     },
     {
-      "paperId": "ef22284ffb14c47a7baf72bd227a13d4ea4818c0",
-      "title": "High-Order Control Barrier Function Based Tracking Control for USV With Unknown Time-Varying Disturbances and Input Saturation",
+      "paperId": "a18398cebc90d5aed8351c4bad7989dc54e5b893",
+      "title": "A Computationally Efficient Control Barrier Function Approach to Safe Lithium-ion Battery Charging",
       "authors": [
-        "Heng Zhang",
-        "Yujie Xu",
-        "Mingyu Fu",
-        "Zhipeng Fan"
+        "M. Kossek",
+        "M. Trimboli"
       ],
       "year": 2025,
-      "date": "2025-05-16",
+      "date": "2025-07-08",
       "citations": 1,
       "arxivId": "",
-      "doi": "10.1109/CCDC65474.2025.11090950",
-      "url": "https://doi.org/10.1109/CCDC65474.2025.11090950",
-      "abstract": "This paper investigates the trajectory tracking control problem of an underactuated surface vessels (USVs) considering input saturation, marine environmental disturbances, and asymmetric output constraints. First, the underactuated problem is addressed through coordinate transformation. Adaptive laws are employed to estimate unknown time-varying disturbances, and a high-order control barrier function (HoCBF) is utilized to manage asymmetric output constraints. To mitigate the impact of input saturation on system stability, an auxiliary dynamic system is introduced. By integrating the control method of auxiliary dynamic systems with adaptive techniques and high-order control barrier functions, the vessel can effectively track the desired trajectory within the constraint range while remaining unaffected by the initial state. Finally, comparative simulation experiments under different initial conditions were conducted on the CyberShip II to validate the effectiveness of the proposed method.",
-      "journal": "2025 37th Chinese Control and Decision Conference (CCDC)",
-      "venue": "Chinese Control and Decision Conference",
-      "venueLabel": "Chinese Control and Decision Conference",
-      "subjects": []
-    },
-    {
-      "paperId": "9dda3267a6fffe92dc4db395edc164c43d581b60",
-      "title": "Geometric Control Barrier Function: Extensions on the Lie Group SE(3)",
-      "authors": [
-        "Weijia Wang",
-        "Tao Meng",
-        "Kun Wang",
-        "Jiakun Lei"
-      ],
-      "year": 2025,
-      "date": "2025-05-16",
-      "citations": 1,
-      "arxivId": "",
-      "doi": "10.1109/CCDC65474.2025.11090631",
-      "url": "https://doi.org/10.1109/CCDC65474.2025.11090631",
-      "abstract": "This paper proposes a geometric control barrier function (Geometric CBF) for safety-critical systems evolving on $\\operatorname{SE}(3)$, addressing the fundamental incompatibility between classical Euclidean safety constraints and Lie group dynamics. Traditional CBFs fail to capture the geometric structure of $\\mathbb{S E}(3)$, where rotations and translations are inherently coupled. By rederiving CBF conditions through the Riemannian geometry of $\\mathbb{S E}(3)$, we construct forward invariant sets that respect the group's differential structure, enabling provably safe coordination. A decentralized geometric CBF based safety-filter architecture is developed, where each agent resolves local quadratic programming (QP) problems using only neighbor-relative configurations, minimizing control modifications while guaranteeing safety. Numerical validation demonstrates the framework's capability to coordinate heterogeneous super-ellipsoid rigid bodies with complex geometries through intricate spatial maneuvers, maintaining provable safety guarantees during aggressive trajectory tracking.",
-      "journal": "2025 37th Chinese Control and Decision Conference (CCDC)",
-      "venue": "Chinese Control and Decision Conference",
-      "venueLabel": "Chinese Control and Decision Conference",
-      "subjects": []
-    },
-    {
-      "paperId": "447c65bdfadb1c2c501ad08f84cf63c112b88c2e",
-      "title": "Verification and Synthesis of Discrete-Time Control Barrier Functions",
-      "authors": [
-        "Erfan Shakhesi",
-        "W. Heemels",
-        "A. Katriniok"
-      ],
-      "year": 2025,
-      "date": "2025-09-23",
-      "citations": 1,
-      "arxivId": "2509.18685",
-      "doi": "10.1109/TAC.2025.3613665",
-      "url": "https://doi.org/10.1109/TAC.2025.3613665",
-      "abstract": "Discrete-time control barrier functions (DTCBFs) have recently attracted interest for guaranteeing safety and synthesizing safe controllers for discrete-time dynamical systems. This article addresses the open challenges of verifying candidate DTCBFs and synthesizing DTCBFs for general nonlinear discrete-time systems with input constraints and arbitrary safe sets. In particular, we propose a branch-and-bound method, inspired by the $\\alpha$BB algorithm, for the verification of candidate DTCBFs in both cases, whether a corresponding control policy is known or unknown. We prove that this method, in a finite number of iterations, either verifies a given candidate function as a valid DTCBF or falsifies it by providing a counterexample (within predefined tolerances). As a second main contribution, we propose a novel bilevel optimization approach to synthesize a DTCBF and a corresponding control policy in finite time. This involves determining the unknown coefficients of a parameterized DTCBF and a parameterized control policy. Furthermore, we introduce various strategies to reduce the computational burden of the bilevel approach. We also demonstrate our methods using numerical case studies.",
-      "journal": "IEEE Transactions on Automatic Control",
-      "venue": "IEEE Transactions on Automatic Control",
-      "venueLabel": "TAC",
+      "doi": "10.23919/ACC63710.2025.11107494",
+      "url": "https://doi.org/10.23919/ACC63710.2025.11107494",
+      "abstract": "Control barrier functions (CBFs) have gained attention as a method for ensuring the safety of dynamic systems by enforcing constraints on the time derivative of a value function. Ordinarily used for trajectory control of mechanical systems, this paper proposes a CBF-based approach for the fast and safe charging of a lithium-ion battery cell under temperature, charge current, and terminal voltage constraints. The CBF approach is compared to model predictive control (MPC), which has recently emerged as a promising control strategy for battery management due mainly to its capability for real-time constraint handling. Comparative simulation results illustrate key advantages and trade-offs between the two approaches and show that CBFs can serve as a viable alternative to MPC for safe fast-charge applications.",
+      "journal": "2025 American Control Conference (ACC)",
+      "venue": "American Control Conference",
+      "venueLabel": "ACC",
       "subjects": []
     },
     {
@@ -1036,6 +1012,26 @@
       "subjects": []
     },
     {
+      "paperId": "d77279214a0cfb8f75412efdcf88b87814e7a5ba",
+      "title": "Autonomous Vehicle Lane-Change Control Based on Model Predictive Control with Control Barrier Function",
+      "authors": [
+        "Xiaoya Chen",
+        "Xiangbin Liu",
+        "Min Zhang"
+      ],
+      "year": 2024,
+      "date": "2024-05-17",
+      "citations": 4,
+      "arxivId": "",
+      "doi": "10.1109/DDCLS61622.2024.10606562",
+      "url": "https://doi.org/10.1109/DDCLS61622.2024.10606562",
+      "abstract": "Vehicle lane change is one of the most common driving behaviors. It is of great significance to ensure that the autonomous vehicle can change lanes safely and accurately. Therefore, in this paper, a model predictive control (MPC) strategy combined with control barrier function (CBF) is proposed for autonomous vehicle lane change in driving scenario. MPC method is utilized to design the baseline controller to minimize the tracking errors and control input variations during the lane change for energy saving and passenger driving comfort. The CBF constraint on the states of autonomous vehicle is adopted in controller design to avoid collision with other vehicles. The MPC-CBF controller guaranteeing safety and tracking performance of vehicle lane change is obtained by solving a designed quadratic programming. A numerical simulation is carried out on a vehicle lane change scenario to verify the effectiveness of the proposed controller.",
+      "journal": "2024 IEEE 13th Data Driven Control and Learning Systems Conference (DDCLS)",
+      "venue": "",
+      "venueLabel": "IEEE",
+      "subjects": []
+    },
+    {
       "paperId": "50c12d43dab81e32cab3250dd7c39308bfc38c3a",
       "title": "A Learning-Based Control Barrier Function for Car-Like Robots: Toward Less Conservative Collision Avoidance",
       "authors": [
@@ -1055,23 +1051,23 @@
       "subjects": []
     },
     {
-      "paperId": "d77279214a0cfb8f75412efdcf88b87814e7a5ba",
-      "title": "Autonomous Vehicle Lane-Change Control Based on Model Predictive Control with Control Barrier Function",
+      "paperId": "3ab215ef9fd4f588faa4d1416978ab5913d88971",
+      "title": "A Control Barrier Function Candidate for Quadrotors with Limited Field of View",
       "authors": [
-        "Xiaoya Chen",
-        "Xiangbin Liu",
-        "Min Zhang"
+        "Biagio Trimarchi",
+        "Fabrizio Schiano",
+        "Roberto Tron"
       ],
       "year": 2024,
-      "date": "2024-05-17",
-      "citations": 4,
-      "arxivId": "",
-      "doi": "10.1109/DDCLS61622.2024.10606562",
-      "url": "https://doi.org/10.1109/DDCLS61622.2024.10606562",
-      "abstract": "Vehicle lane change is one of the most common driving behaviors. It is of great significance to ensure that the autonomous vehicle can change lanes safely and accurately. Therefore, in this paper, a model predictive control (MPC) strategy combined with control barrier function (CBF) is proposed for autonomous vehicle lane change in driving scenario. MPC method is utilized to design the baseline controller to minimize the tracking errors and control input variations during the lane change for energy saving and passenger driving comfort. The CBF constraint on the states of autonomous vehicle is adopted in controller design to avoid collision with other vehicles. The MPC-CBF controller guaranteeing safety and tracking performance of vehicle lane change is obtained by solving a designed quadratic programming. A numerical simulation is carried out on a vehicle lane change scenario to verify the effectiveness of the proposed controller.",
-      "journal": "2024 IEEE 13th Data Driven Control and Learning Systems Conference (DDCLS)",
-      "venue": "",
-      "venueLabel": "IEEE",
+      "date": "2024-10-02",
+      "citations": 3,
+      "arxivId": "2410.01277",
+      "doi": "10.23919/ACC63710.2025.11107490",
+      "url": "https://doi.org/10.23919/ACC63710.2025.11107490",
+      "abstract": "The problem of control based on vision measurements (bearings) has been amply studied in the literature; however, the problem of addressing the limits of the field of view of physical sensors has received relatively less attention (especially for agents with non-trivial dynamics). The technical challenge is that, as in most vision-based control approaches, a standard approach to the problem requires knowing the distance between cameras and observed features in the scene, which is not directly available. Instead, we present a solution based on a Control Barrier Function (CBF) approach that uses a splitting of the original differential constraint to effectively remove the dependence on the unknown measurement error. Compared to the current literature, our approach gives strong robustness guarantees against bounded distance estimation errors. We showcase the proposed solution with the numerical simulations of a double integrator and a quadrotor tracking a trajectory while keeping the corners of a rectangular gate in the camera field of view.",
+      "journal": "2025 American Control Conference (ACC)",
+      "venue": "American Control Conference",
+      "venueLabel": "ACC",
       "subjects": []
     },
     {
@@ -1116,26 +1112,6 @@
       "subjects": []
     },
     {
-      "paperId": "3ab215ef9fd4f588faa4d1416978ab5913d88971",
-      "title": "A Control Barrier Function Candidate for Quadrotors with Limited Field of View",
-      "authors": [
-        "Biagio Trimarchi",
-        "Fabrizio Schiano",
-        "Roberto Tron"
-      ],
-      "year": 2024,
-      "date": "2024-10-02",
-      "citations": 3,
-      "arxivId": "2410.01277",
-      "doi": "10.23919/ACC63710.2025.11107490",
-      "url": "https://doi.org/10.23919/ACC63710.2025.11107490",
-      "abstract": "The problem of control based on vision measurements (bearings) has been amply studied in the literature; however, the problem of addressing the limits of the field of view of physical sensors has received relatively less attention (especially for agents with non-trivial dynamics). The technical challenge is that, as in most vision-based control approaches, a standard approach to the problem requires knowing the distance between cameras and observed features in the scene, which is not directly available. Instead, we present a solution based on a Control Barrier Function (CBF) approach that uses a splitting of the original differential constraint to effectively remove the dependence on the unknown measurement error. Compared to the current literature, our approach gives strong robustness guarantees against bounded distance estimation errors. We showcase the proposed solution with the numerical simulations of a double integrator and a quadrotor tracking a trajectory while keeping the corners of a rectangular gate in the camera field of view.",
-      "journal": "2025 American Control Conference (ACC)",
-      "venue": "American Control Conference",
-      "venueLabel": "ACC",
-      "subjects": []
-    },
-    {
       "paperId": "3db6d25789578b7ec2c07ce5699ecf891dbf607c",
       "title": "Disturbance Observer-Parameterized Control Barrier Function With Adaptive Safety Bounds",
       "authors": [
@@ -1173,6 +1149,26 @@
       "journal": "2024 10th International Conference on Control, Decision and Information Technologies (CoDIT)",
       "venue": "International Conference on Control, Decision and Information Technologies",
       "venueLabel": "International Conference on Control, Decision and Information Technologies",
+      "subjects": []
+    },
+    {
+      "paperId": "c6aa56cc511e78b318912527c229e3eda3cb460c",
+      "title": "Pareto Control Barrier Function for Inner Safe Set Maximization Under Input Constraints",
+      "authors": [
+        "Xiaoyan Cao",
+        "Zhe Fu",
+        "Alexandre M. Bayen"
+      ],
+      "year": 2024,
+      "date": "2024-10-05",
+      "citations": 1,
+      "arxivId": "2410.04260",
+      "doi": "10.23919/ACC63710.2025.11107990",
+      "url": "https://doi.org/10.23919/ACC63710.2025.11107990",
+      "abstract": "Control Barrier Functions (CBFs) enforce safety in dynamical systems by ensuring trajectories stay within prescribed safe sets. However, traditional CBFs often overlook realistic input constraints, potentially limiting their practical effectiveness. To address this research gap, we introduce the Pareto Control Barrier Function (PCBF) algorithm, which employs a Pareto multi-task learning framework to simultaneously balance the competing objectives of maintaining safety and maximizing the volume of the safe set under input limitations. The PCBF algorithm is computationally efficient and scalable to high-dimensional systems. We demonstrate its effectiveness through comparisons with Hamilton-Jacobi reachability on an inverted pendulum and extensive simulations on a 12-dimensional quadrotor system, where PCBF consistently outperforms existing methods by yielding larger safe sets while ensuring robust safety under input constraints. Codes are available at https://github.com/XiaoyangCao1113/Pareto_CBF.",
+      "journal": "2025 American Control Conference (ACC)",
+      "venue": "American Control Conference",
+      "venueLabel": "ACC",
       "subjects": []
     },
     {
@@ -1236,26 +1232,6 @@
       "journal": "2024 International Conference on Networking, Sensing and Control (ICNSC)",
       "venue": "International Conference on Networking, Sensing and Control",
       "venueLabel": "International Conference on Networking, Sensing and Control",
-      "subjects": []
-    },
-    {
-      "paperId": "c6aa56cc511e78b318912527c229e3eda3cb460c",
-      "title": "Pareto Control Barrier Function for Inner Safe Set Maximization Under Input Constraints",
-      "authors": [
-        "Xiaoyan Cao",
-        "Zhe Fu",
-        "Alexandre M. Bayen"
-      ],
-      "year": 2024,
-      "date": "2024-10-05",
-      "citations": 1,
-      "arxivId": "2410.04260",
-      "doi": "10.23919/ACC63710.2025.11107990",
-      "url": "https://doi.org/10.23919/ACC63710.2025.11107990",
-      "abstract": "Control Barrier Functions (CBFs) enforce safety in dynamical systems by ensuring trajectories stay within prescribed safe sets. However, traditional CBFs often overlook realistic input constraints, potentially limiting their practical effectiveness. To address this research gap, we introduce the Pareto Control Barrier Function (PCBF) algorithm, which employs a Pareto multi-task learning framework to simultaneously balance the competing objectives of maintaining safety and maximizing the volume of the safe set under input limitations. The PCBF algorithm is computationally efficient and scalable to high-dimensional systems. We demonstrate its effectiveness through comparisons with Hamilton-Jacobi reachability on an inverted pendulum and extensive simulations on a 12-dimensional quadrotor system, where PCBF consistently outperforms existing methods by yielding larger safe sets while ensuring robust safety under input constraints. Codes are available at https://github.com/XiaoyangCao1113/Pareto_CBF.",
-      "journal": "2025 American Control Conference (ACC)",
-      "venue": "American Control Conference",
-      "venueLabel": "ACC",
       "subjects": []
     },
     {
@@ -4806,5 +4782,5 @@
       ]
     }
   ],
-  "updated": "2026-08-22T04:39:15.145265+00:00"
+  "updated": "2026-08-22T09:26:04.553994+00:00"
 }
