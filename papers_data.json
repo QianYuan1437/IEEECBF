@@ -271,29 +271,6 @@
       "subjects": []
     },
     {
-      "paperId": "66b18bdb8675459004bbd35677368a24029ac61d",
-      "title": "Safety-Critical Control of Flexible Payload Manipulation Using High Order Control Barrier Functions*",
-      "authors": [
-        "Harun Tugal",
-        "Adam Slater",
-        "William Harwin",
-        "Samuel Herschmann",
-        "Kaiqiang Zhang",
-        "R. Skilton"
-      ],
-      "year": 2026,
-      "date": "2026-07-07",
-      "citations": 0,
-      "arxivId": "",
-      "doi": "",
-      "url": "https://www.semanticscholar.org/paper/66b18bdb8675459004bbd35677368a24029ac61d",
-      "abstract": "",
-      "journal": "2026 European Control Conference (ECC)",
-      "venue": "European Control Conference",
-      "venueLabel": "ECC",
-      "subjects": []
-    },
-    {
       "paperId": "f9b7cfc3d51ea24020766010352d509c2ad09e1b",
       "title": "Constrained Safe Cooperative Maneuvering of Autonomous Surface Vehicles: A Control Barrier Function Approach",
       "authors": [
@@ -401,6 +378,27 @@
       "subjects": []
     },
     {
+      "paperId": "8e063eb1c699d438ddd0b98dda2f5ffc39b60246",
+      "title": "Probabilistic Control Barrier Functions: Safety in Probability for Discrete-Time Stochastic Systems",
+      "authors": [
+        "Pol Mestres",
+        "Blake Werner",
+        "Ryan K. Cosner",
+        "Aaron D. Ames"
+      ],
+      "year": 2025,
+      "date": "2025-10-01",
+      "citations": 7,
+      "arxivId": "2510.01501",
+      "doi": "10.48550/arXiv.2510.01501",
+      "url": "https://doi.org/10.48550/arXiv.2510.01501",
+      "abstract": "Control systems operating in the real world face countless sources of unpredictable uncertainties. These random disturbances can render deterministic guarantees inapplicable and cause catastrophic safety failures. To overcome this, this paper proposes a method for designing safe controllers for discrete-time stochastic systems that retain probabilistic guarantees of safety. To do this we modify the traditional notion of a control barrier function (CBF) to explicitly account for these stochastic uncertainties and call these new modified functions probabilistic CBFs. We show that probabilistic CBFs can be used to design controllers that guarantee safety over a finite number of time steps with a prescribed probability. Next, by leveraging various uncertainty quantification methods, such as concentration inequalities and the scenario approach, we provide a variety of sufficient conditions that result in computationally tractable controllers with tunable probabilistic guarantees across a plethora of practical scenarios. Finally, we showcase the applicability of our results in simulation and hardware for the control of a quadruped robot.",
+      "journal": "2026 American Control Conference (ACC)",
+      "venue": "American Control Conference",
+      "venueLabel": "ACC",
+      "subjects": []
+    },
+    {
       "paperId": "5c8ddd281fff1099230cb9265a4455cd22c638e9",
       "title": "A Safe, high-precision reinforcement learning-based optimal control of surgical continuum robots: A monotone tube boundary approach with prescribed-time control capability",
       "authors": [
@@ -420,27 +418,6 @@
       "journal": "Robotics Auton. Syst.",
       "venue": "",
       "venueLabel": "Robotics Auton. Syst.",
-      "subjects": []
-    },
-    {
-      "paperId": "8e063eb1c699d438ddd0b98dda2f5ffc39b60246",
-      "title": "Probabilistic Control Barrier Functions: Safety in Probability for Discrete-Time Stochastic Systems",
-      "authors": [
-        "Pol Mestres",
-        "Blake Werner",
-        "Ryan K. Cosner",
-        "Aaron D. Ames"
-      ],
-      "year": 2025,
-      "date": "2025-10-01",
-      "citations": 7,
-      "arxivId": "2510.01501",
-      "doi": "10.48550/arXiv.2510.01501",
-      "url": "https://doi.org/10.48550/arXiv.2510.01501",
-      "abstract": "Control systems operating in the real world face countless sources of unpredictable uncertainties. These random disturbances can render deterministic guarantees inapplicable and cause catastrophic safety failures. To overcome this, this paper proposes a method for designing safe controllers for discrete-time stochastic systems that retain probabilistic guarantees of safety. To do this we modify the traditional notion of a control barrier function (CBF) to explicitly account for these stochastic uncertainties and call these new modified functions probabilistic CBFs. We show that probabilistic CBFs can be used to design controllers that guarantee safety over a finite number of time steps with a prescribed probability. Next, by leveraging various uncertainty quantification methods, such as concentration inequalities and the scenario approach, we provide a variety of sufficient conditions that result in computationally tractable controllers with tunable probabilistic guarantees across a plethora of practical scenarios. Finally, we showcase the applicability of our results in simulation and hardware for the control of a quadruped robot.",
-      "journal": "2026 American Control Conference (ACC)",
-      "venue": "American Control Conference",
-      "venueLabel": "ACC",
       "subjects": []
     },
     {
@@ -3523,5 +3500,5 @@
       ]
     }
   ],
-  "updated": "2026-08-23T09:27:05.992876+00:00"
+  "updated": "2026-08-23T23:31:27.493408+00:00"
 }
