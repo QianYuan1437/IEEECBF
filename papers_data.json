@@ -146,23 +146,24 @@
       "subjects": []
     },
     {
-      "paperId": "02301ae688ec44bc25cd5660fc9b0736198f1be6",
-      "title": "Thrust-constrained, Soft-Landing of Spacecraft in Hazardous Terrains using a combined Sliding Mode-Control Barrier Function based Guidance Strategy",
+      "paperId": "4ec242123526e060e8f0a1e33a71c0032c4692f1",
+      "title": "Distributed Execution of Signal Temporal Logic Tasks in Open Networked Robotic System via Predefined-Time Control",
       "authors": [
-        "Vignesh Cg",
-        "Sachit Rao",
-        "Debasish Ghose"
+        "Wen-Tao Zhang",
+        "Ming Chi",
+        "Zhiwei Liu",
+        "Jing-Zhe Xu"
       ],
       "year": 2026,
-      "date": "2026-07-01",
+      "date": null,
       "citations": 0,
       "arxivId": "",
-      "doi": "10.1109/VSS69650.2026.11655700",
-      "url": "https://doi.org/10.1109/VSS69650.2026.11655700",
-      "abstract": "Soft landing in the presence of hazardous terrain remains a critical and challenging problem in a spacecraft landing mission. The problem is more daunting when environmental uncertainties/disturbances are considered. Further, the presence of terrain features such as boulders, craters, and uneven topography in the vicinity of the designated landing location pose challenges. This paper explores a sliding-mode-based landing guidance for robustness against matched bounded uncertainties, encountered during terminal descent. To provide safety guarantees in a hazardous terrain, a Control Barrier Function (CBF) based safety filter that minimally modifies the nominal Sliding Mode (SM) based guidance law is developed while honoring the thrust constraints. A time-varying altitude barrier function is used as an upper bound for the vertical motion, thereby ensuring that the landing mission is completed within a predefined time. Simulation results demonstrate robustness and safety of the proposed guidance framework.",
-      "journal": "2026 IEEE 18th International Workshop on Variable Structure Systems (VSS)",
-      "venue": "International Workshop on Variable Structure Systems",
-      "venueLabel": "IEEE",
+      "doi": "10.1109/TASE.2026.3658586",
+      "url": "https://doi.org/10.1109/TASE.2026.3658586",
+      "abstract": "This paper addresses the distributed execution of signal temporal logic (STL) tasks in second-order open networked robotic systems (ONRSs), where robots can dynamically join or leave during task execution. A novel control framework is developed that integrates a predefined-time state estimator, a distributed control barrier function-based optimization strategy, and a task decomposition and reconstruction mechanism. This approach enables each robot to accomplish temporally and logically constrained tasks using only local information from its neighbors, without relying on global communication. Theoretical analysis rigorously establishes predefined-time convergence of the estimator and optimality of the distributed control strategy, even under dynamic team compositions. Simulation and experimental results validate the proposed method’s effectiveness and robustness in executing complex temporal tasks in realistic multi-robot scenarios. Note to Practitioners—This study presents a distributed framework enabling multi-robot systems to reliably execute complex STL tasks despite communication constraints and dynamic team changes. The approach is particularly beneficial for real-world applications like logistics sorting, power grid inspection, and disaster response. Practitioners can directly deploy the developed predefined-time state estimator and distributed control barrier function (CBF)-based optimization algorithm on individual robots, eliminating centralized computations. This ensures real-time, scalable coordination, robust task execution under fluctuating team structures, and maintains task compliance during sudden robot arrivals or departures.",
+      "journal": "IEEE Transactions on Automation Science and Engineering",
+      "venue": "IEEE Transactions on Automation Science and Engineering",
+      "venueLabel": "IEEE Trans",
       "subjects": []
     },
     {
@@ -188,24 +189,23 @@
       "subjects": []
     },
     {
-      "paperId": "40c34cb0ccbef7dcb037459e9aac408908139bce",
-      "title": "Attitude-Position Obstacle Avoidance and Predefined-Time Safe Control for Fully Actuated Modeled eVTOL With Time-Varying Centroid",
+      "paperId": "02301ae688ec44bc25cd5660fc9b0736198f1be6",
+      "title": "Thrust-constrained, Soft-Landing of Spacecraft in Hazardous Terrains using a combined Sliding Mode-Control Barrier Function based Guidance Strategy",
       "authors": [
-        "Feisheng Yang",
-        "Xiao Feng",
-        "Zhucheng Liu",
-        "Zhun-ga Liu"
+        "Vignesh Cg",
+        "Sachit Rao",
+        "Debasish Ghose"
       ],
       "year": 2026,
-      "date": "2026-08-01",
+      "date": "2026-07-01",
       "citations": 0,
       "arxivId": "",
-      "doi": "10.1109/TTE.2026.3682473",
-      "url": "https://doi.org/10.1109/TTE.2026.3682473",
-      "abstract": "This article proposes a tracking control strategy based on the fully actuated system (FAS) approach to address the obstacle avoidance problem in logistics transportation scenarios. For the electric vertical take-off and landing (eVTOL) with a time-varying centroid modeled by quaternions, the predefined-time observer and nominal controller are designed to ensure the convergence of both the observation errors and tracking errors of the attitude-position system. Using the implicit Lyapunov function (ILF) and homogeneity theory, the gain matrices of the observer and nominal controller are derived. To achieve attitude-position obstacle avoidance, the concept of an attitude mandatory zone is introduced for the first time, along with the design of an obstacle avoidance safe set. Under the framework of the control barrier function (CBF), the safe control problem is transformed into a quadratic program. Finally, numerical simulations verify the effectiveness of the proposed algorithm.",
-      "journal": "IEEE Transactions on Transportation Electrification",
-      "venue": "IEEE Transactions on Transportation Electrification",
-      "venueLabel": "IEEE Trans",
+      "doi": "10.1109/VSS69650.2026.11655700",
+      "url": "https://doi.org/10.1109/VSS69650.2026.11655700",
+      "abstract": "Soft landing in the presence of hazardous terrain remains a critical and challenging problem in a spacecraft landing mission. The problem is more daunting when environmental uncertainties/disturbances are considered. Further, the presence of terrain features such as boulders, craters, and uneven topography in the vicinity of the designated landing location pose challenges. This paper explores a sliding-mode-based landing guidance for robustness against matched bounded uncertainties, encountered during terminal descent. To provide safety guarantees in a hazardous terrain, a Control Barrier Function (CBF) based safety filter that minimally modifies the nominal Sliding Mode (SM) based guidance law is developed while honoring the thrust constraints. A time-varying altitude barrier function is used as an upper bound for the vertical motion, thereby ensuring that the landing mission is completed within a predefined time. Simulation results demonstrate robustness and safety of the proposed guidance framework.",
+      "journal": "2026 IEEE 18th International Workshop on Variable Structure Systems (VSS)",
+      "venue": "International Workshop on Variable Structure Systems",
+      "venueLabel": "IEEE",
       "subjects": []
     },
     {
@@ -230,23 +230,23 @@
       "subjects": []
     },
     {
-      "paperId": "4ec242123526e060e8f0a1e33a71c0032c4692f1",
-      "title": "Distributed Execution of Signal Temporal Logic Tasks in Open Networked Robotic System via Predefined-Time Control",
+      "paperId": "40c34cb0ccbef7dcb037459e9aac408908139bce",
+      "title": "Attitude-Position Obstacle Avoidance and Predefined-Time Safe Control for Fully Actuated Modeled eVTOL With Time-Varying Centroid",
       "authors": [
-        "Wen-Tao Zhang",
-        "Ming Chi",
-        "Zhiwei Liu",
-        "Jing-Zhe Xu"
+        "Feisheng Yang",
+        "Xiao Feng",
+        "Zhucheng Liu",
+        "Zhun-ga Liu"
       ],
       "year": 2026,
-      "date": null,
+      "date": "2026-08-01",
       "citations": 0,
       "arxivId": "",
-      "doi": "10.1109/TASE.2026.3658586",
-      "url": "https://doi.org/10.1109/TASE.2026.3658586",
-      "abstract": "This paper addresses the distributed execution of signal temporal logic (STL) tasks in second-order open networked robotic systems (ONRSs), where robots can dynamically join or leave during task execution. A novel control framework is developed that integrates a predefined-time state estimator, a distributed control barrier function-based optimization strategy, and a task decomposition and reconstruction mechanism. This approach enables each robot to accomplish temporally and logically constrained tasks using only local information from its neighbors, without relying on global communication. Theoretical analysis rigorously establishes predefined-time convergence of the estimator and optimality of the distributed control strategy, even under dynamic team compositions. Simulation and experimental results validate the proposed method’s effectiveness and robustness in executing complex temporal tasks in realistic multi-robot scenarios. Note to Practitioners—This study presents a distributed framework enabling multi-robot systems to reliably execute complex STL tasks despite communication constraints and dynamic team changes. The approach is particularly beneficial for real-world applications like logistics sorting, power grid inspection, and disaster response. Practitioners can directly deploy the developed predefined-time state estimator and distributed control barrier function (CBF)-based optimization algorithm on individual robots, eliminating centralized computations. This ensures real-time, scalable coordination, robust task execution under fluctuating team structures, and maintains task compliance during sudden robot arrivals or departures.",
-      "journal": "IEEE Transactions on Automation Science and Engineering",
-      "venue": "IEEE Transactions on Automation Science and Engineering",
+      "doi": "10.1109/TTE.2026.3682473",
+      "url": "https://doi.org/10.1109/TTE.2026.3682473",
+      "abstract": "This article proposes a tracking control strategy based on the fully actuated system (FAS) approach to address the obstacle avoidance problem in logistics transportation scenarios. For the electric vertical take-off and landing (eVTOL) with a time-varying centroid modeled by quaternions, the predefined-time observer and nominal controller are designed to ensure the convergence of both the observation errors and tracking errors of the attitude-position system. Using the implicit Lyapunov function (ILF) and homogeneity theory, the gain matrices of the observer and nominal controller are derived. To achieve attitude-position obstacle avoidance, the concept of an attitude mandatory zone is introduced for the first time, along with the design of an obstacle avoidance safe set. Under the framework of the control barrier function (CBF), the safe control problem is transformed into a quadratic program. Finally, numerical simulations verify the effectiveness of the proposed algorithm.",
+      "journal": "IEEE Transactions on Transportation Electrification",
+      "venue": "IEEE Transactions on Transportation Electrification",
       "venueLabel": "IEEE Trans",
       "subjects": []
     },
@@ -742,7 +742,7 @@
       ],
       "year": 2016,
       "date": "2016-09-21",
-      "citations": 2797,
+      "citations": 2801,
       "arxivId": "1609.06408",
       "doi": "10.1109/TAC.2016.2638961",
       "url": "https://doi.org/10.1109/TAC.2016.2638961",
@@ -3523,5 +3523,5 @@
       ]
     }
   ],
-  "updated": "2026-08-22T23:31:13.012231+00:00"
+  "updated": "2026-08-23T04:41:56.950955+00:00"
 }
