@@ -758,7 +758,7 @@
       ],
       "year": 2021,
       "date": "2021-08-18",
-      "citations": 557,
+      "citations": 559,
       "arxivId": "",
       "doi": "10.1109/tac.2021.3105491",
       "url": "https://doi.org/10.1109/tac.2021.3105491",
@@ -786,25 +786,6 @@
       "journal": "2021 American Control Conference (ACC)",
       "venue": "American Control Conference",
       "venueLabel": "ACC",
-      "subjects": []
-    },
-    {
-      "paperId": "05dd18ae103bc20c012bb034ff0ead9be30f0e58",
-      "title": "Input-to-State Safety With Control Barrier Functions",
-      "authors": [
-        "Shishir N Y Kolathaya",
-        "A. Ames"
-      ],
-      "year": 2018,
-      "date": "2018-03-08",
-      "citations": 347,
-      "arxivId": "1803.03035",
-      "doi": "10.1109/LCSYS.2018.2853698",
-      "url": "https://doi.org/10.1109/LCSYS.2018.2853698",
-      "abstract": "This letter presents a new notion of input-to-state safe control barrier functions (ISSf-CBFs), which ensure safety of nonlinear dynamical systems under input disturbances. Similar to how safety conditions are specified in terms of forward invariance of a set, input-to-state safety conditions are specified in terms of forward invariance of a slightly larger set. In this context, invariance of the larger set implies that the states stay either inside or very close to the smaller safe set; and this closeness is bounded by the magnitude of the disturbances. The main contribution of the letter is the methodology used for obtaining a valid ISSf-CBF, given a control barrier function. The associated universal control law will also be provided. Towards the end, we will study unified quadratic programs that combine control Lyapunov functions and ISSf-CBFs in order to obtain a single control law that ensures both safety and stability in systems with input disturbances.",
-      "journal": "IEEE Control Systems Letters",
-      "venue": "IEEE Control Systems Letters",
-      "venueLabel": "L-CSS",
       "subjects": []
     },
     {
@@ -844,27 +825,6 @@
       "journal": "2015 American Control Conference (ACC)",
       "venue": "American Control Conference",
       "venueLabel": "ACC",
-      "subjects": []
-    },
-    {
-      "paperId": "fa55d07755bf69dab45b8a197b8c7c28e08a5931",
-      "title": "Reinforcement Learning for Safety-Critical Control under Model Uncertainty, using Control Lyapunov Functions and Control Barrier Functions",
-      "authors": [
-        "Jason J. Choi",
-        "F. Castañeda",
-        "C. Tomlin",
-        "K. Sreenath"
-      ],
-      "year": 2020,
-      "date": "2020-04-16",
-      "citations": 238,
-      "arxivId": "2004.07584",
-      "doi": "10.15607/rss.2020.xvi.088",
-      "url": "https://doi.org/10.15607/rss.2020.xvi.088",
-      "abstract": "In this paper, the issue of model uncertainty in safety-critical control is addressed with a data-driven approach. For this purpose, we utilize the structure of an input-ouput linearization controller based on a nominal model along with a Control Barrier Function and Control Lyapunov Function based Quadratic Program (CBF-CLF-QP). Specifically, we propose a novel reinforcement learning framework which learns the model uncertainty present in the CBF and CLF constraints, as well as other control-affine dynamic constraints in the quadratic program. The trained policy is combined with the nominal model-based CBF-CLF-QP, resulting in the Reinforcement Learning-based CBF-CLF-QP (RL-CBF-CLF-QP), which addresses the problem of model uncertainty in the safety constraints. The performance of the proposed method is validated by testing it on an underactuated nonlinear bipedal robot walking on randomly spaced stepping stones with one step preview, obtaining stable and safe walking under model uncertainty.",
-      "journal": "ArXiv",
-      "venue": "Robotics: Science and Systems Conference",
-      "venueLabel": "RSS",
       "subjects": []
     },
     {
@@ -910,27 +870,6 @@
       "subjects": []
     },
     {
-      "paperId": "c5391e8e4c59e8a74821c1f9434543abf530a4c0",
-      "title": "Synthesis of Control Barrier Functions Using a Supervised Machine Learning Approach",
-      "authors": [
-        "M. Srinivasan",
-        "A. Dabholkar",
-        "Samuel D. Coogan",
-        "P. Vela"
-      ],
-      "year": 2020,
-      "date": "2020-03-10",
-      "citations": 161,
-      "arxivId": "2003.04950",
-      "doi": "10.1109/IROS45743.2020.9341190",
-      "url": "https://doi.org/10.1109/IROS45743.2020.9341190",
-      "abstract": "Control barrier functions are mathematical constructs used to guarantee safety for robotic systems. When integrated as constraints in a quadratic programming optimization problem, instantaneous control synthesis with real-time performance demands can be achieved for robotics applications. Prevailing use has assumed full knowledge of the safety barrier functions, however there are cases where the safe regions must be estimated online from sensor measurements. In these cases, the corresponding barrier function must be synthesized online. This paper describes a learning framework for estimating control barrier functions from sensor data. Doing so affords system operation in unknown state space regions without compromising safety. Here, a support vector machine classifier provides the barrier function specification as determined by sets of safe and unsafe states obtained from sensor measurements. Theoretical safety guarantees are provided. Experimental ROS-based simulation results for an omnidirectional robot equipped with LiDAR demonstrate safe operation.",
-      "journal": "2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
-      "venue": "IEEE/RJS International Conference on Intelligent RObots and Systems",
-      "venueLabel": "IROS",
-      "subjects": []
-    },
-    {
       "paperId": "c75841c3223bac648fbf347072e38aa3373278b8",
       "title": "Dynamic Control Barrier Function-based Model Predictive Control to Safety-Critical Obstacle-Avoidance of Mobile Robot",
       "authors": [
@@ -964,7 +903,7 @@
       ],
       "year": 2019,
       "date": "2019-09-10",
-      "citations": 149,
+      "citations": 150,
       "arxivId": "1909.05109",
       "doi": "10.1016/j.automatica.2020.109439",
       "url": "https://doi.org/10.1016/j.automatica.2020.109439",
@@ -995,69 +934,6 @@
       "subjects": []
     },
     {
-      "paperId": "69a9d7223891cede85152b8ac6c4c3e29292dcae",
-      "title": "Enhancing Feasibility and Safety of Nonlinear Model Predictive Control with Discrete-Time Control Barrier Functions",
-      "authors": [
-        "Jun Zeng",
-        "Zhongyu Li",
-        "K. Sreenath"
-      ],
-      "year": 2021,
-      "date": "2021-05-21",
-      "citations": 134,
-      "arxivId": "2105.10596",
-      "doi": "10.1109/CDC45484.2021.9683174",
-      "url": "https://doi.org/10.1109/CDC45484.2021.9683174",
-      "abstract": "Safety is one of the fundamental problems in robotics. Recently, one-step or multi-step optimal control problems for discrete-time nonlinear dynamical system were formulated to offer tracking stability using control Lyapunov functions (CLFs) while subject to input constraints as well as safety-critical constraints using control barrier functions (CBFs). The limitations of these existing approaches are mainly about feasibility and safety. In the existing approaches, the feasibility of the optimization and the system safety cannot be enhanced at the same time theoretically. In this paper, we propose two formulations that unifies CLFs and CBFs under the framework of nonlinear model predictive control (NMPC). In the proposed formulations, safety criteria is commonly formulated as CBF constraints and stability performance is ensured with either a terminal cost function or CLF constraints. Slack variables with relaxing technique are introduced on the CBF constraints to resolve the tradeoff between feasibility and safety so that they can be enhanced at the same. The advantages about feasibility and safety of proposed formulations compared with existing methods are analyzed theoretically and validated with numerical results.",
-      "journal": "2021 60th IEEE Conference on Decision and Control (CDC)",
-      "venue": "IEEE Conference on Decision and Control",
-      "venueLabel": "CDC",
-      "subjects": []
-    },
-    {
-      "paperId": "bc964cc1fd50f08902c93eb04574c735c900c943",
-      "title": "Control Barrier Functions for Unknown Nonlinear Systems using Gaussian Processes*",
-      "authors": [
-        "Pushpak Jagtap",
-        "George Pappas",
-        "Majid Zamani"
-      ],
-      "year": 2020,
-      "date": "2020-10-12",
-      "citations": 128,
-      "arxivId": "2010.05818",
-      "doi": "10.1109/CDC42340.2020.9303847",
-      "url": "https://doi.org/10.1109/CDC42340.2020.9303847",
-      "abstract": "This paper focuses on the controller synthesis for unknown, nonlinear systems while ensuring safety constraints. Our approach consists of two steps, a learning step that uses Gaussian processes and a controller synthesis step that is based on control barrier functions. In the learning step, we use a data-driven approach utilizing Gaussian processes to learn the unknown control affine nonlinear dynamics together with a statistical bound on the accuracy of the learned model. In the second controller synthesis steps, we develop a systematic approach to compute control barrier functions that explicitly take into consideration the uncertainty of the learned model. The control barrier function not only results in a safe controller by construction but also provides a rigorous lower bound on the probability of satisfaction of the safety specification. Finally, we illustrate the effectiveness of the proposed results by synthesizing a safety controller for a jet engine example.",
-      "journal": "2020 59th IEEE Conference on Decision and Control (CDC)",
-      "venue": "IEEE Conference on Decision and Control",
-      "venueLabel": "CDC",
-      "subjects": []
-    },
-    {
-      "paperId": "39cf1d9099c245f70c9729b827406454630af736",
-      "title": "Barrier-Critic Adaptive Robust Control of Nonzero-Sum Differential Games for Uncertain Nonlinear Systems With State Constraints",
-      "authors": [
-        "C. Qin",
-        "Xiaopeng Qiao",
-        "Jinguang Wang",
-        "Dehua Zhang",
-        "Yandong Hou",
-        "Shaolin Hu"
-      ],
-      "year": 2024,
-      "date": "2024-01-01",
-      "citations": 124,
-      "arxivId": "",
-      "doi": "10.1109/TSMC.2023.3302656",
-      "url": "https://doi.org/10.1109/TSMC.2023.3302656",
-      "abstract": "In this article, for the nonzero-sum (NZS) differential games problem of uncertain nonlinear systems with state constraints, an adaptive robust stabilization scheme based on the control barrier function (CBF) is presented under the influence of random disturbances and control input matrix uncertainty. To deal with the impact of uncertainty on the system, the nominal system of the original system is adopted and the cost functions associated with each player are appropriately chosen to convert the robust regulation problem of multiplayer differential games into an optimal regulation problem. Furthermore, the purpose of combining the cost function relevant to each player with the CBF is to make the system states evolve in the safe area. Different from the classical actor–critic dual neural network (NN), each player only needs a critic NN to approach the corresponding cost function without the restriction of the initial stabilizing control. Combined with the Lyapunov stability theory, under the combined influence of random disturbances and state constraints, the state and critic NN weights of the closed-loop system are guaranteed to be uniformly ultimately bounded (UUB). Finally, two simulation examples are used to verify the validity of the presented scheme.",
-      "journal": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
-      "venue": "IEEE Transactions on Systems, Man & Cybernetics. Systems",
-      "venueLabel": "TSMC",
-      "subjects": []
-    },
-    {
       "paperId": "a69cf41bd407a85c652bfc15b69c4e48f67f0de5",
       "title": "A Survey on the Control Lyapunov Function and Control Barrier Function for Nonlinear-Affine Control Systems",
       "authors": [
@@ -1080,70 +956,6 @@
       "subjects": []
     },
     {
-      "paperId": "1c789f1082a8c52fef52575c3057bd8ea0663e30",
-      "title": "Guaranteeing Safety of Learned Perception Modules via Measurement-Robust Control Barrier Functions",
-      "authors": [
-        "Sarah Dean",
-        "Andrew J. Taylor",
-        "Ryan K. Cosner",
-        "B. Recht",
-        "A. Ames"
-      ],
-      "year": 2020,
-      "date": "2020-10-30",
-      "citations": 120,
-      "arxivId": "2010.16001",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2010.16001",
-      "abstract": "Modern nonlinear control theory seeks to develop feedback controllers that endow systems with properties such as safety and stability. The guarantees ensured by these controllers often rely on accurate estimates of the system state for determining control actions. In practice, measurement model uncertainty can lead to error in state estimates that degrades these guarantees. In this paper, we seek to unify techniques from control theory and machine learning to synthesize controllers that achieve safety in the presence of measurement model uncertainty. We define the notion of a Measurement-Robust Control Barrier Function (MR-CBF) as a tool for determining safe control inputs when facing measurement model uncertainty. Furthermore, MR-CBFs are used to inform sampling methodologies for learning-based perception systems and quantify tolerable error in the resulting learned models. We demonstrate the efficacy of MR-CBFs in achieving safety with measurement model uncertainty on a simulated Segway system.",
-      "journal": "",
-      "venue": "Conference on Robot Learning",
-      "venueLabel": "CoRL",
-      "subjects": []
-    },
-    {
-      "paperId": "22e586f420b596e398072b07b1d4a08c2a067c04",
-      "title": "Safe Reinforcement Learning Using Robust Control Barrier Functions",
-      "authors": [
-        "Y. Emam",
-        "Gennaro Notomista",
-        "Paul Glotfelter",
-        "Z. Kira",
-        "M. Egerstedt"
-      ],
-      "year": 2021,
-      "date": "2021-10-11",
-      "citations": 116,
-      "arxivId": "2110.05415",
-      "doi": "10.1109/LRA.2022.3216996",
-      "url": "https://doi.org/10.1109/LRA.2022.3216996",
-      "abstract": "Reinforcement Learning (RL) has been shown to be effective in many scenarios. However, it typically requires the exploration of a sufficiently large number of state-action pairs, some of which may be unsafe. Consequently, its application to safety-critical systems remains a challenge. An increasingly common approach to address safety involves the addition of a safety layer that projects the RL actions onto a safe set of actions. In turn, a difficulty for such frameworks is how to effectively couple RL with the safety layer to improve the learning performance. In this letter, we frame safety as a differentiable robust-control-barrier-function layer in a model-based RL framework. Moreover, we also propose an approach to modularly learn the underlying reward-driven task, independent of safety constraints. We demonstrate that this approach both ensures safety and effectively guides exploration during training in a range of experiments, including zero-shot transfer when the reward is learned in a constraint-agnostic fashion.",
-      "journal": "IEEE Robotics and Automation Letters",
-      "venue": "IEEE Robotics and Automation Letters",
-      "venueLabel": "RA-L",
-      "subjects": []
-    },
-    {
-      "paperId": "d9a7ef6bb3c2a4bd8f7bb6b832a55c6bbf0039fc",
-      "title": "Safety-Critical Control and Planning for Obstacle Avoidance between Polytopes with Control Barrier Functions",
-      "authors": [
-        "A. Thirugnanam",
-        "Jun Zeng",
-        "K. Sreenath"
-      ],
-      "year": 2021,
-      "date": "2021-09-25",
-      "citations": 115,
-      "arxivId": "2109.12313",
-      "doi": "10.1109/icra46639.2022.9812334",
-      "url": "https://doi.org/10.1109/icra46639.2022.9812334",
-      "abstract": "Obstacle avoidance between polytopes is a chal-lenging topic for optimal control and optimization-based tra-jectory planning problems. Existing work either solves this problem through mixed-integer optimization, relying on simpli-fication of system dynamics, or through model predictive control with dual variables using distance constraints, requiring long horizons for obstacle avoidance. In either case, the solution can only be applied as an offline planning algorithm. In this paper, we exploit the property that a smaller horizon is sufficient for obstacle avoidance by using discrete-time control barrier function (DCBF) constraints and we propose a novel optimization formulation with dual variables based on DCBFs to generate a collision-free dynamically-feasible trajectory. The proposed optimization formulation has lower computational complexity compared to existing work and can be used as a fast online algorithm for control and planning for general nonlinear dynamical systems. We validate our algorithm on different robot shapes using numerical simulations with a kinematic bicycle model, resulting in successful navigation through maze environments with polytopic obstacles.",
-      "journal": "2022 International Conference on Robotics and Automation (ICRA)",
-      "venue": "IEEE International Conference on Robotics and Automation",
-      "venueLabel": "ICRA",
-      "subjects": []
-    },
-    {
       "paperId": "84cfe50ed4e7fc3a254ec0d4e678373307c2bfe1",
       "title": "Discrete-Time Control Barrier Function: High-Order Case and Adaptive Case",
       "authors": [
@@ -1162,43 +974,6 @@
       "journal": "IEEE Transactions on Cybernetics",
       "venue": "IEEE Transactions on Cybernetics",
       "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
-      "paperId": "53dd2b2f75ee74cf8b59d3fbc78e4fe0f575466e",
-      "title": "Control Barrier Functions for Complete and Incomplete Information Stochastic Systems",
-      "authors": [
-        "Andrew Clark"
-      ],
-      "year": 2019,
-      "date": "2019-07-01",
-      "citations": 102,
-      "arxivId": "",
-      "doi": "10.23919/ACC.2019.8814901",
-      "url": "https://doi.org/10.23919/ACC.2019.8814901",
-      "abstract": "Real-time controllers must satisfy strict safety requirements. Recently, Control Barrier Functions (CBFs) have been proposed that guarantee safety by ensuring that a suitably-defined barrier function remains bounded for all time. The CBF method, however, has only been developed for deterministic systems and systems with worst-case disturbances and uncertainties. In this paper, we develop a CBF framework for safety of stochastic systems. We consider complete information systems, in which the controller has access to the exact system state, as well as incomplete information systems where the state must be reconstructed from noisy measurements. In the complete information case, we formulate a notion of barrier functions that leads to sufficient conditions for safety with probability 1. In the incomplete information case, we formulate barrier functions that take an estimate from an extended Kalman filter as input, and derive bounds on the probability of safety as a function of the asymptotic error in the filter. We show that, in both cases, the sufficient conditions for safety can be mapped to linear constraints on the control input at each time, enabling the development of tractable optimization-based controllers that guarantee safety, performance, and stability. Our approach is evaluated via simulation study on an adaptive cruise control case study.",
-      "journal": "2019 American Control Conference (ACC)",
-      "venue": "American Control Conference",
-      "venueLabel": "ACC",
-      "subjects": []
-    },
-    {
-      "paperId": "d1f651bafb24c630533acb198b2b4c14c75f1c18",
-      "title": "Predictive Control Barrier Functions: Enhanced Safety Mechanisms for Learning-Based Control",
-      "authors": [
-        "K. P. Wabersich",
-        "M. Zeilinger"
-      ],
-      "year": 2021,
-      "date": "2021-05-21",
-      "citations": 98,
-      "arxivId": "2105.10241",
-      "doi": "10.1109/TAC.2022.3175628",
-      "url": "https://doi.org/10.1109/TAC.2022.3175628",
-      "abstract": "While learning-based control techniques often outperform classical controller designs, safety requirements limit the acceptance of such methods in many applications. Recent developments address this issue through so-called predictive safety filters, which assess if a proposed learning-based control input can lead to constraint violations and modifies it if necessary to ensure safety for all future time steps. The theoretical guarantees of such predictive safety filters rely on the model assumptions and minor deviations can lead to failure of the filter putting the system at risk. This article introduces an auxiliary soft-constrained predictive control problem that is always feasible at each time step and asymptotically stabilizes the feasible set of the original predictive safety filter problem, thereby providing a recovery mechanism in safety–critical situations. This is achieved by a simple constraint tightening in combination with a terminal control barrier function. By extending discrete-time control barrier function theory, we establish that the proposed auxiliary problem provides a “predictive” control barrier function. The resulting algorithm is demonstrated using numerical examples.",
-      "journal": "IEEE Transactions on Automatic Control",
-      "venue": "IEEE Transactions on Automatic Control",
-      "venueLabel": "TAC",
       "subjects": []
     },
     {
@@ -1237,45 +1012,6 @@
       "url": "https://doi.org/10.1109/CDC45484.2021.9683111",
       "abstract": "The backup control barrier function (CBF) was recently proposed as a tractable formulation that guarantees the feasibility of the CBF quadratic programming (QP) via an implicitly defined control invariant set. The control invariant set is based on a fixed backup policy and evaluated online by forward integrating the dynamics under the backup policy. This paper is intended as a tutorial of the backup CBF approach and a comparative study to some benchmarks. First, the backup CBF approach is presented step by step with the underlying math explained in detail. Second, we prove that the backup CBF always has a relative degree 1 under mild assumptions. Third, the backup CBF approach is compared with benchmarks such as Hamilton Jacobi PDE and Sum-of-Squares on the computation of control invariant sets, which shows that one can obtain a control invariant set close to the maximum control invariant set under a good backup policy for many practical problems.",
       "journal": "2021 60th IEEE Conference on Decision and Control (CDC)",
-      "venue": "IEEE Conference on Decision and Control",
-      "venueLabel": "CDC",
-      "subjects": []
-    },
-    {
-      "paperId": "49bae904bc63186916cfb8faf73bebaeb67a9fdf",
-      "title": "Approximate Optimal Control for Safety-Critical Systems with Control Barrier Functions",
-      "authors": [
-        "Max H. Cohen",
-        "C. Belta"
-      ],
-      "year": 2020,
-      "date": "2020-08-10",
-      "citations": 94,
-      "arxivId": "2008.04122",
-      "doi": "10.1109/CDC42340.2020.9303896",
-      "url": "https://doi.org/10.1109/CDC42340.2020.9303896",
-      "abstract": "Control Barrier Functions (CBFs) have become a popular tool for enforcing set invariance in safety-critical control systems. While guaranteeing safety, most CBF approaches are myopic in the sense that they solve an optimization problem at each time step rather than over a long time horizon. This approach may allow a system to get too close to the unsafe set where the optimization problem can become infeasible. Some of these issues can be mitigated by introducing relaxation variables into the optimization problem; however, this compromises convergence to the desired equilibrium point. To address these challenges, we develop an approximate optimal approach to the safety-critical control problem in which the cost of violating safety constraints is directly embedded within the value function. We show that our method is capable of guaranteeing both safety and convergence to a desired equilibrium. Finally, we compare the performance of our method with that of the traditional quadratic programming approach through numerical examples.",
-      "journal": "2020 59th IEEE Conference on Decision and Control (CDC)",
-      "venue": "IEEE Conference on Decision and Control",
-      "venueLabel": "CDC",
-      "subjects": []
-    },
-    {
-      "paperId": "1d8d9c19604a460cdc34781ef62a5c4f51cc4a04",
-      "title": "Control of Multi-Agent Systems with Finite Time Control Barrier Certificates and Temporal Logic",
-      "authors": [
-        "M. Srinivasan",
-        "Samuel D. Coogan",
-        "M. Egerstedt"
-      ],
-      "year": 2018,
-      "date": "2018-08-07",
-      "citations": 93,
-      "arxivId": "1808.02393",
-      "doi": "10.1109/CDC.2018.8619113",
-      "url": "https://doi.org/10.1109/CDC.2018.8619113",
-      "abstract": "In this paper, a method to synthesize controllers using finite time convergence control barrier functions guided by linear temporal logic specifications for continuous time multi-agent dynamical systems is proposed. Finite time convergence to a desired set in the state space is guaranteed under the existence of a suitable finite time convergence control barrier function. In addition, these barrier functions also guarantee forward invariance once the system converges to the desired set. This allows us to formulate a theoretical framework which synthesizes controllers for the multi-agent system. These properties also enable us to solve the reachability problem in continuous time by formulating a theorem on the composition of multiple finite time convergence control barrier functions. This approach is more flexible than existing methods and also allows for a greater set of feasible control laws. Linear temporal logic is used to specify complex task specifications that need to be satisfied by the multi-agent system. With this solution methodology, a control law is synthesized that satisfies the given temporal logic task specification. Robotic experiments are provided which were performed on the Robotarium multi-robot testbed at Georgia Tech.",
-      "journal": "2018 IEEE Conference on Decision and Control (CDC)",
       "venue": "IEEE Conference on Decision and Control",
       "venueLabel": "CDC",
       "subjects": []
@@ -1329,25 +1065,6 @@
       "subjects": []
     },
     {
-      "paperId": "9ff8b6018e6f3fc9ccacab16fa746d2af15b6d69",
-      "title": "Safe Teleoperation of Dynamic UAVs Through Control Barrier Functions",
-      "authors": [
-        "B. Xu",
-        "K. Sreenath"
-      ],
-      "year": 2018,
-      "date": "2018-05-01",
-      "citations": 90,
-      "arxivId": "",
-      "doi": "10.1109/ICRA.2018.8463194",
-      "url": "https://doi.org/10.1109/ICRA.2018.8463194",
-      "abstract": "",
-      "journal": "2018 IEEE International Conference on Robotics and Automation (ICRA)",
-      "venue": "IEEE International Conference on Robotics and Automation",
-      "venueLabel": "ICRA",
-      "subjects": []
-    },
-    {
       "paperId": "a04cda4daed93c7041785a845173df5efab77b2a",
       "title": "Safety-Critical Control using Optimal-decay Control Barrier Function with Guaranteed Point-wise Feasibility",
       "authors": [
@@ -1369,25 +1086,6 @@
       "subjects": []
     },
     {
-      "paperId": "28bf9346ab7c12cad36e45f279733cbd0aef55a2",
-      "title": "Uniting Control Lyapunov and Control Barrier Functions",
-      "authors": [
-        "M. Z. Romdlony",
-        "B. Jayawardhana"
-      ],
-      "year": 2014,
-      "date": "2014-12-01",
-      "citations": 86,
-      "arxivId": "",
-      "doi": "10.1109/CDC.2014.7039737",
-      "url": "https://doi.org/10.1109/CDC.2014.7039737",
-      "abstract": "",
-      "journal": "53rd IEEE Conference on Decision and Control",
-      "venue": "IEEE Conference on Decision and Control",
-      "venueLabel": "CDC",
-      "subjects": []
-    },
-    {
       "paperId": "8f4857384e0573e45e74154704fc89468ab17988",
       "title": "GCBF+: A Neural Graph Control Barrier Function Framework for Distributed Safe Multiagent Control",
       "authors": [
@@ -1406,44 +1104,6 @@
       "journal": "IEEE Transactions on Robotics",
       "venue": "IEEE Transactions on robotics",
       "venueLabel": "TRO",
-      "subjects": []
-    },
-    {
-      "paperId": "f6ec86a707caba533624fc441643bda8297cda69",
-      "title": "Safe Control Synthesis via Input Constrained Control Barrier Functions",
-      "authors": [
-        "Devansh R. Agrawal",
-        "Dimitra Panagou"
-      ],
-      "year": 2021,
-      "date": "2021-04-04",
-      "citations": 83,
-      "arxivId": "2104.01704",
-      "doi": "10.1109/CDC45484.2021.9682938",
-      "url": "https://doi.org/10.1109/CDC45484.2021.9682938",
-      "abstract": "This paper introduces the notion of an Input Constrained Control Barrier Function (ICCBF), as a method to synthesize safety-critical controllers for nonlinear control-affine systems with input constraints. The method identifies a subset of the safe set of states, and constructs a controller to render the subset forward invariant. The feedback controller is represented as the solution to a quadratic program, which can be solved efficiently for real-time implementation. Furthermore, we show that ICCBFs are a generalization of Higher Order Control Barrier Functions, and thus are applicable to systems of nonuniform relative degree. Simulation results are presented for the adaptive cruise control problem, and a spacecraft rendezvous problem.",
-      "journal": "2021 60th IEEE Conference on Decision and Control (CDC)",
-      "venue": "IEEE Conference on Decision and Control",
-      "venueLabel": "CDC",
-      "subjects": []
-    },
-    {
-      "paperId": "49e91e6bc7c660f9979eb63b72d08d27635a78d9",
-      "title": "Safety-critical and constrained geometric control synthesis using control Lyapunov and control Barrier functions for systems evolving on manifolds",
-      "authors": [
-        "Guofan Wu",
-        "K. Sreenath"
-      ],
-      "year": 2015,
-      "date": "2015-07-01",
-      "citations": 82,
-      "arxivId": "",
-      "doi": "10.1109/ACC.2015.7171033",
-      "url": "https://doi.org/10.1109/ACC.2015.7171033",
-      "abstract": "",
-      "journal": "2015 American Control Conference (ACC)",
-      "venue": "American Control Conference",
-      "venueLabel": "ACC",
       "subjects": []
     },
     {
@@ -1483,26 +1143,6 @@
       "journal": "Autom.",
       "venue": "at - Automatisierungstechnik",
       "venueLabel": "at - Automatisierungstechnik",
-      "subjects": []
-    },
-    {
-      "paperId": "769cb4b4b29e36a50a3ad7f503f51d5bda50b5d3",
-      "title": "Robust Control Barrier Functions With Sector-Bounded Uncertainties",
-      "authors": [
-        "Jyot R. Buch",
-        "Shih-Chi Liao",
-        "Peter J. Seiler"
-      ],
-      "year": 2021,
-      "date": "2021-09-06",
-      "citations": 78,
-      "arxivId": "2109.02537",
-      "doi": "10.1109/LCSYS.2021.3136653",
-      "url": "https://doi.org/10.1109/LCSYS.2021.3136653",
-      "abstract": "This letter focuses on safety-critical control with sector-bounded uncertainties at the plant input. The uncertainties can represent nonlinear and/or time-varying components. We propose a new robust control barrier function (RCBF) approach to enforce safety requirements in the presence of these uncertainties. The primary objective is to minimally alter the given baseline control command to guarantee safety in the presence of modeled uncertainty. The resulting min-norm optimization problem can be recast as a Second-Order Cone Program (SOCP) to enable online implementation. Properties of this controller are studied, and a numerical example is provided to illustrate the effectiveness of this approach.",
-      "journal": "IEEE Control Systems Letters",
-      "venue": "IEEE Control Systems Letters",
-      "venueLabel": "L-CSS",
       "subjects": []
     },
     {
@@ -1558,7 +1198,7 @@
       ],
       "year": 2022,
       "date": "2022-04-05",
-      "citations": 70,
+      "citations": 71,
       "arxivId": "2204.01930",
       "doi": "10.1109/TAC.2023.3306492",
       "url": "https://doi.org/10.1109/TAC.2023.3306492",
@@ -1608,25 +1248,6 @@
       "subjects": []
     },
     {
-      "paperId": "120d5d4ae81dbcd2784e95958eee0bca376bac17",
-      "title": "Multi-Rate Control Design Leveraging Control Barrier Functions and Model Predictive Control Policies",
-      "authors": [
-        "Ugo Rosolia",
-        "A. Ames"
-      ],
-      "year": 2020,
-      "date": "2020-04-03",
-      "citations": 68,
-      "arxivId": "2004.01761",
-      "doi": "10.1109/LCSYS.2020.3008326",
-      "url": "https://doi.org/10.1109/LCSYS.2020.3008326",
-      "abstract": "In this letter we present a multi-rate control architecture for safety critical systems. We consider a high level planner and a low level controller which operate at different frequencies. This multi-rate behavior is described by a piecewise nonlinear model which evolves on a continuous and a discrete level. First, we present sufficient conditions which guarantee recursive constraint satisfaction for the closed-loop system. Afterwards, we propose a control design methodology which leverages Control Barrier Functions (CBFs) for low level control and Model Predictive Control (MPC) policies for high level planning. The control barrier function is designed using the full nonlinear dynamical model and the MPC is based on a simplified planning model. When the nonlinear system is control affine and the high level planning model is linear, the control actions are computed by solving convex optimization problems at each level of the hierarchy. Finally, we show the effectiveness of the proposed strategy on a simulation example, where the low level control action is updated at a higher frequency than the high level command.",
-      "journal": "IEEE Control Systems Letters",
-      "venue": "IEEE Control Systems Letters",
-      "venueLabel": "L-CSS",
-      "subjects": []
-    },
-    {
       "paperId": "80e376da25bed87259156bd45700639d91939667",
       "title": "Robust Control Barrier Functions Using Uncertainty Estimation With Application to Mobile Robots",
       "authors": [
@@ -1635,7 +1256,7 @@
       ],
       "year": 2024,
       "date": "2024-01-03",
-      "citations": 65,
+      "citations": 66,
       "arxivId": "2401.01881",
       "doi": "10.1109/TAC.2025.3538742",
       "url": "https://doi.org/10.1109/TAC.2025.3538742",
@@ -1750,28 +1371,6 @@
       "subjects": []
     },
     {
-      "paperId": "77b258d96cd0bb83967252e366749c4053e2b1f8",
-      "title": "Adaptive Robust Quadratic Programs using Control Lyapunov and Barrier Functions",
-      "authors": [
-        "Pan Zhao",
-        "Y. Mao",
-        "Chuyuan Tao",
-        "N. Hovakimyan",
-        "Xiaofeng Wang"
-      ],
-      "year": 2020,
-      "date": "2020-10-09",
-      "citations": 58,
-      "arxivId": "2010.04699",
-      "doi": "10.1109/CDC42340.2020.9303829",
-      "url": "https://doi.org/10.1109/CDC42340.2020.9303829",
-      "abstract": "This paper presents adaptive robust quadratic program (QP) based control using control Lyapunov and barrier functions for nonlinear systems subject to time-varying and state-dependent uncertainties. An adaptive estimation law is proposed to estimate the pointwise value of the uncertainties with pre-computable estimation error bounds. The estimated uncertainty and the error bounds are then used to formulate a robust QP, which ensures that the actual uncertain system will not violate the safety constraints defined by the control barrier function. Additionally, the accuracy of the uncertainty estimation can be systematically improved by reducing the estimation sampling time, leading subsequently to reduced conservatism of the formulated robust QP. The proposed approach is validated in simulations on an adaptive cruise control problem and through comparisons with existing approaches.",
-      "journal": "2020 59th IEEE Conference on Decision and Control (CDC)",
-      "venue": "IEEE Conference on Decision and Control",
-      "venueLabel": "CDC",
-      "subjects": []
-    },
-    {
       "paperId": "b871ee44f68bb5001696d00b49c17275774fee27",
       "title": "Safe Consensus Tracking With Guaranteed Full State and Input Constraints: A Control Barrier Function-Based Approach",
       "authors": [
@@ -1811,44 +1410,6 @@
       "subjects": []
     },
     {
-      "paperId": "475399226a2492e9dfea459331e72d6675bdebd6",
-      "title": "Connectivity Maintenance: Global and Optimized approach through Control Barrier Functions",
-      "authors": [
-        "Beatrice Capelli",
-        "Lorenzo Sabattini"
-      ],
-      "year": 2020,
-      "date": "2020-03-23",
-      "citations": 54,
-      "arxivId": "2003.10178",
-      "doi": "10.1109/ICRA40945.2020.9197109",
-      "url": "https://doi.org/10.1109/ICRA40945.2020.9197109",
-      "abstract": "Connectivity maintenance is an essential aspect to consider while controlling a multi-robot system. In general, a multi-robot system should be connected to obtain a certain common objective. Connectivity must be kept regardless of the control strategy or the objective of the multi-robot system. Two main methods exist for connectivity maintenance: keep the initial connections (local connectivity) or allow modifications to the initial connections, but always keeping the overall system connected (global connectivity). In this paper we present a method that allows, at the same time, to maintain global connectivity and to implement the desired control strategy (e.g., consensus, formation control, coverage), all in an optimized fashion. For this purpose, we defined and implemented a Control Barrier Function that can incorporate constraints and objectives. We provide a mathematical proof of the method, and we demonstrate its versatility with simulations of different applications.",
-      "journal": "2020 IEEE International Conference on Robotics and Automation (ICRA)",
-      "venue": "IEEE International Conference on Robotics and Automation",
-      "venueLabel": "ICRA",
-      "subjects": []
-    },
-    {
-      "paperId": "ce02a41202ced52cef96615fa61978acd36e2372",
-      "title": "High Relative Degree Control Barrier Functions Under Input Constraints",
-      "authors": [
-        "J. Breeden",
-        "Dimitra Panagou"
-      ],
-      "year": 2021,
-      "date": "2021-06-18",
-      "citations": 53,
-      "arxivId": "2106.10345",
-      "doi": "10.1109/CDC45484.2021.9683705",
-      "url": "https://doi.org/10.1109/CDC45484.2021.9683705",
-      "abstract": "This paper presents methodologies for ensuring forward invariance of sublevel sets of constraint functions with high-relative-degree with respect to the system dynamics and in the presence of input constraints. We show that such constraint functions can be converted into special Zeroing Control Barrier Functions (ZCBFs), which, by construction, generate sufficient conditions for rendering the state always inside a sublevel set of the constraint function in the presence of input constraints. We present a general form for one such ZCBF, as well as a special case applicable to a specific class of systems. We conclude with a comparison of system trajectories under the two ZCBFs developed and prior literature, and a case study for an asteroid observation problem using quadratic-program based controllers to enforce the ZCBF condition.",
-      "journal": "2021 60th IEEE Conference on Decision and Control (CDC)",
-      "venue": "IEEE Conference on Decision and Control",
-      "venueLabel": "CDC",
-      "subjects": []
-    },
-    {
       "paperId": "7578efad9edf81cbeebaa8b98cc27cbd8fa30cf5",
       "title": "Distributed Safe Navigation of Multi-Agent Systems Using Control Barrier Function-Based Controllers",
       "authors": [
@@ -1866,43 +1427,6 @@
       "journal": "IEEE Robotics and Automation Letters",
       "venue": "IEEE Robotics and Automation Letters",
       "venueLabel": "RA-L",
-      "subjects": []
-    },
-    {
-      "paperId": "6be67db567e1e543bf8da03ca8e6fc441eb10d26",
-      "title": "Control Barrier Functions for Constrained Control of Linear Systems with Input Delay",
-      "authors": [
-        "M. Janković"
-      ],
-      "year": 2018,
-      "date": "2018-06-01",
-      "citations": 50,
-      "arxivId": "",
-      "doi": "10.23919/ACC.2018.8430747",
-      "url": "https://doi.org/10.23919/ACC.2018.8430747",
-      "abstract": "The concept of Control Lyapunov Functions (CLF) has been used to design control laws robust to disturbances and modeling errors, while Control Barrier Functions (CBF) have been used to adhere to state constraints in the operating space. The two can be combined and methods that employ Quadratic Programming (QP) have recently gained popularity. In this paper we consider a CLF-CBF QP design for linear systems with input delay. One obstacle is that input delays prevent the CLF concept from being extended to either Razumikhin or Krasovsky version. Instead, this paper starts with the CLF $V$ for the zero-delay system and employs its value predicted by the delay time $\\tau$. While this predicted $V$ is not positive definite, when used with the QP-based design it produces a controller that renders the origin globally asymptotically stable. A similar approach is followed with the barrier function – a predicted value of the CBF for the zero-delay system is used to form a QP constraint for the delay system. The controller combining the two provides essentially the same benefits as its non-delay counterpart. The results are illustrated on an example by simulations.",
-      "journal": "2018 Annual American Control Conference (ACC)",
-      "venue": "American Control Conference",
-      "venueLabel": "ACC",
-      "subjects": []
-    },
-    {
-      "paperId": "1e9c3bd10fd7eb7d93335471850c764b42752702",
-      "title": "Compositions of Multiple Control Barrier Functions Under Input Constraints",
-      "authors": [
-        "J. Breeden",
-        "Dimitra Panagou"
-      ],
-      "year": 2022,
-      "date": "2022-10-04",
-      "citations": 48,
-      "arxivId": "2210.01354",
-      "doi": "10.23919/ACC55779.2023.10156625",
-      "url": "https://doi.org/10.23919/ACC55779.2023.10156625",
-      "abstract": "This paper presents a methodology for ensuring that the composition of multiple Control Barrier Functions (CBFs) always leads to feasible conditions on the control input, even in the presence of input constraints. In the case of a system subject to a single constraint function, there exist many methods to generate a CBF that ensures constraint satisfaction. However, when there are multiple constraint functions, the problem of finding and tuning one or more CBFs becomes more challenging, especially in the presence of input constraints. This paper addresses this challenge by providing tools to 1) decouple the design of multiple CBFs, so that a CBF can be designed for each constraint function independently of other constraints, and 2) ensure that the set composed from all the CBFs together is a viability domain. Thus, a quadratic program subject to all the CBFs simultaneously is always feasible. The utility of this methodology is then demonstrated in simulation for a nonlinear orientation control system.",
-      "journal": "2023 American Control Conference (ACC)",
-      "venue": "American Control Conference",
-      "venueLabel": "ACC",
       "subjects": []
     },
     {
@@ -2026,46 +1550,6 @@
       "subjects": []
     },
     {
-      "paperId": "6ad56d637695b74bd6298092b8eb7fc2d3571701",
-      "title": "Barrier-Certified Distributed Model Predictive Control of Under-Actuated Autonomous Surface Vehicles via Neurodynamic Optimization",
-      "authors": [
-        "Guanghao Lv",
-        "Zhouhua Peng",
-        "Lu Liu",
-        "Jun Wang"
-      ],
-      "year": 2023,
-      "date": "2023-01-01",
-      "citations": 42,
-      "arxivId": "",
-      "doi": "10.1109/TSMC.2022.3184811",
-      "url": "https://doi.org/10.1109/TSMC.2022.3184811",
-      "abstract": "This article addresses the distributed formation control of multiple under-actuated autonomous surface vehicles (ASVs) in a receding-horizon setting. The ASVs are subject to physical constraints, in addition to stationary and moving obstacles. A barrier-certified distributed model predictive control method is proposed with the capability of avoiding collision with stationary and moving obstacles and neighboring ASVs. Specifically, a data-driven neural predictor is used to learn unknown functions in ASV kinetics. A nominal distributed receding-horizon position control law is developed based on the learned unknown function to achieve the desired formation within physical constraints. To ensure the safety requirement, a barrier-certified control law is designed based on control barrier functions to generate the signals of optimal surge force and heading angle within the safety constraints. A receding-horizon heading control law is designed based on the data-driven neural predictor to track the desired heading signals. Constrained quadratic programming problems are formulated based on barrier functions for barrier-certified distributed formation control and solved via neurodynamic optimization using one-layer recurrent neural networks. Thus, the proposed control method is able to ensure obstacle avoidance in the formation control of multiple ASVs in the presence of stationary and moving obstacles. Simulation results are elaborated to validate the efficacy of the proposed barrier-certified distributed model predictive control method for ASV formation.",
-      "journal": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
-      "venue": "IEEE Transactions on Systems, Man & Cybernetics. Systems",
-      "venueLabel": "TSMC",
-      "subjects": []
-    },
-    {
-      "paperId": "905943619de5341d9f58ec1507d09f0887af31fa",
-      "title": "Observer-based Control Barrier Functions for Safety Critical Systems",
-      "authors": [
-        "Yujie Wang",
-        "Xiangru Xu"
-      ],
-      "year": 2021,
-      "date": "2021-10-03",
-      "citations": 41,
-      "arxivId": "2110.00923",
-      "doi": "10.23919/ACC53348.2022.9867262",
-      "url": "https://doi.org/10.23919/ACC53348.2022.9867262",
-      "abstract": "This paper considers the safety-critical control design problem with output measurements. An observer-based safety control framework that integrates the estimation error quantified observer and the control barrier function (CBF) approach is proposed. The function approximation technique is employed to approximate the uncertainties introduced by the state estimation error, and an adaptive CBF approach is proposed to design the safe controller which is obtained by solving a convex quadratic program (QP). Theoretical results for CBFs with a relative degree 1 and a higher relative degree are given individually. The effectiveness of the proposed control approach is demonstrated by two numerical examples.",
-      "journal": "2022 American Control Conference (ACC)",
-      "venue": "American Control Conference",
-      "venueLabel": "ACC",
-      "subjects": []
-    },
-    {
       "paperId": "4995e56b05e12b5de7cf11681c274ebec1c5f1c7",
       "title": "Learning a Formally Verified Control Barrier Function in Stochastic Environment",
       "authors": [
@@ -2105,87 +1589,6 @@
       "journal": "2023 IEEE International Conference on Robotics and Automation (ICRA)",
       "venue": "IEEE International Conference on Robotics and Automation",
       "venueLabel": "ICRA",
-      "subjects": []
-    },
-    {
-      "paperId": "ca38fc1bd806f58b2ea1a5bb69b7e6a1f64851cb",
-      "title": "Attitude Tracking Control With Constraints for Rigid Spacecraft Based on Control Barrier Lyapunov Functions",
-      "authors": [
-        "Yu-Yao Wu",
-        "Huijie Sun"
-      ],
-      "year": 2022,
-      "date": "2022-06-01",
-      "citations": 39,
-      "arxivId": "",
-      "doi": "10.1109/taes.2021.3127854",
-      "url": "https://doi.org/10.1109/taes.2021.3127854",
-      "abstract": "This article investigates the attitude tracking control problem with constraints for rigid spacecraft subject to parameter uncertainty and external disturbance. Based on the concept of the safety control problem, the investigated problem is formulated as the stabilization of the corresponding attitude tracking error system of the rigid spacecraft. By using the inverse optimal control approach, a control Lyapunov-barrier function (CLBF)-based controller is proposed for the stabilization of the spacecraft attitude tracking error system via combining a designed control barrier function and an existing control Lyapunov function. For ensuring the robustness of the proposed CLBF-based controller in the presence of parameter uncertainty and external disturbance, a sliding-mode control part is added in the presented controller. It is proven through the Lyapunov stability theory that the closed-loop system under the proposed controller is practical finite-time stable. Simulation results are given to show the effectiveness of the developed CLBF-based attitude tracking controller.",
-      "journal": "IEEE Transactions on Aerospace and Electronic Systems",
-      "venue": "IEEE Transactions on Aerospace and Electronic Systems",
-      "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
-      "paperId": "570ca0c9d9dcd273531e05861a4a8c8c9727f82f",
-      "title": "Duality-based Convex Optimization for Real-time Obstacle Avoidance between Polytopes with Control Barrier Functions",
-      "authors": [
-        "A. Thirugnanam",
-        "Jun Zeng",
-        "K. Sreenath"
-      ],
-      "year": 2021,
-      "date": "2021-07-18",
-      "citations": 39,
-      "arxivId": "2107.08360",
-      "doi": "10.23919/ACC53348.2022.9867246",
-      "url": "https://doi.org/10.23919/ACC53348.2022.9867246",
-      "abstract": "Developing controllers for obstacle avoidance between polytopes is a challenging and necessary problem for navigation in tight spaces. Traditional approaches can only formulate the obstacle avoidance problem as an offline optimization problem. To address these challenges, we propose a duality-based safety-critical optimal control using nonsmooth control barrier functions for obstacle avoidance between polytopes, which can be solved in real-time with a QP-based optimization problem. A dual optimization problem is introduced to represent the minimum distance between polytopes and the Lagrangian function for the dual form is applied to construct a control barrier function. We validate the obstacle avoidance with the proposed dual formulation for L-shaped (sofa-shaped) controlled robot in a corridor environment. We demonstrate real-time tight obstacle avoidance with non-conservative maneuvers on a moving sofa (piano) problem with nonlinear dynamics.",
-      "journal": "2022 American Control Conference (ACC)",
-      "venue": "American Control Conference",
-      "venueLabel": "ACC",
-      "subjects": []
-    },
-    {
-      "paperId": "2fdaf5791ad5b9ff35a19bd55febd016efb3fe1a",
-      "title": "Characterizing Safety: Minimal Control Barrier Functions From Scalar Comparison Systems",
-      "authors": [
-        "Rohit Konda",
-        "A. Ames",
-        "Samuel D. Coogan"
-      ],
-      "year": 2021,
-      "date": "2021-04-01",
-      "citations": 38,
-      "arxivId": "",
-      "doi": "10.1109/LCSYS.2020.3003887",
-      "url": "https://doi.org/10.1109/LCSYS.2020.3003887",
-      "abstract": "Verifying set invariance has classical solutions stemming from the seminal work by Nagumo, and defining sets via a smooth barrier function constraint inequality results in computable flow conditions for guaranteeing set invariance. While a majority of these historic results on set invariance consider flow conditions on the boundary, this letter fully characterizes set invariance through minimal barrier functions by directly appealing to a comparison result to define a flow condition over the entire domain of the system. A considerable benefit of this approach is the removal of regularity assumptions of the barrier function. This letter also outlines necessary and sufficient conditions for a valid differential inequality condition, giving the minimum conditions for this type of approach. We also show when minimal barrier functions are necessary and sufficient for set invariance.",
-      "journal": "IEEE Control Systems Letters",
-      "venue": "IEEE Control Systems Letters",
-      "venueLabel": "L-CSS",
-      "subjects": []
-    },
-    {
-      "paperId": "37ef121ac0556949b44698cc47362598154a5ccd",
-      "title": "Learning Control Barrier Functions with High Relative Degree for Safety-Critical Control",
-      "authors": [
-        "Chuanzhen Wang",
-        "Yinan Li",
-        "Yiming Meng",
-        "Stephen L. Smith",
-        "Jun Liu"
-      ],
-      "year": 2020,
-      "date": "2020-11-21",
-      "citations": 38,
-      "arxivId": "2011.10721",
-      "doi": "10.23919/ecc54610.2021.9655206",
-      "url": "https://doi.org/10.23919/ecc54610.2021.9655206",
-      "abstract": "Control barrier functions have shown great success in addressing control problems with safety guarantees. These methods usually find the next safe control input by solving an online quadratic programming problem. However, model uncertainty is a big challenge in synthesizing controllers. This may lead to the generation of unsafe control actions, resulting in severe consequences. In this paper, we develop a learning framework to deal with system uncertainty. Our method mainly focuses on learning the dynamics of the control barrier function, especially for high relative degree with respect to a system. We show that for each order, the time derivative of the control barrier function can be separated into the time derivative of the nominal control barrier function and a remainder. This implies that we can use a neural network to learn the remainder so that we can approximate the dynamics of the real control barrier function. We show by simulation that our method can generate safe trajectories under parametric uncertainty using a differential drive robot model.",
-      "journal": "2021 European Control Conference (ECC)",
-      "venue": "European Control Conference",
-      "venueLabel": "ECC",
       "subjects": []
     },
     {
@@ -2393,6 +1796,58 @@
     }
   ],
   "arxiv": [
+    {
+      "paperId": "arxiv:2608.21175v1",
+      "title": "SRL-MPC: Shape-Aware Reinforcement Learned Model Predictive Control",
+      "authors": [
+        "Ruihua Han",
+        "Rui Gao",
+        "Zhe Liu",
+        "Xinyi Wang",
+        "Chang Chen",
+        "Shuai Wang",
+        "Qi Hao",
+        "Jia Pan",
+        "Hengshuang Zhao"
+      ],
+      "year": null,
+      "date": "2026-08-21",
+      "citations": 0,
+      "arxivId": "2608.21175v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2608.21175v1",
+      "abstract": "Safe and efficient shape-aware navigation in heterogeneous crowds and robot fleets remains challenging. Traditional approaches often assume homogeneous robots, sparse workspaces, simplified geometry, offline computation, or handcrafted parameters to make the problem tractable, which limits their deployment in dense crowd scenarios. Toward this end, we propose Shape-Aware Reinforcement Learned Model Predictive Control (SRL-MPC), a method for safe, efficient, and adaptive navigation in crowds with heterogeneous shapes without geometry simplification. To encode shape-aware safety, we formulate high-order control barrier function (HOCBF) constraints from geometric separation features (GSFs) based on support function transformation. A reinforcement learning (RL) framework then learns a neural policy that reads GSFs and outputs real-time MPC parameter updates, enabling the MPC solver to adapt to neighboring crowd geometries. The key advantage of SRL-MPC is that it preserves the safety structure and generalizability of MPC while integrating the adaptability and intelligence of RL. Experiments in randomized crowd scenarios with arbitrary shaped robot fleets demonstrate the effectiveness, scalability, and robustness of SRL-MPC. The results show that SRL-MPC substantially outperforms representative baselines in safety and adaptability. Project website: https://hanruihua.github.io/srl_mpc_project/",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO",
+        "cs.AI"
+      ]
+    },
+    {
+      "paperId": "arxiv:2608.20467v1",
+      "title": "Learning-Based Measurement-Robust Control Barrier Functions for Obstacle Avoidance under State Estimation Error",
+      "authors": [
+        "Nicholas Rober",
+        "Yixuan Jia",
+        "Jonathan P. How"
+      ],
+      "year": null,
+      "date": "2026-08-20",
+      "citations": 0,
+      "arxivId": "2608.20467v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2608.20467v1",
+      "abstract": "Safety filters are an effective tool for enforcing constraints in safety-critical systems, but most existing methods assume perfect state information, which is rarely available in practice. Recent work has begun to close this gap by developing filtering mechanisms that are robust to state estimation error, but these methods can still exhibit safety violations or overly conservative behavior as estimation error grows. Focusing on obstacle avoidance, we develop two new control barrier function (CBF) formulations: drift-measurement-robust (DMR)-CBFs and neural measurement-robust (NMR)-CBFs. The DMR-CBF augments the standard CBF condition with an inner optimization over the worst-case uncertainty in the drift dynamics, improving robustness to estimation error. This DMR-CBF then supervises a pretraining phase for the NMR-CBF, which replaces the inner optimization with a learned term. The NMR-CBF is subsequently finetuned through differentiable trajectory rollouts, yielding a filter that achieves empirical safety comparable to the DMR-CBF while reducing both conservativeness and computational cost. We provide theoretical analysis of the DMR-CBF along with numerical results on a planar double integrator and a 12D quadrotor, where both proposed approaches prevent collisions while other robust methods either fail or are overly conservative. Finally, we deployed the NMR-CBF on a Unitree Go2, enabling successful navigation of an obstacle field under odometry errors that caused a standard CBF to collide.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY",
+        "cs.RO"
+      ]
+    },
     {
       "paperId": "arxiv:2608.19537v1",
       "title": "Multimodal Trajectory Planning for Surface Vehicles using Turning Circle-based Control Barrier Functions",
@@ -3456,49 +2911,7 @@
         "cs.RO",
         "eess.SY"
       ]
-    },
-    {
-      "paperId": "arxiv:2606.25452v2",
-      "title": "Control Barrier Function only Formation Tracking in Multi-Agent Systems",
-      "authors": [
-        "S. Saharsh",
-        "Pushpak Jagtap"
-      ],
-      "year": null,
-      "date": "2026-06-24",
-      "citations": 0,
-      "arxivId": "2606.25452v2",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2606.25452v2",
-      "abstract": "This paper presents a real-time control framework for formation tracking of heterogeneous multi-agent systems with non-linear dynamics. The proposed method formulates a single Control Barrier Function-like constraint within a quadratic optimization setting that addresses formation tracking. Relying on the relative information of neighboring agents, the controller is designed to operate without the need for manual parameter tuning or a separate nominal formation controller. The leader-follower framework is validated through simulations of moving formations.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY"
-      ]
-    },
-    {
-      "paperId": "arxiv:2606.25333v1",
-      "title": "Deterministic Non-Smooth Safety via Dual-Algebraic Control Barrier Functions",
-      "authors": [
-        "Mohammadreza Kamaldar"
-      ],
-      "year": null,
-      "date": "2026-06-24",
-      "citations": 0,
-      "arxivId": "2606.25333v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2606.25333v1",
-      "abstract": "This paper presents a dual-algebraic framework for control barrier functions (CBFs) that guarantees deterministic execution using exclusively elementary arithmetic. We develop this deterministic approach to solve a fundamental bottleneck in safety-critical control: pointwise minima naturally compose intersecting safe sets, but generate non-smooth boundaries where standard Lie derivatives fail. Existing mathematical workarounds inject approximation bias, probabilistic non-determinism, or combinatorial execution delays that strictly impede hard real-time hardware certification. By embedding the system state and vector field into the dual-number ring, our method extracts both the composite barrier value and its exact directional derivative in a single evaluation. The standard floating-point minimum deterministically isolates a single vertex of the Clarke generalized gradient for the quadratic-program solver. We prove this selected vertex constitutes a valid Clarke subgradient and the resulting simultaneous-enforcement safety filter guarantees forward invariance. The arithmetic overhead remains a fixed constant factor, strictly independent of state dimension or constraint count. We extend this framework to arbitrary $\\min$/$\\max$ Boolean compositions and systems of higher relative degree, validating the computational scaling on three physical examples.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "math.OC",
-        "eess.SY"
-      ]
     }
   ],
-  "updated": "2026-08-23T23:31:27.493408+00:00"
+  "updated": "2026-08-24T04:51:15.380621+00:00"
 }
