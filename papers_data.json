@@ -990,22 +990,25 @@
       "subjects": []
     },
     {
-      "paperId": "50c12d43dab81e32cab3250dd7c39308bfc38c3a",
-      "title": "A Learning-Based Control Barrier Function for Car-Like Robots: Toward Less Conservative Collision Avoidance",
+      "paperId": "5cc8eb28cd8e2b61100cfc38ad27a86f6f743684",
+      "title": "Safe Reinforcement Learning Using Model Predictive Control with Probabilistic Control Barrier Function",
       "authors": [
-        "Jianye Xu",
-        "Bassam Alrifaee"
+        "Xun Shen",
+        "Akifumi Wachi",
+        "Wataru Hashimoto",
+        "Kazumune Hashimoto",
+        "Shigemasa Takai"
       ],
       "year": 2024,
-      "date": "2024-11-13",
+      "date": "2024-07-10",
       "citations": 4,
-      "arxivId": "2411.08999",
-      "doi": "10.23919/ECC65951.2025.11187043",
-      "url": "https://doi.org/10.23919/ECC65951.2025.11187043",
-      "abstract": "We propose a learning-based Control Barrier Function (CBF) to reduce conservatism in collision avoidance for car-like robots. Traditional CBFs often use the Euclidean distance between robots’ centers as a safety margin, which neglects their headings and approximates their geometries as circles. Although this simplification meets the smoothness and differentiability requirements of CBFs, it may result in overly conservative behavior in dense environments. We address this by designing a safety margin that considers both the robot’s heading and actual shape, thereby enabling a more precise estimation of safe regions. Because this safety margin is non-differentiable, we approximate it with a neural network to ensure differentiability. In addition, we propose a notion of relative dynamics that makes the learning process tractable. In a case study, we establish the theoretical foundation for applying this notion to a nonlinear kinematic bicycle model. Numerical experiments in overtaking and bypassing scenarios show that our approach reduces conservatism (e.g., requiring 33.5 % less lateral space for bypassing) without incurring significant extra computation time.",
-      "journal": "2025 European Control Conference (ECC)",
-      "venue": "European Control Conference",
-      "venueLabel": "ECC",
+      "arxivId": "",
+      "doi": "10.23919/ACC60939.2024.10644734",
+      "url": "https://doi.org/10.23919/ACC60939.2024.10644734",
+      "abstract": "Practical applications of reinforcement learning (RL) often demand that the agents explore safety by satisfying designed constraints. The constraints for safety cannot be satisfied with probability 1 when an unbounded stochastic uncertainty is present. One way is to relax the hard constraints into chance constraints and to consider safe RL with chance constraints. This paper addresses safe RL with chance constraints by Model Predictive Control (MPC) with Probabilistic Control Barrier Function (PCBF). MPC with PCBF is used as a function approximator to deliver the policy that satisfies the demanded chance constraints. RL is used to optimize the parameters in MPC with PCBF to improve the closed performance. We prove that using PCBF as a constraint in MPC ensures the safety imposed by the chance constraints. A scenario-based algorithm is designed for the proposed safe RL implementation. A quadrotor system control problem in turbulent conditions has been used as a numerical example to validate the proposed safe RL method.",
+      "journal": "2024 American Control Conference (ACC)",
+      "venue": "American Control Conference",
+      "venueLabel": "ACC",
       "subjects": []
     },
     {
@@ -1029,41 +1032,39 @@
       "subjects": []
     },
     {
-      "paperId": "5cc8eb28cd8e2b61100cfc38ad27a86f6f743684",
-      "title": "Safe Reinforcement Learning Using Model Predictive Control with Probabilistic Control Barrier Function",
+      "paperId": "50c12d43dab81e32cab3250dd7c39308bfc38c3a",
+      "title": "A Learning-Based Control Barrier Function for Car-Like Robots: Toward Less Conservative Collision Avoidance",
       "authors": [
-        "Xun Shen",
-        "Akifumi Wachi",
-        "Wataru Hashimoto",
-        "Kazumune Hashimoto",
-        "Shigemasa Takai"
+        "Jianye Xu",
+        "Bassam Alrifaee"
       ],
       "year": 2024,
-      "date": "2024-07-10",
+      "date": "2024-11-13",
       "citations": 4,
-      "arxivId": "",
-      "doi": "10.23919/ACC60939.2024.10644734",
-      "url": "https://doi.org/10.23919/ACC60939.2024.10644734",
-      "abstract": "Practical applications of reinforcement learning (RL) often demand that the agents explore safety by satisfying designed constraints. The constraints for safety cannot be satisfied with probability 1 when an unbounded stochastic uncertainty is present. One way is to relax the hard constraints into chance constraints and to consider safe RL with chance constraints. This paper addresses safe RL with chance constraints by Model Predictive Control (MPC) with Probabilistic Control Barrier Function (PCBF). MPC with PCBF is used as a function approximator to deliver the policy that satisfies the demanded chance constraints. RL is used to optimize the parameters in MPC with PCBF to improve the closed performance. We prove that using PCBF as a constraint in MPC ensures the safety imposed by the chance constraints. A scenario-based algorithm is designed for the proposed safe RL implementation. A quadrotor system control problem in turbulent conditions has been used as a numerical example to validate the proposed safe RL method.",
-      "journal": "2024 American Control Conference (ACC)",
-      "venue": "American Control Conference",
-      "venueLabel": "ACC",
+      "arxivId": "2411.08999",
+      "doi": "10.23919/ECC65951.2025.11187043",
+      "url": "https://doi.org/10.23919/ECC65951.2025.11187043",
+      "abstract": "We propose a learning-based Control Barrier Function (CBF) to reduce conservatism in collision avoidance for car-like robots. Traditional CBFs often use the Euclidean distance between robots’ centers as a safety margin, which neglects their headings and approximates their geometries as circles. Although this simplification meets the smoothness and differentiability requirements of CBFs, it may result in overly conservative behavior in dense environments. We address this by designing a safety margin that considers both the robot’s heading and actual shape, thereby enabling a more precise estimation of safe regions. Because this safety margin is non-differentiable, we approximate it with a neural network to ensure differentiability. In addition, we propose a notion of relative dynamics that makes the learning process tractable. In a case study, we establish the theoretical foundation for applying this notion to a nonlinear kinematic bicycle model. Numerical experiments in overtaking and bypassing scenarios show that our approach reduces conservatism (e.g., requiring 33.5 % less lateral space for bypassing) without incurring significant extra computation time.",
+      "journal": "2025 European Control Conference (ECC)",
+      "venue": "European Control Conference",
+      "venueLabel": "ECC",
       "subjects": []
     },
     {
-      "paperId": "26cc7c75e4671283365effa56a3cd8a5e864a6fb",
-      "title": "Sensor-Based Safety-Critical Control Using an Incremental Control Barrier Function Formulation via Reduced-Order Approximate Models",
+      "paperId": "3ab215ef9fd4f588faa4d1416978ab5913d88971",
+      "title": "A Control Barrier Function Candidate for Quadrotors with Limited Field of View",
       "authors": [
-        "J. Autenrieb",
-        "Hyo-Sang Shin"
+        "Biagio Trimarchi",
+        "Fabrizio Schiano",
+        "Roberto Tron"
       ],
       "year": 2024,
-      "date": "2024-10-10",
+      "date": "2024-10-02",
       "citations": 3,
-      "arxivId": "2410.08096",
-      "doi": "10.23919/ACC63710.2025.11107913",
-      "url": "https://doi.org/10.23919/ACC63710.2025.11107913",
-      "abstract": "The existing control barrier function literature generally relies on precise mathematical models to guarantee system safety, limiting their applicability in scenarios with parametric uncertainties. While incremental control techniques have shown promise in addressing model uncertainties in flight control applications, translating these approaches to safety-critical control presents significant challenges. This paper bridges this gap by introducing measurement-robust incremental control barrier functions (MRICBFs), which leverage sensor-based reduced-order models to provide formal safety guarantees for uncertain systems. By carefully addressing the challenges of sensor accuracy and approximation errors in the incremental formulation, our approach enables substituting specific model components with real-time sensor measurements while maintaining rigorous safety guarantees. This formulation overcomes the limitations of traditional adaptive control methods that adjust system parameters over time, enabling immediate and reliable safety measures for a class of model uncertainties. The efficacy of MRICBFs is demonstrated in two simulation case studies: a simple first-order system with time-varying sensor biases and a more complex overactuated hypersonic glide vehicle with multiple state constraints.",
+      "arxivId": "2410.01277",
+      "doi": "10.23919/ACC63710.2025.11107490",
+      "url": "https://doi.org/10.23919/ACC63710.2025.11107490",
+      "abstract": "The problem of control based on vision measurements (bearings) has been amply studied in the literature; however, the problem of addressing the limits of the field of view of physical sensors has received relatively less attention (especially for agents with non-trivial dynamics). The technical challenge is that, as in most vision-based control approaches, a standard approach to the problem requires knowing the distance between cameras and observed features in the scene, which is not directly available. Instead, we present a solution based on a Control Barrier Function (CBF) approach that uses a splitting of the original differential constraint to effectively remove the dependence on the unknown measurement error. Compared to the current literature, our approach gives strong robustness guarantees against bounded distance estimation errors. We showcase the proposed solution with the numerical simulations of a double integrator and a quadrotor tracking a trajectory while keeping the corners of a rectangular gate in the camera field of view.",
       "journal": "2025 American Control Conference (ACC)",
       "venue": "American Control Conference",
       "venueLabel": "ACC",
@@ -1092,23 +1093,41 @@
       "subjects": []
     },
     {
-      "paperId": "3ab215ef9fd4f588faa4d1416978ab5913d88971",
-      "title": "A Control Barrier Function Candidate for Quadrotors with Limited Field of View",
+      "paperId": "26cc7c75e4671283365effa56a3cd8a5e864a6fb",
+      "title": "Sensor-Based Safety-Critical Control Using an Incremental Control Barrier Function Formulation via Reduced-Order Approximate Models",
       "authors": [
-        "Biagio Trimarchi",
-        "Fabrizio Schiano",
-        "Roberto Tron"
+        "J. Autenrieb",
+        "Hyo-Sang Shin"
       ],
       "year": 2024,
-      "date": "2024-10-02",
+      "date": "2024-10-10",
       "citations": 3,
-      "arxivId": "2410.01277",
-      "doi": "10.23919/ACC63710.2025.11107490",
-      "url": "https://doi.org/10.23919/ACC63710.2025.11107490",
-      "abstract": "The problem of control based on vision measurements (bearings) has been amply studied in the literature; however, the problem of addressing the limits of the field of view of physical sensors has received relatively less attention (especially for agents with non-trivial dynamics). The technical challenge is that, as in most vision-based control approaches, a standard approach to the problem requires knowing the distance between cameras and observed features in the scene, which is not directly available. Instead, we present a solution based on a Control Barrier Function (CBF) approach that uses a splitting of the original differential constraint to effectively remove the dependence on the unknown measurement error. Compared to the current literature, our approach gives strong robustness guarantees against bounded distance estimation errors. We showcase the proposed solution with the numerical simulations of a double integrator and a quadrotor tracking a trajectory while keeping the corners of a rectangular gate in the camera field of view.",
+      "arxivId": "2410.08096",
+      "doi": "10.23919/ACC63710.2025.11107913",
+      "url": "https://doi.org/10.23919/ACC63710.2025.11107913",
+      "abstract": "The existing control barrier function literature generally relies on precise mathematical models to guarantee system safety, limiting their applicability in scenarios with parametric uncertainties. While incremental control techniques have shown promise in addressing model uncertainties in flight control applications, translating these approaches to safety-critical control presents significant challenges. This paper bridges this gap by introducing measurement-robust incremental control barrier functions (MRICBFs), which leverage sensor-based reduced-order models to provide formal safety guarantees for uncertain systems. By carefully addressing the challenges of sensor accuracy and approximation errors in the incremental formulation, our approach enables substituting specific model components with real-time sensor measurements while maintaining rigorous safety guarantees. This formulation overcomes the limitations of traditional adaptive control methods that adjust system parameters over time, enabling immediate and reliable safety measures for a class of model uncertainties. The efficacy of MRICBFs is demonstrated in two simulation case studies: a simple first-order system with time-varying sensor biases and a more complex overactuated hypersonic glide vehicle with multiple state constraints.",
       "journal": "2025 American Control Conference (ACC)",
       "venue": "American Control Conference",
       "venueLabel": "ACC",
+      "subjects": []
+    },
+    {
+      "paperId": "3db6d25789578b7ec2c07ce5699ecf891dbf607c",
+      "title": "Disturbance Observer-Parameterized Control Barrier Function With Adaptive Safety Bounds",
+      "authors": [
+        "Ziqi Yang",
+        "Lihua Xie"
+      ],
+      "year": 2024,
+      "date": "2024-12-10",
+      "citations": 2,
+      "arxivId": "2412.07349",
+      "doi": "10.1109/LCSYS.2025.3535379",
+      "url": "https://doi.org/10.1109/LCSYS.2025.3535379",
+      "abstract": "This letter presents a nonlinear disturbance observer-parameterized control barrier function (DOp-CBF) designed for a robust safety control system under external disturbances. This framework emphasizes that the safety bounds are relevant to the disturbances, acknowledging the critical impact of disturbances on system safety. This letter incorporates a disturbance observer (DO) as an adaptive mechanism of the safety bounds design. Instead of considering the worst-case scenario, the safety bounds are dynamically adjusted using DO. The forward invariance of the proposed method regardless of the observer error is ensured, and the corresponding optimal control formulation is presented. The performance of the proposed method is demonstrated through simulations of a cruise control problem under varying road grades. The influence of road grade on the safe distance between vehicles is analyzed and managed using a DO. The results demonstrate the advantages of this approach in maintaining safety and improving system performance under disturbances.",
+      "journal": "IEEE Control Systems Letters",
+      "venue": "IEEE Control Systems Letters",
+      "venueLabel": "L-CSS",
       "subjects": []
     },
     {
@@ -1133,22 +1152,22 @@
       "subjects": []
     },
     {
-      "paperId": "3db6d25789578b7ec2c07ce5699ecf891dbf607c",
-      "title": "Disturbance Observer-Parameterized Control Barrier Function With Adaptive Safety Bounds",
+      "paperId": "fc65f8c4491bdbff0f484328d0050286ea9b8f27",
+      "title": "An Energy Shaping-Based Control Barrier Function for Constrained Control of Robot Manipulator",
       "authors": [
-        "Ziqi Yang",
-        "Lihua Xie"
+        "T. Tamba",
+        "Bin Hu"
       ],
       "year": 2024,
-      "date": "2024-12-10",
-      "citations": 2,
-      "arxivId": "2412.07349",
-      "doi": "10.1109/LCSYS.2025.3535379",
-      "url": "https://doi.org/10.1109/LCSYS.2025.3535379",
-      "abstract": "This letter presents a nonlinear disturbance observer-parameterized control barrier function (DOp-CBF) designed for a robust safety control system under external disturbances. This framework emphasizes that the safety bounds are relevant to the disturbances, acknowledging the critical impact of disturbances on system safety. This letter incorporates a disturbance observer (DO) as an adaptive mechanism of the safety bounds design. Instead of considering the worst-case scenario, the safety bounds are dynamically adjusted using DO. The forward invariance of the proposed method regardless of the observer error is ensured, and the corresponding optimal control formulation is presented. The performance of the proposed method is demonstrated through simulations of a cruise control problem under varying road grades. The influence of road grade on the safe distance between vehicles is analyzed and managed using a DO. The results demonstrate the advantages of this approach in maintaining safety and improving system performance under disturbances.",
-      "journal": "IEEE Control Systems Letters",
-      "venue": "IEEE Control Systems Letters",
-      "venueLabel": "L-CSS",
+      "date": "2024-07-05",
+      "citations": 1,
+      "arxivId": "",
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/fc65f8c4491bdbff0f484328d0050286ea9b8f27",
+      "abstract": "",
+      "journal": "2024 14th Asian Control Conference (ASCC)",
+      "venue": "Asian Control Conference",
+      "venueLabel": "Asian Control Conference",
       "subjects": []
     },
     {
@@ -1172,22 +1191,24 @@
       "subjects": []
     },
     {
-      "paperId": "fc65f8c4491bdbff0f484328d0050286ea9b8f27",
-      "title": "An Energy Shaping-Based Control Barrier Function for Constrained Control of Robot Manipulator",
+      "paperId": "46231421cd8c6cf6d34802482dac21d15edfeabd",
+      "title": "Data-Driven Safety-Critical Control with High-Order Iterative Control Barrier Function",
       "authors": [
-        "T. Tamba",
-        "Bin Hu"
+        "Zi-Yuan Dong",
+        "Xinyi Yu",
+        "Linlin Ou",
+        "Yong-Qi Zhang"
       ],
       "year": 2024,
-      "date": "2024-07-05",
+      "date": "2024-12-16",
       "citations": 1,
       "arxivId": "",
-      "doi": "",
-      "url": "https://www.semanticscholar.org/paper/fc65f8c4491bdbff0f484328d0050286ea9b8f27",
-      "abstract": "",
-      "journal": "2024 14th Asian Control Conference (ASCC)",
-      "venue": "Asian Control Conference",
-      "venueLabel": "Asian Control Conference",
+      "doi": "10.1109/CDC56724.2024.10886234",
+      "url": "https://doi.org/10.1109/CDC56724.2024.10886234",
+      "abstract": "The stability and safety of uncertain nonlinear systems have always been an essential and hard task in the automation field. For the forward invariance of the safety set of the system under unmodeled dynamics, a new concept of data-driven high-order iterative control barrier function (DHICBF) is presented. To overcome the structural complexity and dependence on dynamic models of traditional robot controllers, an iterative learning mechanism is introduced and a modelfree iterative predictive controller (MFIPC) is designed. The controller can be progressively optimized by predicting future information so that it can cope with dynamic changes and uncertainties in the environment. On this basis, quadratic programming (QP) that unifies the DHI-CBF with the MFIPC is established, which is able to prioritize the safety of the system in case of conflict between the desired output and the security boundary. Finally, the application for Franka-Panda robot demonstrates the superiority of the presented algorithm.",
+      "journal": "2024 IEEE 63rd Conference on Decision and Control (CDC)",
+      "venue": "IEEE Conference on Decision and Control",
+      "venueLabel": "CDC",
       "subjects": []
     },
     {
@@ -1211,27 +1232,6 @@
       "journal": "2024 International Conference on Networking, Sensing and Control (ICNSC)",
       "venue": "International Conference on Networking, Sensing and Control",
       "venueLabel": "International Conference on Networking, Sensing and Control",
-      "subjects": []
-    },
-    {
-      "paperId": "46231421cd8c6cf6d34802482dac21d15edfeabd",
-      "title": "Data-Driven Safety-Critical Control with High-Order Iterative Control Barrier Function",
-      "authors": [
-        "Zi-Yuan Dong",
-        "Xinyi Yu",
-        "Linlin Ou",
-        "Yong-Qi Zhang"
-      ],
-      "year": 2024,
-      "date": "2024-12-16",
-      "citations": 1,
-      "arxivId": "",
-      "doi": "10.1109/CDC56724.2024.10886234",
-      "url": "https://doi.org/10.1109/CDC56724.2024.10886234",
-      "abstract": "The stability and safety of uncertain nonlinear systems have always been an essential and hard task in the automation field. For the forward invariance of the safety set of the system under unmodeled dynamics, a new concept of data-driven high-order iterative control barrier function (DHICBF) is presented. To overcome the structural complexity and dependence on dynamic models of traditional robot controllers, an iterative learning mechanism is introduced and a modelfree iterative predictive controller (MFIPC) is designed. The controller can be progressively optimized by predicting future information so that it can cope with dynamic changes and uncertainties in the environment. On this basis, quadratic programming (QP) that unifies the DHI-CBF with the MFIPC is established, which is able to prioritize the safety of the system in case of conflict between the desired output and the security boundary. Finally, the application for Franka-Panda robot demonstrates the superiority of the presented algorithm.",
-      "journal": "2024 IEEE 63rd Conference on Decision and Control (CDC)",
-      "venue": "IEEE Conference on Decision and Control",
-      "venueLabel": "CDC",
       "subjects": []
     },
     {
@@ -1958,7 +1958,7 @@
       ],
       "year": 2016,
       "date": "2016-09-21",
-      "citations": 2802,
+      "citations": 2805,
       "arxivId": "1609.06408",
       "doi": "10.1109/TAC.2016.2638961",
       "url": "https://doi.org/10.1109/TAC.2016.2638961",
@@ -2247,6 +2247,77 @@
     }
   ],
   "arxiv": [
+    {
+      "paperId": "arxiv:2608.24598v1",
+      "title": "Comparison Invariants for Verifying Control Invariance",
+      "authors": [
+        "Promit Panja",
+        "André Platzer"
+      ],
+      "year": null,
+      "date": "2026-08-25",
+      "citations": 0,
+      "arxivId": "2608.24598v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2608.24598v1",
+      "abstract": "Control invariance validates that dynamical systems have a control input that preserves a given property at all times. This paper introduces a set of sound axioms and proof rules in differential dynamic logic (dL) that enable verification of control invariance. First, the scalar and vector comparison principles, relating a system of differential equations to a comparison system such that invariance properties can be established more easily, are axiomatized in dL. This axiomatization primarily utilizes differential ghosts, which are proof-theoretic generalizations of comparison systems. Next, with the comparison principles serving as the basis, comparison invariants are introduced, and sound axioms and proof rules are derived. Comparison invariants reduce the question of control invariance to a functional inequality on its Lie derivative for a suitable class of functions, moreover, the right choice of function can result in decidable arithmetic. Furthermore, the perennially popular control barrier functions (CBFs) used in safety-critical control are shown to be a special instance of comparison invariants. This yields an axiomatization of CBFs that leads to a dedicated set of proof rules. The rules allow for the verification of CBFs, which are traditionally used for synthesizing safe controllers without verification. Lastly, comparison invariants are shown to unify several other safety verification techniques, including Darboux invariants and differential invariants, further cementing their versatility.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.LO",
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2608.24077v1",
+      "title": "Safe Distributed Generalized Nash Equilibrium Seeking via Control Barrier Functions",
+      "authors": [
+        "Yihan Meng",
+        "Weijian Li",
+        "Lacra Pavel"
+      ],
+      "year": null,
+      "date": "2026-08-25",
+      "citations": 0,
+      "arxivId": "2608.24077v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2608.24077v1",
+      "abstract": "In this paper, we consider generalized Nash equilibrium (GNE) seeking in non-cooperative games with coupled constraint sets. Specifically, we aim to enforce safety for distributed GNE seeking, whereby the safety specifications are encoded in the coupled constraint set. To achieve this, we introduce the control barrier function (CBF) in the design of the GNE seeking dynamics. We design the dynamics for both full- and partial-information setting, where each player has knowledge of the decision information of all other players or only neighboring players, respectively. We justify the proposed dynamics by showing that the coupled constraint set is forward invariant, the equilibrium of the dynamics coincides with the exact GNE of the game, and the dynamics is asymptotically stable. Furthermore, we extend the approach to games where the agents are multi-integrators. Numerical simulations are provided to verify our results.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "math.OC"
+      ]
+    },
+    {
+      "paperId": "arxiv:2608.23972v1",
+      "title": "Safety-aware Model Predictive Path Integral Control with Signal Temporal Logic",
+      "authors": [
+        "Yiqi Zhao",
+        "Taekyung Kim",
+        "Hideki Okamoto",
+        "Bardh Hoxha",
+        "Jyotirmoy V. Deshmukh",
+        "Lars Lindemann",
+        "Georgios Fainekos"
+      ],
+      "year": null,
+      "date": "2026-08-25",
+      "citations": 0,
+      "arxivId": "2608.23972v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2608.23972v1",
+      "abstract": "Safety-aware motion planning remains a challenge in robotics, especially when missions are time-critical and are under complex specifications. In this paper, we propose safety-aware-stl-mppi, a computationally efficient sampling-based receding-horizon planning framework designed to promote satisfaction of constraints expressed in Signal Temporal Logic (STL). Our approach encodes discrete-time STL formulas into candidate time-varying control barrier functions (CBF), which are integrated into a model predictive path integral (MPPI) controller. Our method inherits the benefits of low computational cost from an efficiently parallelizable sampling based planner and utilizes CBF for constraints expressed in STL. We compare against several MPPI baselines using four artificial Mars Rover planning case studies with a diverse environment and cost setups, where we show our method consistently achieving high safety and efficiency. We show a quadcopter planning experiment with NVIDIA Isaac Lab.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO",
+        "eess.SY"
+      ]
+    },
     {
       "paperId": "arxiv:2608.22633v1",
       "title": "Scaling-Based Reciprocal Control Barrier Functions for Nonholonomic Mobile Robots",
@@ -3314,77 +3385,7 @@
         "cs.MA",
         "eess.SY"
       ]
-    },
-    {
-      "paperId": "arxiv:2607.09959v1",
-      "title": "SEAMLiS: Visibility-Aware Safety for Perception-Limited Multi-Robot Exploration",
-      "authors": [
-        "Taekyung Kim",
-        "Rahul H Kumar",
-        "Aswin D. Menon",
-        "Tzu-Hsiang Lin",
-        "Dimitra Panagou"
-      ],
-      "year": null,
-      "date": "2026-07-10",
-      "citations": 0,
-      "arxivId": "2607.09959v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2607.09959v1",
-      "abstract": "Autonomous exploration in unknown environments is typically driven by informative frontiers, viewpoints, or trajectories, while local safety controllers avoid obstacles represented in the current map. Under finite sensing range and limited field of view, this separation can be unsafe: an exploration stack may plan optimistically through unobserved space and steer the sensor toward information gain rather than along the direction of motion, causing hidden obstacles to be detected too late for bounded-actuation avoidance. This paper presents SEAMLiS (Safe Exploration for Autonomous Multi-Robot Systems Under Limited Sensing), a modular execution-layer safety framework for decentralized multi-robot exploration. SEAMLiS preserves the upstream exploration stack, including the goal allocator and local planner, and enforces safety at the execution layer through perception-aware attitude and positional filters. A gatekeeper-based attitude filter switches between a visibility-promoting yaw policy and a velocity-tracking backup policy to preserve visibility of the critical known-free/unknown boundary with sufficient braking margin. A Control Barrier Function (CBF)-based positional filter then avoids known obstacles, newly detected obstacles, and other robots. We provide sufficient collision-avoidance conditions and validate the framework in randomized simulation, Isaac Sim, and Crazyflie hardware experiments. Results show collision-free exploration across tested single- and multi-robot settings while retaining much of the efficiency of visibility-promoting yaw control.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO",
-        "eess.SY"
-      ]
-    },
-    {
-      "paperId": "arxiv:2607.08948v1",
-      "title": "SplatCtrl: Perception-Action Coupling via Gaussian Scene Representations and Reactive Robot Control",
-      "authors": [
-        "Siddarth Jain",
-        "Ho Jin Choi"
-      ],
-      "year": null,
-      "date": "2026-07-09",
-      "citations": 0,
-      "arxivId": "2607.08948v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2607.08948v1",
-      "abstract": "Robotic manipulators excel in structured environments but face substantial challenges in unstructured and dynamic settings. This paper presents SplatCtrl, a unified framework for real-time scene reconstruction and reactive robot motion generation to enable collision-free robotic arm control in previously unseen and continuously changing environments. Building on 3D Gaussian Splatting (3D-GS), we introduce a hybrid voxel-based filtering and dynamic Gaussian relocation strategy that supports efficient scene reconstruction from RGB-D streams while accommodating environmental changes. For safe and reactive control, we further propose a method for deriving continuous signed distance functions from isotropic Gaussians, providing stable and differentiable collision probability estimates that bridge classical distance fields with the modern implicit representation. These continuous distance metrics are incorporated into control barrier functions, resulting in a unified perception-action coupling framework that supports smooth and reliable real-time motion generation in response to scene changes. Experimental validation in simulation, on physical robot, and within shared human-robot workspace demonstrates the framework's effectiveness, achieving integrated scene reconstruction and reactive control in uncertain, and dynamic environments.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO",
-        "cs.CV"
-      ]
-    },
-    {
-      "paperId": "arxiv:2607.02192v1",
-      "title": "Reference-Governed Distributed Safe Gradient Flow for Safe Optimal Output Agreement of Multi-Agent Systems",
-      "authors": [
-        "Zhanglin Shangguan",
-        "Wei Xiao",
-        "Bo Yang",
-        "Xinping Guan"
-      ],
-      "year": null,
-      "date": "2026-07-02",
-      "citations": 0,
-      "arxivId": "2607.02192v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2607.02192v1",
-      "abstract": "This paper studies safe optimal output agreement for nonlinear multi-agent systems with output safety constraints. Existing safe feedback optimization methods often implement gradient-flow dynamics directly through the plant input, which may require high-order control barrier functions (HOCBFs). The resulting derivative-chain design is tuning-sensitive and can introduce additional equilibrium conditions that alter the steady-state optimal solution. We propose a reference-governed two-layer architecture that separates lower-layer output regulation from upper-layer distributed optimization. The upper layer filters the reference gradient flow through first-order control barrier function constraints, which are easier to tune and preserve the steady-state optimality structure of the original agreement problem. The lower layer uses an internal-model-based output regulator with a reference-dependent Lyapunov function, from which dynamic safety margins (DSMs) are constructed to certify transient output safety. We prove forward invariance, optimal-solution preservation under DSM-compatibility conditions, and convergence via a Lyapunov small-gain argument. Simulations validate safe convergence, show advantages over HOCBF-based feedback optimization, and demonstrate adaptive tangential objective shaping for escaping spurious equilibria induced by nonconvex obstacles.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY"
-      ]
     }
   ],
-  "updated": "2026-08-25T23:35:59.875789+00:00"
+  "updated": "2026-08-26T04:46:15.630220+00:00"
 }
