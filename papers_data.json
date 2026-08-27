@@ -169,29 +169,6 @@
       "subjects": []
     },
     {
-      "paperId": "66b18bdb8675459004bbd35677368a24029ac61d",
-      "title": "Safety-Critical Control of Flexible Payload Manipulation Using High Order Control Barrier Functions*",
-      "authors": [
-        "Harun Tugal",
-        "Adam Slater",
-        "William Harwin",
-        "Samuel Herschmann",
-        "Kaiqiang Zhang",
-        "R. Skilton"
-      ],
-      "year": 2026,
-      "date": "2026-07-07",
-      "citations": 0,
-      "arxivId": "",
-      "doi": "",
-      "url": "https://www.semanticscholar.org/paper/66b18bdb8675459004bbd35677368a24029ac61d",
-      "abstract": "",
-      "journal": "2026 European Control Conference (ECC)",
-      "venue": "European Control Conference",
-      "venueLabel": "ECC",
-      "subjects": []
-    },
-    {
       "paperId": "a4ae204b7bcadd7ce987b65d9a05bbfd23171be5",
       "title": "Safe prescribed time controller for wheeled mobile robots by using control barrier functions as a safety filter.",
       "authors": [
@@ -370,7 +347,7 @@
       ],
       "year": 2016,
       "date": "2016-09-21",
-      "citations": 2806,
+      "citations": 2808,
       "arxivId": "1609.06408",
       "doi": "10.1109/TAC.2016.2638961",
       "url": "https://doi.org/10.1109/TAC.2016.2638961",
@@ -1466,6 +1443,26 @@
     }
   ],
   "arxiv": [
+    {
+      "paperId": "arxiv:2608.25323v1",
+      "title": "Scalable Tube-Tightened Multi-Agent Safety via Certified Constraint Reduction",
+      "authors": [
+        "Armel Koulong"
+      ],
+      "year": null,
+      "date": "2026-08-26",
+      "citations": 0,
+      "arxivId": "2608.25323v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2608.25323v1",
+      "abstract": "This paper develops a certified constraint-reduction method for distributed model predictive control with tube-tightened exponential control barrier functions (eCBFs) in multi-agent systems. At each prediction stage, pairwise agent--agent and agent--obstacle eCBF conditions define halfspaces in the local control space. Rather than enforcing all such halfspaces, a geometry-adaptive subset is retained and a Farkas certificate verifies that the reduced admissible set is contained in the full tightened set. For planar inputs, cone coverage is characterized through the largest angular gap: two extreme directions suffice in the strict half-plane regime, while other geometries initialize with three retained constraints and escalate only when certification fails. Conic multipliers and nominal-aware offsets are obtained in closed form, without an auxiliary optimization, and the resulting construction preserves any nominal control already admissible for the full tightened set. Consequently, the reduced controller inherits the robust safety guarantee of the underlying tube-eCBF formulation. In a ten-follower, four-obstacle study, the method retained fewer safety constraints on average, reproduced the full filter's nominal accept/reject decisions with no true safety violations, and achieved increasing computational gains as the constraint count and prediction horizon grew.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
     {
       "paperId": "arxiv:2608.24598v1",
       "title": "Comparison Invariants for Verifying Control Invariance",
@@ -2580,31 +2577,7 @@
         "cs.RO",
         "eess.SY"
       ]
-    },
-    {
-      "paperId": "arxiv:2607.10014v1",
-      "title": "Runtime Safety Filtering for Learned Small UAS Separation Policies under GNSS Degradation",
-      "authors": [
-        "Alex Zongo",
-        "Peng Wei"
-      ],
-      "year": null,
-      "date": "2026-07-10",
-      "citations": 0,
-      "arxivId": "2607.10014v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2607.10014v1",
-      "abstract": "Learning-based separation assurance for small Unmanned Aircraft Systems (sUAS) achieves near-zero collision rates in simulation, but assumes accurate position and velocity information from Global Navigation Satellite Systems (GNSS). This assumption fails in urban environments, where multipath propagation, signal blockage, and intentional interference degrade navigation integrity. This raises a fundamental architectural question for deploying learned separation policies under GNSS degradation: should runtime safety mechanisms filter the policy's actions or its observations? This work evaluates both approaches for multi-agent sUAS separation under adversarial GNSS degradation. Both architectures first estimate a worst-case traffic state consistent with bounded observation uncertainty, then diverge: action filtering constrains policy outputs via discrete-time control barrier functions evaluated at the worst-case state, while observation filtering presents the worst-case state directly to the policy as corrected input. Experimental results show that action filtering provides negligible safety improvement, while observation filtering reduces near mid-air collisions by 90% and remains robust to the barrier function's tradeoff between separation distance and closing rate. These results suggest that, for policies with learned safety behaviors, preserving the policy's decision authority outperforms overriding its actions with hand-designed constraints.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO",
-        "cs.LG",
-        "cs.MA",
-        "eess.SY"
-      ]
     }
   ],
-  "updated": "2026-08-26T09:39:31.181634+00:00"
+  "updated": "2026-08-27T04:32:50.271678+00:00"
 }
