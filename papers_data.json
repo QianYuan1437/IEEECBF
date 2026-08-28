@@ -168,27 +168,6 @@
       "subjects": []
     },
     {
-      "paperId": "cc71f7ab748265608f1b740311417feaff875601",
-      "title": "Conformal Prediction in the Loop: Risk-Aware Control Barrier Functions for Stochastic Systems With Data-Driven State Estimators",
-      "authors": [
-        "Junhui Zhang",
-        "Bardh Hoxha",
-        "Georgios Fainekos",
-        "Dimitra Panagou"
-      ],
-      "year": 2025,
-      "date": null,
-      "citations": 13,
-      "arxivId": "",
-      "doi": "10.1109/LCSYS.2025.3571828",
-      "url": "https://doi.org/10.1109/LCSYS.2025.3571828",
-      "abstract": "This letter proposes a sampled-data, measurement-robust, risk-aware control barrier function (RA-CBF) framework for stochastic systems with measurement uncertainty. In this framework, what is available for control design are measurements of the system states, which are subject to unknown noise. First, in order to estimate the system states from these measurements, an offline-trained neural network is employed as a state estimator. Next, to quantify the performance of the state estimator, the state space is discretized, and calibration datasets are sampled from the grid points. Conformal prediction is then implemented, providing the estimation error bound with user-defined probability. In addition, we leverage the estimation error bound into sampled-data robust RA-CBF design, such that the probability that the state of the system enters the unsafe set during a finite time horizon is bounded by a desired threshold. Various case studies demonstrate the effectiveness of the proposed method.",
-      "journal": "IEEE Control Systems Letters",
-      "venue": "IEEE Control Systems Letters",
-      "venueLabel": "L-CSS",
-      "subjects": []
-    },
-    {
       "paperId": "a4a2edd860ceeeb58aae7d6de1b2cf052731842a",
       "title": "Control Barrier Functions for Shared Control and Vehicle Safety",
       "authors": [
@@ -210,6 +189,27 @@
       "journal": "2025 American Control Conference (ACC)",
       "venue": "American Control Conference",
       "venueLabel": "ACC",
+      "subjects": []
+    },
+    {
+      "paperId": "cc71f7ab748265608f1b740311417feaff875601",
+      "title": "Conformal Prediction in the Loop: Risk-Aware Control Barrier Functions for Stochastic Systems With Data-Driven State Estimators",
+      "authors": [
+        "Junhui Zhang",
+        "Bardh Hoxha",
+        "Georgios Fainekos",
+        "Dimitra Panagou"
+      ],
+      "year": 2025,
+      "date": null,
+      "citations": 13,
+      "arxivId": "",
+      "doi": "10.1109/LCSYS.2025.3571828",
+      "url": "https://doi.org/10.1109/LCSYS.2025.3571828",
+      "abstract": "This letter proposes a sampled-data, measurement-robust, risk-aware control barrier function (RA-CBF) framework for stochastic systems with measurement uncertainty. In this framework, what is available for control design are measurements of the system states, which are subject to unknown noise. First, in order to estimate the system states from these measurements, an offline-trained neural network is employed as a state estimator. Next, to quantify the performance of the state estimator, the state space is discretized, and calibration datasets are sampled from the grid points. Conformal prediction is then implemented, providing the estimation error bound with user-defined probability. In addition, we leverage the estimation error bound into sampled-data robust RA-CBF design, such that the probability that the state of the system enters the unsafe set during a finite time horizon is bounded by a desired threshold. Various case studies demonstrate the effectiveness of the proposed method.",
+      "journal": "IEEE Control Systems Letters",
+      "venue": "IEEE Control Systems Letters",
+      "venueLabel": "L-CSS",
       "subjects": []
     },
     {
@@ -338,27 +338,6 @@
       "subjects": []
     },
     {
-      "paperId": "8e063eb1c699d438ddd0b98dda2f5ffc39b60246",
-      "title": "Probabilistic Control Barrier Functions: Safety in Probability for Discrete-Time Stochastic Systems",
-      "authors": [
-        "Pol Mestres",
-        "Blake Werner",
-        "Ryan K. Cosner",
-        "Aaron D. Ames"
-      ],
-      "year": 2025,
-      "date": "2025-10-01",
-      "citations": 7,
-      "arxivId": "2510.01501",
-      "doi": "10.48550/arXiv.2510.01501",
-      "url": "https://doi.org/10.48550/arXiv.2510.01501",
-      "abstract": "Control systems operating in the real world face countless sources of unpredictable uncertainties. These random disturbances can render deterministic guarantees inapplicable and cause catastrophic safety failures. To overcome this, this paper proposes a method for designing safe controllers for discrete-time stochastic systems that retain probabilistic guarantees of safety. To do this we modify the traditional notion of a control barrier function (CBF) to explicitly account for these stochastic uncertainties and call these new modified functions probabilistic CBFs. We show that probabilistic CBFs can be used to design controllers that guarantee safety over a finite number of time steps with a prescribed probability. Next, by leveraging various uncertainty quantification methods, such as concentration inequalities and the scenario approach, we provide a variety of sufficient conditions that result in computationally tractable controllers with tunable probabilistic guarantees across a plethora of practical scenarios. Finally, we showcase the applicability of our results in simulation and hardware for the control of a quadruped robot.",
-      "journal": "2026 American Control Conference (ACC)",
-      "venue": "American Control Conference",
-      "venueLabel": "ACC",
-      "subjects": []
-    },
-    {
       "paperId": "5c8ddd281fff1099230cb9265a4455cd22c638e9",
       "title": "A Safe, high-precision reinforcement learning-based optimal control of surgical continuum robots: A monotone tube boundary approach with prescribed-time control capability",
       "authors": [
@@ -378,6 +357,27 @@
       "journal": "Robotics Auton. Syst.",
       "venue": "",
       "venueLabel": "Robotics Auton. Syst.",
+      "subjects": []
+    },
+    {
+      "paperId": "8e063eb1c699d438ddd0b98dda2f5ffc39b60246",
+      "title": "Probabilistic Control Barrier Functions: Safety in Probability for Discrete-Time Stochastic Systems",
+      "authors": [
+        "Pol Mestres",
+        "Blake Werner",
+        "Ryan K. Cosner",
+        "Aaron D. Ames"
+      ],
+      "year": 2025,
+      "date": "2025-10-01",
+      "citations": 7,
+      "arxivId": "2510.01501",
+      "doi": "10.48550/arXiv.2510.01501",
+      "url": "https://doi.org/10.48550/arXiv.2510.01501",
+      "abstract": "Control systems operating in the real world face countless sources of unpredictable uncertainties. These random disturbances can render deterministic guarantees inapplicable and cause catastrophic safety failures. To overcome this, this paper proposes a method for designing safe controllers for discrete-time stochastic systems that retain probabilistic guarantees of safety. To do this we modify the traditional notion of a control barrier function (CBF) to explicitly account for these stochastic uncertainties and call these new modified functions probabilistic CBFs. We show that probabilistic CBFs can be used to design controllers that guarantee safety over a finite number of time steps with a prescribed probability. Next, by leveraging various uncertainty quantification methods, such as concentration inequalities and the scenario approach, we provide a variety of sufficient conditions that result in computationally tractable controllers with tunable probabilistic guarantees across a plethora of practical scenarios. Finally, we showcase the applicability of our results in simulation and hardware for the control of a quadruped robot.",
+      "journal": "2026 American Control Conference (ACC)",
+      "venue": "American Control Conference",
+      "venueLabel": "ACC",
       "subjects": []
     },
     {
@@ -501,6 +501,24 @@
       "subjects": []
     },
     {
+      "paperId": "a967434a1ddc329d2e45a5e5fabb37133d578628",
+      "title": "A Convex Model Predictive Control Barrier Function Approach for Differentially Flat Systems",
+      "authors": [
+        "M. Prieß"
+      ],
+      "year": 2025,
+      "date": "2025-11-01",
+      "citations": 3,
+      "arxivId": "",
+      "doi": "10.1109/TCST.2025.3585086",
+      "url": "https://doi.org/10.1109/TCST.2025.3585086",
+      "abstract": "This brief provides a novel approach for online synthesis of predictive control barrier function (CBF)-based safety filters and controllers for differentially flat, input-constrained systems. A local convex approximation to the safe set is inflated around the current system state and used to formulate a set of discrete-time affine CBF constraints. These constraints are enforced over a finite prediction horizon using a discrete-time convex model predictive control (MPC) formulation that can be solved at each sample instant. This approach is tractable for cases when the original safe set is defined by one or more concave or convex-ellipsoidal barrier functions, and is applicable even when the number or configuration of these barriers can change during runtime. This methodology is extended to enable simultaneous control Lyapunov function (CLF) enforcement within the same MPC framework, and both approaches are demonstrated in simulation.",
+      "journal": "IEEE Transactions on Control Systems Technology",
+      "venue": "IEEE Transactions on Control Systems Technology",
+      "venueLabel": "TCST",
+      "subjects": []
+    },
+    {
       "paperId": "24fe406680f93509d89622e2fb5ea3ceba385a96",
       "title": "Safe Reinforcement Learning Tracking Control based on Tunable Input-to-State Safe Control Barrier Function",
       "authors": [
@@ -518,24 +536,6 @@
       "journal": "2025 American Control Conference (ACC)",
       "venue": "American Control Conference",
       "venueLabel": "ACC",
-      "subjects": []
-    },
-    {
-      "paperId": "a967434a1ddc329d2e45a5e5fabb37133d578628",
-      "title": "A Convex Model Predictive Control Barrier Function Approach for Differentially Flat Systems",
-      "authors": [
-        "M. Prieß"
-      ],
-      "year": 2025,
-      "date": "2025-11-01",
-      "citations": 3,
-      "arxivId": "",
-      "doi": "10.1109/TCST.2025.3585086",
-      "url": "https://doi.org/10.1109/TCST.2025.3585086",
-      "abstract": "This brief provides a novel approach for online synthesis of predictive control barrier function (CBF)-based safety filters and controllers for differentially flat, input-constrained systems. A local convex approximation to the safe set is inflated around the current system state and used to formulate a set of discrete-time affine CBF constraints. These constraints are enforced over a finite prediction horizon using a discrete-time convex model predictive control (MPC) formulation that can be solved at each sample instant. This approach is tractable for cases when the original safe set is defined by one or more concave or convex-ellipsoidal barrier functions, and is applicable even when the number or configuration of these barriers can change during runtime. This methodology is extended to enable simultaneous control Lyapunov function (CLF) enforcement within the same MPC framework, and both approaches are demonstrated in simulation.",
-      "journal": "IEEE Transactions on Control Systems Technology",
-      "venue": "IEEE Transactions on Control Systems Technology",
-      "venueLabel": "TCST",
       "subjects": []
     },
     {
@@ -584,6 +584,27 @@
       "subjects": []
     },
     {
+      "paperId": "4bb3bd6e5c08543c04fc8a83325cd40585f5c09a",
+      "title": "Dynamic Log-Gaussian Process Control Barrier Function for Safe Robotic Navigation in Dynamic Environments",
+      "authors": [
+        "Xin Yin",
+        "Chenyang Liang",
+        "Yanning Guo",
+        "Jie Mei"
+      ],
+      "year": 2025,
+      "date": "2025-12-01",
+      "citations": 2,
+      "arxivId": "2512.01668",
+      "doi": "10.1109/CDC57313.2025.11312647",
+      "url": "https://doi.org/10.1109/CDC57313.2025.11312647",
+      "abstract": "Control Barrier Functions (CBFs) have emerged as efficient tools to address the safe navigation problem for robot applications. However, synthesizing informative and obstacle motion-aware CBFs online using real-time sensor data remains challenging, particularly in unknown and dynamic scenarios. Motived by this challenge, this paper aims to propose a novel Gaussian Process-based formulation of CBF, termed the Dynamic Log Gaussian Process Control Barrier Function (DLGP-CBF), to enable real-time construction of CBF which are both spatially informative and responsive to obstacle motion. Firstly, the DLGP-CBF leverages a logarithmic transformation of GP regression to generate smooth and informative barrier values and gradients, even in sparse-data regions. Secondly, by explicitly modeling the DLGP-CBF as a function of obstacle positions, the derived safety constraint integrates predicted obstacle velocities, allowing the controller to proactively respond to dynamic obstacles’ motion. Simulation results demonstrate significant improvements in obstacle avoidance performance, including increased safety margins, smoother trajectories, and enhanced responsiveness compared to baseline methods.",
+      "journal": "2025 IEEE 64th Conference on Decision and Control (CDC)",
+      "venue": "IEEE Conference on Decision and Control",
+      "venueLabel": "CDC",
+      "subjects": []
+    },
+    {
       "paperId": "8ab46b7f85122e91b78fbe7f8064182f00681fae",
       "title": "Control barrier function-based fixed-time spacecraft attitude control under pointing constraints",
       "authors": [
@@ -603,27 +624,6 @@
       "journal": "International Journal of Control",
       "venue": "International Journal of Control",
       "venueLabel": "International Journal of Control",
-      "subjects": []
-    },
-    {
-      "paperId": "4bb3bd6e5c08543c04fc8a83325cd40585f5c09a",
-      "title": "Dynamic Log-Gaussian Process Control Barrier Function for Safe Robotic Navigation in Dynamic Environments",
-      "authors": [
-        "Xin Yin",
-        "Chenyang Liang",
-        "Yanning Guo",
-        "Jie Mei"
-      ],
-      "year": 2025,
-      "date": "2025-12-01",
-      "citations": 2,
-      "arxivId": "2512.01668",
-      "doi": "10.1109/CDC57313.2025.11312647",
-      "url": "https://doi.org/10.1109/CDC57313.2025.11312647",
-      "abstract": "Control Barrier Functions (CBFs) have emerged as efficient tools to address the safe navigation problem for robot applications. However, synthesizing informative and obstacle motion-aware CBFs online using real-time sensor data remains challenging, particularly in unknown and dynamic scenarios. Motived by this challenge, this paper aims to propose a novel Gaussian Process-based formulation of CBF, termed the Dynamic Log Gaussian Process Control Barrier Function (DLGP-CBF), to enable real-time construction of CBF which are both spatially informative and responsive to obstacle motion. Firstly, the DLGP-CBF leverages a logarithmic transformation of GP regression to generate smooth and informative barrier values and gradients, even in sparse-data regions. Secondly, by explicitly modeling the DLGP-CBF as a function of obstacle positions, the derived safety constraint integrates predicted obstacle velocities, allowing the controller to proactively respond to dynamic obstacles’ motion. Simulation results demonstrate significant improvements in obstacle avoidance performance, including increased safety margins, smoother trajectories, and enhanced responsiveness compared to baseline methods.",
-      "journal": "2025 IEEE 64th Conference on Decision and Control (CDC)",
-      "venue": "IEEE Conference on Decision and Control",
-      "venueLabel": "CDC",
       "subjects": []
     },
     {
@@ -1010,25 +1010,6 @@
       "subjects": []
     },
     {
-      "paperId": "50c12d43dab81e32cab3250dd7c39308bfc38c3a",
-      "title": "A Learning-Based Control Barrier Function for Car-Like Robots: Toward Less Conservative Collision Avoidance",
-      "authors": [
-        "Jianye Xu",
-        "Bassam Alrifaee"
-      ],
-      "year": 2024,
-      "date": "2024-11-13",
-      "citations": 4,
-      "arxivId": "2411.08999",
-      "doi": "10.23919/ECC65951.2025.11187043",
-      "url": "https://doi.org/10.23919/ECC65951.2025.11187043",
-      "abstract": "We propose a learning-based Control Barrier Function (CBF) to reduce conservatism in collision avoidance for car-like robots. Traditional CBFs often use the Euclidean distance between robots’ centers as a safety margin, which neglects their headings and approximates their geometries as circles. Although this simplification meets the smoothness and differentiability requirements of CBFs, it may result in overly conservative behavior in dense environments. We address this by designing a safety margin that considers both the robot’s heading and actual shape, thereby enabling a more precise estimation of safe regions. Because this safety margin is non-differentiable, we approximate it with a neural network to ensure differentiability. In addition, we propose a notion of relative dynamics that makes the learning process tractable. In a case study, we establish the theoretical foundation for applying this notion to a nonlinear kinematic bicycle model. Numerical experiments in overtaking and bypassing scenarios show that our approach reduces conservatism (e.g., requiring 33.5 % less lateral space for bypassing) without incurring significant extra computation time.",
-      "journal": "2025 European Control Conference (ECC)",
-      "venue": "European Control Conference",
-      "venueLabel": "ECC",
-      "subjects": []
-    },
-    {
       "paperId": "5cc8eb28cd8e2b61100cfc38ad27a86f6f743684",
       "title": "Safe Reinforcement Learning Using Model Predictive Control with Probabilistic Control Barrier Function",
       "authors": [
@@ -1071,25 +1052,42 @@
       "subjects": []
     },
     {
-      "paperId": "c1d7b51c0dd4a4196d80f33c79df5c6466d66c62",
-      "title": "A Wake Avoidance Method for Unmanned Maritime Vehicles using a Trajectory-Circle-Based Control Barrier Function",
+      "paperId": "50c12d43dab81e32cab3250dd7c39308bfc38c3a",
+      "title": "A Learning-Based Control Barrier Function for Car-Like Robots: Toward Less Conservative Collision Avoidance",
       "authors": [
-        "Yexin Fan",
-        "Haoyang Yang",
-        "Hongyang Dong",
-        "Weitao Yue",
-        "Xiaowei Zhao"
+        "Jianye Xu",
+        "Bassam Alrifaee"
       ],
       "year": 2024,
-      "date": "2024-12-16",
+      "date": "2024-11-13",
+      "citations": 4,
+      "arxivId": "2411.08999",
+      "doi": "10.23919/ECC65951.2025.11187043",
+      "url": "https://doi.org/10.23919/ECC65951.2025.11187043",
+      "abstract": "We propose a learning-based Control Barrier Function (CBF) to reduce conservatism in collision avoidance for car-like robots. Traditional CBFs often use the Euclidean distance between robots’ centers as a safety margin, which neglects their headings and approximates their geometries as circles. Although this simplification meets the smoothness and differentiability requirements of CBFs, it may result in overly conservative behavior in dense environments. We address this by designing a safety margin that considers both the robot’s heading and actual shape, thereby enabling a more precise estimation of safe regions. Because this safety margin is non-differentiable, we approximate it with a neural network to ensure differentiability. In addition, we propose a notion of relative dynamics that makes the learning process tractable. In a case study, we establish the theoretical foundation for applying this notion to a nonlinear kinematic bicycle model. Numerical experiments in overtaking and bypassing scenarios show that our approach reduces conservatism (e.g., requiring 33.5 % less lateral space for bypassing) without incurring significant extra computation time.",
+      "journal": "2025 European Control Conference (ECC)",
+      "venue": "European Control Conference",
+      "venueLabel": "ECC",
+      "subjects": []
+    },
+    {
+      "paperId": "3ab215ef9fd4f588faa4d1416978ab5913d88971",
+      "title": "A Control Barrier Function Candidate for Quadrotors with Limited Field of View",
+      "authors": [
+        "Biagio Trimarchi",
+        "Fabrizio Schiano",
+        "Roberto Tron"
+      ],
+      "year": 2024,
+      "date": "2024-10-02",
       "citations": 3,
-      "arxivId": "",
-      "doi": "10.1109/CDC56724.2024.10885836",
-      "url": "https://doi.org/10.1109/CDC56724.2024.10885836",
-      "abstract": "Efficient obstacle avoidance while controlling unmanned maritime vehicles (UMVs) is an important topic. Evading obstacles that are both time-varying and shapechanging, such as avoiding moving boats and their wake regions that vary with the boat’s motion and propagate along time, is essential for UMV’s safe operation yet a challenging task. To address this challenge, this paper proposes a novel trajectory-circle-based control barrier function (CBF) method for variable-area obstacle avoidance. As a stepping stone, the boundaries of obstacles are defined by modeling the relationship between the Kelvin wake pattern and the boat’s motions, thereby defining the boundaries of obstacles. We propose a novel CBF formulation based on the geometric relationship between the collision area and UMV motion states. Particularly, we leverage the geometrical properties between the predictive circular trajectory and the collision area to construct invariant sets. Compared to traditional CBF-based methods, our design achieves smoother avoidance trajectories and requires smaller control corrections, guaranteeing a safe operation for UMVs.",
-      "journal": "2024 IEEE 63rd Conference on Decision and Control (CDC)",
-      "venue": "IEEE Conference on Decision and Control",
-      "venueLabel": "CDC",
+      "arxivId": "2410.01277",
+      "doi": "10.23919/ACC63710.2025.11107490",
+      "url": "https://doi.org/10.23919/ACC63710.2025.11107490",
+      "abstract": "The problem of control based on vision measurements (bearings) has been amply studied in the literature; however, the problem of addressing the limits of the field of view of physical sensors has received relatively less attention (especially for agents with non-trivial dynamics). The technical challenge is that, as in most vision-based control approaches, a standard approach to the problem requires knowing the distance between cameras and observed features in the scene, which is not directly available. Instead, we present a solution based on a Control Barrier Function (CBF) approach that uses a splitting of the original differential constraint to effectively remove the dependence on the unknown measurement error. Compared to the current literature, our approach gives strong robustness guarantees against bounded distance estimation errors. We showcase the proposed solution with the numerical simulations of a double integrator and a quadrotor tracking a trajectory while keeping the corners of a rectangular gate in the camera field of view.",
+      "journal": "2025 American Control Conference (ACC)",
+      "venue": "American Control Conference",
+      "venueLabel": "ACC",
       "subjects": []
     },
     {
@@ -1112,23 +1110,25 @@
       "subjects": []
     },
     {
-      "paperId": "3ab215ef9fd4f588faa4d1416978ab5913d88971",
-      "title": "A Control Barrier Function Candidate for Quadrotors with Limited Field of View",
+      "paperId": "c1d7b51c0dd4a4196d80f33c79df5c6466d66c62",
+      "title": "A Wake Avoidance Method for Unmanned Maritime Vehicles using a Trajectory-Circle-Based Control Barrier Function",
       "authors": [
-        "Biagio Trimarchi",
-        "Fabrizio Schiano",
-        "Roberto Tron"
+        "Yexin Fan",
+        "Haoyang Yang",
+        "Hongyang Dong",
+        "Weitao Yue",
+        "Xiaowei Zhao"
       ],
       "year": 2024,
-      "date": "2024-10-02",
+      "date": "2024-12-16",
       "citations": 3,
-      "arxivId": "2410.01277",
-      "doi": "10.23919/ACC63710.2025.11107490",
-      "url": "https://doi.org/10.23919/ACC63710.2025.11107490",
-      "abstract": "The problem of control based on vision measurements (bearings) has been amply studied in the literature; however, the problem of addressing the limits of the field of view of physical sensors has received relatively less attention (especially for agents with non-trivial dynamics). The technical challenge is that, as in most vision-based control approaches, a standard approach to the problem requires knowing the distance between cameras and observed features in the scene, which is not directly available. Instead, we present a solution based on a Control Barrier Function (CBF) approach that uses a splitting of the original differential constraint to effectively remove the dependence on the unknown measurement error. Compared to the current literature, our approach gives strong robustness guarantees against bounded distance estimation errors. We showcase the proposed solution with the numerical simulations of a double integrator and a quadrotor tracking a trajectory while keeping the corners of a rectangular gate in the camera field of view.",
-      "journal": "2025 American Control Conference (ACC)",
-      "venue": "American Control Conference",
-      "venueLabel": "ACC",
+      "arxivId": "",
+      "doi": "10.1109/CDC56724.2024.10885836",
+      "url": "https://doi.org/10.1109/CDC56724.2024.10885836",
+      "abstract": "Efficient obstacle avoidance while controlling unmanned maritime vehicles (UMVs) is an important topic. Evading obstacles that are both time-varying and shapechanging, such as avoiding moving boats and their wake regions that vary with the boat’s motion and propagate along time, is essential for UMV’s safe operation yet a challenging task. To address this challenge, this paper proposes a novel trajectory-circle-based control barrier function (CBF) method for variable-area obstacle avoidance. As a stepping stone, the boundaries of obstacles are defined by modeling the relationship between the Kelvin wake pattern and the boat’s motions, thereby defining the boundaries of obstacles. We propose a novel CBF formulation based on the geometric relationship between the collision area and UMV motion states. Particularly, we leverage the geometrical properties between the predictive circular trajectory and the collision area to construct invariant sets. Compared to traditional CBF-based methods, our design achieves smoother avoidance trajectories and requires smaller control corrections, guaranteeing a safe operation for UMVs.",
+      "journal": "2024 IEEE 63rd Conference on Decision and Control (CDC)",
+      "venue": "IEEE Conference on Decision and Control",
+      "venueLabel": "CDC",
       "subjects": []
     },
     {
@@ -1169,6 +1169,25 @@
       "journal": "2024 10th International Conference on Control, Decision and Information Technologies (CoDIT)",
       "venue": "International Conference on Control, Decision and Information Technologies",
       "venueLabel": "International Conference on Control, Decision and Information Technologies",
+      "subjects": []
+    },
+    {
+      "paperId": "fc65f8c4491bdbff0f484328d0050286ea9b8f27",
+      "title": "An Energy Shaping-Based Control Barrier Function for Constrained Control of Robot Manipulator",
+      "authors": [
+        "T. Tamba",
+        "Bin Hu"
+      ],
+      "year": 2024,
+      "date": "2024-07-05",
+      "citations": 1,
+      "arxivId": "",
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/fc65f8c4491bdbff0f484328d0050286ea9b8f27",
+      "abstract": "",
+      "journal": "2024 14th Asian Control Conference (ASCC)",
+      "venue": "Asian Control Conference",
+      "venueLabel": "Asian Control Conference",
       "subjects": []
     },
     {
@@ -1233,25 +1252,6 @@
       "journal": "2024 International Conference on Networking, Sensing and Control (ICNSC)",
       "venue": "International Conference on Networking, Sensing and Control",
       "venueLabel": "International Conference on Networking, Sensing and Control",
-      "subjects": []
-    },
-    {
-      "paperId": "fc65f8c4491bdbff0f484328d0050286ea9b8f27",
-      "title": "An Energy Shaping-Based Control Barrier Function for Constrained Control of Robot Manipulator",
-      "authors": [
-        "T. Tamba",
-        "Bin Hu"
-      ],
-      "year": 2024,
-      "date": "2024-07-05",
-      "citations": 1,
-      "arxivId": "",
-      "doi": "",
-      "url": "https://www.semanticscholar.org/paper/fc65f8c4491bdbff0f484328d0050286ea9b8f27",
-      "abstract": "",
-      "journal": "2024 14th Asian Control Conference (ASCC)",
-      "venue": "Asian Control Conference",
-      "venueLabel": "Asian Control Conference",
       "subjects": []
     },
     {
@@ -4277,5 +4277,5 @@
       ]
     }
   ],
-  "updated": "2026-08-28T16:02:29.088433+00:00"
+  "updated": "2026-08-28T20:38:48.274480+00:00"
 }
