@@ -783,7 +783,7 @@
       ],
       "year": 2016,
       "date": "2016-09-21",
-      "citations": 2826,
+      "citations": 2827,
       "arxivId": "1609.06408",
       "doi": "10.1109/TAC.2016.2638961",
       "url": "https://doi.org/10.1109/TAC.2016.2638961",
@@ -803,7 +803,7 @@
       ],
       "year": 2014,
       "date": "2014-12-01",
-      "citations": 1074,
+      "citations": 1075,
       "arxivId": "",
       "doi": "10.1109/CDC.2014.7040372",
       "url": "https://doi.org/10.1109/CDC.2014.7040372",
@@ -822,7 +822,7 @@
       ],
       "year": 2021,
       "date": "2021-08-18",
-      "citations": 568,
+      "citations": 569,
       "arxivId": "",
       "doi": "10.1109/tac.2021.3105491",
       "url": "https://doi.org/10.1109/tac.2021.3105491",
@@ -903,7 +903,7 @@
       ],
       "year": 2021,
       "date": "2021-04-06",
-      "citations": 219,
+      "citations": 220,
       "arxivId": "2104.02808",
       "doi": "10.1109/CDC45484.2021.9683085",
       "url": "https://doi.org/10.1109/CDC45484.2021.9683085",
@@ -947,7 +947,7 @@
       ],
       "year": 2022,
       "date": "2022-09-18",
-      "citations": 158,
+      "citations": 159,
       "arxivId": "2209.08539",
       "doi": "10.1109/ICRA48891.2023.10160857",
       "url": "https://doi.org/10.1109/ICRA48891.2023.10160857",
@@ -987,7 +987,7 @@
       ],
       "year": 2020,
       "date": "2020-03-17",
-      "citations": 137,
+      "citations": 138,
       "arxivId": "2003.07819",
       "doi": "10.1109/LCSYS.2020.3004797",
       "url": "https://doi.org/10.1109/LCSYS.2020.3004797",
@@ -1004,7 +1004,7 @@
         "Boqian Li",
         "Shiping Wen",
         "Zheng Yan",
-        "G. Wen",
+        "Guanghui Wen",
         "Tingwen Huang"
       ],
       "year": 2023,
@@ -1041,25 +1041,6 @@
       "subjects": []
     },
     {
-      "paperId": "12f1dbd76abe39270ecb4331e8a564cb81065a74",
-      "title": "Barrier Function Based Collaborative Control of Multiple Robots Under Signal Temporal Logic Tasks",
-      "authors": [
-        "Lars Lindemann",
-        "Dimos V. Dimarogonas"
-      ],
-      "year": 2020,
-      "date": "2020-12-01",
-      "citations": 97,
-      "arxivId": "2102.02609",
-      "doi": "10.1109/TCNS.2020.3014602",
-      "url": "https://doi.org/10.1109/TCNS.2020.3014602",
-      "abstract": "Motivated by the recent interest in cyber-physical and autonomous robotic systems, we study the problem of dynamically coupled multiagent systems under a set of signal temporal logic tasks. In particular, the satisfaction of each of these signal temporal logic tasks depends on the behavior of a distinct set of agents. Instead of abstracting the agent dynamics and the temporal logic tasks into a discrete domain and solving the problem therein or using optimization-based methods, we derive collaborative feedback control laws.These control laws are based on a decentralized control barrier function condition that results in discontinuous control laws, as opposed to a centralized condition resembling the single-agent case. The benefits of our approach are inherent robustness properties typically present in feedback control as well as satisfaction guarantees for continuous-time multiagent systems. More specifically, time-varying control barrier functions are used that account for the semantics of the signal temporal logic tasks at hand. For a certain fragment of signal temporal logic tasks, we further propose a systematic way to construct such control barrier functions. Finally, we show the efficacy and robustness of our framework in an experiment, including a group of three omnidirectional robots.",
-      "journal": "IEEE Transactions on Control of Network Systems",
-      "venue": "IEEE Transactions on Control of Network Systems",
-      "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
       "paperId": "f385215eeb502c35f134adba781c9b6fb97c43fd",
       "title": "Backup Control Barrier Functions: Formulation and Comparative Study",
       "authors": [
@@ -1078,6 +1059,25 @@
       "journal": "2021 60th IEEE Conference on Decision and Control (CDC)",
       "venue": "IEEE Conference on Decision and Control",
       "venueLabel": "CDC",
+      "subjects": []
+    },
+    {
+      "paperId": "12f1dbd76abe39270ecb4331e8a564cb81065a74",
+      "title": "Barrier Function Based Collaborative Control of Multiple Robots Under Signal Temporal Logic Tasks",
+      "authors": [
+        "Lars Lindemann",
+        "Dimos V. Dimarogonas"
+      ],
+      "year": 2020,
+      "date": "2020-12-01",
+      "citations": 97,
+      "arxivId": "2102.02609",
+      "doi": "10.1109/TCNS.2020.3014602",
+      "url": "https://doi.org/10.1109/TCNS.2020.3014602",
+      "abstract": "Motivated by the recent interest in cyber-physical and autonomous robotic systems, we study the problem of dynamically coupled multiagent systems under a set of signal temporal logic tasks. In particular, the satisfaction of each of these signal temporal logic tasks depends on the behavior of a distinct set of agents. Instead of abstracting the agent dynamics and the temporal logic tasks into a discrete domain and solving the problem therein or using optimization-based methods, we derive collaborative feedback control laws.These control laws are based on a decentralized control barrier function condition that results in discontinuous control laws, as opposed to a centralized condition resembling the single-agent case. The benefits of our approach are inherent robustness properties typically present in feedback control as well as satisfaction guarantees for continuous-time multiagent systems. More specifically, time-varying control barrier functions are used that account for the semantics of the signal temporal logic tasks at hand. For a certain fragment of signal temporal logic tasks, we further propose a systematic way to construct such control barrier functions. Finally, we show the efficacy and robustness of our framework in an experiment, including a group of three omnidirectional robots.",
+      "journal": "IEEE Transactions on Control of Network Systems",
+      "venue": "IEEE Transactions on Control of Network Systems",
+      "venueLabel": "IEEE Trans",
       "subjects": []
     },
     {
@@ -1160,7 +1160,7 @@
       ],
       "year": 2024,
       "date": "2024-01-25",
-      "citations": 84,
+      "citations": 85,
       "arxivId": "2401.14554",
       "doi": "10.1109/TRO.2025.3530348",
       "url": "https://doi.org/10.1109/TRO.2025.3530348",
@@ -1262,7 +1262,7 @@
       ],
       "year": 2022,
       "date": "2022-04-05",
-      "citations": 73,
+      "citations": 74,
       "arxivId": "2204.01930",
       "doi": "10.1109/TAC.2023.3306492",
       "url": "https://doi.org/10.1109/TAC.2023.3306492",
@@ -1371,22 +1371,23 @@
       "subjects": []
     },
     {
-      "paperId": "b0372c7a5ad7b065d3b87c361c4f9eafbe63d05e",
-      "title": "Refining Control Barrier Functions through Hamilton-Jacobi Reachability",
+      "paperId": "ff9f6f543cd477773f8336b36a1df1bad123c799",
+      "title": "Multi-UAV Safe Collaborative Transportation Based on Adaptive Control Barrier Function",
       "authors": [
-        "S. Tonkens",
-        "Sylvia L. Herbert"
+        "Zhijun Wang",
+        "Tengfei Hu",
+        "Lijun Long"
       ],
-      "year": 2022,
-      "date": "2022-04-26",
-      "citations": 62,
-      "arxivId": "2204.12507",
-      "doi": "10.1109/IROS47612.2022.9982203",
-      "url": "https://doi.org/10.1109/IROS47612.2022.9982203",
-      "abstract": "Safety filters based on Control Barrier Functions (CBFs) have emerged as a practical tool for the safety-critical control of autonomous systems. These approaches encode safety through a value function and enforce safety by imposing a constraint on the time derivative of this value function. How-ever, synthesizing a valid CBF that is not overly conservative in the presence of input constraints is a notorious challenge. In this work, we propose refining a candidate CBF using formal verification methods to obtain a valid CBF. In particular, we update an expert-synthesized or backup CBF using dynamic programming (DP) based reachability analysis. Our framework, REFINECBF, guarantees that with every DP iteration the obtained CBF is provably at least as safe as the prior iteration and converges to a valid CBF. Therefore, REFINECBF can be used in-the-loop for robotic systems. We demonstrate the practicality of our method to enhance safety and/or reduce conservativeness on a range of nonlinear control-affine systems using various CBF synthesis techniques in simulation.",
-      "journal": "2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
-      "venue": "IEEE/RJS International Conference on Intelligent RObots and Systems",
-      "venueLabel": "IROS",
+      "year": 2023,
+      "date": "2023-11-01",
+      "citations": 61,
+      "arxivId": "",
+      "doi": "10.1109/TSMC.2023.3292810",
+      "url": "https://doi.org/10.1109/TSMC.2023.3292810",
+      "abstract": "This article focuses on the problem of adaptive safe stabilization for a class of nonlinear control affine systems with parameter uncertainties. Two novel definitions of adaptive control Lyapunov function (ACLF) and adaptive control barrier function (ACBF) are first introduced, which use multiple identification models combined with a logic switching mechanism for parameter adaptation. The switching mechanism can improve the transient performance of nonlinear systems. Also, a multiunmanned aerial vehicle (multi-UAV) safe collaborative transportation framework based on ACLF and ACBF is provided in the presence of parametric uncertainties, in which a nominal controller is derived by using the proposed ACLF with a quadratic programming (QP) algorithm, and the nominal controller is further modified by the ACBF-QP algorithm for safety filter to achieve adaptive safe stabilization. Finally, simulation results for safe collaborative transportation of dual unmanned aerial vehicles in three-dimensional space are presented to demonstrate the effectiveness of the proposed design approach.",
+      "journal": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+      "venue": "IEEE Transactions on Systems, Man & Cybernetics. Systems",
+      "venueLabel": "TSMC",
       "subjects": []
     },
     {
@@ -1409,26 +1410,6 @@
       "journal": "International Journal of Robust and Nonlinear Control",
       "venue": "International Journal of Robust and Nonlinear Control",
       "venueLabel": "IJRNC",
-      "subjects": []
-    },
-    {
-      "paperId": "ff9f6f543cd477773f8336b36a1df1bad123c799",
-      "title": "Multi-UAV Safe Collaborative Transportation Based on Adaptive Control Barrier Function",
-      "authors": [
-        "Zhijun Wang",
-        "Tengfei Hu",
-        "Lijun Long"
-      ],
-      "year": 2023,
-      "date": "2023-11-01",
-      "citations": 60,
-      "arxivId": "",
-      "doi": "10.1109/TSMC.2023.3292810",
-      "url": "https://doi.org/10.1109/TSMC.2023.3292810",
-      "abstract": "This article focuses on the problem of adaptive safe stabilization for a class of nonlinear control affine systems with parameter uncertainties. Two novel definitions of adaptive control Lyapunov function (ACLF) and adaptive control barrier function (ACBF) are first introduced, which use multiple identification models combined with a logic switching mechanism for parameter adaptation. The switching mechanism can improve the transient performance of nonlinear systems. Also, a multiunmanned aerial vehicle (multi-UAV) safe collaborative transportation framework based on ACLF and ACBF is provided in the presence of parametric uncertainties, in which a nominal controller is derived by using the proposed ACLF with a quadratic programming (QP) algorithm, and the nominal controller is further modified by the ACBF-QP algorithm for safety filter to achieve adaptive safe stabilization. Finally, simulation results for safe collaborative transportation of dual unmanned aerial vehicles in three-dimensional space are presented to demonstrate the effectiveness of the proposed design approach.",
-      "journal": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
-      "venue": "IEEE Transactions on Systems, Man & Cybernetics. Systems",
-      "venueLabel": "TSMC",
       "subjects": []
     },
     {
@@ -1458,7 +1439,7 @@
       "title": "Safe Consensus Tracking With Guaranteed Full State and Input Constraints: A Control Barrier Function-Based Approach",
       "authors": [
         "Junjie Fu",
-        "G. Wen",
+        "Guanghui Wen",
         "Xinghuo Yu"
       ],
       "year": 2023,
@@ -1519,7 +1500,7 @@
         "Zewei Zheng",
         "Jiazhe Li",
         "Zhiyuan Guan",
-        "Z. Zuo"
+        "Zongyu Zuo"
       ],
       "year": 2023,
       "date": "2023-07-01",
@@ -1578,7 +1559,7 @@
       "authors": [
         "Yifan Hu",
         "Junjie Fu",
-        "G. Wen"
+        "Guanghui Wen"
       ],
       "year": 2023,
       "date": "2023-06-01",
@@ -1902,6 +1883,26 @@
     }
   ],
   "arxiv": [
+    {
+      "paperId": "arxiv:2609.00079v1",
+      "title": "The Space-Time Transform: Memory-Augmented Control Barrier Functions",
+      "authors": [
+        "Avinash Malik"
+      ],
+      "year": null,
+      "date": "2026-08-31",
+      "citations": 0,
+      "arxivId": "2609.00079v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.00079v1",
+      "abstract": "Control Barrier Functions (CBFs), their High-Order variants (HOCBFs) and Exponential CBFs (ECBFs) are standard geometric tools for enforcing nonlinear safety constraints. CBFs, and their variants, offer an elegant geometric framework for nonlinear safety, yet mathematically, they reduce to continuous-time convolutions restricted by zero-memory kernels. In the presence of high-frequency measurement noise, these memoryless operators act as improper filters, leading to significant control chattering and the potential loss of active control authority due to Quadratic Program (QP) infeasibility. To address this structural limitation, this paper introduces a space-time transform that embeds dynamic temporal filtering directly into the safety constraint synthesis. By designing a proper spatio-temporal kernel, this approach inherently attenuates high-frequency noise while preserving affine control authority. Crucially, we prove the robust forward invariance of the designed STT-CBF. Monte Carlo simulations of a third-order system demonstrate that the proposed framework achieves a 100% safety rate while reducing control total variation by over 99% compared to conventional parameterized barrier methods, mitigating hardware hazards and enabling reliable deployment on physical robotic platforms.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
     {
       "paperId": "arxiv:2608.27916v1",
       "title": "Backup Control Barrier Function Synthesis using Sum-of-Squares Reachability",
@@ -3014,29 +3015,7 @@
         "cs.AI",
         "eess.SY"
       ]
-    },
-    {
-      "paperId": "arxiv:2607.12423v1",
-      "title": "Model-Based Diffusion Optimal Control for Multi-Robot Motion Planning",
-      "authors": [
-        "Zhilin He",
-        "Yorai Shaoul",
-        "Jiaoyang Li"
-      ],
-      "year": null,
-      "date": "2026-07-14",
-      "citations": 0,
-      "arxivId": "2607.12423v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2607.12423v1",
-      "abstract": "Multi-Robot Motion Planning in continuous environments, where robots must generate dynamically feasible, collision-free trajectories, is challenging due to the combinatorial growth of the joint trajectory space and the difficulty of enforcing dynamic feasibility and hard safety constraints. Recent approaches recast trajectory planning as probabilistic inference, sampling from a posterior over trajectories using diffusion models whose score functions are learned from demonstration data. While showing promising performance, these approaches are limited: they often rely on sizable demonstration datasets and struggle to rigorously enforce dynamics and hard safety constraints during sampling. To this end, we introduce Model-Based Diffusion Optimal Control (MDOC), a model-based diffusion planner that efficiently produces dynamically feasible trajectories without relying on data. Crucially, we show that MDOC's safety mechanism -- combining known dynamics models with Control Barrier Function-constrained projections -- naturally scales to multi-robot planning settings through Conflict-Based Search. Across simulation experiments, this integrated method consistently outperforms representative baseline planners in sample efficiency, geometric smoothness, and success rate, while reducing computation time and producing collision-free trajectories.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO"
-      ]
     }
   ],
-  "updated": "2026-09-02T00:59:41.459659+00:00"
+  "updated": "2026-09-02T08:35:00.743662+00:00"
 }
