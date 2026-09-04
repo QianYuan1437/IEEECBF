@@ -12,7 +12,7 @@
       ],
       "year": 2026,
       "date": "2026-06-01",
-      "citations": 15,
+      "citations": 16,
       "arxivId": "",
       "doi": "10.1109/TIE.2025.3649849",
       "url": "https://doi.org/10.1109/TIE.2025.3649849",
@@ -229,27 +229,6 @@
       "subjects": []
     },
     {
-      "paperId": "40c34cb0ccbef7dcb037459e9aac408908139bce",
-      "title": "Attitude-Position Obstacle Avoidance and Predefined-Time Safe Control for Fully Actuated Modeled eVTOL With Time-Varying Centroid",
-      "authors": [
-        "Feisheng Yang",
-        "Xiao Feng",
-        "Zhucheng Liu",
-        "Zhun-ga Liu"
-      ],
-      "year": 2026,
-      "date": "2026-08-01",
-      "citations": 0,
-      "arxivId": "",
-      "doi": "10.1109/TTE.2026.3682473",
-      "url": "https://doi.org/10.1109/TTE.2026.3682473",
-      "abstract": "This article proposes a tracking control strategy based on the fully actuated system (FAS) approach to address the obstacle avoidance problem in logistics transportation scenarios. For the electric vertical take-off and landing (eVTOL) with a time-varying centroid modeled by quaternions, the predefined-time observer and nominal controller are designed to ensure the convergence of both the observation errors and tracking errors of the attitude-position system. Using the implicit Lyapunov function (ILF) and homogeneity theory, the gain matrices of the observer and nominal controller are derived. To achieve attitude-position obstacle avoidance, the concept of an attitude mandatory zone is introduced for the first time, along with the design of an obstacle avoidance safe set. Under the framework of the control barrier function (CBF), the safe control problem is transformed into a quadratic program. Finally, numerical simulations verify the effectiveness of the proposed algorithm.",
-      "journal": "IEEE Transactions on Transportation Electrification",
-      "venue": "IEEE Transactions on Transportation Electrification",
-      "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
       "paperId": "82af3b1a54e49eaccebc16894157ed286c7c27ca",
       "title": "Predefined-Time Trajectory Tracking Control for Unmanned Aerial Vehicles Under Obstacle Avoidance Constraints",
       "authors": [
@@ -271,6 +250,27 @@
       "subjects": []
     },
     {
+      "paperId": "40c34cb0ccbef7dcb037459e9aac408908139bce",
+      "title": "Attitude-Position Obstacle Avoidance and Predefined-Time Safe Control for Fully Actuated Modeled eVTOL With Time-Varying Centroid",
+      "authors": [
+        "Feisheng Yang",
+        "Xiao Feng",
+        "Zhucheng Liu",
+        "Zhun-ga Liu"
+      ],
+      "year": 2026,
+      "date": "2026-08-01",
+      "citations": 0,
+      "arxivId": "",
+      "doi": "10.1109/TTE.2026.3682473",
+      "url": "https://doi.org/10.1109/TTE.2026.3682473",
+      "abstract": "This article proposes a tracking control strategy based on the fully actuated system (FAS) approach to address the obstacle avoidance problem in logistics transportation scenarios. For the electric vertical take-off and landing (eVTOL) with a time-varying centroid modeled by quaternions, the predefined-time observer and nominal controller are designed to ensure the convergence of both the observation errors and tracking errors of the attitude-position system. Using the implicit Lyapunov function (ILF) and homogeneity theory, the gain matrices of the observer and nominal controller are derived. To achieve attitude-position obstacle avoidance, the concept of an attitude mandatory zone is introduced for the first time, along with the design of an obstacle avoidance safe set. Under the framework of the control barrier function (CBF), the safe control problem is transformed into a quadratic program. Finally, numerical simulations verify the effectiveness of the proposed algorithm.",
+      "journal": "IEEE Transactions on Transportation Electrification",
+      "venue": "IEEE Transactions on Transportation Electrification",
+      "venueLabel": "IEEE Trans",
+      "subjects": []
+    },
+    {
       "paperId": "5e3f794914697fca8238a8c19bcb56ad724f30c7",
       "title": "Hierarchical Reinforcement Learning for Stealthy Attacks via Control Barrier Functions",
       "authors": [
@@ -288,6 +288,29 @@
       "journal": "2026 Joint International Conference on Automation-Intelligence-Safety (ICAIS) & International Symposium on Autonomous Systems (ISAS)",
       "venue": "",
       "venueLabel": "2026 Joint International Conference on Automation-Intelligence-Safety (ICAIS) & International Symposium on Autonomous Systems (ISAS)",
+      "subjects": []
+    },
+    {
+      "paperId": "66b18bdb8675459004bbd35677368a24029ac61d",
+      "title": "Safety-Critical Control of Flexible Payload Manipulation Using High Order Control Barrier Functions*",
+      "authors": [
+        "Harun Tugal",
+        "Adam Slater",
+        "William Harwin",
+        "Samuel Herschmann",
+        "Kaiqiang Zhang",
+        "R. Skilton"
+      ],
+      "year": 2026,
+      "date": "2026-07-07",
+      "citations": 0,
+      "arxivId": "",
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/66b18bdb8675459004bbd35677368a24029ac61d",
+      "abstract": "",
+      "journal": "2026 European Control Conference (ECC)",
+      "venue": "European Control Conference",
+      "venueLabel": "ECC",
       "subjects": []
     },
     {
@@ -367,7 +390,7 @@
       ],
       "year": 2025,
       "date": null,
-      "citations": 10,
+      "citations": 11,
       "arxivId": "",
       "doi": "10.1109/TASE.2024.3514680",
       "url": "https://doi.org/10.1109/TASE.2024.3514680",
@@ -398,6 +421,27 @@
       "subjects": []
     },
     {
+      "paperId": "8e063eb1c699d438ddd0b98dda2f5ffc39b60246",
+      "title": "Probabilistic Control Barrier Functions: Safety in Probability for Discrete-Time Stochastic Systems",
+      "authors": [
+        "Pol Mestres",
+        "Blake Werner",
+        "Ryan K. Cosner",
+        "Aaron D. Ames"
+      ],
+      "year": 2025,
+      "date": "2025-10-01",
+      "citations": 7,
+      "arxivId": "2510.01501",
+      "doi": "10.48550/arXiv.2510.01501",
+      "url": "https://doi.org/10.48550/arXiv.2510.01501",
+      "abstract": "Control systems operating in the real world face countless sources of unpredictable uncertainties. These random disturbances can render deterministic guarantees inapplicable and cause catastrophic safety failures. To overcome this, this paper proposes a method for designing safe controllers for discrete-time stochastic systems that retain probabilistic guarantees of safety. To do this we modify the traditional notion of a control barrier function (CBF) to explicitly account for these stochastic uncertainties and call these new modified functions probabilistic CBFs. We show that probabilistic CBFs can be used to design controllers that guarantee safety over a finite number of time steps with a prescribed probability. Next, by leveraging various uncertainty quantification methods, such as concentration inequalities and the scenario approach, we provide a variety of sufficient conditions that result in computationally tractable controllers with tunable probabilistic guarantees across a plethora of practical scenarios. Finally, we showcase the applicability of our results in simulation and hardware for the control of a quadruped robot.",
+      "journal": "2026 American Control Conference (ACC)",
+      "venue": "American Control Conference",
+      "venueLabel": "ACC",
+      "subjects": []
+    },
+    {
       "paperId": "5c8ddd281fff1099230cb9265a4455cd22c638e9",
       "title": "A Safe, high-precision reinforcement learning-based optimal control of surgical continuum robots: A monotone tube boundary approach with prescribed-time control capability",
       "authors": [
@@ -417,27 +461,6 @@
       "journal": "Robotics Auton. Syst.",
       "venue": "",
       "venueLabel": "Robotics Auton. Syst.",
-      "subjects": []
-    },
-    {
-      "paperId": "8e063eb1c699d438ddd0b98dda2f5ffc39b60246",
-      "title": "Probabilistic Control Barrier Functions: Safety in Probability for Discrete-Time Stochastic Systems",
-      "authors": [
-        "Pol Mestres",
-        "Blake Werner",
-        "Ryan K. Cosner",
-        "Aaron D. Ames"
-      ],
-      "year": 2025,
-      "date": "2025-10-01",
-      "citations": 7,
-      "arxivId": "2510.01501",
-      "doi": "10.48550/arXiv.2510.01501",
-      "url": "https://doi.org/10.48550/arXiv.2510.01501",
-      "abstract": "Control systems operating in the real world face countless sources of unpredictable uncertainties. These random disturbances can render deterministic guarantees inapplicable and cause catastrophic safety failures. To overcome this, this paper proposes a method for designing safe controllers for discrete-time stochastic systems that retain probabilistic guarantees of safety. To do this we modify the traditional notion of a control barrier function (CBF) to explicitly account for these stochastic uncertainties and call these new modified functions probabilistic CBFs. We show that probabilistic CBFs can be used to design controllers that guarantee safety over a finite number of time steps with a prescribed probability. Next, by leveraging various uncertainty quantification methods, such as concentration inequalities and the scenario approach, we provide a variety of sufficient conditions that result in computationally tractable controllers with tunable probabilistic guarantees across a plethora of practical scenarios. Finally, we showcase the applicability of our results in simulation and hardware for the control of a quadruped robot.",
-      "journal": "2026 American Control Conference (ACC)",
-      "venue": "American Control Conference",
-      "venueLabel": "ACC",
       "subjects": []
     },
     {
@@ -593,7 +616,7 @@
       ],
       "year": 2024,
       "date": "2024-08-01",
-      "citations": 16,
+      "citations": 17,
       "arxivId": "",
       "doi": "10.1109/TAES.2024.3371965",
       "url": "https://doi.org/10.1109/TAES.2024.3371965",
@@ -687,27 +710,6 @@
       "subjects": []
     },
     {
-      "paperId": "ba77f737938014efb8aa9ca6903c8fde0d5f4b6c",
-      "title": "Robot Cartesian Compliance Variation for Safe Kinesthetic Teaching using Safety Control Barrier Functions",
-      "authors": [
-        "Julian M. Salt Ducaju",
-        "Björn Olofsson",
-        "A. Robertsson",
-        "Rolf Johansson"
-      ],
-      "year": 2022,
-      "date": "2022-08-20",
-      "citations": 6,
-      "arxivId": "",
-      "doi": "10.1109/CASE49997.2022.9926525",
-      "url": "https://doi.org/10.1109/CASE49997.2022.9926525",
-      "abstract": "Kinesthetic teaching allows human operators to reprogram part of a robot’s trajectory by manually guiding the robot. To allow kinesthetic teaching, and also to avoid any harm to both the robot and its environment, Cartesian impedance control is here used for trajectory following. In this paper, we present an online method to modify the compliant behavior of a robot toward its environment, so that undesired parts of the robot’s workspace are avoided during kinesthetic teaching. The stability of the method is guaranteed by a well-known passivity-based energy-storage formulation that has been modified to include a strict Lyapunov function, i.e., its time derivative is a globally negative-definite function. Safety Control Barrier Functions (SCBFs) that consider the rigid-body dynamics of the robot are formulated as inequality constraints of a quadratic optimization (QP) problem to ensure forward invariance of the robot’s states in a safe set. An experimental evaluation using a Franka Emika Panda robot is provided.",
-      "journal": "2022 IEEE 18th International Conference on Automation Science and Engineering (CASE)",
-      "venue": "",
-      "venueLabel": "IEEE",
-      "subjects": []
-    },
-    {
       "paperId": "5512f4e64fb2c1bc44d5a9bd457383177e4add91",
       "title": "Safety-Certified Consensus Control of Multi-Agent Systems Based on Finite-Time Control Barrier Function",
       "authors": [
@@ -780,7 +782,7 @@
       ],
       "year": 2014,
       "date": "2014-12-01",
-      "citations": 1076,
+      "citations": 1077,
       "arxivId": "",
       "doi": "10.1109/CDC.2014.7040372",
       "url": "https://doi.org/10.1109/CDC.2014.7040372",
@@ -2973,5 +2975,5 @@
       ]
     }
   ],
-  "updated": "2026-09-03T13:16:03.772661+00:00"
+  "updated": "2026-09-04T00:59:05.427260+00:00"
 }
