@@ -229,27 +229,6 @@
       "subjects": []
     },
     {
-      "paperId": "82af3b1a54e49eaccebc16894157ed286c7c27ca",
-      "title": "Predefined-Time Trajectory Tracking Control for Unmanned Aerial Vehicles Under Obstacle Avoidance Constraints",
-      "authors": [
-        "Tianyu Zhang",
-        "Jia-Yang Chen",
-        "Jie Peng",
-        "Wenbin Kou"
-      ],
-      "year": 2026,
-      "date": "2026-06-05",
-      "citations": 0,
-      "arxivId": "",
-      "doi": "10.1109/CRSIT69981.2026.11605387",
-      "url": "https://doi.org/10.1109/CRSIT69981.2026.11605387",
-      "abstract": "This paper investigates the trajectory tracking control problem for unmanned aerial vehicles (UAVs) operating in complex obstacle environments. To achieve fast tracking convergence while ensuring obstacle avoidance safety, a predefined-time control Lyapunov function-control barrier function-quadratic programming (CLF-CBF-QP) method is proposed. A control-affine outer-loop position model is first established, and a predefined-time CLF condition is introduced to ensure that the tracking error converges within a user-specified time when safety constraints are inactive. To reduce the conservatism of conventional obstacle envelopes, superellipsoids are used to describe non-spherical obstacles, and the corresponding CBF constraints are derived. A relaxed QP controller is then formulated by treating the CLF condition as a soft constraint and the CBF conditions as hard constraints, so that obstacle avoidance is prioritised when tracking and safety objectives conflict. Simulation results show that the proposed method achieves safe obstacle avoidance, smoother trajectories, faster error recovery, and lower peak control input than the artificial potential field method.",
-      "journal": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
-      "venue": "",
-      "venueLabel": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
-      "subjects": []
-    },
-    {
       "paperId": "40c34cb0ccbef7dcb037459e9aac408908139bce",
       "title": "Attitude-Position Obstacle Avoidance and Predefined-Time Safe Control for Fully Actuated Modeled eVTOL With Time-Varying Centroid",
       "authors": [
@@ -271,6 +250,27 @@
       "subjects": []
     },
     {
+      "paperId": "82af3b1a54e49eaccebc16894157ed286c7c27ca",
+      "title": "Predefined-Time Trajectory Tracking Control for Unmanned Aerial Vehicles Under Obstacle Avoidance Constraints",
+      "authors": [
+        "Tianyu Zhang",
+        "Jia-Yang Chen",
+        "Jie Peng",
+        "Wenbin Kou"
+      ],
+      "year": 2026,
+      "date": "2026-06-05",
+      "citations": 0,
+      "arxivId": "",
+      "doi": "10.1109/CRSIT69981.2026.11605387",
+      "url": "https://doi.org/10.1109/CRSIT69981.2026.11605387",
+      "abstract": "This paper investigates the trajectory tracking control problem for unmanned aerial vehicles (UAVs) operating in complex obstacle environments. To achieve fast tracking convergence while ensuring obstacle avoidance safety, a predefined-time control Lyapunov function-control barrier function-quadratic programming (CLF-CBF-QP) method is proposed. A control-affine outer-loop position model is first established, and a predefined-time CLF condition is introduced to ensure that the tracking error converges within a user-specified time when safety constraints are inactive. To reduce the conservatism of conventional obstacle envelopes, superellipsoids are used to describe non-spherical obstacles, and the corresponding CBF constraints are derived. A relaxed QP controller is then formulated by treating the CLF condition as a soft constraint and the CBF conditions as hard constraints, so that obstacle avoidance is prioritised when tracking and safety objectives conflict. Simulation results show that the proposed method achieves safe obstacle avoidance, smoother trajectories, faster error recovery, and lower peak control input than the artificial potential field method.",
+      "journal": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
+      "venue": "",
+      "venueLabel": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
+      "subjects": []
+    },
+    {
       "paperId": "5e3f794914697fca8238a8c19bcb56ad724f30c7",
       "title": "Hierarchical Reinforcement Learning for Stealthy Attacks via Control Barrier Functions",
       "authors": [
@@ -288,29 +288,6 @@
       "journal": "2026 Joint International Conference on Automation-Intelligence-Safety (ICAIS) & International Symposium on Autonomous Systems (ISAS)",
       "venue": "",
       "venueLabel": "2026 Joint International Conference on Automation-Intelligence-Safety (ICAIS) & International Symposium on Autonomous Systems (ISAS)",
-      "subjects": []
-    },
-    {
-      "paperId": "66b18bdb8675459004bbd35677368a24029ac61d",
-      "title": "Safety-Critical Control of Flexible Payload Manipulation Using High Order Control Barrier Functions*",
-      "authors": [
-        "Harun Tugal",
-        "Adam Slater",
-        "William Harwin",
-        "Samuel Herschmann",
-        "Kaiqiang Zhang",
-        "R. Skilton"
-      ],
-      "year": 2026,
-      "date": "2026-07-07",
-      "citations": 0,
-      "arxivId": "",
-      "doi": "",
-      "url": "https://www.semanticscholar.org/paper/66b18bdb8675459004bbd35677368a24029ac61d",
-      "abstract": "",
-      "journal": "2026 European Control Conference (ECC)",
-      "venue": "European Control Conference",
-      "venueLabel": "ECC",
       "subjects": []
     },
     {
@@ -801,7 +778,7 @@
       ],
       "year": 2021,
       "date": "2021-08-18",
-      "citations": 569,
+      "citations": 570,
       "arxivId": "",
       "doi": "10.1109/tac.2021.3105491",
       "url": "https://doi.org/10.1109/tac.2021.3105491",
@@ -1841,6 +1818,28 @@
     }
   ],
   "arxiv": [
+    {
+      "paperId": "arxiv:2609.03319v1",
+      "title": "On the Degree of Safety: Beyond Safe or Unsafe with Control Barrier Functions",
+      "authors": [
+        "Ruoyu Lin",
+        "Fabio Pasqualetti",
+        "Magnus Egerstedt"
+      ],
+      "year": null,
+      "date": "2026-09-03",
+      "citations": 0,
+      "arxivId": "2609.03319v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.03319v1",
+      "abstract": "A valid control barrier function (CBF) certifies if its represented safe set can be rendered forward invariant, and the sign of its value indicates whether a state is safe or not, but it does not quantify a degree of safety beyond the binary indication. In this paper, we show that among valid CBFs representing the same safe set, interior values and gradients can be changed arbitrarily, so neither quantity determines a degree of safety that is independent of how the set is represented. We also show that whether a candidate CBF-based inequality constraint is feasible does not by itself quantify a degree of safety. In particular, infeasibility can occur either because the safe set is not controlled invariant or because the candidate CBF representation fails. This motivates our distinction between intrinsic and representational infeasibility. Finally, we introduce the invariance authority demand (IAD), a representation-independent degree of safety that quantifies the control authority required for controlled invariance and can be used to guide set or actuator repair.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
     {
       "paperId": "arxiv:2609.00079v1",
       "title": "The Space-Time Transform: Memory-Augmented Control Barrier Functions",
@@ -2950,30 +2949,7 @@
       "subjects": [
         "cs.RO"
       ]
-    },
-    {
-      "paperId": "arxiv:2607.12801v1",
-      "title": "Autonomous Tracking and Terminal Guidance of Moving Targets for Fixed-Wing UAVs",
-      "authors": [
-        "Wei-Hao Liou",
-        "Teng-Hu Cheng"
-      ],
-      "year": null,
-      "date": "2026-07-14",
-      "citations": 0,
-      "arxivId": "2607.12801v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2607.12801v1",
-      "abstract": "This study introduces a unified control framework for fixed-wing unmanned aerial vehicles (UAVs) fitted with a pan-tilt (PT) camera, intended to perform an end-to-end mission spanning from initial target detection to accurate terminal engagement. The proposed system employs a three-phase strategy: a vision-based target acquisition phase, an NMPC-based tracking phase, and a terminal guidance phase. During tracking, the framework uses an Unscented Kalman Filter (UKF) to fuse YOLO-based visual detections with inertial measurements, enabling robust target state estimation under unknown dynamics. To ensure reliable visual contact, we introduce a constraint-aware Nonlinear Model Predictive Control (NMPC) strategy that incorporates Control Barrier Functions (CBFs) to explicitly prevent UAV self-occlusion -- a common limitation in fixed-wing tracking. Upon satisfying terminal engagement conditions, the system seamlessly transitions control to a quaternion-based Biased Proportional Navigation Guidance (BPNG) law, enforcing precise impact angle constraints. High-fidelity simulations demonstrate that the framework achieves stable, robust tracking and accurate terminal interception while strictly respecting the vehicle's dynamic limits and camera field-of-view constraints.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO",
-        "cs.AI",
-        "eess.SY"
-      ]
     }
   ],
-  "updated": "2026-09-04T00:59:05.427260+00:00"
+  "updated": "2026-09-04T08:37:35.232756+00:00"
 }
