@@ -693,6 +693,49 @@
   ],
   "arxiv": [
     {
+      "paperId": "arxiv:2609.18268v1",
+      "title": "A Recursive CBF Framework for Safety under State Uncertainty",
+      "authors": [
+        "Rahal Nanayakkara",
+        "Aaron D. Ames",
+        "Paulo Tabuada"
+      ],
+      "year": null,
+      "date": "2026-09-16",
+      "citations": 0,
+      "arxivId": "2609.18268v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.18268v1",
+      "abstract": "The practical implementation of Control Barrier Functions (CBFs) for safety-critical control is often hindered by uncertainty in the knowledge of the state. While existing robust CBF methods address state uncertainty, they often lack recursive feasibility guarantees or fail when uncertainty levels are high, allowing the system to enter regions where no safe control input exists. To resolve this, we propose a novel framework of enforcing recursive CBFs. Rather than merely ensuring the invariance of the original safe set, this approach enforces the forward invariance of a subset of the safe region where a robustly safe control input is guaranteed to exist. This holistic framework ensures that the system never strays into ambiguous regions, providing continued feasibility and safety guarantees, regardless of the level of state uncertainty.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2609.17701v1",
+      "title": "Barrier Functions Against Safety Drift in Shared Control",
+      "authors": [
+        "M. Yusuf Uzun",
+        "Yildiray Yildiz"
+      ],
+      "year": null,
+      "date": "2026-09-15",
+      "citations": 0,
+      "arxivId": "2609.17701v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.17701v1",
+      "abstract": "Shared-control arbitration mechanisms can fail structurally when they are driven by quantities that evolve on the same automation-assisted trajectory that unsafe automation can corrupt. Under unsafe assistance, arising from faults or flawed design, the arbitration logic can adapt to the corrupted trajectory instead of resisting it. Focusing on workload regulation, this paper proposes a framework that prevents this problem by anchoring the safety constraints to an unassisted pilot trajectory. A baseline model evolving without automation assistance generates the acceptable workload envelope, while an assistance-induced deviation barrier and a closed-form mismatch bound relate actual and baseline workload evolution. The resulting control barrier function based quadratic program is always feasible and guarantees forward invariance of an augmented safe set. Simulations on an F-16 pitch-tracking problem show that the proposed method prevents workload-constraint drift under unsafe assistance.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
+    {
       "paperId": "arxiv:2609.17347v1",
       "title": "A Time-to-Collision Barrier Function Approach to Collision Avoidance for Stochastic Systems",
       "authors": [
@@ -1751,52 +1794,7 @@
       "subjects": [
         "eess.SY"
       ]
-    },
-    {
-      "paperId": "arxiv:2607.23839v1",
-      "title": "Flight Envelope Protection for a Hypersonic Glide Vehicle Using Adaptive Safety-Critical Control",
-      "authors": [
-        "Johannes Autenrieb",
-        "Peter A. Fisher",
-        "Anuradha Annaswamy"
-      ],
-      "year": null,
-      "date": "2026-07-26",
-      "citations": 0,
-      "arxivId": "2607.23839v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2607.23839v1",
-      "abstract": "This paper presents an adaptive safety-critical control framework for flight envelope protection (FEP) of hypersonic glide vehicles (HGVs) under model uncertainty. The proposed architecture treats input and state constraints through two complementary but distinct mechanisms. At the input end, an adaptive controller with a calibrated closed-loop reference model (CCRM) is designed to accommodate magnitude-limited control inputs and the effects of actuator saturation. Building on this input-constrained adaptive control architecture, flight envelope state constraints are enforced at the state end by an error-based safety filter (EBSF) based on control barrier functions (CBFs). The EBSF modifies the reference command and adapts the admissible safe set online using the measured mismatch between the reference model and the uncertain plant, thereby preserving forward invariance during transient adaptation. Simulation results for the DLR generic hypersonic glide vehicle 2 (GHGV-2) demonstrate stable, high-performance tracking under magnitude-limited control inputs while maintaining flight envelope constraints in the presence of model uncertainty.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY"
-      ]
-    },
-    {
-      "paperId": "arxiv:2607.21794v1",
-      "title": "Safe Stabilizing Linear Feedback: Necessary and Sufficient Conditions, Optimality, and Margins",
-      "authors": [
-        "Pol Mestres",
-        "Shima Sadat Mousavi",
-        "Pio Ong",
-        "Aaron D. Ames"
-      ],
-      "year": null,
-      "date": "2026-07-23",
-      "citations": 0,
-      "arxivId": "2607.21794v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2607.21794v1",
-      "abstract": "Control barrier functions (CBFs) have become an important controller design tool for autonomous systems subject to safety constraints. Despite their popularity, recent works have shown that CBF-based controllers can destabilize the internal dynamics of the system. In this paper, we consider linear systems with affine safety constraints and design linear feedback controllers that satisfy high-order CBF (HOCBF) constraints while rendering the origin globally exponentially stable. We first characterize the exact class of all linear gain matrices that globally satisfy the HOCBF constraints, including necessary and sufficient conditions for when this class is nonempty. Then, by leveraging the recently introduced notion of CBF output dynamics and CBF internal dynamics, we provide the necessary and sufficient conditions for the existence of stabilizing gain matrices within that class. Finally, we show that Linear Quadratic Regulator (LQR) and robust control problems can be solved while being constrained within this class of safe and stabilizing gain matrices, through standard linear control techniques such as algebraic Riccati equations (AREs) and Linear Matrix Inequalities (LMIs). We illustrate our results in a simulation example.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "math.OC"
-      ]
     }
   ],
-  "updated": "2026-09-16T14:02:51.437002+00:00"
+  "updated": "2026-09-17T01:19:47.146357+00:00"
 }
