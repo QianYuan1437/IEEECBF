@@ -986,6 +986,31 @@
   ],
   "arxiv": [
     {
+      "paperId": "arxiv:2609.20435v1",
+      "title": "Time-Efficient Iterative Learning Planning for Safety-Critical Dynamic Obstacle Avoidance",
+      "authors": [
+        "Zhiyi Chen",
+        "Shuli Lv",
+        "Chen Min",
+        "Yong Xu",
+        "Jian Sun",
+        "Quan Quan"
+      ],
+      "year": null,
+      "date": "2026-09-17",
+      "citations": 0,
+      "arxivId": "2609.20435v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.20435v1",
+      "abstract": "Autonomous mobile robots require timeefficient planning and safety-critical dynamic obstacle avoidance under constrained onboard computation. While Iterative Learning Planning (ILP) offers lightweight and efficient traversal planning, it lacks explicit mechanisms for dynamic obstacle perception and avoidance. This article extends ILP to safety-critical navigation in dynamic environments by integrating an anticipatory risk-blended control barrier function (ARB-CBF). The extended ILP learns traversal-speed and steering-bias profiles via a fractionalpower update based on local obstacle risk, generating nominal control commands that ARB-CBF modifies at runtime for real-time safety guarantees. Algorithmic analysis demonstrates that the ILP replanning stage scales at O(kN) for k iterations and N waypoints, while ARB-CBF executes with linear complexity. Comprehensive simulations and real-world experiments validate the framework, demonstrating superior temporal efficiency and safety with lower computational overhead compared to optimizationbased baselines, making it highly suitable for resourceconstrained platforms.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO"
+      ]
+    },
+    {
       "paperId": "arxiv:2609.19449v1",
       "title": "Winning a Won Game: Strict Reach-Avoid-Stay Control Barrier Functions for High-Dimensional Black-Box Systems",
       "authors": [
@@ -2066,30 +2091,7 @@
         "cs.RO",
         "eess.SY"
       ]
-    },
-    {
-      "paperId": "arxiv:2607.29569v1",
-      "title": "Safe Vision Language Action Models via Barrier Enhanced Flow Matching",
-      "authors": [
-        "Kasra Sinaei",
-        "Hung-Chieh Wu",
-        "Donald Ebeigbe"
-      ],
-      "year": null,
-      "date": "2026-07-31",
-      "citations": 0,
-      "arxivId": "2607.29569v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2607.29569v1",
-      "abstract": "This article presents a modular inference framework that integrates Flow Matching generative models with formal Control Barrier Function (CBF) safety guarantees. Unlike existing methods that apply external safety filters to a model's final output, our approach modifies the Flow Matching denoising process within the model to inherently generate safe trajectories. By employing a smooth Log-Sum-Exponential aggregate barrier, we enforce safety over entire action chunks. This aggregate barrier ensures a minimal increase in computational overhead and does not alter the semantic intent of the model. We show that, within the proposed framework, the 2-Wasserstein distance between the generated distribution and the target distribution remains bounded. Our method eliminates the need for safety-specific datasets or costly model retraining, providing a versatile solution for safe inference. We validate the approach on two robotic manipulation platforms and a 2D navigation benchmark, verifying that our framework achieves reliable safety without degrading the success rate of the model.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO",
-        "eess.SY"
-      ]
     }
   ],
-  "updated": "2026-09-18T01:14:26.684734+00:00"
+  "updated": "2026-09-18T08:56:12.874706+00:00"
 }
