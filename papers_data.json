@@ -1579,7 +1579,7 @@
       ],
       "year": 2025,
       "date": "2025-03-09",
-      "citations": 39,
+      "citations": 40,
       "arxivId": "2503.06736",
       "doi": "10.1109/IROS60139.2025.11246389",
       "url": "https://doi.org/10.1109/IROS60139.2025.11246389",
@@ -1820,6 +1820,81 @@
     }
   ],
   "arxiv": [
+    {
+      "paperId": "arxiv:2609.24376v1",
+      "title": "Multi-Agent Transportation of Free-Flyers in Microgravity Via Pushing Interaction Under Human-in-the-Loop Control",
+      "authors": [
+        "Gregorio Marchesini",
+        "Nicola De Carli",
+        "Sihyun Cho",
+        "Youngkyoung Kong",
+        "Elias Krantz",
+        "Mani Hemanth Dhullipalla",
+        "Dimos V. Dimarogonas",
+        "H. Jin Kim"
+      ],
+      "year": null,
+      "date": "2026-09-21",
+      "citations": 0,
+      "arxivId": "2609.24376v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.24376v1",
+      "abstract": "We propose a safety-critical framework for the cooperative transportation of passive targets in microgravity, where a team of chaser robots acts through unilateral pushing contacts to track a human-provided desired twist while ensuring safe target motion. The pushing-only nature of the interaction introduces sparse, configuration-dependent actuation constraints requiring chasers to physically relocate on the target body when the desired pushing allocation changes. To address these challenges, we formulate a delay-aware feedback control architecture leveraging Control Lyapunov Function (CLF) and Control Barrier Function (CBF) constraints within a mixed-integer thrust allocation program to enforce stability and safety of the target, respectively. The proposed framework enables reference tracking while guaranteeing obstacle avoidance with a circular obstacle despite intermittent control authority, providing a foundation for human-supervised cooperative transportation of free-flyers in space environments. The proposed framework is validated through Gazebo simulations.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO",
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2609.24062v1",
+      "title": "Safety Control of a Hyper-redundant Robot via Adaptive Weighted Control Barrier Functions",
+      "authors": [
+        "Zijian Cai",
+        "Kiwan Wong",
+        "Wenci Xin",
+        "Wei Xiao",
+        "Daniela Rus",
+        "Cecilia Laschi"
+      ],
+      "year": null,
+      "date": "2026-09-21",
+      "citations": 0,
+      "arxivId": "2609.24062v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.24062v1",
+      "abstract": "Hyper-redundant robots are well suited for confined-space manipulation due to their high dexterity, but safe operation in cluttered environments remains challenging. In addition, their slender structures often lead to uneven load distributions and nonuniform tracking errors along the body. To address these issues, this work proposes a weighted control barrier functions (W-CBFs) framework that enforces safety constraints while reducing tracking errors caused by uneven loading. The proposed controller was first evaluated on a circular path-following task under different obstacle configurations. With fixed weights, compared to the non-weighted method, the maximum reduction in root-mean-square (RMS) tracking error was 59.6\\% in simulation and 87.7\\% in physical experiments. An adaptive weighting strategy was then investigated based on the discrepancy between simulated and experimental performance under different mapping functions. The RMS errors were further reduced by 21.9\\% and 8.5\\%, respectively, although the error increases when obstacles were located close to the robot body. Finally, the robot was evaluated in a cleaning task requiring coverage of a rectangular area and compared with manual teleoperation. Although the controller was not explicitly optimized for area coverage, the autonomous strategy achieved comparable or better coverage performance while avoiding collisions with the surrounding frame, whereas collisions occurred during manual operation.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO"
+      ]
+    },
+    {
+      "paperId": "arxiv:2609.23896v1",
+      "title": "BarrierFormer: Transformer-Guided Predictive Barrier Enforcement for Safe Robot Control",
+      "authors": [
+        "Anandsingh Chauhan",
+        "Kunal Garg"
+      ],
+      "year": null,
+      "date": "2026-09-20",
+      "citations": 0,
+      "arxivId": "2609.23896v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.23896v1",
+      "abstract": "Control barrier functions (CBFs) have become one of the most popular tools for encoding and enforcing state constraints in safety-critical robotics. Standard CBF approaches are inherently myopic in nature as they enforce safety only at the current time step. Consequently, the system can be driven toward the boundary of the safe set where no feasible safe control exists at a future timestep. Model predictive control (MPC) based approaches address this by enforcing state constraints over a receding horizon. However, such approaches generally require the model to be known for solving a constrained optimization problem at every step, which is computationally expensive for real-time deployment. We propose BarrierFormer, a barrier-supervised transformer framework that addresses these limitations by encoding rollout-level CBF constraints in learning a model-free safe policy. A causal transformer encodes observation-action history, autoregressively generates a predictive rollout through the dynamics head to replace the model, and provides a residual correction to a nominal controller through the action head to replace the online computation. A barrier critic operating on local observations evaluates CBF constraint violations along this rollout, and a safety teacher computes barrier-consistent actions satisfying these constraints as direct supervision targets for the learned control policy. During inference, the policy maps observation-action history to control actions without any online optimization or model knowledge, enabling real-time model-free predictive safety enforcement. Evaluations across linear and nonlinear, 2D and 3D dynamical systems for safe goal-directed navigation demonstrate that BarrierFormer outperforms existing reinforcement learning (RL)-based, diffusion-based, MPC-based, and transformer-based approaches in safety rate and inference latency.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO",
+        "eess.SY"
+      ]
+    },
     {
       "paperId": "arxiv:2609.23280v1",
       "title": "Safety-Critical Control under Uncertainty via Adaptive Conformal Quantile Prediction Intervals",
@@ -2851,75 +2926,7 @@
         "eess.SY",
         "math.OC"
       ]
-    },
-    {
-      "paperId": "arxiv:2608.14239v1",
-      "title": "A Temporal Barrier Framework for Collision Avoidance in Multi-Agent Autonomous Aerial Vehicles",
-      "authors": [
-        "Benedikt Barthel Sorensen",
-        "Mitchell Black",
-        "Erfaun Noorani",
-        "Themistoklis Sapsis"
-      ],
-      "year": null,
-      "date": "2026-08-14",
-      "citations": 0,
-      "arxivId": "2608.14239v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2608.14239v1",
-      "abstract": "Operating teams of autonomous aircraft in dynamic, uncertain, and potentially adversarial environments requires safety protocols that are reliable yet selective, and allow agents to fly in close proximity while making progress toward mission objectives. We introduce adversarial time-to-collision (aTTC), a risk metric that quantifies, for a given agent, how quickly any surrounding agent could reach it assuming adversarial intent. We embed aTTC into the control barrier function (CBF) framework, defining the barrier directly in time rather than distance or velocity. The resulting aTTC-CBF is inherently anticipatory: agents modulate their own velocity based not on whether a peer is on a collision course, but on how quickly one could reach collision given its dynamical constraints. A differentiable neural-network surrogate makes the aTTC computable in real time within a standard CBF quadratic program. Across long time-horizon simulations of 3D independent-pursuit and formation-flight scenarios, the aTTC-CBF achieves up to twice the waypoint progress at half the collision rate of a higher-order distance-based CBF baseline.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY",
-        "cs.RO",
-        "math.OC"
-      ]
-    },
-    {
-      "paperId": "arxiv:2608.13841v1",
-      "title": "Real-Time In-Domain Congestion Control for the LWR Traffic Model via Control Barrier Functions",
-      "authors": [
-        "Zehang Zhu",
-        "Brian Block",
-        "Stephanie Stockar"
-      ],
-      "year": null,
-      "date": "2026-08-14",
-      "citations": 0,
-      "arxivId": "2608.13841v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2608.13841v1",
-      "abstract": "This paper presents a control barrier function-based method for real-time in-domain congestion control of the Lighthill-Whitham-Richards traffic model. Traffic congestion is formulated as a distributed safety control problem, leading to a infinite-dimensional optimization problem. Through the discretization and Karush-Kuhn-Tucker (KKT) analysis, the problem is converted into a high-dimensional quadratic program. A structure-exploiting primal-dual active set algorithm is then developed to compute the safe control input in real time, with convergence guarantees. Numerical simulations with different nominal controllers demonstrate the effectiveness and real-time feasibility of the proposed approach.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY"
-      ]
-    },
-    {
-      "paperId": "arxiv:2608.13819v1",
-      "title": "Control Barrier--Value Functions under Partial Observability: Safety Guarantees via Conformal Prediction",
-      "authors": [
-        "Niloofar Jahanshahi",
-        "Mo Chen"
-      ],
-      "year": null,
-      "date": "2026-08-13",
-      "citations": 0,
-      "arxivId": "2608.13819v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2608.13819v1",
-      "abstract": "This paper studies safety analysis and controller synthesis for partially observable nonlinear control systems. We extend the control barrier--value function (CBVF) framework, which combines Hamilton--Jacobi reachability and control barrier functions, to settings where full state information is not available and control is based on an estimated state. Given an estimator, we apply conformal prediction to the estimation error and obtain an error bound at a user-chosen miscoverage level. We incorporate this bound into the estimator-space safety analysis and define a CBVF-based safety certificate for partially observable systems. We then derive a finite-horizon probabilistic safety guarantee for the true system state. Finally, we propose a QP-based online safety filter for systems affine in the control and disturbance, whose solution enforces the CBVF safety condition in real time against bounded disturbance. The proposed framework is illustrated on a partially observable obstacle-avoidance case study.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY"
-      ]
     }
   ],
-  "updated": "2026-09-22T01:37:25.174078+00:00"
+  "updated": "2026-09-22T09:12:10.156015+00:00"
 }
