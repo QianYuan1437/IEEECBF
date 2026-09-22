@@ -188,6 +188,26 @@
       "subjects": []
     },
     {
+      "paperId": "02301ae688ec44bc25cd5660fc9b0736198f1be6",
+      "title": "Thrust-constrained, Soft-Landing of Spacecraft in Hazardous Terrains using a combined Sliding Mode-Control Barrier Function based Guidance Strategy",
+      "authors": [
+        "Vignesh Cg",
+        "Sachit Rao",
+        "Debasish Ghose"
+      ],
+      "year": 2026,
+      "date": "2026-07-01",
+      "citations": 0,
+      "arxivId": "",
+      "doi": "10.1109/VSS69650.2026.11655700",
+      "url": "https://doi.org/10.1109/VSS69650.2026.11655700",
+      "abstract": "Soft landing in the presence of hazardous terrain remains a critical and challenging problem in a spacecraft landing mission. The problem is more daunting when environmental uncertainties/disturbances are considered. Further, the presence of terrain features such as boulders, craters, and uneven topography in the vicinity of the designated landing location pose challenges. This paper explores a sliding-mode-based landing guidance for robustness against matched bounded uncertainties, encountered during terminal descent. To provide safety guarantees in a hazardous terrain, a Control Barrier Function (CBF) based safety filter that minimally modifies the nominal Sliding Mode (SM) based guidance law is developed while honoring the thrust constraints. A time-varying altitude barrier function is used as an upper bound for the vertical motion, thereby ensuring that the landing mission is completed within a predefined time. Simulation results demonstrate robustness and safety of the proposed guidance framework.",
+      "journal": "2026 IEEE 18th International Workshop on Variable Structure Systems (VSS)",
+      "venue": "International Workshop on Variable Structure Systems",
+      "venueLabel": "IEEE",
+      "subjects": []
+    },
+    {
       "paperId": "4ec242123526e060e8f0a1e33a71c0032c4692f1",
       "title": "Distributed Execution of Signal Temporal Logic Tasks in Open Networked Robotic System via Predefined-Time Control",
       "authors": [
@@ -206,26 +226,6 @@
       "journal": "IEEE Transactions on Automation Science and Engineering",
       "venue": "IEEE Transactions on Automation Science and Engineering",
       "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
-      "paperId": "02301ae688ec44bc25cd5660fc9b0736198f1be6",
-      "title": "Thrust-constrained, Soft-Landing of Spacecraft in Hazardous Terrains using a combined Sliding Mode-Control Barrier Function based Guidance Strategy",
-      "authors": [
-        "Vignesh Cg",
-        "Sachit Rao",
-        "Debasish Ghose"
-      ],
-      "year": 2026,
-      "date": "2026-07-01",
-      "citations": 0,
-      "arxivId": "",
-      "doi": "10.1109/VSS69650.2026.11655700",
-      "url": "https://doi.org/10.1109/VSS69650.2026.11655700",
-      "abstract": "Soft landing in the presence of hazardous terrain remains a critical and challenging problem in a spacecraft landing mission. The problem is more daunting when environmental uncertainties/disturbances are considered. Further, the presence of terrain features such as boulders, craters, and uneven topography in the vicinity of the designated landing location pose challenges. This paper explores a sliding-mode-based landing guidance for robustness against matched bounded uncertainties, encountered during terminal descent. To provide safety guarantees in a hazardous terrain, a Control Barrier Function (CBF) based safety filter that minimally modifies the nominal Sliding Mode (SM) based guidance law is developed while honoring the thrust constraints. A time-varying altitude barrier function is used as an upper bound for the vertical motion, thereby ensuring that the landing mission is completed within a predefined time. Simulation results demonstrate robustness and safety of the proposed guidance framework.",
-      "journal": "2026 IEEE 18th International Workshop on Variable Structure Systems (VSS)",
-      "venue": "International Workshop on Variable Structure Systems",
-      "venueLabel": "IEEE",
       "subjects": []
     },
     {
@@ -268,6 +268,26 @@
       "journal": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
       "venue": "",
       "venueLabel": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
+      "subjects": []
+    },
+    {
+      "paperId": "34416e8d74a5de94804afb4d6dbdaf36a43de0ec",
+      "title": "Predefined-Time Stabilization With Output Safety",
+      "authors": [
+        "Zhi-Yuan Liu",
+        "Yun-Gang Liu",
+        "Yuan Wang"
+      ],
+      "year": 2026,
+      "date": "2026-10-01",
+      "citations": 0,
+      "arxivId": "",
+      "doi": "10.1109/TSMC.2026.3705007",
+      "url": "https://doi.org/10.1109/TSMC.2026.3705007",
+      "abstract": "This article proposes the concept of output safety, which means that the system output remains within the safe set, while the system state merely satisfies mild properties. Such safety is more applicable for many practical systems, as requiring all states to be safe is sometimes excessive and could lead to a conservative controller. Apart from output safety, precision and rapidness are two other types of performance specifications. Whether these objectives can be guaranteed together with output safety deserves further investigation. This article investigates predefined-time stabilization with output safety for a general class of uncertain nonlinear systems. By establishing the connection between control barrier function (CBF) and control Lyapunov function (CLF), output safety and predefined-time stabilization of the system can be ensured simultaneously. Notably, we introduce integral-type functions into the construction of CBF, which is the basis of performance analysis. With the help of the backstepping technique, the feedback control law with a closed-form expression is provided, which differs from existing optimization-based safety-critical control. This explicit construction not only saves computational resources but also enhances real-time performance. Two simulation examples illustrate the effectiveness of the proposed strategy.",
+      "journal": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+      "venue": "IEEE Transactions on Systems, Man & Cybernetics. Systems",
+      "venueLabel": "TSMC",
       "subjects": []
     },
     {
@@ -2928,5 +2948,5 @@
       ]
     }
   ],
-  "updated": "2026-09-22T09:12:10.156015+00:00"
+  "updated": "2026-09-22T13:54:05.472540+00:00"
 }
