@@ -574,7 +574,7 @@
       ],
       "year": 2024,
       "date": "2024-10-25",
-      "citations": 23,
+      "citations": 24,
       "arxivId": "",
       "doi": "10.1002/rob.22456",
       "url": "https://doi.org/10.1002/rob.22456",
@@ -1158,7 +1158,7 @@
       ],
       "year": 2021,
       "date": "2021-03-23",
-      "citations": 88,
+      "citations": 89,
       "arxivId": "2103.12382",
       "doi": "10.23919/ACC50511.2021.9482848",
       "url": "https://doi.org/10.23919/ACC50511.2021.9482848",
@@ -2844,6 +2844,26 @@
       ]
     },
     {
+      "paperId": "arxiv:2609.29606v1",
+      "title": "Time-Invariant Control Barrier Functions for Bounded STL Safety",
+      "authors": [
+        "Avinash Malik"
+      ],
+      "year": null,
+      "date": "2026-08-28",
+      "citations": 0,
+      "arxivId": "2609.29606v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.29606v1",
+      "abstract": "Enforcing finite-time persistence specifications in Signal Temporal Logic typically requires formulating Control Barrier Functions within an extended state-time space. This introduces strict mathematical assumptions on global clock synchronization, rendering multi-agent execution brittle under asynchronous network delays, clock skew, and non-monotonic jitter. In this paper, we prove that for bounded-time safety tasks, explicit time dependency can be mathematically eliminated for general continuous-time nonlinear systems. By leveraging the reciprocal integral of worst-case system dissipation, we systematically compile temporal specifications into static, lower-dimensional spatial invariants. We formally prove that this time-invariant realization is strictly sound, removes the need for heuristic time-varying envelope tuning, and guarantees robust forward invariance even under severe network desynchronization.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
+    {
       "paperId": "arxiv:2608.25323v1",
       "title": "Scalable Tube-Tightened Multi-Agent Safety via Certified Constraint Reduction",
       "authors": [
@@ -2886,7 +2906,7 @@
       ]
     },
     {
-      "paperId": "arxiv:2608.24077v1",
+      "paperId": "arxiv:2608.24077v2",
       "title": "Safe Distributed Generalized Nash Equilibrium Seeking via Control Barrier Functions",
       "authors": [
         "Yihan Meng",
@@ -2896,9 +2916,9 @@
       "year": null,
       "date": "2026-08-25",
       "citations": 0,
-      "arxivId": "2608.24077v1",
+      "arxivId": "2608.24077v2",
       "doi": "",
-      "url": "https://arxiv.org/abs/2608.24077v1",
+      "url": "https://arxiv.org/abs/2608.24077v2",
       "abstract": "In this paper, we consider generalized Nash equilibrium (GNE) seeking in non-cooperative games with coupled constraint sets. Specifically, we aim to enforce safety for distributed GNE seeking, whereby the safety specifications are encoded in the coupled constraint set. To achieve this, we introduce the control barrier function (CBF) in the design of the GNE seeking dynamics. We design the dynamics for both full- and partial-information setting, where each player has knowledge of the decision information of all other players or only neighboring players, respectively. We justify the proposed dynamics by showing that the coupled constraint set is forward invariant, the equilibrium of the dynamics coincides with the exact GNE of the game, and the dynamics is asymptotically stable. Furthermore, we extend the approach to games where the agents are multi-integrators. Numerical simulations are provided to verify our results.",
       "journal": "",
       "venue": "",
@@ -3095,31 +3115,7 @@
         "cs.CE",
         "cs.LG"
       ]
-    },
-    {
-      "paperId": "arxiv:2608.17259v1",
-      "title": "Safe whole-body backstepping control for quadcopter path-following",
-      "authors": [
-        "Arthur H. D. Nunes",
-        "Arthur Da C. Vangasse",
-        "Guilherme V. Raffo",
-        "Vinicius M. Gonçalves",
-        "Luciano C. A. Pimenta"
-      ],
-      "year": null,
-      "date": "2026-08-18",
-      "citations": 0,
-      "arxivId": "2608.17259v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2608.17259v1",
-      "abstract": "This paper presents a novel whole-body Backstepping control strategy for safe quadcopter path-following. The proposed approach introduces an integrated control scheme that combines a translational guidance controller with a rigid-body attitude controller. To guarantee asymptotic path convergence, the method utilizes a nominal Integrated Guidance and Control (IGC) based on Artificial Vector Fields (AVF). To ensure reactive safety and collision avoidance, the control law is modified using a smooth distance function within the High-Order Control Barrier Function (HOCBF) framework. The quadcopter dynamics are modeled using quaternion algebra to represent position, velocity, and attitude. By combining the Backstepping approach with HOCBF, the controller guarantees that the vehicle avoids obstacle sets while successfully converging to the target path when unobstructed. The proposed methodology is validated through software-in-the-loop simulations and real-world experimental results using the Crazyflie platform.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY"
-      ]
     }
   ],
-  "updated": "2026-09-24T14:03:01.764185+00:00"
+  "updated": "2026-09-25T01:24:28.479095+00:00"
 }
