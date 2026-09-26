@@ -130,7 +130,7 @@
         "Yibo Zhang",
         "Zhenhua Li",
         "Jun-Guo Lu",
-        "Weidong Zhang"
+        "Wei-Dong Zhang"
       ],
       "year": 2025,
       "date": "2025-01-01",
@@ -446,7 +446,7 @@
       ],
       "year": 2016,
       "date": "2016-09-21",
-      "citations": 2906,
+      "citations": 2919,
       "arxivId": "1609.06408",
       "doi": "10.1109/TAC.2016.2638961",
       "url": "https://doi.org/10.1109/TAC.2016.2638961",
@@ -485,7 +485,7 @@
       ],
       "year": 2021,
       "date": "2021-08-18",
-      "citations": 592,
+      "citations": 593,
       "arxivId": "",
       "doi": "10.1109/tac.2021.3105491",
       "url": "https://doi.org/10.1109/tac.2021.3105491",
@@ -505,7 +505,7 @@
       ],
       "year": 2020,
       "date": "2020-07-22",
-      "citations": 476,
+      "citations": 477,
       "arxivId": "2007.11718",
       "doi": "10.23919/ACC50511.2021.9483029",
       "url": "https://doi.org/10.23919/ACC50511.2021.9483029",
@@ -552,27 +552,6 @@
       "journal": "2015 American Control Conference (ACC)",
       "venue": "American Control Conference",
       "venueLabel": "ACC",
-      "subjects": []
-    },
-    {
-      "paperId": "fa55d07755bf69dab45b8a197b8c7c28e08a5931",
-      "title": "Reinforcement Learning for Safety-Critical Control under Model Uncertainty, using Control Lyapunov Functions and Control Barrier Functions",
-      "authors": [
-        "J. Choi",
-        "Fernando Castañeda",
-        "C. Tomlin",
-        "K. Sreenath"
-      ],
-      "year": 2020,
-      "date": "2020-04-16",
-      "citations": 242,
-      "arxivId": "2004.07584",
-      "doi": "10.15607/rss.2020.xvi.088",
-      "url": "https://doi.org/10.15607/rss.2020.xvi.088",
-      "abstract": "In this paper, the issue of model uncertainty in safety-critical control is addressed with a data-driven approach. For this purpose, we utilize the structure of an input-ouput linearization controller based on a nominal model along with a Control Barrier Function and Control Lyapunov Function based Quadratic Program (CBF-CLF-QP). Specifically, we propose a novel reinforcement learning framework which learns the model uncertainty present in the CBF and CLF constraints, as well as other control-affine dynamic constraints in the quadratic program. The trained policy is combined with the nominal model-based CBF-CLF-QP, resulting in the Reinforcement Learning-based CBF-CLF-QP (RL-CBF-CLF-QP), which addresses the problem of model uncertainty in the safety constraints. The performance of the proposed method is validated by testing it on an underactuated nonlinear bipedal robot walking on randomly spaced stepping stones with one step preview, obtaining stable and safe walking under model uncertainty.",
-      "journal": "ArXiv",
-      "venue": "Robotics: Science and Systems Conference",
-      "venueLabel": "RSS",
       "subjects": []
     },
     {
@@ -631,7 +610,7 @@
       ],
       "year": 2022,
       "date": "2022-09-18",
-      "citations": 161,
+      "citations": 162,
       "arxivId": "2209.08539",
       "doi": "10.1109/ICRA48891.2023.10160857",
       "url": "https://doi.org/10.1109/ICRA48891.2023.10160857",
@@ -689,7 +668,7 @@
         "Shiping Wen",
         "Zheng Yan",
         "Guanghui Wen",
-        "Tingwen Huang"
+        "Ting-Wen Huang"
       ],
       "year": 2023,
       "date": "2023-03-01",
@@ -710,7 +689,7 @@
         "Y. Xiong",
         "Di-Hua Zhai",
         "M. Tavakoli",
-        "Yuanqing Xia"
+        "Yuan-Qing Xia"
       ],
       "year": 2022,
       "date": "2022-05-17",
@@ -738,7 +717,7 @@
       ],
       "year": 2023,
       "date": "2023-10-24",
-      "citations": 102,
+      "citations": 103,
       "arxivId": "2310.15478",
       "doi": "10.1109/ICRA57147.2024.10610418",
       "url": "https://doi.org/10.1109/ICRA57147.2024.10610418",
@@ -757,7 +736,7 @@
       ],
       "year": 2020,
       "date": "2020-12-01",
-      "citations": 97,
+      "citations": 98,
       "arxivId": "2102.02609",
       "doi": "10.1109/TCNS.2020.3014602",
       "url": "https://doi.org/10.1109/TCNS.2020.3014602",
@@ -778,7 +757,7 @@
       ],
       "year": 2024,
       "date": "2024-01-25",
-      "citations": 95,
+      "citations": 96,
       "arxivId": "2401.14554",
       "doi": "10.1109/TRO.2025.3530348",
       "url": "https://doi.org/10.1109/TRO.2025.3530348",
@@ -818,7 +797,7 @@
         "Shengbo Eben",
         "Ziyu Lin",
         "Yang Guan",
-        "Yangang Ren",
+        "Yan-Gang Ren",
         "Sifa Zheng"
       ],
       "year": 2021,
@@ -834,33 +813,12 @@
       "subjects": []
     },
     {
-      "paperId": "a7ce60b06b297b19cbcbac1d6c762935838a8af5",
-      "title": "Rule-Based Safety-Critical Control Design using Control Barrier Functions with Application to Autonomous Lane Change",
-      "authors": [
-        "Suiyi He",
-        "Jun Zeng",
-        "Bike Zhang",
-        "K. Sreenath"
-      ],
-      "year": 2021,
-      "date": "2021-03-23",
-      "citations": 89,
-      "arxivId": "2103.12382",
-      "doi": "10.23919/ACC50511.2021.9482848",
-      "url": "https://doi.org/10.23919/ACC50511.2021.9482848",
-      "abstract": "This paper develops a new control design for guaranteeing a vehicle's safety during lane change maneuvers in a complex traffic environment. The proposed method uses a finite state machine (FSM), where a quadratic program based optimization problem using control Lyapunov functions and control barrier functions (CLF-CBF-QP) is used to calculate the system's optimal inputs via rule-based control strategies. The FSM can make switches between different states automatically according to the command of driver and traffic environment, which makes the ego vehicle find a safe opportunity to do a collision-free lane change maneuver. By using a convex quadratic program, the controller can guarantee the system's safety at a high update frequency. A set of pre-designed typical lane change scenarios as well as randomly generated driving scenarios are simulated to show the performance of our controller.",
-      "journal": "2021 American Control Conference (ACC)",
-      "venue": "American Control Conference",
-      "venueLabel": "ACC",
-      "subjects": []
-    },
-    {
       "paperId": "c075e8125dbdec69d674c05d31f65048a2a65227",
       "title": "Safety-Critical Control With Control Barrier Function Based on Disturbance Observer",
       "authors": [
         "Jian-Kun Sun",
         "Jun Yang",
-        "Zhigang Zeng"
+        "Zhi-Gang Zeng"
       ],
       "year": 2024,
       "date": "2024-07-01",
@@ -946,7 +904,7 @@
       ],
       "year": 2022,
       "date": "2022-04-05",
-      "citations": 75,
+      "citations": 76,
       "arxivId": "2204.01930",
       "doi": "10.1109/TAC.2023.3306492",
       "url": "https://doi.org/10.1109/TAC.2023.3306492",
@@ -1034,25 +992,22 @@
       "subjects": []
     },
     {
-      "paperId": "5e30b0979904679d4d3dd962523dff6806c2ffec",
-      "title": "Pointwise Feasibility of Gaussian Process-based Safety-Critical Control under Model Uncertainty",
+      "paperId": "b0372c7a5ad7b065d3b87c361c4f9eafbe63d05e",
+      "title": "Refining Control Barrier Functions through Hamilton-Jacobi Reachability",
       "authors": [
-        "Fernando Castañeda",
-        "J. Choi",
-        "Bike Zhang",
-        "C. Tomlin",
-        "K. Sreenath"
+        "S. Tonkens",
+        "S. Herbert"
       ],
-      "year": 2021,
-      "date": "2021-06-13",
-      "citations": 69,
-      "arxivId": "2106.07108",
-      "doi": "10.1109/CDC45484.2021.9683743",
-      "url": "https://doi.org/10.1109/CDC45484.2021.9683743",
-      "abstract": "Control Barrier Functions (CBFs) and Control Lyapunov Functions (CLFs) are popular tools for enforcing safety and stability of a controlled system, respectively. They are commonly utilized to build constraints that can be incorpo-rated in a min-norm quadratic program (CBF-CLF-QP) which solves for a safety-critical control input. However, since these constraints rely on a model of the system, when this model is inaccurate the guarantees of safety and stability can be easily lost. In this paper, we present a Gaussian Process (GP)-based approach to tackle the problem of model uncertainty in safety-critical controllers that use CBFs and CLFs. The considered model uncertainty is affected by both state and control input. We derive probabilistic bounds on the effects that such model uncertainty has on the dynamics of the CBF and CLF. We then use these bounds to build safety and stability chance constraints that can be incorporated in a min-norm convex optimization-based controller, called GP-CBF-CLF-SOCP. As the main theoretical result of the paper, we present necessary and sufficient conditions for pointwise feasibility of the proposed optimization problem. We believe that these conditions could serve as a starting point towards understanding what are the minimal requirements on the distribution of data collected from the real system in order to guarantee safety. Finally, we validate the proposed framework with numerical simulations of an adaptive cruise controller for an automotive system.",
-      "journal": "2021 60th IEEE Conference on Decision and Control (CDC)",
-      "venue": "IEEE Conference on Decision and Control",
-      "venueLabel": "CDC",
+      "year": 2022,
+      "date": "2022-04-26",
+      "citations": 67,
+      "arxivId": "2204.12507",
+      "doi": "10.1109/IROS47612.2022.9982203",
+      "url": "https://doi.org/10.1109/IROS47612.2022.9982203",
+      "abstract": "Safety filters based on Control Barrier Functions (CBFs) have emerged as a practical tool for the safety-critical control of autonomous systems. These approaches encode safety through a value function and enforce safety by imposing a constraint on the time derivative of this value function. How-ever, synthesizing a valid CBF that is not overly conservative in the presence of input constraints is a notorious challenge. In this work, we propose refining a candidate CBF using formal verification methods to obtain a valid CBF. In particular, we update an expert-synthesized or backup CBF using dynamic programming (DP) based reachability analysis. Our framework, REFINECBF, guarantees that with every DP iteration the obtained CBF is provably at least as safe as the prior iteration and converges to a valid CBF. Therefore, REFINECBF can be used in-the-loop for robotic systems. We demonstrate the practicality of our method to enhance safety and/or reduce conservativeness on a range of nonlinear control-affine systems using various CBF synthesis techniques in simulation.",
+      "journal": "2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "venue": "IEEE/RJS International Conference on Intelligent RObots and Systems",
+      "venueLabel": "IROS",
       "subjects": []
     },
     {
@@ -1097,6 +1052,28 @@
       "subjects": []
     },
     {
+      "paperId": "aad0ba169d887b0271a48e98067ff7268d44a0ce",
+      "title": "Safety-critical Control with Nonaffine Control Inputs via a Relaxed Control Barrier Function for an Autonomous Vehicle",
+      "authors": [
+        "Joohwan Seo",
+        "Joonho Lee",
+        "Eunkyu Baek",
+        "R. Horowitz",
+        "Jongeun Choi"
+      ],
+      "year": 2022,
+      "date": null,
+      "citations": 61,
+      "arxivId": "",
+      "doi": "10.1109/LRA.2022.3142408",
+      "url": "https://doi.org/10.1109/LRA.2022.3142408",
+      "abstract": "When designing a controller for the autonomous vehicle system, safety and trajectory tracking performance are two major concerns. This letter proposes a novel control design for an autonomous vehicle system with nonaffine control inputs that can track the desired trajectories while considering the safety constraint. First, the vehicle dynamics is modeled using the differential flatness approach. The dynamic inversion method is then employed for the trajectory tracking of a nonaffine-in control system, and a control barrier function (CBF) approach is utilized to enforce the safety constraint. The trajectory tracking control is handled as a least-squares optimization problem, while the CBF is considered as a constraint. By relaxing the CBF constraint to the cost function, the novel control design is derived via a dynamic inversion. The safety and the stability of the closed-loop system are analyzed using a singular perturbation method. The proposed method is validated using the numerical simulation and the high-fidelity car simulator under realistic driving scenarios.",
+      "journal": "IEEE Robotics and Automation Letters",
+      "venue": "IEEE Robotics and Automation Letters",
+      "venueLabel": "RA-L",
+      "subjects": []
+    },
+    {
       "paperId": "676e84c96d9acae9ed0af2863d897408f3a83839",
       "title": "Adaptive dynamic programming for optimal control of discrete‐time nonlinear system with state constraints based on control barrier function",
       "authors": [
@@ -1116,28 +1093,6 @@
       "journal": "International Journal of Robust and Nonlinear Control",
       "venue": "International Journal of Robust and Nonlinear Control",
       "venueLabel": "IJRNC",
-      "subjects": []
-    },
-    {
-      "paperId": "aad0ba169d887b0271a48e98067ff7268d44a0ce",
-      "title": "Safety-critical Control with Nonaffine Control Inputs via a Relaxed Control Barrier Function for an Autonomous Vehicle",
-      "authors": [
-        "Joohwan Seo",
-        "Joonho Lee",
-        "Eunkyu Baek",
-        "R. Horowitz",
-        "Jongeun Choi"
-      ],
-      "year": 2022,
-      "date": null,
-      "citations": 60,
-      "arxivId": "",
-      "doi": "10.1109/LRA.2022.3142408",
-      "url": "https://doi.org/10.1109/LRA.2022.3142408",
-      "abstract": "When designing a controller for the autonomous vehicle system, safety and trajectory tracking performance are two major concerns. This letter proposes a novel control design for an autonomous vehicle system with nonaffine control inputs that can track the desired trajectories while considering the safety constraint. First, the vehicle dynamics is modeled using the differential flatness approach. The dynamic inversion method is then employed for the trajectory tracking of a nonaffine-in control system, and a control barrier function (CBF) approach is utilized to enforce the safety constraint. The trajectory tracking control is handled as a least-squares optimization problem, while the CBF is considered as a constraint. By relaxing the CBF constraint to the cost function, the novel control design is derived via a dynamic inversion. The safety and the stability of the closed-loop system are analyzed using a singular perturbation method. The proposed method is validated using the numerical simulation and the high-fidelity car simulator under realistic driving scenarios.",
-      "journal": "IEEE Robotics and Automation Letters",
-      "venue": "IEEE Robotics and Automation Letters",
-      "venueLabel": "RA-L",
       "subjects": []
     },
     {
@@ -1200,27 +1155,6 @@
       "subjects": []
     },
     {
-      "paperId": "4320ef668d456bb90e969eeb2fdfef25efb36e76",
-      "title": "Data-Driven Safety-Critical Control: Synthesizing Control Barrier Functions with Koopman Operators",
-      "authors": [
-        "C. Folkestad",
-        "Yuxiao Chen",
-        "A. Ames",
-        "J. Burdick"
-      ],
-      "year": 2021,
-      "date": "2021-05-25",
-      "citations": 48,
-      "arxivId": "",
-      "doi": "10.23919/ACC50511.2021.9483057",
-      "url": "https://doi.org/10.23919/ACC50511.2021.9483057",
-      "abstract": "Control barrier functions (CBFs) are a powerful tool to guarantee safety of autonomous systems, yet they rely on the computation of control invariant sets, which is notoriously difficult. A backup strategy employs an implicit control invariant set computed by forward integrating the system dynamics. However, this integration is prohibitively expensive for high dimensional systems, and inaccurate in the presence of unmodelled dynamics. We propose to learn discrete-time Koopman operators of the closed-loop dynamics under a backup strategy. This approach replaces forward integration by a simple matrix multiplication, which can mostly be computed offline. We also derive an error bound on the unmodeled dynamics in order to robustify the CBF controller. Our approach extends to multi-agent systems, and we demonstrate the method on collision avoidance for wheeled robots and quadrotors.",
-      "journal": "2021 American Control Conference (ACC)",
-      "venue": "American Control Conference",
-      "venueLabel": "ACC",
-      "subjects": []
-    },
-    {
       "paperId": "7a9434acae747a0e4de8309a49384cdba8040d52",
       "title": "Constrained Moving Path Following Control for UAV With Robust Control Barrier Function",
       "authors": [
@@ -1239,6 +1173,26 @@
       "journal": "IEEE/CAA Journal of Automatica Sinica",
       "venue": "IEEE/CAA Journal of Automatica Sinica",
       "venueLabel": "Automatica",
+      "subjects": []
+    },
+    {
+      "paperId": "48c811647dc23fde010c3bdc51141cb42561fc0e",
+      "title": "Design of Safe Optimal Guidance With Obstacle Avoidance Using Control Barrier Function-Based Actor–Critic Reinforcement Learning",
+      "authors": [
+        "Chi Peng",
+        "Xiao-Ma Liu",
+        "Jian-Jun Ma"
+      ],
+      "year": 2023,
+      "date": "2023-11-01",
+      "citations": 45,
+      "arxivId": "",
+      "doi": "10.1109/TSMC.2023.3288826",
+      "url": "https://doi.org/10.1109/TSMC.2023.3288826",
+      "abstract": "In path planning and guidance algorithms for vehicles, such as unmanned aerial vehicles (UAVs) and missiles, it is essential and imperative to account for obstacle avoidance in complicated flight environment (e.g., no-fly zones). This article presents a novel safe guidance scheme with the guarantee of critical obstacle avoidance for intercepting maneuvering targets. First, the engagement of the missile and the target is formulated as nonlinear planer pursuit-evasion dynamics, and the interaction between the obstacle and the missile are determined. Then, the maneuvering target knowledge is estimated online by the extended disturbance observer (EDO) and incorporated into a separated feedback term of the input channel for the implementation of an approximately optimal actor–critic guidance law framework. To render the safety, the obstacle is thought as constraint objects and mathematically described by high-order control barrier functions (HO-CBFs). Furthermore, HO-CBFs are synthesized with the proposed guidance framework to intercept the maneuvering target with obstacle settings. Finally, numerical simulations under various types of nonstationary targets are performed to illustrate the feasibility and effectiveness of the proposed scheme.",
+      "journal": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+      "venue": "IEEE Transactions on Systems, Man & Cybernetics. Systems",
+      "venueLabel": "TSMC",
       "subjects": []
     },
     {
@@ -1298,26 +1252,6 @@
       "journal": "IEEE Transactions on Control of Network Systems",
       "venue": "IEEE Transactions on Control of Network Systems",
       "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
-      "paperId": "48c811647dc23fde010c3bdc51141cb42561fc0e",
-      "title": "Design of Safe Optimal Guidance With Obstacle Avoidance Using Control Barrier Function-Based Actor–Critic Reinforcement Learning",
-      "authors": [
-        "Chi Peng",
-        "Xiao-Ma Liu",
-        "Jian-Jun Ma"
-      ],
-      "year": 2023,
-      "date": "2023-11-01",
-      "citations": 44,
-      "arxivId": "",
-      "doi": "10.1109/TSMC.2023.3288826",
-      "url": "https://doi.org/10.1109/TSMC.2023.3288826",
-      "abstract": "In path planning and guidance algorithms for vehicles, such as unmanned aerial vehicles (UAVs) and missiles, it is essential and imperative to account for obstacle avoidance in complicated flight environment (e.g., no-fly zones). This article presents a novel safe guidance scheme with the guarantee of critical obstacle avoidance for intercepting maneuvering targets. First, the engagement of the missile and the target is formulated as nonlinear planer pursuit-evasion dynamics, and the interaction between the obstacle and the missile are determined. Then, the maneuvering target knowledge is estimated online by the extended disturbance observer (EDO) and incorporated into a separated feedback term of the input channel for the implementation of an approximately optimal actor–critic guidance law framework. To render the safety, the obstacle is thought as constraint objects and mathematically described by high-order control barrier functions (HO-CBFs). Furthermore, HO-CBFs are synthesized with the proposed guidance framework to intercept the maneuvering target with obstacle settings. Finally, numerical simulations under various types of nonstationary targets are performed to illustrate the feasibility and effectiveness of the proposed scheme.",
-      "journal": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
-      "venue": "IEEE Transactions on Systems, Man & Cybernetics. Systems",
-      "venueLabel": "TSMC",
       "subjects": []
     },
     {
@@ -1440,25 +1374,6 @@
       "journal": "Autom.",
       "venue": "at - Automatisierungstechnik",
       "venueLabel": "at - Automatisierungstechnik",
-      "subjects": []
-    },
-    {
-      "paperId": "e1159d6ac75b533ddacd9462e3fd244882f79d49",
-      "title": "Predictive Control Barrier Functions for Online Safety Critical Control",
-      "authors": [
-        "J. Breeden",
-        "Dimitra Panagou"
-      ],
-      "year": 2022,
-      "date": "2022-04-01",
-      "citations": 36,
-      "arxivId": "2204.00208",
-      "doi": "10.1109/CDC51059.2022.9992926",
-      "url": "https://doi.org/10.1109/CDC51059.2022.9992926",
-      "abstract": "This paper presents a methodology for constructing Control Barrier Functions (CBFs) that proactively consider the future safety of a system along a nominal trajectory, and effect corrective action before the trajectory leaves a designated safe set. Specifically, this paper presents a systematic approach for propagating a nominal trajectory on a receding horizon, and then encoding the future safety of this trajectory into a CBF. If the propagated trajectory is unsafe, then a controller satisfying the CBF condition will modify the nominal trajectory before the trajectory becomes unsafe. Compared to existing CBF techniques, this strategy is proactive rather than reactive and thus potentially results in smaller modifications to the nominal trajectory. The proposed strategy is shown to be provably safe, and then is demonstrated in simulated scenarios where it would otherwise be difficult to construct a traditional CBF. In simulation, the predictive CBF results in less modification to the nominal trajectory and smaller control inputs than a traditional CBF, and faster computations than a nonlinear model predictive control approach.",
-      "journal": "2022 IEEE 61st Conference on Decision and Control (CDC)",
-      "venue": "IEEE Conference on Decision and Control",
-      "venueLabel": "CDC",
       "subjects": []
     },
     {
@@ -1588,29 +1503,6 @@
       "subjects": []
     },
     {
-      "paperId": "3bc2b94ef5cd048b7bc923e58677de19c866104c",
-      "title": "Robust Adaptive Safety-Critical Control for Unknown Systems With Finite-Time Elementwise Parameter Estimation",
-      "authors": [
-        "Sheng-Bo Wang",
-        "Bo Lyu",
-        "Shiping Wen",
-        "Kaibo Shi",
-        "Songhui Zhu",
-        "Tingwen Huang"
-      ],
-      "year": 2021,
-      "date": "2021-11-27",
-      "citations": 31,
-      "arxivId": "2111.13849",
-      "doi": "10.1109/TSMC.2022.3203176",
-      "url": "https://doi.org/10.1109/TSMC.2022.3203176",
-      "abstract": "Safety is always one of the most critical principles for a control system. This article investigates a safety-critical control scheme for unknown structured systems by using the control barrier function (CBF) method. Benefiting from the dynamic regressor extension and mixing (DREM), an extended elementwise parameter identification law is utilized to dismiss the uncertainty. It is shown that the proposed control scheme can always ensure safety in the identification process with injected excitation noise. Besides, the elementwise identification process using DREM can minimize the theoretical conservatism of the safe adaptation law compared to other existing adaptive CBF (aCBF) algorithms. The stability of the proposed safe control scheme is proven, where the safety is guaranteed by constructing appropriate forward invariant aCBF. Furthermore, the robustness of our algorithms under bounded disturbances is analyzed. Finally, the proposed framework is tested on two simulation-based examples, including the adaptive cruise control problem where the slope resistance of the following vehicle is robustly estimated in finite time against small disturbances, and the potential crash risk is avoided by our safe control scheme. These examples illustrate the effectiveness of our algorithm.",
-      "journal": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
-      "venue": "IEEE Transactions on Systems, Man & Cybernetics. Systems",
-      "venueLabel": "TSMC",
-      "subjects": []
-    },
-    {
       "paperId": "9c8079886584e5b2136547ab2b5656d6bbb0188e",
       "title": "Robust Safe Learning and Control in an Unknown Environment: An Uncertainty-Separated Control Barrier Function Approach",
       "authors": [
@@ -1670,27 +1562,6 @@
       "journal": "IEEE Transactions on Circuits and Systems II: Express Briefs",
       "venue": "IEEE Transactions on Circuits and Systems - II - Express Briefs",
       "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
-      "paperId": "91b47c30ac3e3c3c8a6010ec744c3cec412b7f6b",
-      "title": "Learning Differentiable Safety-Critical Control using Control Barrier Functions for Generalization to Novel Environments",
-      "authors": [
-        "Hengbo Ma",
-        "Bike Zhang",
-        "M. Tomizuka",
-        "K. Sreenath"
-      ],
-      "year": 2022,
-      "date": "2022-01-04",
-      "citations": 30,
-      "arxivId": "2201.01347",
-      "doi": "10.23919/ECC55457.2022.9838179",
-      "url": "https://doi.org/10.23919/ECC55457.2022.9838179",
-      "abstract": "Control barrier functions (CBFs) have become a popular tool to enforce safety of a control system. CBFs are commonly utilized in a quadratic program formulation (CBF-QP) as safety-critical constraints. A class $\\mathcal{K}$ function in CBFs usually needs to be tuned manually in order to balance the trade-off between performance and safety for each environment. However, this process is often heuristic and can become intractable for high relative-degree systems. Moreover, it prevents the CBF-QP from generalizing to different envi-ronments in the real world. By embedding the optimization procedure of the exponential control barrier function based quadratic program (ECBF-QP) as a differentiable layer within a deep learning architecture, we propose a differentiable safety-critical control framework that enables generalization to new environments for high relative-degree systems with forward invariance guarantees. Finally, we validate the proposed control design with 2D double and quadruple integrator systems in various environments.",
-      "journal": "2022 European Control Conference (ECC)",
-      "venue": "European Control Conference",
-      "venueLabel": "ECC",
       "subjects": []
     }
   ],
@@ -2803,5 +2674,5 @@
       ]
     }
   ],
-  "updated": "2026-09-26T09:17:31.900915+00:00"
+  "updated": "2026-09-26T13:37:38.140832+00:00"
 }
