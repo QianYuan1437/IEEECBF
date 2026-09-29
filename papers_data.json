@@ -149,26 +149,6 @@
       "subjects": []
     },
     {
-      "paperId": "34416e8d74a5de94804afb4d6dbdaf36a43de0ec",
-      "title": "Predefined-Time Stabilization With Output Safety",
-      "authors": [
-        "Zhi-Yuan Liu",
-        "Yun-Gang Liu",
-        "Yuan Wang"
-      ],
-      "year": 2026,
-      "date": "2026-10-01",
-      "citations": 0,
-      "arxivId": "",
-      "doi": "10.1109/TSMC.2026.3705007",
-      "url": "https://doi.org/10.1109/TSMC.2026.3705007",
-      "abstract": "This article proposes the concept of output safety, which means that the system output remains within the safe set, while the system state merely satisfies mild properties. Such safety is more applicable for many practical systems, as requiring all states to be safe is sometimes excessive and could lead to a conservative controller. Apart from output safety, precision and rapidness are two other types of performance specifications. Whether these objectives can be guaranteed together with output safety deserves further investigation. This article investigates predefined-time stabilization with output safety for a general class of uncertain nonlinear systems. By establishing the connection between control barrier function (CBF) and control Lyapunov function (CLF), output safety and predefined-time stabilization of the system can be ensured simultaneously. Notably, we introduce integral-type functions into the construction of CBF, which is the basis of performance analysis. With the help of the backstepping technique, the feedback control law with a closed-form expression is provided, which differs from existing optimization-based safety-critical control. This explicit construction not only saves computational resources but also enhances real-time performance. Two simulation examples illustrate the effectiveness of the proposed strategy.",
-      "journal": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
-      "venue": "IEEE Transactions on Systems, Man & Cybernetics. Systems",
-      "venueLabel": "TSMC",
-      "subjects": []
-    },
-    {
       "paperId": "a4ae204b7bcadd7ce987b65d9a05bbfd23171be5",
       "title": "Safe prescribed time controller for wheeled mobile robots by using control barrier functions as a safety filter.",
       "authors": [
@@ -1468,6 +1448,53 @@
   ],
   "arxiv": [
     {
+      "paperId": "arxiv:2609.34486v1",
+      "title": "Model-Informed Safe Reinforcement Learning for Bipedal Locomotion via Step-to-Step Prediction",
+      "authors": [
+        "Victor Paredes",
+        "Ayonga Hereid"
+      ],
+      "year": null,
+      "date": "2026-09-28",
+      "citations": 0,
+      "arxivId": "2609.34486v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.34486v1",
+      "abstract": "Humanoid robots promise versatile mobility in cluttered, human-centric environments, but real deployment demands principled safety. Classical model-based gait generators yield interpretable motions but often lack the robustness and adaptability of modern reinforcement learning (RL) based approaches. We propose a model-informed reinforcement learning framework anchored to the analytical Angular Momentum Linear Inverted Pendulum (ALIP) template. We provide a step-to-step safety certificate for ALIP stepping via a discrete exponential control barrier function (DECBF) and use it as (i) a training-time shaping signal and (ii) a runtime action filter that minimally adjusts swing-foot placement to satisfy template-level constraints. Full-order safety is evaluated empirically on the Digit humanoid in MuJoCo with a whole-body controller stack. Compared to an unconstrained baseline, our approach reduces safety-violation events in the reported external-disturbance trial, while larger lateral-velocity transients reveal a safety-tracking tradeoff.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO"
+      ]
+    },
+    {
+      "paperId": "arxiv:2609.34356v1",
+      "title": "Predictive Semantic Safety: From Visual Physical Reasoning to Safety-Critical Control",
+      "authors": [
+        "Taekyung Kim",
+        "Salem Fradi",
+        "Yanning Dai",
+        "Mateusz Ostaszewski",
+        "Jürgen Schmidhuber"
+      ],
+      "year": null,
+      "date": "2026-09-28",
+      "citations": 0,
+      "arxivId": "2609.34356v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.34356v1",
+      "abstract": "Physical interactions can create future hazards that are not apparent from the robot's current geometric surroundings. We present a framework termed Predictive Semantic Safety (PSS), which connects visual physical reasoning to backup-based safety filtering. A vision-language model (VLM) predicts physical events and their timing or directly predicts object displacements. An explicit motion model converts event hypotheses into object trajectories. Split conformal prediction calibrates position errors jointly across specified objects, observation times, and future times; geometric shape bounds convert the resulting position regions into predicted object occupancy. PSS evaluates a prescribed backup maneuver against this occupancy and derives input-affine constraints for minimally modifying the nominal input while preserving backup feasibility under the robot dynamics and input limits. MuJoCo experiments with a Unitree Go1 consider falling fixtures, impact-driven support loss, and contact propagation. PSS achieves a safe episode rate of 99.3%, compared with 43.3% for a Backup Control Barrier Function baseline that only uses current obstacle geometry.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
       "paperId": "arxiv:2609.33852v1",
       "title": "Higher-Order Mean-Field Control Barrier Functions",
       "authors": [
@@ -2530,52 +2557,7 @@
         "cs.RO",
         "cs.AI"
       ]
-    },
-    {
-      "paperId": "arxiv:2608.20467v1",
-      "title": "Learning-Based Measurement-Robust Control Barrier Functions for Obstacle Avoidance under State Estimation Error",
-      "authors": [
-        "Nicholas Rober",
-        "Yixuan Jia",
-        "Jonathan P. How"
-      ],
-      "year": null,
-      "date": "2026-08-20",
-      "citations": 0,
-      "arxivId": "2608.20467v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2608.20467v1",
-      "abstract": "Safety filters are an effective tool for enforcing constraints in safety-critical systems, but most existing methods assume perfect state information, which is rarely available in practice. Recent work has begun to close this gap by developing filtering mechanisms that are robust to state estimation error, but these methods can still exhibit safety violations or overly conservative behavior as estimation error grows. Focusing on obstacle avoidance, we develop two new control barrier function (CBF) formulations: drift-measurement-robust (DMR)-CBFs and neural measurement-robust (NMR)-CBFs. The DMR-CBF augments the standard CBF condition with an inner optimization over the worst-case uncertainty in the drift dynamics, improving robustness to estimation error. This DMR-CBF then supervises a pretraining phase for the NMR-CBF, which replaces the inner optimization with a learned term. The NMR-CBF is subsequently finetuned through differentiable trajectory rollouts, yielding a filter that achieves empirical safety comparable to the DMR-CBF while reducing both conservativeness and computational cost. We provide theoretical analysis of the DMR-CBF along with numerical results on a planar double integrator and a 12D quadrotor, where both proposed approaches prevent collisions while other robust methods either fail or are overly conservative. Finally, we deployed the NMR-CBF on a Unitree Go2, enabling successful navigation of an obstacle field under odometry errors that caused a standard CBF to collide.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY",
-        "cs.RO"
-      ]
-    },
-    {
-      "paperId": "arxiv:2609.25031v1",
-      "title": "Towards Adaptive Interaction Strategies for Human Companion Robot via Deep Reinforcement Learning",
-      "authors": [
-        "Cong-Thanh Vu",
-        "Yen-Chen Liu"
-      ],
-      "year": null,
-      "date": "2026-08-20",
-      "citations": 0,
-      "arxivId": "2609.25031v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2609.25031v1",
-      "abstract": "In the field of Human-Robot Interaction (HRI), achieving flexibility in human-accompanying within real-world environments holds great potential for various applications but also poses significant challenges. Traditional methods typically restrict robots to fixed positions relative to humans, such as tracking from behind, in front, or side-by-side, which limits robot adaptability in dynamic workspaces. This study introduces a novel human-companioning strategy that uses Reinforcement Learning (DRL) to enable mobile robots to dynamically adjust their tracking positions according to varying conditions. An interaction space is defined to capture the relationship between the human and the robot while considering the environment, which serves as the basis for state spaces in DRL to assist the robot in adapting to environmental changes. A human-robot companion controller is developed by integrating Model Predictive Path Integral (MPPI) control with Control Barrier Functions (CBF), ensuring that the robot accurately follows the target's movement in both position and orientation while avoiding obstacles and enhancing social acceptance and safety. The proposed approach is evaluated in real-world scenarios, both indoors and outdoors, and compared with other studies. The results show that the proposed method improves the success rate and tracking accuracy by at least 24% and 47%, respectively, while enhancing human comfort. Experiments demonstrate the robot's ability to flexibly accompany a person walking at speeds of up to 1.7 m/s, dynamically adjusting its strategy without being confined to a fixed position. Additionally, the robot respects the human's intimate space to ensure safety, comfort, and effective obstacle avoidance.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO",
-        "eess.SY"
-      ]
     }
   ],
-  "updated": "2026-09-29T02:37:39.532149+00:00"
+  "updated": "2026-09-29T10:33:10.698078+00:00"
 }
