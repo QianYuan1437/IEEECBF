@@ -107,6 +107,27 @@
       "subjects": []
     },
     {
+      "paperId": "82af3b1a54e49eaccebc16894157ed286c7c27ca",
+      "title": "Predefined-Time Trajectory Tracking Control for Unmanned Aerial Vehicles Under Obstacle Avoidance Constraints",
+      "authors": [
+        "Tianyu Zhang",
+        "Jia-Yang Chen",
+        "Jie Peng",
+        "Wenbin Kou"
+      ],
+      "year": 2026,
+      "date": "2026-06-05",
+      "citations": 0,
+      "arxivId": "",
+      "doi": "10.1109/CRSIT69981.2026.11605387",
+      "url": "https://doi.org/10.1109/CRSIT69981.2026.11605387",
+      "abstract": "This paper investigates the trajectory tracking control problem for unmanned aerial vehicles (UAVs) operating in complex obstacle environments. To achieve fast tracking convergence while ensuring obstacle avoidance safety, a predefined-time control Lyapunov function-control barrier function-quadratic programming (CLF-CBF-QP) method is proposed. A control-affine outer-loop position model is first established, and a predefined-time CLF condition is introduced to ensure that the tracking error converges within a user-specified time when safety constraints are inactive. To reduce the conservatism of conventional obstacle envelopes, superellipsoids are used to describe non-spherical obstacles, and the corresponding CBF constraints are derived. A relaxed QP controller is then formulated by treating the CLF condition as a soft constraint and the CBF conditions as hard constraints, so that obstacle avoidance is prioritised when tracking and safety objectives conflict. Simulation results show that the proposed method achieves safe obstacle avoidance, smoother trajectories, faster error recovery, and lower peak control input than the artificial potential field method.",
+      "journal": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
+      "venue": "",
+      "venueLabel": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
+      "subjects": []
+    },
+    {
       "paperId": "40c34cb0ccbef7dcb037459e9aac408908139bce",
       "title": "Attitude-Position Obstacle Avoidance and Predefined-Time Safe Control for Fully Actuated Modeled eVTOL With Time-Varying Centroid",
       "authors": [
@@ -128,24 +149,23 @@
       "subjects": []
     },
     {
-      "paperId": "82af3b1a54e49eaccebc16894157ed286c7c27ca",
-      "title": "Predefined-Time Trajectory Tracking Control for Unmanned Aerial Vehicles Under Obstacle Avoidance Constraints",
+      "paperId": "34416e8d74a5de94804afb4d6dbdaf36a43de0ec",
+      "title": "Predefined-Time Stabilization With Output Safety",
       "authors": [
-        "Tianyu Zhang",
-        "Jia-Yang Chen",
-        "Jie Peng",
-        "Wenbin Kou"
+        "Zhi-Yuan Liu",
+        "Yun-Gang Liu",
+        "Yuan Wang"
       ],
       "year": 2026,
-      "date": "2026-06-05",
+      "date": "2026-10-01",
       "citations": 0,
       "arxivId": "",
-      "doi": "10.1109/CRSIT69981.2026.11605387",
-      "url": "https://doi.org/10.1109/CRSIT69981.2026.11605387",
-      "abstract": "This paper investigates the trajectory tracking control problem for unmanned aerial vehicles (UAVs) operating in complex obstacle environments. To achieve fast tracking convergence while ensuring obstacle avoidance safety, a predefined-time control Lyapunov function-control barrier function-quadratic programming (CLF-CBF-QP) method is proposed. A control-affine outer-loop position model is first established, and a predefined-time CLF condition is introduced to ensure that the tracking error converges within a user-specified time when safety constraints are inactive. To reduce the conservatism of conventional obstacle envelopes, superellipsoids are used to describe non-spherical obstacles, and the corresponding CBF constraints are derived. A relaxed QP controller is then formulated by treating the CLF condition as a soft constraint and the CBF conditions as hard constraints, so that obstacle avoidance is prioritised when tracking and safety objectives conflict. Simulation results show that the proposed method achieves safe obstacle avoidance, smoother trajectories, faster error recovery, and lower peak control input than the artificial potential field method.",
-      "journal": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
-      "venue": "",
-      "venueLabel": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
+      "doi": "10.1109/TSMC.2026.3705007",
+      "url": "https://doi.org/10.1109/TSMC.2026.3705007",
+      "abstract": "This article proposes the concept of output safety, which means that the system output remains within the safe set, while the system state merely satisfies mild properties. Such safety is more applicable for many practical systems, as requiring all states to be safe is sometimes excessive and could lead to a conservative controller. Apart from output safety, precision and rapidness are two other types of performance specifications. Whether these objectives can be guaranteed together with output safety deserves further investigation. This article investigates predefined-time stabilization with output safety for a general class of uncertain nonlinear systems. By establishing the connection between control barrier function (CBF) and control Lyapunov function (CLF), output safety and predefined-time stabilization of the system can be ensured simultaneously. Notably, we introduce integral-type functions into the construction of CBF, which is the basis of performance analysis. With the help of the backstepping technique, the feedback control law with a closed-form expression is provided, which differs from existing optimization-based safety-critical control. This explicit construction not only saves computational resources but also enhances real-time performance. Two simulation examples illustrate the effectiveness of the proposed strategy.",
+      "journal": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+      "venue": "IEEE Transactions on Systems, Man & Cybernetics. Systems",
+      "venueLabel": "TSMC",
       "subjects": []
     },
     {
@@ -1448,6 +1468,27 @@
   ],
   "arxiv": [
     {
+      "paperId": "arxiv:2609.33852v1",
+      "title": "Higher-Order Mean-Field Control Barrier Functions",
+      "authors": [
+        "Levon Nurbekyan",
+        "Samy Wu Fung"
+      ],
+      "year": null,
+      "date": "2026-09-27",
+      "citations": 0,
+      "arxivId": "2609.33852v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.33852v1",
+      "abstract": "Mean-field control barrier functions (MF-CBFs) enforce swarm safety through constraints on the agents' distribution. Previous formulations, including applications to stochastic coverage and shepherding, use first-order differential inequalities. These cannot directly enforce constraints whose barrier functions yield control-free first derivatives. Thus, we develop the theory of higher-order MF-CBFs, which ensures the positivity of the barrier functionals through higher-order differential inequalities, as in their finite-dimensional analogs. More specifically, we introduce the notion of relative degree for mean-field safety functionals and develop an analytic framework for computing their higher-order derivatives. Moreover, for practical examples of cross-correlation and self-correlation functionals, we show that repeated differentiation along mean-field dynamics is structure-preserving and reduces to kernel recursions. As an illustration, we apply higher-order MF-CBFs to double-integrator swarm tracking and avoidance problems, where position-only constraints lead to MF-CBFs of relative degree two.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "math.OC"
+      ]
+    },
+    {
       "paperId": "arxiv:2609.30495v1",
       "title": "Memory-Aware Multi-Sensor Perception for Efficient and Safe Navigation in Dynamic Environments",
       "authors": [
@@ -2534,27 +2575,7 @@
         "cs.RO",
         "eess.SY"
       ]
-    },
-    {
-      "paperId": "arxiv:2608.19537v1",
-      "title": "Multimodal Trajectory Planning for Surface Vehicles using Turning Circle-based Control Barrier Functions",
-      "authors": [
-        "Changyu Lee"
-      ],
-      "year": null,
-      "date": "2026-08-20",
-      "citations": 0,
-      "arxivId": "2608.19537v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2608.19537v1",
-      "abstract": "This paper presents a guide path-free multimodal trajectory planning framework for autonomous surface vehicles operating in dynamic environments. The proposed method integrates model predictive control (MPC) with a turning circle-based control barrier function (TC-CBF). Unlike conventional Euclidean distance-based CBFs (ED-CBFs), which evaluate safety solely based on proximity, the TC-CBF accounts for the nonholonomic motion and finite turning capability of a surface vehicle. Its geometric formulation identifies feasible avoidance regions according to the vehicle's turning circles and generates distinct left- and right-turning avoidance modes. These modes allow the optimization solver to explore and select topologically different trajectories without relying on globally planned guide paths, as required by many conventional multimodal planning approaches. By embedding the avoidance direction directly into the safety constraint, the proposed framework alleviates the local-minimum and deadlock problems of single-mode MPC while maintaining computational efficiency. Extensive simulations involving multiple moving vessels demonstrate that the proposed method achieves higher success rates, fewer safety violations, and smaller residual violations than single-mode baselines across all tested traffic densities.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO"
-      ]
     }
   ],
-  "updated": "2026-09-28T17:19:15.634457+00:00"
+  "updated": "2026-09-29T02:37:39.532149+00:00"
 }
