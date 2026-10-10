@@ -61,29 +61,6 @@
       "subjects": []
     },
     {
-      "paperId": "5d8246cb5a47121643032202d37366fb10b0caf5",
-      "title": "Resilient Formation Containment for Multi-UAV Systems With Hybrid Safety Constraints and Prescribed-Time Recovery",
-      "authors": [
-        "Hua-Guang Shi",
-        "Tong-Qing Li",
-        "Zhuang-Zhuang Ma",
-        "Pan-Pan Zhu",
-        "Yi Zhou",
-        "Lei Shi"
-      ],
-      "year": 2026,
-      "date": "2026-10-01",
-      "citations": 1,
-      "arxivId": "",
-      "doi": "10.1109/TII.2026.3702937",
-      "url": "https://doi.org/10.1109/TII.2026.3702937",
-      "abstract": "Barycentric multiagent formations rely on strict spatial coupling, which inherently contradicts the local spatial decoupling needed for dynamic obstacle avoidance. This creates a fundamental spatiotemporal conflict in complex environments, as essential safety interventions introduce spatial deviations that disrupt the cooperative structure. To address this issue, we propose a hierarchical resilient formation containment framework (Hi-RFC). Instead of treating planning and control as isolated modules, Hi-RFC explicitly links global containment with local safety. A high-level multiagent reinforcement learning planner generates global spatiotemporal trajectories within a reduced-order state space. At the execution layer, a control barrier function (CBF) safety filter is integrated with an event-triggered prescribed-time control (PTC) law. The CBF strictly enforces local safety limits, while the PTC acts as a time-bounded energy compensator. It eliminates the residual repulsive potential energy and spatial errors caused by CBF interventions, mathematically guaranteeing that the distorted formation recovers and resynchronizes within a strictly defined time horizon. Simulations confirm that this architecture successfully resolves the spatiotemporal conflict, avoiding the deadlocks typical of artificial potential fields and the feasibility failures common in pure CBF approaches.",
-      "journal": "IEEE Transactions on Industrial Informatics",
-      "venue": "IEEE Transactions on Industrial Informatics",
-      "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
       "paperId": "c38f5c889f9a6ffe36b8eee34083b5b3c668b4cd",
       "title": "Exact-Time Safety Recovery using Time-Varying Control Barrier Functions with Optimal Barrier Tracking",
       "authors": [
@@ -455,27 +432,6 @@
       "venue": "IEEE transactions on intelligent transportation systems (Print)",
       "venueLabel": "IEEE Trans",
       "subjects": []
-    },
-    {
-      "paperId": "ba77f737938014efb8aa9ca6903c8fde0d5f4b6c",
-      "title": "Robot Cartesian Compliance Variation for Safe Kinesthetic Teaching using Safety Control Barrier Functions",
-      "authors": [
-        "Julian M. Salt Ducaju",
-        "Björn Olofsson",
-        "A. Robertsson",
-        "Rolf Johansson"
-      ],
-      "year": 2022,
-      "date": "2022-08-20",
-      "citations": 7,
-      "arxivId": "",
-      "doi": "10.1109/CASE49997.2022.9926525",
-      "url": "https://doi.org/10.1109/CASE49997.2022.9926525",
-      "abstract": "Kinesthetic teaching allows human operators to reprogram part of a robot’s trajectory by manually guiding the robot. To allow kinesthetic teaching, and also to avoid any harm to both the robot and its environment, Cartesian impedance control is here used for trajectory following. In this paper, we present an online method to modify the compliant behavior of a robot toward its environment, so that undesired parts of the robot’s workspace are avoided during kinesthetic teaching. The stability of the method is guaranteed by a well-known passivity-based energy-storage formulation that has been modified to include a strict Lyapunov function, i.e., its time derivative is a globally negative-definite function. Safety Control Barrier Functions (SCBFs) that consider the rigid-body dynamics of the robot are formulated as inequality constraints of a quadratic optimization (QP) problem to ensure forward invariance of the robot’s states in a safe set. An experimental evaluation using a Franka Emika Panda robot is provided.",
-      "journal": "2022 IEEE 18th International Conference on Automation Science and Engineering (CASE)",
-      "venue": "",
-      "venueLabel": "IEEE",
-      "subjects": []
     }
   ],
   "high_cited": [
@@ -490,7 +446,7 @@
       ],
       "year": 2016,
       "date": "2016-09-21",
-      "citations": 3000,
+      "citations": 3005,
       "arxivId": "1609.06408",
       "doi": "10.1109/TAC.2016.2638961",
       "url": "https://doi.org/10.1109/TAC.2016.2638961",
@@ -510,7 +466,7 @@
       ],
       "year": 2014,
       "date": "2014-12-01",
-      "citations": 1095,
+      "citations": 1096,
       "arxivId": "",
       "doi": "10.1109/CDC.2014.7040372",
       "url": "https://doi.org/10.1109/CDC.2014.7040372",
@@ -529,7 +485,7 @@
       ],
       "year": 2021,
       "date": "2021-08-18",
-      "citations": 624,
+      "citations": 623,
       "arxivId": "",
       "doi": "10.1109/tac.2021.3105491",
       "url": "https://doi.org/10.1109/tac.2021.3105491",
@@ -549,7 +505,7 @@
       ],
       "year": 2020,
       "date": "2020-07-22",
-      "citations": 487,
+      "citations": 488,
       "arxivId": "2007.11718",
       "doi": "10.23919/ACC50511.2021.9483029",
       "url": "https://doi.org/10.23919/ACC50511.2021.9483029",
@@ -596,6 +552,28 @@
       "journal": "2015 American Control Conference (ACC)",
       "venue": "American Control Conference",
       "venueLabel": "ACC",
+      "subjects": []
+    },
+    {
+      "paperId": "558e38786c18df7a217d719e08310e144a64dadb",
+      "title": "Robust Control Barrier–Value Functions for Safety-Critical Control",
+      "authors": [
+        "J. Choi",
+        "Donggun Lee",
+        "K. Sreenath",
+        "C. Tomlin",
+        "S. Herbert"
+      ],
+      "year": 2021,
+      "date": "2021-04-06",
+      "citations": 236,
+      "arxivId": "2104.02808",
+      "doi": "10.1109/CDC45484.2021.9683085",
+      "url": "https://doi.org/10.1109/CDC45484.2021.9683085",
+      "abstract": "This paper works towards unifying two popular approaches in the safety control community: Hamilton-Jacobi (HJ) reachability and Control Barrier Functions (CBFs). HJ Reachability has methods for direct construction of value functions that provide safety guarantees and safe controllers, however the online implementation can be overly conservative and/or rely on chattering bang-bang control. The CBF community has methods for safe-guarding controllers in the form of point-wise optimization using quadratic programs (CBF-QP), where the CBF-based safety certificate is used as a constraint. However, finding a valid CBF for a general dynamical system is challenging. This paper unifies these two methods by introducing a new reachability formulation inspired by the structure of CBFs to construct a Control Barrier-Value Function (CBVF). We verify that CBVF is a viscosity solution to a novel Hamilton-Jacobi-Isaacs Variational Inequality and preserves the same safety guarantee as the original reachability formulation. Finally, inspired by the CBF-QP, we propose a QP-based online control synthesis for systems affine in control and disturbance, whose solution is always the CBVF’s optimal control signal robust to bounded disturbance. We demonstrate the benefit of using the CBVFs for double-integrator and Dubins car systems by comparing it to previous methods.",
+      "journal": "2021 60th IEEE Conference on Decision and Control (CDC)",
+      "venue": "IEEE Conference on Decision and Control",
+      "venueLabel": "CDC",
       "subjects": []
     },
     {
@@ -739,7 +717,7 @@
       ],
       "year": 2023,
       "date": "2023-10-24",
-      "citations": 108,
+      "citations": 109,
       "arxivId": "2310.15478",
       "doi": "10.1109/ICRA57147.2024.10610418",
       "url": "https://doi.org/10.1109/ICRA57147.2024.10610418",
@@ -1178,6 +1156,25 @@
       "subjects": []
     },
     {
+      "paperId": "18c4afc3f09bfcdd120c3b984e5174aa41d6293d",
+      "title": "High Order Robust Adaptive Control Barrier Functions and Exponentially Stabilizing Adaptive Control Lyapunov Functions",
+      "authors": [
+        "Max H. Cohen",
+        "C. Belta"
+      ],
+      "year": 2022,
+      "date": "2022-03-03",
+      "citations": 48,
+      "arxivId": "2203.01999",
+      "doi": "10.23919/ACC53348.2022.9867633",
+      "url": "https://doi.org/10.23919/ACC53348.2022.9867633",
+      "abstract": "This paper studies the problem of utilizing data-driven adaptive control techniques to guarantee stability and safety of uncertain nonlinear systems with high relative degree. We first introduce the notion of a High Order Robust Adaptive Control Barrier Function (HO-RaCBF) as a means to compute control policies guaranteeing satisfaction of high relative degree safety constraints in the face of parametric model uncertainty. The developed approach guarantees safety by initially accounting for all possible parameter realizations but adaptively reduces uncertainty in the parameter estimates leveraging data recorded online. We then introduce the notion of an Exponentially Stabilizing Adaptive Control Lyapunov Function (ES-aCLF) that leverages the same data as the HO-RaCBF controller to guarantee exponential convergence of the system trajectory. The developed HO-RaCBF and ES-aCLF are unified in a quadratic programming framework, whose efficacy is showcased via two numerical examples that, to our knowledge, cannot be addressed by existing adaptive control barrier function techniques.",
+      "journal": "2022 American Control Conference (ACC)",
+      "venue": "American Control Conference",
+      "venueLabel": "ACC",
+      "subjects": []
+    },
+    {
       "paperId": "7a9434acae747a0e4de8309a49384cdba8040d52",
       "title": "Constrained Moving Path Following Control for UAV With Robust Control Barrier Function",
       "authors": [
@@ -1465,27 +1462,6 @@
       "subjects": []
     },
     {
-      "paperId": "32a4a9dcf013b9ee33cafc4deae02ff4068a1059",
-      "title": "On the Feasibility and Continuity of Feedback Controllers Defined by Multiple Control Barrier Functions",
-      "authors": [
-        "Axton Isaly",
-        "Masoumeh Ghanbarpour",
-        "Ricardo G. Sanfelice",
-        "Warren E. Dixon"
-      ],
-      "year": 2024,
-      "date": "2024-11-01",
-      "citations": 32,
-      "arxivId": "",
-      "doi": "10.1109/TAC.2024.3383069",
-      "url": "https://doi.org/10.1109/TAC.2024.3383069",
-      "abstract": "Control barrier functions (CBFs) are a popular method for encoding safety specifications for dynamical systems. In this article, a notion of CBF is defined that permits vector-valued barrier functions and flow constraints involving both the state and the control input. CBFs induce constraints on the control input that, when satisfied, guarantee the forward invariance of a safe set of states. The constraints are enforced using a pointwise-optimal feedback controller. Sufficient conditions for the continuity of the controller are given. The existence of a CBF is defined to be equivalent to the feasibility of the optimal feedback controller. Polynomial optimization problems based on sums of squares are formulated that can be used to certify that a given function is a CBF. An example of the CBF design procedure is presented illustrating the process of formulation, synthesis, and verification.",
-      "journal": "IEEE Transactions on Automatic Control",
-      "venue": "IEEE Transactions on Automatic Control",
-      "venueLabel": "TAC",
-      "subjects": []
-    },
-    {
       "paperId": "a10de1c39b73f3cc9f9f4990505c08e8897f4eb6",
       "title": "Exact Verification of ReLU Neural Control Barrier Functions",
       "authors": [
@@ -1527,6 +1503,27 @@
       "journal": "2021 4th IEEE International Conference on Industrial Cyber-Physical Systems (ICPS)",
       "venue": "Industrial Cyber-Physical Systems",
       "venueLabel": "IEEE",
+      "subjects": []
+    },
+    {
+      "paperId": "32a4a9dcf013b9ee33cafc4deae02ff4068a1059",
+      "title": "On the Feasibility and Continuity of Feedback Controllers Defined by Multiple Control Barrier Functions",
+      "authors": [
+        "Axton Isaly",
+        "Masoumeh Ghanbarpour",
+        "Ricardo G. Sanfelice",
+        "Warren E. Dixon"
+      ],
+      "year": 2024,
+      "date": "2024-11-01",
+      "citations": 31,
+      "arxivId": "",
+      "doi": "10.1109/TAC.2024.3383069",
+      "url": "https://doi.org/10.1109/TAC.2024.3383069",
+      "abstract": "Control barrier functions (CBFs) are a popular method for encoding safety specifications for dynamical systems. In this article, a notion of CBF is defined that permits vector-valued barrier functions and flow constraints involving both the state and the control input. CBFs induce constraints on the control input that, when satisfied, guarantee the forward invariance of a safe set of states. The constraints are enforced using a pointwise-optimal feedback controller. Sufficient conditions for the continuity of the controller are given. The existence of a CBF is defined to be equivalent to the feasibility of the optimal feedback controller. Polynomial optimization problems based on sums of squares are formulated that can be used to certify that a given function is a CBF. An example of the CBF design procedure is presented illustrating the process of formulation, synthesis, and verification.",
+      "journal": "IEEE Transactions on Automatic Control",
+      "venue": "IEEE Transactions on Automatic Control",
+      "venueLabel": "TAC",
       "subjects": []
     },
     {
@@ -2685,5 +2682,5 @@
       ]
     }
   ],
-  "updated": "2026-10-09T15:48:22.876713+00:00"
+  "updated": "2026-10-10T02:18:32.723906+00:00"
 }
