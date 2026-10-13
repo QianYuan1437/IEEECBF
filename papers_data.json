@@ -44,28 +44,6 @@
       "subjects": []
     },
     {
-      "paperId": "8065dcff7a02b6608fb6a7db65bbb0fec0dcbf20",
-      "title": "Space-Constrained Multi-Robot Formation Control via an Enhanced Discrete-Time Control Lyapunov and Barrier Function Approach",
-      "authors": [
-        "Liang Gao",
-        "Yong-Feng Gao",
-        "Xue-Fang Wang",
-        "Xu-Dong Zhao",
-        "Yu-Hu Wu"
-      ],
-      "year": 2026,
-      "date": null,
-      "citations": 1,
-      "arxivId": "",
-      "doi": "10.1109/TASE.2026.3669894",
-      "url": "https://doi.org/10.1109/TASE.2026.3669894",
-      "abstract": "This paper focuses on controller design for trajectory tracking and obstacle avoidance in robot formations operating within confined spaces. Specifically, to achieve obstacle avoidance, we approximate obstacles and robots as convex polyhedra and utilize the Lagrangian dual function to design an enhanced discrete-time control barrier function (DCBF). Moreover, a discrete-time control Lyapunov function (DCLF) algorithm is employed to maintain the formation while tracking a predefined trajectory. This enables the natural unification of DCBFs with DCLFs within a quadratic programming (QP) framework. The proposed method eliminates the nested optimization problem in the QP framework, and the solving time is significantly reduced. Theoretical analysis demonstrates the feasibility of the proposed method. Finally, simulations and hardware experiments are conducted to validate its effectiveness. Note to Practitioners—In real-world applications such as warehouse automation, indoor inspection, and tunnel operations, robots frequently operate in space-constrained areas where formation maintenance and collision avoidance are equally critical. To enhance obstacle avoidance precision and environmental adaptability, both robots and obstacles are modeled as convex polyhedra. However, this typically introduces nested optimization problems, increasing online computational complexity. To address this challenge, we develop enhanced discrete-time control barrier functions (DCBFs) and control Lyapunov functions (DCLFs), which are reformulated as equivalent constraints and embedded as a single-layer quadratic programming (QP) framework. This reformulation eliminates nested optimization structures and improves real-time computational efficiency. The proposed method is systematically compared with the nonlinear model predictive control-based DCBF (NMPC-DCBF) approach through simulations and hardware experiments, evaluating key metrics such as convergence performance, formation maintenance, and computation time. Practical implementation guidelines are provided based on these results. Future work will extend the framework to dynamic obstacles, perception uncertainty, and broader robotic platforms.",
-      "journal": "IEEE Transactions on Automation Science and Engineering",
-      "venue": "IEEE Transactions on Automation Science and Engineering",
-      "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
       "paperId": "40c34cb0ccbef7dcb037459e9aac408908139bce",
       "title": "Attitude-Position Obstacle Avoidance and Predefined-Time Safe Control for Fully Actuated Modeled eVTOL With Time-Varying Centroid",
       "authors": [
@@ -87,21 +65,22 @@
       "subjects": []
     },
     {
-      "paperId": "4ec242123526e060e8f0a1e33a71c0032c4692f1",
-      "title": "Distributed Execution of Signal Temporal Logic Tasks in Open Networked Robotic System via Predefined-Time Control",
+      "paperId": "8065dcff7a02b6608fb6a7db65bbb0fec0dcbf20",
+      "title": "Space-Constrained Multi-Robot Formation Control via an Enhanced Discrete-Time Control Lyapunov and Barrier Function Approach",
       "authors": [
-        "Wen-Tao Zhang",
-        "Ming Chi",
-        "Zhi-Wei Liu",
-        "Jing-Zhe Xu"
+        "Liang Gao",
+        "Yong-Feng Gao",
+        "Xue-Fang Wang",
+        "Xu-Dong Zhao",
+        "Yu-Hu Wu"
       ],
       "year": 2026,
       "date": null,
-      "citations": 0,
+      "citations": 1,
       "arxivId": "",
-      "doi": "10.1109/TASE.2026.3658586",
-      "url": "https://doi.org/10.1109/TASE.2026.3658586",
-      "abstract": "This paper addresses the distributed execution of signal temporal logic (STL) tasks in second-order open networked robotic systems (ONRSs), where robots can dynamically join or leave during task execution. A novel control framework is developed that integrates a predefined-time state estimator, a distributed control barrier function-based optimization strategy, and a task decomposition and reconstruction mechanism. This approach enables each robot to accomplish temporally and logically constrained tasks using only local information from its neighbors, without relying on global communication. Theoretical analysis rigorously establishes predefined-time convergence of the estimator and optimality of the distributed control strategy, even under dynamic team compositions. Simulation and experimental results validate the proposed method’s effectiveness and robustness in executing complex temporal tasks in realistic multi-robot scenarios. Note to Practitioners—This study presents a distributed framework enabling multi-robot systems to reliably execute complex STL tasks despite communication constraints and dynamic team changes. The approach is particularly beneficial for real-world applications like logistics sorting, power grid inspection, and disaster response. Practitioners can directly deploy the developed predefined-time state estimator and distributed control barrier function (CBF)-based optimization algorithm on individual robots, eliminating centralized computations. This ensures real-time, scalable coordination, robust task execution under fluctuating team structures, and maintains task compliance during sudden robot arrivals or departures.",
+      "doi": "10.1109/TASE.2026.3669894",
+      "url": "https://doi.org/10.1109/TASE.2026.3669894",
+      "abstract": "This paper focuses on controller design for trajectory tracking and obstacle avoidance in robot formations operating within confined spaces. Specifically, to achieve obstacle avoidance, we approximate obstacles and robots as convex polyhedra and utilize the Lagrangian dual function to design an enhanced discrete-time control barrier function (DCBF). Moreover, a discrete-time control Lyapunov function (DCLF) algorithm is employed to maintain the formation while tracking a predefined trajectory. This enables the natural unification of DCBFs with DCLFs within a quadratic programming (QP) framework. The proposed method eliminates the nested optimization problem in the QP framework, and the solving time is significantly reduced. Theoretical analysis demonstrates the feasibility of the proposed method. Finally, simulations and hardware experiments are conducted to validate its effectiveness. Note to Practitioners—In real-world applications such as warehouse automation, indoor inspection, and tunnel operations, robots frequently operate in space-constrained areas where formation maintenance and collision avoidance are equally critical. To enhance obstacle avoidance precision and environmental adaptability, both robots and obstacles are modeled as convex polyhedra. However, this typically introduces nested optimization problems, increasing online computational complexity. To address this challenge, we develop enhanced discrete-time control barrier functions (DCBFs) and control Lyapunov functions (DCLFs), which are reformulated as equivalent constraints and embedded as a single-layer quadratic programming (QP) framework. This reformulation eliminates nested optimization structures and improves real-time computational efficiency. The proposed method is systematically compared with the nonlinear model predictive control-based DCBF (NMPC-DCBF) approach through simulations and hardware experiments, evaluating key metrics such as convergence performance, formation maintenance, and computation time. Practical implementation guidelines are provided based on these results. Future work will extend the framework to dynamic obstacles, perception uncertainty, and broader robotic platforms.",
       "journal": "IEEE Transactions on Automation Science and Engineering",
       "venue": "IEEE Transactions on Automation Science and Engineering",
       "venueLabel": "IEEE Trans",
@@ -146,6 +125,27 @@
       "journal": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
       "venue": "",
       "venueLabel": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
+      "subjects": []
+    },
+    {
+      "paperId": "4ec242123526e060e8f0a1e33a71c0032c4692f1",
+      "title": "Distributed Execution of Signal Temporal Logic Tasks in Open Networked Robotic System via Predefined-Time Control",
+      "authors": [
+        "Wen-Tao Zhang",
+        "Ming Chi",
+        "Zhi-Wei Liu",
+        "Jing-Zhe Xu"
+      ],
+      "year": 2026,
+      "date": null,
+      "citations": 0,
+      "arxivId": "",
+      "doi": "10.1109/TASE.2026.3658586",
+      "url": "https://doi.org/10.1109/TASE.2026.3658586",
+      "abstract": "This paper addresses the distributed execution of signal temporal logic (STL) tasks in second-order open networked robotic systems (ONRSs), where robots can dynamically join or leave during task execution. A novel control framework is developed that integrates a predefined-time state estimator, a distributed control barrier function-based optimization strategy, and a task decomposition and reconstruction mechanism. This approach enables each robot to accomplish temporally and logically constrained tasks using only local information from its neighbors, without relying on global communication. Theoretical analysis rigorously establishes predefined-time convergence of the estimator and optimality of the distributed control strategy, even under dynamic team compositions. Simulation and experimental results validate the proposed method’s effectiveness and robustness in executing complex temporal tasks in realistic multi-robot scenarios. Note to Practitioners—This study presents a distributed framework enabling multi-robot systems to reliably execute complex STL tasks despite communication constraints and dynamic team changes. The approach is particularly beneficial for real-world applications like logistics sorting, power grid inspection, and disaster response. Practitioners can directly deploy the developed predefined-time state estimator and distributed control barrier function (CBF)-based optimization algorithm on individual robots, eliminating centralized computations. This ensures real-time, scalable coordination, robust task execution under fluctuating team structures, and maintains task compliance during sudden robot arrivals or departures.",
+      "journal": "IEEE Transactions on Automation Science and Engineering",
+      "venue": "IEEE Transactions on Automation Science and Engineering",
+      "venueLabel": "IEEE Trans",
       "subjects": []
     },
     {
@@ -1706,5 +1706,5 @@
       ]
     }
   ],
-  "updated": "2026-10-13T03:32:29.168352+00:00"
+  "updated": "2026-10-13T11:33:57.867367+00:00"
 }
