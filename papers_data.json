@@ -107,27 +107,6 @@
       "subjects": []
     },
     {
-      "paperId": "82af3b1a54e49eaccebc16894157ed286c7c27ca",
-      "title": "Predefined-Time Trajectory Tracking Control for Unmanned Aerial Vehicles Under Obstacle Avoidance Constraints",
-      "authors": [
-        "Tianyu Zhang",
-        "Jia-Yang Chen",
-        "Jie Peng",
-        "Wen-Bin Kou"
-      ],
-      "year": 2026,
-      "date": "2026-06-05",
-      "citations": 0,
-      "arxivId": "",
-      "doi": "10.1109/CRSIT69981.2026.11605387",
-      "url": "https://doi.org/10.1109/CRSIT69981.2026.11605387",
-      "abstract": "This paper investigates the trajectory tracking control problem for unmanned aerial vehicles (UAVs) operating in complex obstacle environments. To achieve fast tracking convergence while ensuring obstacle avoidance safety, a predefined-time control Lyapunov function-control barrier function-quadratic programming (CLF-CBF-QP) method is proposed. A control-affine outer-loop position model is first established, and a predefined-time CLF condition is introduced to ensure that the tracking error converges within a user-specified time when safety constraints are inactive. To reduce the conservatism of conventional obstacle envelopes, superellipsoids are used to describe non-spherical obstacles, and the corresponding CBF constraints are derived. A relaxed QP controller is then formulated by treating the CLF condition as a soft constraint and the CBF conditions as hard constraints, so that obstacle avoidance is prioritised when tracking and safety objectives conflict. Simulation results show that the proposed method achieves safe obstacle avoidance, smoother trajectories, faster error recovery, and lower peak control input than the artificial potential field method.",
-      "journal": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
-      "venue": "",
-      "venueLabel": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
-      "subjects": []
-    },
-    {
       "paperId": "4ec242123526e060e8f0a1e33a71c0032c4692f1",
       "title": "Distributed Execution of Signal Temporal Logic Tasks in Open Networked Robotic System via Predefined-Time Control",
       "authors": [
@@ -146,6 +125,27 @@
       "journal": "IEEE Transactions on Automation Science and Engineering",
       "venue": "IEEE Transactions on Automation Science and Engineering",
       "venueLabel": "IEEE Trans",
+      "subjects": []
+    },
+    {
+      "paperId": "82af3b1a54e49eaccebc16894157ed286c7c27ca",
+      "title": "Predefined-Time Trajectory Tracking Control for Unmanned Aerial Vehicles Under Obstacle Avoidance Constraints",
+      "authors": [
+        "Tianyu Zhang",
+        "Jia-Yang Chen",
+        "Jie Peng",
+        "Wen-Bin Kou"
+      ],
+      "year": 2026,
+      "date": "2026-06-05",
+      "citations": 0,
+      "arxivId": "",
+      "doi": "10.1109/CRSIT69981.2026.11605387",
+      "url": "https://doi.org/10.1109/CRSIT69981.2026.11605387",
+      "abstract": "This paper investigates the trajectory tracking control problem for unmanned aerial vehicles (UAVs) operating in complex obstacle environments. To achieve fast tracking convergence while ensuring obstacle avoidance safety, a predefined-time control Lyapunov function-control barrier function-quadratic programming (CLF-CBF-QP) method is proposed. A control-affine outer-loop position model is first established, and a predefined-time CLF condition is introduced to ensure that the tracking error converges within a user-specified time when safety constraints are inactive. To reduce the conservatism of conventional obstacle envelopes, superellipsoids are used to describe non-spherical obstacles, and the corresponding CBF constraints are derived. A relaxed QP controller is then formulated by treating the CLF condition as a soft constraint and the CBF conditions as hard constraints, so that obstacle avoidance is prioritised when tracking and safety objectives conflict. Simulation results show that the proposed method achieves safe obstacle avoidance, smoother trajectories, faster error recovery, and lower peak control input than the artificial potential field method.",
+      "journal": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
+      "venue": "",
+      "venueLabel": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
       "subjects": []
     },
     {
@@ -1706,5 +1706,5 @@
       ]
     }
   ],
-  "updated": "2026-10-13T11:33:57.867367+00:00"
+  "updated": "2026-10-13T16:44:00.450212+00:00"
 }
