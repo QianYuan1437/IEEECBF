@@ -593,6 +593,57 @@
   ],
   "arxiv": [
     {
+      "paperId": "arxiv:2610.14997v1",
+      "title": "Barrier-Constrained Guidance For Real-time Asynchronous VLA Execution",
+      "authors": [
+        "Wenbo Yu",
+        "Jifan Li",
+        "Wenke Xia",
+        "Yuchen Li",
+        "Yizhuo Zhang",
+        "Pei Ren",
+        "Zhengping Che",
+        "Di hu"
+      ],
+      "year": null,
+      "date": "2026-10-10",
+      "citations": 0,
+      "arxivId": "2610.14997v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.14997v1",
+      "abstract": "While asynchronous execution enables VLA models to operate in real-time environments by predicting the next chunk during execution, it inevitably introduces boundary misalignment with the committed action stream. Existing delay-aware solutions address this at the prohibitive cost of extensive retraining, architectural modifications, or fixed-prefix inpainting that inflates computation when low latency is vital. To address these problems, we propose FreeBar, a training-free real-time inference plugin that enables robust asynchronous execution with only marginal additional inference cost by casting chunk alignment in flow-based VLAs as barrier-guided action-space constraint. Specifically, FreeBar introduces a lightweight Control Barrier Function (CBF)-inspired consistency constraint between consecutive action chunks and solves the resulting correction in closed form, avoiding costly backpropagation through the VLA action head. By progressively tightening the consistency bound during generation, FreeBar aligns generated chunks with the committed execution stream while preserving early-stage generative and within-chunk future action flexibility,. Across Kinetix, RoboCasa, and diverse real-world robotic platforms with multiple VLA backbones, FreeBar improves success rates over naive asynchronous execution by 10%--15% on average, with larger gains in highly dynamic scenarios. It also preserves real-time computational efficiency, decreasing inference latency per action chunk over 45% than RTC. Additionally, as a universal plugin, FreeBar remains robust across distinct latency environments, base policies, and hyperparameter settings.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO"
+      ]
+    },
+    {
+      "paperId": "arxiv:2610.14522v1",
+      "title": "Safety-Critical Quadrotor Navigation Using Fourth-Order Control Barrier Functions with Full Nonlinear Quadrotor Dynamics",
+      "authors": [
+        "Yanze Liu",
+        "Yaşar İdikut",
+        "Dhruv Madhusudan Agrawal",
+        "Wei Xiao",
+        "Guanrui Li"
+      ],
+      "year": null,
+      "date": "2026-10-10",
+      "citations": 0,
+      "arxivId": "2610.14522v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.14522v1",
+      "abstract": "Safety-critical quadrotor navigation in cluttered environments typically relies on hierarchical architectures in which a high-level safety filter modifies position references that are then tracked by a separate attitude controller. However, this separation can create a mismatch between translational safety objectives and attitude evolution. To address this gap, we propose a safety controller based on fourth-order control barrier functions (CBFs) that explicitly incorporates the full nonlinear quadrotor dynamics, including attitude dynamics and torque-level actuation. Furthermore, we apply the integral high-order CBF technique to resolve the mixed-relative degree issue in the derived constraint formulation. The resulting formulation enforces obstacle-avoidance constraints while optimizing control torques, granting the safety layer direct authority over attitude behavior and eliminating the hierarchical disconnect inherent in reference-tracking safety filters. We validate the approaches in both high-fidelity simulation and real-world flight experiments, demonstrating reliable constraint satisfaction and successful obstacle avoidance. These results suggest that torque-level high-order CBFs provide a practical pathway to provably safer quadrotor navigation under full rigid-body dynamics.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO"
+      ]
+    },
+    {
       "paperId": "arxiv:2610.12324v1",
       "title": "Convex Safety Filtering via Spectral Selection for Nonconvex Safe Sets",
       "authors": [
@@ -1656,55 +1707,7 @@
       "subjects": [
         "cs.RO"
       ]
-    },
-    {
-      "paperId": "arxiv:2609.19449v1",
-      "title": "Winning a Won Game: Strict Reach-Avoid-Stay Control Barrier Functions for High-Dimensional Black-Box Systems",
-      "authors": [
-        "Donggeon David Oh",
-        "Duy P. Nguyen",
-        "Gongkai Yuan",
-        "Qingchen Li",
-        "Jaime Fernández Fisac",
-        "Haimin Hu"
-      ],
-      "year": null,
-      "date": "2026-09-16",
-      "citations": 0,
-      "arxivId": "2609.19449v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2609.19449v1",
-      "abstract": "Robots must complete their tasks and maintain the achieved outcomes while avoiding safety failures at all times. Strict reach-avoid-stay (sRAS) formalizes this requirement: safely reaching a target and remaining there indefinitely after first entry. We propose an sRAS Q-control barrier function (CBF) safety filter for high-dimensional black-box systems under bounded uncertainty. Our construction combines a stay value encoding safe permanent residence in a target subset with a reach-avoid value encoding safe reachability of this subset while avoiding target states from which safe permanent residence cannot be guaranteed. We prove that these values jointly yield a valid robust discrete-time CBF and lift them to state-action Q-functions for runtime intervention. For exact values and under a measure-zero condition, our filter preserves sRAS feasibility from almost every winnable initial state and keeps the system safely within the target after first entry, against all admissible uncertainty realizations. We adopt reachability-based adversarial reinforcement learning for scalable value approximation using only black-box interactions. Notably, neither synthesis nor deployment of our filter requires known dynamics, affine structure, value derivatives, or hand-designed barriers. We validate our framework in quadruped gap jumping in simulation and hardware, where the robot crosses the gap, lands safely, and remains safe afterward. Simulated F1TENTH races further demonstrate safe overtaking and lead retention.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO",
-        "eess.SY"
-      ]
-    },
-    {
-      "paperId": "arxiv:2609.19330v1",
-      "title": "SemSafe-3DGS: Semantic Risk-Aware Active Navigation in Uncertain 3D Gaussian Splatting Maps",
-      "authors": [
-        "Amirhossein Mollaei Khass",
-        "Athanasios Cosse",
-        "Nader Motee"
-      ],
-      "year": null,
-      "date": "2026-09-16",
-      "citations": 0,
-      "arxivId": "2609.19330v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2609.19330v1",
-      "abstract": "Autonomous robots operating in partially observed environments must navigate safely while acquiring observations that improve future planning. Existing safety formulations generally reason primarily about geometry. Consequently, geometrically similar scene elements may induce comparable control responses despite having different semantic consequences. We present a semantic risk aware safe-active perception framework for navigation in attributed 3D Gaussian maps. Semantic attributes modulate an Average Value-at-Risk collision clearance model through class dependent risk weights, allowing safety-critical Gaussian primitives to receive greater influence in the composite barrier. The resulting weighted clearances are aggregated into a control barrier function, while a trajectory-relevant active perception barrier promotes observations that reduce geometric map uncertainty along the robot's anticipated motion. Both objectives are integrated in a unified CBF-QP that enforces semantic risk-aware collision avoidance as a hard constraint while relaxing information acquisition when it conflicts with safety or task progress. Experiments demonstrate efficient safety constraint, improved navigation through active perception, semantic dependent trajectory adaptation, and real-robot execution under Ackermann dynamics.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO"
-      ]
     }
   ],
-  "updated": "2026-10-13T16:44:00.450212+00:00"
+  "updated": "2026-10-14T01:49:06.850304+00:00"
 }
