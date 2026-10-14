@@ -44,6 +44,28 @@
       "subjects": []
     },
     {
+      "paperId": "8065dcff7a02b6608fb6a7db65bbb0fec0dcbf20",
+      "title": "Space-Constrained Multi-Robot Formation Control via an Enhanced Discrete-Time Control Lyapunov and Barrier Function Approach",
+      "authors": [
+        "Liang Gao",
+        "Yong-Feng Gao",
+        "Xue-Fang Wang",
+        "Xu-Dong Zhao",
+        "Yu-Hu Wu"
+      ],
+      "year": 2026,
+      "date": null,
+      "citations": 1,
+      "arxivId": "",
+      "doi": "10.1109/TASE.2026.3669894",
+      "url": "https://doi.org/10.1109/TASE.2026.3669894",
+      "abstract": "This paper focuses on controller design for trajectory tracking and obstacle avoidance in robot formations operating within confined spaces. Specifically, to achieve obstacle avoidance, we approximate obstacles and robots as convex polyhedra and utilize the Lagrangian dual function to design an enhanced discrete-time control barrier function (DCBF). Moreover, a discrete-time control Lyapunov function (DCLF) algorithm is employed to maintain the formation while tracking a predefined trajectory. This enables the natural unification of DCBFs with DCLFs within a quadratic programming (QP) framework. The proposed method eliminates the nested optimization problem in the QP framework, and the solving time is significantly reduced. Theoretical analysis demonstrates the feasibility of the proposed method. Finally, simulations and hardware experiments are conducted to validate its effectiveness. Note to Practitioners—In real-world applications such as warehouse automation, indoor inspection, and tunnel operations, robots frequently operate in space-constrained areas where formation maintenance and collision avoidance are equally critical. To enhance obstacle avoidance precision and environmental adaptability, both robots and obstacles are modeled as convex polyhedra. However, this typically introduces nested optimization problems, increasing online computational complexity. To address this challenge, we develop enhanced discrete-time control barrier functions (DCBFs) and control Lyapunov functions (DCLFs), which are reformulated as equivalent constraints and embedded as a single-layer quadratic programming (QP) framework. This reformulation eliminates nested optimization structures and improves real-time computational efficiency. The proposed method is systematically compared with the nonlinear model predictive control-based DCBF (NMPC-DCBF) approach through simulations and hardware experiments, evaluating key metrics such as convergence performance, formation maintenance, and computation time. Practical implementation guidelines are provided based on these results. Future work will extend the framework to dynamic obstacles, perception uncertainty, and broader robotic platforms.",
+      "journal": "IEEE Transactions on Automation Science and Engineering",
+      "venue": "IEEE Transactions on Automation Science and Engineering",
+      "venueLabel": "IEEE Trans",
+      "subjects": []
+    },
+    {
       "paperId": "40c34cb0ccbef7dcb037459e9aac408908139bce",
       "title": "Attitude-Position Obstacle Avoidance and Predefined-Time Safe Control for Fully Actuated Modeled eVTOL With Time-Varying Centroid",
       "authors": [
@@ -65,22 +87,21 @@
       "subjects": []
     },
     {
-      "paperId": "8065dcff7a02b6608fb6a7db65bbb0fec0dcbf20",
-      "title": "Space-Constrained Multi-Robot Formation Control via an Enhanced Discrete-Time Control Lyapunov and Barrier Function Approach",
+      "paperId": "4ec242123526e060e8f0a1e33a71c0032c4692f1",
+      "title": "Distributed Execution of Signal Temporal Logic Tasks in Open Networked Robotic System via Predefined-Time Control",
       "authors": [
-        "Liang Gao",
-        "Yong-Feng Gao",
-        "Xue-Fang Wang",
-        "Xu-Dong Zhao",
-        "Yu-Hu Wu"
+        "Wen-Tao Zhang",
+        "Ming Chi",
+        "Zhi-Wei Liu",
+        "Jing-Zhe Xu"
       ],
       "year": 2026,
       "date": null,
-      "citations": 1,
+      "citations": 0,
       "arxivId": "",
-      "doi": "10.1109/TASE.2026.3669894",
-      "url": "https://doi.org/10.1109/TASE.2026.3669894",
-      "abstract": "This paper focuses on controller design for trajectory tracking and obstacle avoidance in robot formations operating within confined spaces. Specifically, to achieve obstacle avoidance, we approximate obstacles and robots as convex polyhedra and utilize the Lagrangian dual function to design an enhanced discrete-time control barrier function (DCBF). Moreover, a discrete-time control Lyapunov function (DCLF) algorithm is employed to maintain the formation while tracking a predefined trajectory. This enables the natural unification of DCBFs with DCLFs within a quadratic programming (QP) framework. The proposed method eliminates the nested optimization problem in the QP framework, and the solving time is significantly reduced. Theoretical analysis demonstrates the feasibility of the proposed method. Finally, simulations and hardware experiments are conducted to validate its effectiveness. Note to Practitioners—In real-world applications such as warehouse automation, indoor inspection, and tunnel operations, robots frequently operate in space-constrained areas where formation maintenance and collision avoidance are equally critical. To enhance obstacle avoidance precision and environmental adaptability, both robots and obstacles are modeled as convex polyhedra. However, this typically introduces nested optimization problems, increasing online computational complexity. To address this challenge, we develop enhanced discrete-time control barrier functions (DCBFs) and control Lyapunov functions (DCLFs), which are reformulated as equivalent constraints and embedded as a single-layer quadratic programming (QP) framework. This reformulation eliminates nested optimization structures and improves real-time computational efficiency. The proposed method is systematically compared with the nonlinear model predictive control-based DCBF (NMPC-DCBF) approach through simulations and hardware experiments, evaluating key metrics such as convergence performance, formation maintenance, and computation time. Practical implementation guidelines are provided based on these results. Future work will extend the framework to dynamic obstacles, perception uncertainty, and broader robotic platforms.",
+      "doi": "10.1109/TASE.2026.3658586",
+      "url": "https://doi.org/10.1109/TASE.2026.3658586",
+      "abstract": "This paper addresses the distributed execution of signal temporal logic (STL) tasks in second-order open networked robotic systems (ONRSs), where robots can dynamically join or leave during task execution. A novel control framework is developed that integrates a predefined-time state estimator, a distributed control barrier function-based optimization strategy, and a task decomposition and reconstruction mechanism. This approach enables each robot to accomplish temporally and logically constrained tasks using only local information from its neighbors, without relying on global communication. Theoretical analysis rigorously establishes predefined-time convergence of the estimator and optimality of the distributed control strategy, even under dynamic team compositions. Simulation and experimental results validate the proposed method’s effectiveness and robustness in executing complex temporal tasks in realistic multi-robot scenarios. Note to Practitioners—This study presents a distributed framework enabling multi-robot systems to reliably execute complex STL tasks despite communication constraints and dynamic team changes. The approach is particularly beneficial for real-world applications like logistics sorting, power grid inspection, and disaster response. Practitioners can directly deploy the developed predefined-time state estimator and distributed control barrier function (CBF)-based optimization algorithm on individual robots, eliminating centralized computations. This ensures real-time, scalable coordination, robust task execution under fluctuating team structures, and maintains task compliance during sudden robot arrivals or departures.",
       "journal": "IEEE Transactions on Automation Science and Engineering",
       "venue": "IEEE Transactions on Automation Science and Engineering",
       "venueLabel": "IEEE Trans",
@@ -104,27 +125,6 @@
       "journal": "2026 IEEE 18th International Workshop on Variable Structure Systems (VSS)",
       "venue": "International Workshop on Variable Structure Systems",
       "venueLabel": "IEEE",
-      "subjects": []
-    },
-    {
-      "paperId": "4ec242123526e060e8f0a1e33a71c0032c4692f1",
-      "title": "Distributed Execution of Signal Temporal Logic Tasks in Open Networked Robotic System via Predefined-Time Control",
-      "authors": [
-        "Wen-Tao Zhang",
-        "Ming Chi",
-        "Zhi-Wei Liu",
-        "Jing-Zhe Xu"
-      ],
-      "year": 2026,
-      "date": null,
-      "citations": 0,
-      "arxivId": "",
-      "doi": "10.1109/TASE.2026.3658586",
-      "url": "https://doi.org/10.1109/TASE.2026.3658586",
-      "abstract": "This paper addresses the distributed execution of signal temporal logic (STL) tasks in second-order open networked robotic systems (ONRSs), where robots can dynamically join or leave during task execution. A novel control framework is developed that integrates a predefined-time state estimator, a distributed control barrier function-based optimization strategy, and a task decomposition and reconstruction mechanism. This approach enables each robot to accomplish temporally and logically constrained tasks using only local information from its neighbors, without relying on global communication. Theoretical analysis rigorously establishes predefined-time convergence of the estimator and optimality of the distributed control strategy, even under dynamic team compositions. Simulation and experimental results validate the proposed method’s effectiveness and robustness in executing complex temporal tasks in realistic multi-robot scenarios. Note to Practitioners—This study presents a distributed framework enabling multi-robot systems to reliably execute complex STL tasks despite communication constraints and dynamic team changes. The approach is particularly beneficial for real-world applications like logistics sorting, power grid inspection, and disaster response. Practitioners can directly deploy the developed predefined-time state estimator and distributed control barrier function (CBF)-based optimization algorithm on individual robots, eliminating centralized computations. This ensures real-time, scalable coordination, robust task execution under fluctuating team structures, and maintains task compliance during sudden robot arrivals or departures.",
-      "journal": "IEEE Transactions on Automation Science and Engineering",
-      "venue": "IEEE Transactions on Automation Science and Engineering",
-      "venueLabel": "IEEE Trans",
       "subjects": []
     },
     {
@@ -592,6 +592,274 @@
     }
   ],
   "arxiv": [
+    {
+      "paperId": "arxiv:2610.18675v1",
+      "title": "Optimal Decay Matrix Control Barrier Functions: Soundness and Completeness for Matrix Safety Constraints",
+      "authors": [
+        "Samuel G. Gessow",
+        "Albert Wu",
+        "Aaron D. Ames",
+        "Brett T. Lopez"
+      ],
+      "year": null,
+      "date": "2026-10-13",
+      "citations": 0,
+      "arxivId": "2610.18675v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.18675v1",
+      "abstract": "Many safety requirements, such as keeping a manipulator away from kinematic singularities, a network connected, or a system observable, amount to keeping a state-dependent matrix positive definite. Matrix control barrier functions (MCBFs) enforce such requirements with a semidefinite program that minimally modifies a nominal control input. The MCBF constraint bounds how fast the safety margin, the smallest eigenvalue of the matrix, may decay. Yet a fixed decay rule is conservative, rejecting safe controls that drive the state quickly toward, but never across, the boundary of the safe set. Scalar optimal decay (SOD) addresses this issue by scaling the decay term by a scalar weight that is optimized together with the control. For scalar barrier functions, SOD then rejects a control at the boundary only if the control would decrease the margin. For MCBFs, however, SOD can reject controls that leave the margin unchanged, and near the safety boundary SOD accepts such controls only at a high cost. We introduce matrix optimal decay (MOD), which replaces the scalar weight with a matrix multiplier while keeping the semidefinite program convex. MOD is provably sound and complete, certifying at the boundary exactly the controls that do not decrease the margin. If some control can strictly increase the margin at every boundary point, the MOD-MCBF filtered controller is continuous and renders the safe set forward invariant. We also add an optional recovery condition that drives the system toward the safe set after a violation without affecting soundness or completeness. On a planar two-link arm avoiding singularities, MOD-MCBF certifies safe motions that both a fixed decay rule and SOD reject, and tracks an end-effector target more closely than SOD.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "math.OC",
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2610.17929v1",
+      "title": "Enforcing a Strict Safety Margin in LLM Text Generation via Barrier Lyapunov Control",
+      "authors": [
+        "Anand Singh",
+        "Shubham Singh",
+        "Anjali Tiwari",
+        "Katsuki Fujisawa"
+      ],
+      "year": null,
+      "date": "2026-10-13",
+      "citations": 0,
+      "arxivId": "2610.17929v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.17929v1",
+      "abstract": "Large language models are increasingly deployed without formal guarantees against toxic text generation. Existing control barrier function (CBF) based safety filters can keep the generation trajectory within a toxicity-free region, but do not enforce a positive distance from its boundary, allowing formally safe trajectories to approach the toxicity threshold arbitrarily closely and leaving little buffer against modelling errors or disturbances. We address this limitation with a Barrier Lyapunov Function (BLF) safety filter that enforces a prescribed clearance margin throughout generation while retaining the continuous-time transformer dynamics, including feedforward layers. The resulting safe input set is a half-space defined by a constraint affine in the control input, and is non-empty under certified surjectivity and classifier-nondegeneracy conditions. For margin-compatible initial conditions we prove that the clearance margin is never violated and that the prescribed clearance is restored exponentially, yielding an explicit clearance floor, and show that, as the margin vanishes, the admissible trajectories satisfy the exponential second-order CBF condition. We further derive an explicitly computable sufficient disturbance budget under which the clearance guarantee degrades gracefully. Simulations on a small transformer illustrate the resulting improvement in safety clearance.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2610.17916v1",
+      "title": "Safe Unicycle Navigation Among Multiple Obstacles Under Bounded Disturbances: A Learning-Augmented CLF-CBF Approach (Extended Version)",
+      "authors": [
+        "Shubham Singh",
+        "Anjali Tiwari",
+        "Anand Singh",
+        "Katsuki Fujisawa"
+      ],
+      "year": null,
+      "date": "2026-10-13",
+      "citations": 0,
+      "arxivId": "2610.17916v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.17916v1",
+      "abstract": "This paper presents a robust control framework for safe navigation of a unicycle robot to a goal among multiple static obstacles under an unknown, time-varying disturbance. The controller solves a single real-time quadratic program (QP) that combines a goal-reaching term with one safety term per obstacle. The goal-reaching term is a cross-track control Lyapunov function built from body-frame tracking errors rather than a bearing angle, which keeps its Lie derivatives bounded everywhere, including the goal. Safety is encoded using robust control barrier functions, one per obstacle, each tightened by a closed-form, state-dependent disturbance bound. When stabilization and safety conflict, a slack variable relaxes only the convergence requirement, so that the safety constraints remain strictly enforced. Whenever the QP is feasible, the robust barrier constraints guarantee forward invariance of every obstacle's safe set under all admissible disturbances. Complementing this safety guarantee, a Lyapunov analysis yields an explicit ultimate bound on the distance to the goal. A learning-augmented variant replaces the fixed objective with a reinforcement-learning reference, which accelerates convergence when multiple constraints are simultaneously active. We further derive the obstacle separation below which the gap between two obstacles becomes too narrow to pass through under the robust constraints. For such gaps, a learned virtual goal for the Lyapunov function steers the robot around the obstacles without compromising safety. Simulations, a Monte Carlo study, and a comparison against a sampled-data robust baseline support the theoretical results.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2610.17799v1",
+      "title": "Beyond Safe Execution: Safe Online Reinforcement Learning for Autonomous Driving with Value Calibration and Adaptive Guidance",
+      "authors": [
+        "Zeqiao Li",
+        "Yijing Wang",
+        "Haoyu Wang",
+        "Zheng Li",
+        "Zhiqiang Zuo"
+      ],
+      "year": null,
+      "date": "2026-10-13",
+      "citations": 0,
+      "arxivId": "2610.17799v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.17799v1",
+      "abstract": "Online reinforcement learning (RL) enables driving policies to adapt to changing deployment conditions, but requires safe exploration throughout training. Safety filtering alone does not ensure stable policy improvement or reduced dependence on corrections. We propose Safe Online Adaptive Refinement (SOAR-Flow), a framework for safe and stable online fine-tuning of offline-initialized Flow-based driving policies. A control barrier function (CBF)--model predictive control (MPC) filter corrects potentially unsafe actions before execution. To support stable policy updates, we introduce Gaussian-return-aware value calibration based on calibrated Q-learning (Cal-QL), using recorded behavior returns and predicted return variability to smooth conservative critic updates and mitigate policy degradation. Paired corrective learning teaches feasible action adjustments, while an intervention-to-go predictor encourages decisions requiring fewer future corrections. Its predictions also regulate guidance strength, allowing recovery supervision to weaken as predicted dependence decreases. Together with gradually reduced calibration regularization, this supports continued task improvement while preserving hard execution constraints. We analyze conditions for safe execution at control steps and diminishing auxiliary learning influences. We evaluate SOAR-Flow in simulation and on an uncrewed ground vehicle (UGV). The results demonstrate improved driving performance and reduced reliance on safety corrections during protected online fine-tuning. The demonstration video and project overview are available at https://lzqw.github.io/SOAR-Flow/.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO"
+      ]
+    },
+    {
+      "paperId": "arxiv:2610.17606v1",
+      "title": "Constrained Grid-Forming Control for Photovoltaic Systems: A Control Barrier Function Approach",
+      "authors": [
+        "Amir Afshari",
+        "Dominic Groß"
+      ],
+      "year": null,
+      "date": "2026-10-13",
+      "citations": 0,
+      "arxivId": "2610.17606v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.17606v1",
+      "abstract": "This paper leverages control barrier functions (CBFs) to systematically account for constraints of voltage source converters (VSCs) and photovoltaic (PV) resources in grid-forming (GFM) control. The proposed control combines (unconstrained) dual-port GFM control with control barrier functions (CBFs) to ensure reliable and safe operation of a GFM PV system under grid faults, sudden changes in irradiance, and load perturbations. First, CBFs are used to encode physical and operational limits of the PV system, namely current and voltage limits at its ac and dc terminals. Then, CBFs are used to restrict the dynamics of dual-port GFM control to within the VSC and PV limits during both transient and steady states. To this end, a cost function is defined that encodes trade-offs between forming the ac voltage phase angle/frequency and voltage magnitude under constraints. Then, real-time optimization is used to make the least modification, as measured by the cost function, to the (unconstrained) dual-port GFM control state to remain within the safe set encoded by the CBFs. Finally, the performance of the developed constrained GFM control is evaluated through EMT simulations in MATLAB/Simulink.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2610.17337v1",
+      "title": "Filtering for Liveness: Recurrence via Backup Reachability Control Barrier Functions",
+      "authors": [
+        "David E. J. van Wijk",
+        "Pio Ong",
+        "Aaron D. Ames",
+        "Joel W. Burdick"
+      ],
+      "year": null,
+      "date": "2026-10-12",
+      "citations": 0,
+      "arxivId": "2610.17337v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.17337v1",
+      "abstract": "Liveness requires a dynamical system to repeatedly accomplish a desired objective over time. In this work, we consider a particular form of liveness known as recurrence, which requires the closed-loop trajectory to regularly revisit a prescribed set, with no more than a specified amount of time between visits. Inspired by the control barrier function (CBF) safety-filter paradigm, we develop a controller-filtering framework that makes adjustments to a nominal controller only when necessary to guarantee recurrence. Unlike conventional CBF methods, which enforce set forward invariance, our framework allows the trajectory to leave the set while guaranteeing its timely return. To achieve this, our framework combines two components: a backup reachability CBF that preserves the ability to return to the prescribed set within the allowable time, and a timing-based mechanism that invokes a reaching controller only when the nominal behavior would otherwise fail to meet the return-time requirement. The resulting framework guarantees recurrence while preserving the nominal behavior when possible, enabling control objectives that require temporary excursions from the set, such as traversal between disjoint regions. Our method is successfully utilized in a drone racing example with a recurrence constraint on beacon visibility.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY",
+        "cs.RO"
+      ]
+    },
+    {
+      "paperId": "arxiv:2610.17274v1",
+      "title": "Safety-Aware Dimension Selection for Reduced-Order Model Predictive Control",
+      "authors": [
+        "Amirhossein Asadi",
+        "Nitin Sharma"
+      ],
+      "year": null,
+      "date": "2026-10-12",
+      "citations": 0,
+      "arxivId": "2610.17274v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.17274v1",
+      "abstract": "Model reduction can substantially reduce the computational burden of model predictive control (MPC) for high-dimensional systems, but a reduced dimension chosen for performance may be insufficient for safety-critical operation. This paper introduces a safety-aware dimension-selection framework in which the prediction model adapts to the order of the model required to maintain a certified finite-horizon safety condition. Dynamic active subspaces provide a performance-oriented ordering of reduced coordinates, while finite-horizon error bounds robustly enforce discrete-time control barrier function constraints. The controller selects the smallest prediction order for which the resulting safety-critical MPC problem remains feasible. We establish full-order horizon safety, recursive feasibility, and closed-loop invariance of the safe set under the proposed reduced-order formulation. The proposed approach therefore adapts the prediction complexity to safety requirements, avoiding unnecessary high-dimensional prediction during benign operation.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2610.16978v1",
+      "title": "Joint-Feasibility Margin Feedback for Bounded-Input Second-Order Control Barrier Functions",
+      "authors": [
+        "Siyuan Yang",
+        "Shaoming He"
+      ],
+      "year": null,
+      "date": "2026-10-12",
+      "citations": 0,
+      "arxivId": "2610.16978v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.16978v1",
+      "abstract": "Multiple second-order control barrier function constraints can exhaust their common control authority under bounded acceleration, even when the current state remains feasible. We define a signed local joint-feasibility margin whose sign exactly identifies whether the current barrier half-spaces intersect the admissible input set. For unit-scaled distance constraints, it has acceleration units and a support-function dual that identifies weighted constraint conflicts. We predict the margin one sample ahead for nine task-directed candidates, selecting either the least-deviating candidate that attains a desired margin or the candidate with the largest predicted margin before solving the same hard HOCBF quadratic program. A controlled one-step case shows that, at the state predicted under the hard-QP command, two constraints remain individually feasible but become jointly infeasible, whereas the margin-feedback controller retains a positive next margin. Separately, across 20 paired initial conditions, the margin-feedback controller retains the hard-QP command in a low-pressure task and acts at positive margin in a critical task before the hard-QP problem becomes infeasible; its trajectories remain feasible at that time and complete the task. Source code is publicly available. https://github.com/xirhxq/cbf/tree/robio2026-preventive-regulation",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO"
+      ]
+    },
+    {
+      "paperId": "arxiv:2610.16718v1",
+      "title": "Safeguarding Intelligent Power Dispatch:A Performance-Equivalent-Model-Based Safety-Critical Control Method for DC Microgrids",
+      "authors": [
+        "Shaoliang Zhou",
+        "Ziqing Zhu"
+      ],
+      "year": null,
+      "date": "2026-10-12",
+      "citations": 0,
+      "arxivId": "2610.16718v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.16718v1",
+      "abstract": "Intelligent power dispatch is enabling fast and self-adaptive decision-making in microgrids, yet its deployment in real-world industry remains limited due to unresolved safety concerns. Existing safety-preserving approaches typically rely on an accurate characterization of the feasible operating region, which is impossible to obtain under uncertain and heterogeneous system dynamics. Moreover, even a dispatch command verified as feasible at a discrete setpoint may become unsafe during its continuous physical execution. To address these challenges, this paper proposes a safety-aware dispatch adjustment framework that uses performance-equivalent modeling of closed-loop systems (PEM-CLS) and embeds high-order control barrier functions and control Lyapunov functions within a quadratic programming formulation (HOCBF-CLF-QP). PEM-CLS captures EMS-required power-regulation dynamics solely from port-level responses, without requiring internal subsystem models, parameters, or controller information. Its modeling error is analytically characterized and explicitly bounded, enabling requirement-oriented dynamic abstraction for safety-critical control. Based on these PEMs, the HOCBF-CLF-QP safety controller coordinates heterogeneous transient power responses and corrects unsafe EMS commands to maintain dynamic safety during command execution. Four deliberately constructed extreme stress-test scenarios are used to expose conflicts between nominal EMS commands and physical safety. Without intervention, the DC-bus voltage violates its safety limit in all four cases, whereas the proposed framework maintains QP feasibility and limits the voltage deviation. The results demonstrate that the proposed framework provides an algorithm-agnostic safety execution layer for intelligent power dispatch without requiring an exact feasible-region model or detailed internal information of lower-level devices.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2610.16522v1",
+      "title": "Learning Reachability-Based Safety Representations for Real-Time Robot Navigation in Unknown and Dynamic Environments",
+      "authors": [
+        "Bojan Derajić"
+      ],
+      "year": null,
+      "date": "2026-10-12",
+      "citations": 0,
+      "arxivId": "2610.16522v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.16522v1",
+      "abstract": "Safe robot navigation in unknown, dynamic environments requires more than geometric collision checking: a robot still far from an obstacle may be unable to avoid it because of its speed, orientation, or the obstacle's motion. Hamilton--Jacobi (HJ) reachability analysis captures this in a value function whose sign separates states that admit a safe continuation from those where collision is unavoidable, but computing it online for every newly observed environment is too expensive. This dissertation trains neural implicit representations offline on reachability solutions to give optimization-based controllers this information in real time. Since the value function never exceeds the constraint, it equals a directly computed constraint, such as a signed distance, minus a nonnegative dynamics correction. Learning only this correction keeps represented obstacles outside the predicted safe set despite approximation errors. The first two of five methods use the learned function as a terminal constraint in model predictive control, for static local environments and predicted obstacle motion. The next two use it as a barrier candidate in control barrier function safety filters, for static environments and, through pairwise barriers in relative coordinates, for a varying number of moving obstacles. Simulations and hardware experiments on ground and aerial robots show better collision avoidance than geometric and hand-designed baselines, especially for short horizons and moving obstacles. The fifth method replaces the grid-based offline solver, which limits the first four to low-dimensional models. For control-affine dynamics with polytopic inputs, the HJ Hamiltonian is maximized at a vertex, so a parallelizable tree search over vertex inputs can generate training labels. With a loss from the HJ variational inequality, these labels yield barrier candidates for systems with up to 13 states.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO",
+        "cs.LG",
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2610.16326v1",
+      "title": "Imitation Learning of Avoidance Modes for Efficient Multimodal Model Predictive Control",
+      "authors": [
+        "Changyu Lee",
+        "Byung-Kwan Lee",
+        "Kanghoon Yoon"
+      ],
+      "year": null,
+      "date": "2026-10-12",
+      "citations": 0,
+      "arxivId": "2610.16326v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.16326v1",
+      "abstract": "Multimodal model predictive control (MM-MPC) avoids local minima among moving obstacles by solving one optimal control problem (OCP) per combination of avoidance sides, so its computational cost grows exponentially with the number of decision-critical obstacles. We propose SideNet-MPC, which replaces this enumeration with a mode decision learned by imitating MM-MPC as an expert. A graph neural network is trained to predict the expert's minimum-cost mode, one avoidance side per obstacle. Its edges encode, for each obstacle pair, the gap predicted for the moment the vehicle first reaches either obstacle, so a neighbor that blocks a preferred passage can reverse the proposed side. The expert's selection rule compares its minimum-cost mode with the previously executed mode; SideNet-MPC keeps this rule and substitutes the network proposal for the minimum-cost mode. Hence at most two OCPs are solved per control period, and every applied input still comes from an OCP with control barrier function constraints rather than from the network. In $100$ seed-matched closed-loop Monte Carlo runs of mixed traffic, SideNet-MPC reaches $93\\%$ of the expert's success rate and needs \\SI{18.6}{ms} per control period on a single thread, 48\\% less than the expert's \\SI{35.5}{ms} on sixteen parallel threads. In a controlled gap sweep, its proposed side reverses in the same gap interval as the expert's, whereas proposers without pairwise edges, trained on the same data, never reverse and all deadlock at the blocked gates of a deterministic scene.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO"
+      ]
+    },
+    {
+      "paperId": "arxiv:2610.15936v1",
+      "title": "Jacobian State Augmented Viable Kinematic Safety Filter",
+      "authors": [
+        "Siddharth Singh",
+        "Joshua Vaughan"
+      ],
+      "year": null,
+      "date": "2026-10-11",
+      "citations": 0,
+      "arxivId": "2610.15936v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.15936v1",
+      "abstract": "Safety Filters (SF) are leveraged to design certifiably safe controllers, which ensures forward invariance on a defined safe set when the filter is feasible. Predictive Safety Filters (PSF) embed these constraints to a closed-loop model-based optimization method to improve constraint satisfaction, and reduce feasibility loss caused by myopic, one-step filtering. Related viability-based methods emphasize approximating a viability kernel which ensures admissible control for all future time, but requires significant computational expense. This work introduces a Jacobian-based kinematic safety filter leveraging an augmented state variable with task-space velocity and filters task-space acceleration to preserve the feasibility of a low-level filter while enforcing joint position and velocity. The proposed method introduces a nested Quadratic Program (QP) formulation, defines a conservative inner approximation of viability envelope and computes a viable planner online. The method is validated in a simplified 2R planar manipulator simulation environment and shows significant improvement compared to a baseline Control Barrier Function Quadratic Program (CBF-QP) based filter. The experiments highlights the improvements in terms of computation time compared to traditional PSF and Reference Governor approach while also showing significant reduction in feasibility violations. Lastly, a simplified demonstration on a simulated 6-DoF manipulator highlights the potential scalability of the method to higher degree-of-freedom setups.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO",
+        "eess.SY"
+      ]
+    },
     {
       "paperId": "arxiv:2610.14997v1",
       "title": "Barrier-Constrained Guidance For Real-time Asynchronous VLA Execution",
@@ -1444,270 +1712,7 @@
         "cs.RO",
         "eess.SY"
       ]
-    },
-    {
-      "paperId": "arxiv:2609.24376v2",
-      "title": "Multi-Agent Transportation of Free-Flyers in Microgravity Via Pushing Interaction Under Human-in-the-Loop Control",
-      "authors": [
-        "Gregorio Marchesini",
-        "Nicola De Carli",
-        "Sihyun Cho",
-        "Youngkyoung Kong",
-        "Elias Krantz",
-        "Mani Hemanth Dhullipalla",
-        "Dimos V. Dimarogonas",
-        "H. Jin Kim"
-      ],
-      "year": null,
-      "date": "2026-09-21",
-      "citations": 0,
-      "arxivId": "2609.24376v2",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2609.24376v2",
-      "abstract": "We propose a safety-critical framework for the cooperative transportation of passive targets in microgravity, where a team of chaser robots acts through unilateral pushing contacts to track a human-provided desired twist while ensuring safe target motion. The pushing-only nature of the interaction introduces sparse, configuration-dependent actuation constraints requiring chasers to physically relocate on the target body when the desired pushing allocation changes. To address these challenges, we formulate a delay-aware feedback control architecture leveraging Control Lyapunov Function (CLF) and Control Barrier Function (CBF) constraints within a mixed-integer thrust allocation program to enforce stability and safety of the target, respectively. The proposed framework enables reference tracking while guaranteeing obstacle avoidance with a circular obstacle despite intermittent control authority, providing a foundation for human-supervised cooperative transportation of free-flyers in space environments. The proposed framework is validated through Gazebo simulations.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO",
-        "eess.SY"
-      ]
-    },
-    {
-      "paperId": "arxiv:2609.24062v1",
-      "title": "Safety Control of a Hyper-redundant Robot via Adaptive Weighted Control Barrier Functions",
-      "authors": [
-        "Zijian Cai",
-        "Kiwan Wong",
-        "Wenci Xin",
-        "Wei Xiao",
-        "Daniela Rus",
-        "Cecilia Laschi"
-      ],
-      "year": null,
-      "date": "2026-09-21",
-      "citations": 0,
-      "arxivId": "2609.24062v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2609.24062v1",
-      "abstract": "Hyper-redundant robots are well suited for confined-space manipulation due to their high dexterity, but safe operation in cluttered environments remains challenging. In addition, their slender structures often lead to uneven load distributions and nonuniform tracking errors along the body. To address these issues, this work proposes a weighted control barrier functions (W-CBFs) framework that enforces safety constraints while reducing tracking errors caused by uneven loading. The proposed controller was first evaluated on a circular path-following task under different obstacle configurations. With fixed weights, compared to the non-weighted method, the maximum reduction in root-mean-square (RMS) tracking error was 59.6\\% in simulation and 87.7\\% in physical experiments. An adaptive weighting strategy was then investigated based on the discrepancy between simulated and experimental performance under different mapping functions. The RMS errors were further reduced by 21.9\\% and 8.5\\%, respectively, although the error increases when obstacles were located close to the robot body. Finally, the robot was evaluated in a cleaning task requiring coverage of a rectangular area and compared with manual teleoperation. Although the controller was not explicitly optimized for area coverage, the autonomous strategy achieved comparable or better coverage performance while avoiding collisions with the surrounding frame, whereas collisions occurred during manual operation.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO"
-      ]
-    },
-    {
-      "paperId": "arxiv:2609.23896v1",
-      "title": "BarrierFormer: Transformer-Guided Predictive Barrier Enforcement for Safe Robot Control",
-      "authors": [
-        "Anandsingh Chauhan",
-        "Kunal Garg"
-      ],
-      "year": null,
-      "date": "2026-09-20",
-      "citations": 0,
-      "arxivId": "2609.23896v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2609.23896v1",
-      "abstract": "Control barrier functions (CBFs) have become one of the most popular tools for encoding and enforcing state constraints in safety-critical robotics. Standard CBF approaches are inherently myopic in nature as they enforce safety only at the current time step. Consequently, the system can be driven toward the boundary of the safe set where no feasible safe control exists at a future timestep. Model predictive control (MPC) based approaches address this by enforcing state constraints over a receding horizon. However, such approaches generally require the model to be known for solving a constrained optimization problem at every step, which is computationally expensive for real-time deployment. We propose BarrierFormer, a barrier-supervised transformer framework that addresses these limitations by encoding rollout-level CBF constraints in learning a model-free safe policy. A causal transformer encodes observation-action history, autoregressively generates a predictive rollout through the dynamics head to replace the model, and provides a residual correction to a nominal controller through the action head to replace the online computation. A barrier critic operating on local observations evaluates CBF constraint violations along this rollout, and a safety teacher computes barrier-consistent actions satisfying these constraints as direct supervision targets for the learned control policy. During inference, the policy maps observation-action history to control actions without any online optimization or model knowledge, enabling real-time model-free predictive safety enforcement. Evaluations across linear and nonlinear, 2D and 3D dynamical systems for safe goal-directed navigation demonstrate that BarrierFormer outperforms existing reinforcement learning (RL)-based, diffusion-based, MPC-based, and transformer-based approaches in safety rate and inference latency.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO",
-        "eess.SY"
-      ]
-    },
-    {
-      "paperId": "arxiv:2609.23280v1",
-      "title": "Safety-Critical Control under Uncertainty via Adaptive Conformal Quantile Prediction Intervals",
-      "authors": [
-        "Hao Zhou",
-        "Yanze Zhang",
-        "Yiwei Lyu",
-        "Wenhao Luo"
-      ],
-      "year": null,
-      "date": "2026-09-20",
-      "citations": 0,
-      "arxivId": "2609.23280v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2609.23280v1",
-      "abstract": "Safety-critical control under uncertainty requires uncertainty representations that are both statistically valid (for certifiable performance) and compatible with enforceable safety constraints. However, existing methods often assume particular distributions of uncertainty for provable safety guarantees or establish symmetric and input-agnostic prediction intervals for robust safety, which can lead to misaligned or overly conservative safety constraints in control synthesis. In this paper, we introduce a novel safe control framework with adaptive uncertainty quantification that constructs calibrated and state-dependent prediction intervals to enable high-probability safety guarantees, while improving constrained control performance. The framework leverages adaptive conformal prediction (ACP) and extends it with conformal quantile regression (CQR) to capture distribution-free, asymmetric uncertainty intervals with certifiable probabilistic coverage, and integrates the resulting uncertainty sets into a probabilistic control barrier function formulation to enforce robust safety with reduced conservativeness. This yields uncertainty-aware safe control constraints that can be incorporated within a model predictive control(MPC) framework to provide provably safe behaviors with high probability. Simulation and theoretical results are provided to demonstrate the effectiveness of our approach.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO"
-      ]
-    },
-    {
-      "paperId": "arxiv:2609.23123v1",
-      "title": "Composite Adaptive Higher-Order Control Barrier Functions for Joint Frequency-RoCoF Safety in Low-Inertia SIDS Microgrids",
-      "authors": [
-        "Shankar Ramharack",
-        "Jonathan Nancoo",
-        "Rajiv Sahadeo"
-      ],
-      "year": null,
-      "date": "2026-09-19",
-      "citations": 0,
-      "arxivId": "2609.23123v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2609.23123v1",
-      "abstract": "Small Island Developing States (SIDS) face simultaneous frequency nadir and rate-of-change-of-frequency (RoCoF) violations under high renewable penetration. This paper proposes a \\emph{Composite Adaptive Higher-Order Control Barrier Function} (CA-HOCBF) for BESS-coupled virtual synchronous generators that jointly enforces IEEE~1547 frequency ($\\pm0.8$\\,Hz) and ENTSO-E RoCoF ($\\pm1$\\,Hz/s) limits as hard safety constraints under parametric uncertainty. The method unifies three tools: (i)~a dual barrier architecture with a zeroing CBF for frequency and an algebraic RoCoF constraint with a robust inertia-floor fallback; (ii)~a composite energy function coupling logarithmic safety barriers with quadratic parameter and disturbance error terms, which drives safety-weighted adaptation; and (iii)~a disturbance observer integrated into the barrier dynamics. We prove that the closed-form QP is always feasible under a BESS capacity condition and, under explicitly stated assumptions, that the composite energy remains finite along trajectories, rendering the joint safe set forward invariant \\emph{without requiring parameter convergence}. Simulation on a 10\\,MW Caribbean microgrid ($H=2$\\,s, 70\\% renewables) shows the CA-HOCBF eliminates all frequency and RoCoF violations under a compound disturbance, achieving steady-state error of 0.001\\,Hz and RoCoF of 0.50\\,Hz/s, where fixed-gain VSGs suffer a 0.62\\,Hz offset with 2.25\\,Hz/s RoCoF violations.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY",
-        "eess.SP",
-        "math.OC"
-      ]
-    },
-    {
-      "paperId": "arxiv:2609.23100v1",
-      "title": "Splat-CBF: Safe Next-Best-View Control in 3D Gaussian-Splat Maps",
-      "authors": [
-        "Amirhossein Mollaei Khass",
-        "Athanasios Cosse",
-        "Nader Motee"
-      ],
-      "year": null,
-      "date": "2026-09-19",
-      "citations": 0,
-      "arxivId": "2609.23100v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2609.23100v1",
-      "abstract": "Where to look and how to move? A robot navigating an unmapped environment must do both at once, and the two goals pull against each other. The regions most worth observing are the ones the map knows least about, and those are exactly where the robot cannot trust its collision margins. We resolve this tension by introducing Splat-CBF, an active perception control barrier function that steers the camera toward the next best view while collision avoidance is enforced as a hard constraint. Safety is enforced by a risk-aware control barrier function that turns the Average Value-at-Risk of the Gaussian field into a single smooth hard constraint. Perception is enforced by a second barrier that rewards camera orientations with high expected Fisher information gain near the robot's planned path. The two meet in a quadratic program where safety is hard and perception is soft, with a slack penalty that adapts to how often perception has already been relaxed and how close the robot is to an uncertain region. We verify the method in indoor simulations, a Isaac Kinova manipulator and in experiments on an Ackermann-drive robot. Our results assert that robot navigates faster, gathers more information, and runs faster online than safety-only and perception-only baselines, giving up informative motion only when safety requires it.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO"
-      ]
-    },
-    {
-      "paperId": "arxiv:2609.22668v1",
-      "title": "Density-Driven Area Coverage for Nonholonomic Multi-Robot Systems with Safety Guarantee",
-      "authors": [
-        "Julian Martinez",
-        "Kooktae Lee"
-      ],
-      "year": null,
-      "date": "2026-09-19",
-      "citations": 0,
-      "arxivId": "2609.22668v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2609.22668v1",
-      "abstract": "Density-Driven Optimal Control (D2OC) provides a principled approach to distributing multi-robot teams over non-uniform spatial distributions. Applying D2OC to nonholonomic robots, however, creates a gap between safety constraints imposed on a reference motion and the physical inputs that determine the actual robot motion. We address this issue by enforcing the safety constraint directly on the robot's physical inputs while preserving the density-driven coverage objective. The proposed framework combines D2OC with a control barrier function safety filter through a feedback-linearizing look-ahead point, allowing safety and actuator limits to be considered together during control. We further derive a safety margin that accounts for the look-ahead geometry, robot footprint, and motion during each control interval. Simulation results show that the proposed method maintains the required physical separation while achieving coverage performance comparable to a conventional reference-tracking approach, which can satisfy safety on the reference motion yet violate the corresponding physical clearance. Experiments on multiple nonholonomic robots in the Robotarium further demonstrate safe execution while driving the robots toward the desired spatial distribution. These results show that enforcing safety directly on the physical inputs can eliminate the mismatch between safety certification and physical robot motion in density-driven multi-robot coverage.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO",
-        "cs.MA",
-        "math.OC"
-      ]
-    },
-    {
-      "paperId": "arxiv:2609.22462v1",
-      "title": "VLPSA: Vision-Language-Poisson-Safe Actions for Full-Body Safety of Learned Policies",
-      "authors": [
-        "Meg Wilkinson",
-        "Emily Fourney",
-        "Joel W. Burdick",
-        "Aaron D. Ames"
-      ],
-      "year": null,
-      "date": "2026-09-18",
-      "citations": 0,
-      "arxivId": "2609.22462v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2609.22462v1",
-      "abstract": "Vision-language-action (VLA) models enable increasingly general-purpose robotic manipulation, but such learned policies do not provide safety guarantees for collision avoidance---especially in environments outside of training distributions. This work presents Vision-Language-Poisson-Safe Actions (VLPSA), a safety filtering framework that provides full-body safety for VLA policies in cluttered and dynamic environments without retraining. VLPSA synthesizes Poisson Safety Functions (PSF) online from perception data, yielding a Control Barrier Function (CBF) that is enforced through a CBF-QP safety filter over the full body and any grasped object, treated as an extension of the final robot link. To enable real-time deployment while maintaining fine spatial resolution in critical task regions, VLPSA combines dual resolutions of this PSF using Boolean CBF compositions. We evaluate VLPSA on SafeLIBERO against safety-filtering baselines, where it achieves the highest collision avoidance rate among the evaluated methods, increasing collision avoidance from 23.1% for the base $π_{0.5}$ policy to 91.2% while surpassing its task success rate. We further deploy VLPSA on a Franka FR3 in cluttered scenes with dynamic obstacles and human interference, demonstrating real-time full-body safety during manipulation tasks.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO"
-      ]
-    },
-    {
-      "paperId": "arxiv:2609.22075v1",
-      "title": "LIMBO: Learning and Internalizing Model-Free Barrier Objectives for Agile and Safe Whole-Body Control",
-      "authors": [
-        "Jake Gonzales",
-        "Arturo Flores Alvarez",
-        "Yu-Ming Chen",
-        "Aaron D. Ames",
-        "Lillian J. Ratliff",
-        "Manikantan Nambi"
-      ],
-      "year": null,
-      "date": "2026-09-18",
-      "citations": 0,
-      "arxivId": "2609.22075v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2609.22075v1",
-      "abstract": "Safe whole-body control requires coordinating collision avoidance and balance under high-dimensional, nonlinear dynamics--making safety certificates difficult to design and reuse across behaviors. We present LIMBO, a framework for synthesizing a state-action control barrier function and distilling its safety structure into a task policy. LIMBO learns the safety certificate from black-box transitions and a state-based failure specification over residual actions around a frozen base controller, making Q-CBF synthesis tractable in the full control dimension while placing the certificate in the task policy's control space. During synthesis, the learned safety value drives risk-guided sampling near the estimated boundary of recoverability; during task learning, it serves as a teacher that provides action-level safety feedback, yielding a robust task policy and alleviating the need for an online safety filter at deployment. We demonstrate LIMBO on a 29-degree-of-freedom humanoid performing dodgeball avoidance and locomotion beneath low obstacles. Beyond scaling learned Q-CBFs to whole-body control, we show that risk-guided boundary sampling provides a theoretically grounded way to explore the edge of recoverability. Under the same safety specification, ceteris paribus, varying the sampling concentration produces strategies ranging from crouching to a novel backward-leaning limbo maneuver. In both settings, the learned policies transfer to hardware without online safety filtering, showing that learned safety synthesis scales to agile whole-body control.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO"
-      ]
-    },
-    {
-      "paperId": "arxiv:2609.21580v1",
-      "title": "Tilt as a Certified Resource: Preserving Motor Wrench-Rate Authority on Articulated Multirotors",
-      "authors": [
-        "Giuseppe Silano",
-        "Martin Saska"
-      ],
-      "year": null,
-      "date": "2026-09-18",
-      "citations": 0,
-      "arxivId": "2609.21580v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2609.21580v1",
-      "abstract": "Fully-actuated multirotor aerial vehicles must not only track nominal wrenches but retain the \"readiness\" to modulate them rapidly under disturbances. Classical effort-minimizing allocators ignore this dynamic limit, whereas maximizing readiness leads to topologically disconnected optimal sheets demanding physically impossible actuator rates. Enforcing a readiness safety floor on fixed-geometry symmetric platforms further encounters a zero-sum degeneracy: motor-speed redistribution cannot improve authority without conceding wrench tracking. This paper uses active morphology to break the degeneracy, treating servo tilt as a geometric resource supplying authority-recovery directions unavailable to static rotors. We construct a configuration-dependent, motor-only readiness certificate - the log-volume of the reachable wrench-rate set - that explicitly excludes servo capacity, preventing a \"ghost capacity fallacy\" in which the certificate would falsely credit slow mechanical kinematic limits instead of collapsing accurately at motor saturation. The certificate is enforced as a Control Barrier Function (CBF) within a Unified Physical-Command Quadratic Program acting on motor torques and servo setpoints. Closed-loop simulations of an articulated octorotor under severe gust disturbances show classical allocators diverging and uncertified articulated allocators violating the safety floor, while the proposed CBF filter bounds the system state and preserves vehicle authority.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO",
-        "eess.SY",
-        "math.OC"
-      ]
-    },
-    {
-      "paperId": "arxiv:2609.20435v1",
-      "title": "Time-Efficient Iterative Learning Planning for Safety-Critical Dynamic Obstacle Avoidance",
-      "authors": [
-        "Zhiyi Chen",
-        "Shuli Lv",
-        "Chen Min",
-        "Yong Xu",
-        "Jian Sun",
-        "Quan Quan"
-      ],
-      "year": null,
-      "date": "2026-09-17",
-      "citations": 0,
-      "arxivId": "2609.20435v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2609.20435v1",
-      "abstract": "Autonomous mobile robots require timeefficient planning and safety-critical dynamic obstacle avoidance under constrained onboard computation. While Iterative Learning Planning (ILP) offers lightweight and efficient traversal planning, it lacks explicit mechanisms for dynamic obstacle perception and avoidance. This article extends ILP to safety-critical navigation in dynamic environments by integrating an anticipatory risk-blended control barrier function (ARB-CBF). The extended ILP learns traversal-speed and steering-bias profiles via a fractionalpower update based on local obstacle risk, generating nominal control commands that ARB-CBF modifies at runtime for real-time safety guarantees. Algorithmic analysis demonstrates that the ILP replanning stage scales at O(kN) for k iterations and N waypoints, while ARB-CBF executes with linear complexity. Comprehensive simulations and real-world experiments validate the framework, demonstrating superior temporal efficiency and safety with lower computational overhead compared to optimizationbased baselines, making it highly suitable for resourceconstrained platforms.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO"
-      ]
     }
   ],
-  "updated": "2026-10-14T01:49:06.850304+00:00"
+  "updated": "2026-10-14T09:25:59.920942+00:00"
 }
