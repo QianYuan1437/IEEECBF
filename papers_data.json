@@ -209,26 +209,6 @@
       "subjects": []
     },
     {
-      "paperId": "02301ae688ec44bc25cd5660fc9b0736198f1be6",
-      "title": "Thrust-constrained, Soft-Landing of Spacecraft in Hazardous Terrains using a combined Sliding Mode-Control Barrier Function based Guidance Strategy",
-      "authors": [
-        "Vignesh Cg",
-        "Sachit Rao",
-        "Debasish Ghose"
-      ],
-      "year": 2026,
-      "date": "2026-07-01",
-      "citations": 0,
-      "arxivId": "",
-      "doi": "10.1109/VSS69650.2026.11655700",
-      "url": "https://doi.org/10.1109/VSS69650.2026.11655700",
-      "abstract": "Soft landing in the presence of hazardous terrain remains a critical and challenging problem in a spacecraft landing mission. The problem is more daunting when environmental uncertainties/disturbances are considered. Further, the presence of terrain features such as boulders, craters, and uneven topography in the vicinity of the designated landing location pose challenges. This paper explores a sliding-mode-based landing guidance for robustness against matched bounded uncertainties, encountered during terminal descent. To provide safety guarantees in a hazardous terrain, a Control Barrier Function (CBF) based safety filter that minimally modifies the nominal Sliding Mode (SM) based guidance law is developed while honoring the thrust constraints. A time-varying altitude barrier function is used as an upper bound for the vertical motion, thereby ensuring that the landing mission is completed within a predefined time. Simulation results demonstrate robustness and safety of the proposed guidance framework.",
-      "journal": "2026 IEEE 18th International Workshop on Variable Structure Systems (VSS)",
-      "venue": "International Workshop on Variable Structure Systems",
-      "venueLabel": "IEEE",
-      "subjects": []
-    },
-    {
       "paperId": "4ec242123526e060e8f0a1e33a71c0032c4692f1",
       "title": "Distributed Execution of Signal Temporal Logic Tasks in Open Networked Robotic System via Predefined-Time Control",
       "authors": [
@@ -247,6 +227,26 @@
       "journal": "IEEE Transactions on Automation Science and Engineering",
       "venue": "IEEE Transactions on Automation Science and Engineering",
       "venueLabel": "IEEE Trans",
+      "subjects": []
+    },
+    {
+      "paperId": "02301ae688ec44bc25cd5660fc9b0736198f1be6",
+      "title": "Thrust-constrained, Soft-Landing of Spacecraft in Hazardous Terrains using a combined Sliding Mode-Control Barrier Function based Guidance Strategy",
+      "authors": [
+        "Vignesh Cg",
+        "Sachit Rao",
+        "Debasish Ghose"
+      ],
+      "year": 2026,
+      "date": "2026-07-01",
+      "citations": 0,
+      "arxivId": "",
+      "doi": "10.1109/VSS69650.2026.11655700",
+      "url": "https://doi.org/10.1109/VSS69650.2026.11655700",
+      "abstract": "Soft landing in the presence of hazardous terrain remains a critical and challenging problem in a spacecraft landing mission. The problem is more daunting when environmental uncertainties/disturbances are considered. Further, the presence of terrain features such as boulders, craters, and uneven topography in the vicinity of the designated landing location pose challenges. This paper explores a sliding-mode-based landing guidance for robustness against matched bounded uncertainties, encountered during terminal descent. To provide safety guarantees in a hazardous terrain, a Control Barrier Function (CBF) based safety filter that minimally modifies the nominal Sliding Mode (SM) based guidance law is developed while honoring the thrust constraints. A time-varying altitude barrier function is used as an upper bound for the vertical motion, thereby ensuring that the landing mission is completed within a predefined time. Simulation results demonstrate robustness and safety of the proposed guidance framework.",
+      "journal": "2026 IEEE 18th International Workshop on Variable Structure Systems (VSS)",
+      "venue": "International Workshop on Variable Structure Systems",
+      "venueLabel": "IEEE",
       "subjects": []
     },
     {
@@ -740,7 +740,7 @@
       ],
       "year": 2020,
       "date": "2020-04-16",
-      "citations": 245,
+      "citations": 246,
       "arxivId": "2004.07584",
       "doi": "10.15607/rss.2020.xvi.088",
       "url": "https://doi.org/10.15607/rss.2020.xvi.088",
@@ -984,6 +984,121 @@
     }
   ],
   "arxiv": [
+    {
+      "paperId": "arxiv:2610.22198v1",
+      "title": "Robust Multi-Agent Pursuit with Preemptive Communication via Reachability-Based Control Barrier Functions",
+      "authors": [
+        "Madison Book",
+        "Justin Bradley"
+      ],
+      "year": null,
+      "date": "2026-10-15",
+      "citations": 0,
+      "arxivId": "2610.22198v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.22198v1",
+      "abstract": "Safe multi-agent coordination typically assumes what real-world, deployed, resource-constrained robots cannot provide: continuous, perfect state sharing. Robust control strategies must be complemented with robust communication strategies to deliver resilient deployments. In this work, we propose a unified control/communication strategy that provides safe control to guarantee inter-agent safety under intermittent communication and demonstrate its effectiveness in a pursuit-evasion scenario. Each agent computes the reachable set of neighboring agents based on the last state information received, then solves for a safe control input based on control barrier functions to ensure agents avoid collision. We prove that inter-agent collision avoidance is guaranteed provided communication staleness remains bounded. As the reachable set inflates between state transmissions, each agent reasons about when to preemptively transmit its state information to neighboring agents based on novel metrics characterizing uncertainty risk and kinematic risk. We implement and simulate a variety of pursuit-evasion scenarios and show that preemptive communication reduces messages by 77.5% compared to periodic and event-triggered baselines with zero collisions.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY",
+        "cs.MA",
+        "cs.RO"
+      ]
+    },
+    {
+      "paperId": "arxiv:2610.22057v1",
+      "title": "CBF-Based Control Allocation for Omnidirectional Tiltrotor Aerial Robots",
+      "authors": [
+        "Seobeom Lee",
+        "Hyondong Oh"
+      ],
+      "year": null,
+      "date": "2026-10-15",
+      "citations": 0,
+      "arxivId": "2610.22057v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.22057v1",
+      "abstract": "Actively tilting aerial robots can generate six-dimensional wrenches, but slow servo response can make a desired wrench infeasible during reconfiguration. This paper develops a control barrier function (CBF) allocator that preserves wrench feasibility under bounded servo-configuration mismatch. An exact equivalent-wrench identity connects the thrust required at nominal and actual configurations. For a nonsingular six-channel allocation map, inverse allocation reduces robust wrench containment to twelve thrust margins tightened by an ellipsoidal reserve. Their complete derivatives yield a six-variable servo-rate quadratic program, followed by differential thrust allocation for tracking. A conditional forward-invariance result establishes actual-configuration feasibility under reserve coverage, feasible initialization, and admissible CBF inputs. A complementary MuJoCo study evaluates a measured-angle implementation against geometric, augmented differential, and normalized differential allocation in circular and cartwheel maneuvers, with and without disturbances. The proposed implementation achieves lower position error in all four recorded scenarios, with an attitude tradeoff in circular tracking. During the disturbed cartwheel, the desired wrench is feasible at all 1751 stored samples of continuous rotation; baseline violation rates range from 60.8% to 100%. These comparisons evaluate sampled feasibility; validation of the nominal-trajectory certificate requires nominal-state and reserve-coverage records.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO"
+      ]
+    },
+    {
+      "paperId": "arxiv:2610.21374v1",
+      "title": "From Optical Flow to Safety: Visual Safety Certification via Scale-Free Relative Motion",
+      "authors": [
+        "Bazeela Banday",
+        "Jishnu Keshavan"
+      ],
+      "year": null,
+      "date": "2026-10-15",
+      "citations": 0,
+      "arxivId": "2610.21374v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.21374v1",
+      "abstract": "Safe autonomous navigation using monocular vision remains challenging because explicit obstacle states are not directly observable. This letter introduces a visual safety-certification paradigm that uses scale-free, depth-normalized relative motion encoded by monocular optical flow as the representation for collision-risk certification, without reconstructing obstacle position, velocity, geometry, or a metric world model. Unlike conventional optical-flow-based navigation approaches that rely on image motion to shape avoidance behavior, the proposed framework directly encodes collision-cone geometry and safety constraints in this relative-motion representation. An online Concurrent Learning observer estimates the normalized relative velocity and provides a computable estimation-error bound. This uncertainty is propagated into the collision cone through angular inflation and a monocular robot-footprint margin, yielding a Robust Vision-Based Collision Cone Control Barrier Function (RV-C$^3$BF). An optimal-decay CBF quadratic program minimally modifies the nominal control input to enforce the resulting robust safety constraint under the stated assumptions. Extensive simulation and real-world experiments on a TurtleBot3 in cluttered environments with static and dynamic obstacles demonstrate collision avoidance using only monocular vision and onboard proprioception, with the estimation-error bound containing the measured error in $98.3\\%$ of simulation samples and the robot achieving collision-free navigation in $93$ of $100$ real-world trials.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO",
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2610.21221v1",
+      "title": "Regions of Attraction of CBF-Based Safety Filters for Stable Planar Linear Systems",
+      "authors": [
+        "Adam K. Kiss",
+        "Pol Mestres",
+        "Andras Bartfai",
+        "Shima Sadat Mousavi",
+        "Aaron D. Ames"
+      ],
+      "year": null,
+      "date": "2026-10-15",
+      "citations": 0,
+      "arxivId": "2610.21221v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.21221v1",
+      "abstract": "In this paper we study the dynamical properties induced by safety filters based on control barrier functions (CBFs). These are obtained by minimally modifying a nominal controller with the goal of rendering it safe. We consider the simple setting of a planar linear plant with a stable linear nominal controller and an affine constraint. We show that even in this simple setting, the filtered system can oscillate or diverge while remaining safe. We fully characterize the parameters for which the origin is globally (exponentially or asymptotically) stable. For all other parameters, the filter creates a saddle on the constraint boundary, and we characterize the region of attraction of the origin. For underdamped nominal dynamics, its boundary is an unstable periodic orbit, a homoclinic loop, or the saddle's stable manifold, depending on whether the CBF gain is below, at, or above a homoclinic transition value. A vehicle sideslip example and two three-dimensional examples illustrate the results and what changes beyond planar dynamics.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2610.20895v1",
+      "title": "BubbleCBF: Constructive Safety for Second-Order Systems and Application to Autonomous Robot Navigation in Unknown Environments",
+      "authors": [
+        "Mani Amani",
+        "Mohammed Alyaseen",
+        "Zhirui Dai",
+        "Ki Myung Brian Lee",
+        "Nikolay Atanasov",
+        "Jorge Cortes"
+      ],
+      "year": null,
+      "date": "2026-10-14",
+      "citations": 0,
+      "arxivId": "2610.20895v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.20895v1",
+      "abstract": "Satisfying safety constraints for systems with second-order dynamics is challenging because a position constraint may require infeasible deceleration. Higher-order control barrier functions (CBFs) provide an approach for expressing safety conditions for such systems but feasibility depends on the system dynamics and available control authority. We develop a constructive approach for designing feasible safety constraints for second-order control-affine systems. Starting from a signed distance function (SDF), we construct collision-free spheres, i.e., bubbles, in position space, and use their quadratic geometry and overlap to construct a velocity-dependent safety constraint. The associated safe set is represented as a union of intersections and enforced through a quadratic-program safety filter. Under mild assumptions on the dynamics, bubble overlap, and design parameters, we prove that the quadratic-program-based controller is well defined, continuous in the system state, and renders the set forward invariant. We also derive sufficient conditions for feasibility under bounded inputs. We demonstrate that our BubbleCBF, applied to a differential-drive robot, achieves safe autonomous navigation in unknown environments. Videos and results are available at: https://existentialrobotics.org/bubblecbf/.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO"
+      ]
+    },
     {
       "paperId": "arxiv:2610.18675v1",
       "title": "Optimal Decay Matrix Control Barrier Functions: Soundness and Completeness for Matrix Safety Constraints",
@@ -1960,127 +2075,7 @@
       "subjects": [
         "cs.RO"
       ]
-    },
-    {
-      "paperId": "arxiv:2609.34356v1",
-      "title": "Predictive Semantic Safety: From Visual Physical Reasoning to Safety-Critical Control",
-      "authors": [
-        "Taekyung Kim",
-        "Salem Fradi",
-        "Yanning Dai",
-        "Mateusz Ostaszewski",
-        "Jürgen Schmidhuber"
-      ],
-      "year": null,
-      "date": "2026-09-28",
-      "citations": 0,
-      "arxivId": "2609.34356v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2609.34356v1",
-      "abstract": "Physical interactions can create future hazards that are not apparent from the robot's current geometric surroundings. We present a framework termed Predictive Semantic Safety (PSS), which connects visual physical reasoning to backup-based safety filtering. A vision-language model (VLM) predicts physical events and their timing or directly predicts object displacements. An explicit motion model converts event hypotheses into object trajectories. Split conformal prediction calibrates position errors jointly across specified objects, observation times, and future times; geometric shape bounds convert the resulting position regions into predicted object occupancy. PSS evaluates a prescribed backup maneuver against this occupancy and derives input-affine constraints for minimally modifying the nominal input while preserving backup feasibility under the robot dynamics and input limits. MuJoCo experiments with a Unitree Go1 consider falling fixtures, impact-driven support loss, and contact propagation. PSS achieves a safe episode rate of 99.3%, compared with 43.3% for a Backup Control Barrier Function baseline that only uses current obstacle geometry.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO",
-        "cs.AI",
-        "cs.LG"
-      ]
-    },
-    {
-      "paperId": "arxiv:2609.33852v1",
-      "title": "Higher-Order Mean-Field Control Barrier Functions",
-      "authors": [
-        "Levon Nurbekyan",
-        "Samy Wu Fung"
-      ],
-      "year": null,
-      "date": "2026-09-27",
-      "citations": 0,
-      "arxivId": "2609.33852v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2609.33852v1",
-      "abstract": "Mean-field control barrier functions (MF-CBFs) enforce swarm safety through constraints on the agents' distribution. Previous formulations, including applications to stochastic coverage and shepherding, use first-order differential inequalities. These cannot directly enforce constraints whose barrier functions yield control-free first derivatives. Thus, we develop the theory of higher-order MF-CBFs, which ensures the positivity of the barrier functionals through higher-order differential inequalities, as in their finite-dimensional analogs. More specifically, we introduce the notion of relative degree for mean-field safety functionals and develop an analytic framework for computing their higher-order derivatives. Moreover, for practical examples of cross-correlation and self-correlation functionals, we show that repeated differentiation along mean-field dynamics is structure-preserving and reduces to kernel recursions. As an illustration, we apply higher-order MF-CBFs to double-integrator swarm tracking and avoidance problems, where position-only constraints lead to MF-CBFs of relative degree two.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "math.OC"
-      ]
-    },
-    {
-      "paperId": "arxiv:2609.30495v1",
-      "title": "Memory-Aware Multi-Sensor Perception for Efficient and Safe Navigation in Dynamic Environments",
-      "authors": [
-        "Jingshuo Li",
-        "Yifan Xue",
-        "Yifei Li",
-        "Shubhodeep Shiv Aditya",
-        "Nadia Figueroa"
-      ],
-      "year": null,
-      "date": "2026-09-24",
-      "citations": 0,
-      "arxivId": "2609.30495v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2609.30495v1",
-      "abstract": "Autonomous navigation in previously unseen environments requires effective perception, persistent environmental representation, and collision avoidance while maintaining progress toward a goal. Existing perception-based methods often rely on prior maps or short-horizon observations, limiting their ability to exploit previously observed structure. We propose a memory-aware multi-sensor navigation framework that integrates LiDAR and RGB perception, online distance-field representation learning, and a stage-adaptive Modulated Control Barrier Function Quadratic Program (MCBF-QP). The framework persistently represents static infrastructure while tracking dynamic obstacles, enabling the MCBF-QP controller to exploit previously observed geometry for obstacle circumvention and adapt its safety constraints and guidance to local conditions. Experiments in complex indoor and outdoor environments demonstrate improved navigation efficiency and goal-reaching performance while maintaining collision avoidance in narrow passages and around dynamic obstacles.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO"
-      ]
-    },
-    {
-      "paperId": "arxiv:2609.28364v1",
-      "title": "LEAP-CBF: A Safety Filter for Uncertain Systems with Least-Effort Adversarial Potentials",
-      "authors": [
-        "Oswin So",
-        "Eric Yu",
-        "Chuchu Fan"
-      ],
-      "year": null,
-      "date": "2026-09-23",
-      "citations": 0,
-      "arxivId": "2609.28364v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2609.28364v1",
-      "abstract": "Control barrier functions (CBF) are a popular safety filter to ensure safety for nonlinear dynamical systems. However, when the system is subject to uncertainties and disturbances, this requires the use of robust variants of CBFs, which can be difficult to construct and can be overly conservative, especially for high-dimensional systems under input constraints. In this work, we propose a new approach to solve these challenges by introducing Least-Effort Adversarial Potentials (LEAP), a certificate that quantifies the robustness of a given state against disturbances in terms of the effort required by the disturbance to cause failure. We show that LEAP is a CBF for the undisturbed system, but can also be used to construct a safety filter that is robust to disturbances whose cumulative effort is bounded. We propose a method for constructing LEAPs with on-policy deep reinforcement learning. Next, we demonstrate LEAPs in simulation on a variety of multi-agent systems with disturbances and uncertainties. Finally, hardware experiments on a quadruped and quadrotors validate that LEAPs are well suited to tackle the disturbances and uncertainties from real-world robotic systems.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO",
-        "cs.LG",
-        "math.OC"
-      ]
-    },
-    {
-      "paperId": "arxiv:2609.25994v1",
-      "title": "Safety-Constrained Model Predictive Control for an Omnidirectional Walking Assistive Robot Using Control Barrier Function",
-      "authors": [
-        "Andrea Fortuna",
-        "Marta Lorenzini",
-        "Elisa Motta",
-        "Alberto Ranavolo",
-        "Elena De Momi",
-        "Arash Ajoudani"
-      ],
-      "year": null,
-      "date": "2026-09-22",
-      "citations": 0,
-      "arxivId": "2609.25994v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2609.25994v1",
-      "abstract": "Providing safe and effective mobility assistance plays a crucial role in restoring independence and enhancing the quality of life for individuals with motor impairments. In this context, robotic walking assistive devices have recently emerged as promising solutions to provide physically compliant interaction while ensuring user safety and support. This paper presents a novel control framework for an omnidirectional Walking Assistive Robot (I-WANDER) that integrates a Control Barrier Function (CBF) formulation into a Model Predictive Control (MPC) scheme to explicitly enforce collision-avoidance safety constraints while optimizing for energy efficiency and smooth human-robot collaboration. The method was experimentally evaluated with 12 healthy participants performing two different walking tasks using both the proposed CBF-based MPC controller (CB-MPC) and a variable admittance controller (AC). The first task involved structured navigation through a U-shaped corridor, whereas the second consisted of a single-obstacle avoidance task performed blindfolded to ensure the obstacle was unexpected. Comparative results show that the CB-MPC architecture significantly reduces energy consumption and mechanical work (p < 0.01) without compromising motion smoothness, while also decreasing the number of obstacle collisions. Overall, the findings highlight the potential of the proposed control architecture to enhance both safety and efficiency in robotic walking assistance.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO"
-      ]
     }
   ],
-  "updated": "2026-10-16T01:10:40.555780+00:00"
+  "updated": "2026-10-16T08:52:39.444664+00:00"
 }
