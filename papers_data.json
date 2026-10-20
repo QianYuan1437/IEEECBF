@@ -1616,6 +1616,27 @@
   ],
   "arxiv": [
     {
+      "paperId": "arxiv:2610.25272v1",
+      "title": "Safe Barrier Function Control for Grid-Following Inverters under Weak Grid Conditions",
+      "authors": [
+        "Grigoris Michos",
+        "Christos K. Verginis"
+      ],
+      "year": null,
+      "date": "2026-10-18",
+      "citations": 0,
+      "arxivId": "2610.25272v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.25272v1",
+      "abstract": "This paper proposes a barrier control approach for the safe regulation of grid-following voltage-source-converters (VSC), operating in weak grid conditions. The proposed controller aims to enhance the transient performance and synchronization properties of the VSC, providing frequency and current limiting guarantees by employing smooth control barrier functions. First, a dynamic model is derived that includes the dynamic state interactions that are omitted in quasi-steady-state approaches, revealing the destabilizing elements both during transient and steady-state performance. Then, it is analytically proven that the proposed control law guarantees frequency limitation and inner current evolution in prescribed safety regions, while counteracting the destabilizing strong coupling between PCC voltage and injected current. In addition, sufficient conditions are formulated that guarantee the stability of the closed-loop system with respect to desired operating points. The theoretic results are verified in simulations of case studies operating in varying grid strength.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
+    {
       "paperId": "arxiv:2610.24308v1",
       "title": "Lifting Safety Through Reduced-Order Model Architectures: An Invariant Manifold Approach",
       "authors": [
@@ -1751,7 +1772,7 @@
       ]
     },
     {
-      "paperId": "arxiv:2610.21374v1",
+      "paperId": "arxiv:2610.21374v2",
       "title": "From Optical Flow to Safety: Visual Safety Certification via Scale-Free Relative Motion",
       "authors": [
         "Bazeela Banday",
@@ -1760,9 +1781,9 @@
       "year": null,
       "date": "2026-10-15",
       "citations": 0,
-      "arxivId": "2610.21374v1",
+      "arxivId": "2610.21374v2",
       "doi": "",
-      "url": "https://arxiv.org/abs/2610.21374v1",
+      "url": "https://arxiv.org/abs/2610.21374v2",
       "abstract": "Safe autonomous navigation using monocular vision remains challenging because explicit obstacle states are not directly observable. This letter introduces a visual safety-certification paradigm that uses scale-free, depth-normalized relative motion encoded by monocular optical flow as the representation for collision-risk certification, without reconstructing obstacle position, velocity, geometry, or a metric world model. Unlike conventional optical-flow-based navigation approaches that rely on image motion to shape avoidance behavior, the proposed framework directly encodes collision-cone geometry and safety constraints in this relative-motion representation. An online Concurrent Learning observer estimates the normalized relative velocity and provides a computable estimation-error bound. This uncertainty is propagated into the collision cone through angular inflation and a monocular robot-footprint margin, yielding a Robust Vision-Based Collision Cone Control Barrier Function (RV-C$^3$BF). An optimal-decay CBF quadratic program minimally modifies the nominal control input to enforce the resulting robust safety constraint under the stated assumptions. Extensive simulation and real-world experiments on a TurtleBot3 in cluttered environments with static and dynamic obstacles demonstrate collision avoidance using only monocular vision and onboard proprioception, with the estimation-error bound containing the measured error in $98.3\\%$ of simulation samples and the robot achieving collision-free navigation in $93$ of $100$ real-world trials.",
       "journal": "",
       "venue": "",
@@ -2680,32 +2701,7 @@
       "subjects": [
         "eess.SY"
       ]
-    },
-    {
-      "paperId": "arxiv:2609.38873v2",
-      "title": "DODGER: Safety-Guided Reinforcement Learning for Robot Navigation Among Dynamic Obstacles",
-      "authors": [
-        "Sanghyuk Park",
-        "Kwanwoo Lee",
-        "Taekyung Kim",
-        "Seohyeon Lim",
-        "Yisoo Lee"
-      ],
-      "year": null,
-      "date": "2026-09-30",
-      "citations": 0,
-      "arxivId": "2609.38873v2",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2609.38873v2",
-      "abstract": "Robots operating in human-centered environments must safely navigate among multiple dynamic obstacles to avoid collisions with people and surrounding infrastructure. Control barrier functions (CBFs) provide an effective mechanism for safety filtering, and recent CBF-based reinforcement learning (RL) methods embed such safety information into learned policies. However, executing only safety-filtered actions during training can restrict policy exploration, a limitation that becomes particularly consequential in dynamic scenes where safety depends on relative robot-obstacle motion. We propose DODGER, a safety-guided RL framework that directly executes policy-generated actions to drive training rollouts while using CBF-filtered references and constraint violations to shape the policy toward collision-avoidance behavior. We evaluate DODGER through a Dubins-car safety analysis and demonstrate goal-directed navigation among multiple dynamic obstacles in full-order humanoid simulation and real-world humanoid experiments using LiDAR-based perception, without a runtime safety filter.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO",
-        "eess.SY"
-      ]
     }
   ],
-  "updated": "2026-10-20T01:45:35.668330+00:00"
+  "updated": "2026-10-20T09:19:00.626383+00:00"
 }
