@@ -1165,7 +1165,7 @@
       ]
     },
     {
-      "paperId": "arxiv:2610.16522v1",
+      "paperId": "arxiv:2610.16522v2",
       "title": "Learning Reachability-Based Safety Representations for Real-Time Robot Navigation in Unknown and Dynamic Environments",
       "authors": [
         "Bojan Derajić"
@@ -1173,9 +1173,9 @@
       "year": null,
       "date": "2026-10-12",
       "citations": 0,
-      "arxivId": "2610.16522v1",
+      "arxivId": "2610.16522v2",
       "doi": "",
-      "url": "https://arxiv.org/abs/2610.16522v1",
+      "url": "https://arxiv.org/abs/2610.16522v2",
       "abstract": "Safe robot navigation in unknown, dynamic environments requires more than geometric collision checking: a robot still far from an obstacle may be unable to avoid it because of its speed, orientation, or the obstacle's motion. Hamilton--Jacobi (HJ) reachability analysis captures this in a value function whose sign separates states that admit a safe continuation from those where collision is unavoidable, but computing it online for every newly observed environment is too expensive. This dissertation trains neural implicit representations offline on reachability solutions to give optimization-based controllers this information in real time. Since the value function never exceeds the constraint, it equals a directly computed constraint, such as a signed distance, minus a nonnegative dynamics correction. Learning only this correction keeps represented obstacles outside the predicted safe set despite approximation errors. The first two of five methods use the learned function as a terminal constraint in model predictive control, for static local environments and predicted obstacle motion. The next two use it as a barrier candidate in control barrier function safety filters, for static environments and, through pairwise barriers in relative coordinates, for a varying number of moving obstacles. Simulations and hardware experiments on ground and aerial robots show better collision avoidance than geometric and hand-designed baselines, especially for short horizons and moving obstacles. The fifth method replaces the grid-based offline solver, which limits the first four to low-dimensional models. For control-affine dynamics with polytopic inputs, the HJ Hamiltonian is maximized at a vertex, so a parallelizable tree search over vertex inputs can generate training labels. With a loss from the HJ variational inequality, these labels yield barrier candidates for systems with up to 13 states.",
       "journal": "",
       "venue": "",
@@ -1801,5 +1801,5 @@
       ]
     }
   ],
-  "updated": "2026-10-21T09:16:29.163615+00:00"
+  "updated": "2026-10-21T14:22:20.616080+00:00"
 }
