@@ -23,27 +23,6 @@
       "subjects": []
     },
     {
-      "paperId": "7e984216114d85c4d9020a9cf57e8ceedcbc5aa1",
-      "title": "Safety-Critical Control Under Timed Reach–Avoid Specifications: A Backup Control Barrier Function Approach",
-      "authors": [
-        "Yang-Rui Zhang",
-        "Tianjian Jiang",
-        "Z. Cai",
-        "Yi-Ding Ji"
-      ],
-      "year": 2026,
-      "date": null,
-      "citations": 3,
-      "arxivId": "",
-      "doi": "10.1109/LCSYS.2026.3665795",
-      "url": "https://doi.org/10.1109/LCSYS.2026.3665795",
-      "abstract": "Timed reach-avoid specifications, a subset of Signal Temporal Logic (STL), provide an expressive framework for specifying complex tasks in dynamic systems. This letter introduces a novel framework that encodes these specifications into a quadratic programming (QP) controller using backup control barrier functions (backup CBFs). Unlike existing approaches that rely on predefined safe sets, we utilize a backup control strategy within a prediction horizon to construct time-varying implicit sets online. Specifically, we address the limitation of standard backup CBFs regarding finite-time convergence by introducing contractive implicit sets. Rigorous analysis of the time-varying properties confirms that backup CBFs enforce system forward invariance within these contractive sets, driving real-time trajectories to satisfy given specifications. Our method unifies high-level planning with continuous control, while does not require explicit safe set computation for Eventually formulas or predefined performance functions. Numerical simulations validate the performance of our approach in safe planning and control of mobile robots.",
-      "journal": "IEEE Control Systems Letters",
-      "venue": "IEEE Control Systems Letters",
-      "venueLabel": "L-CSS",
-      "subjects": []
-    },
-    {
       "paperId": "8065dcff7a02b6608fb6a7db65bbb0fec0dcbf20",
       "title": "Space-Constrained Multi-Robot Formation Control via an Enhanced Discrete-Time Control Lyapunov and Barrier Function Approach",
       "authors": [
@@ -63,6 +42,27 @@
       "journal": "IEEE Transactions on Automation Science and Engineering",
       "venue": "IEEE Transactions on Automation Science and Engineering",
       "venueLabel": "IEEE Trans",
+      "subjects": []
+    },
+    {
+      "paperId": "7e984216114d85c4d9020a9cf57e8ceedcbc5aa1",
+      "title": "Safety-Critical Control Under Timed Reach–Avoid Specifications: A Backup Control Barrier Function Approach",
+      "authors": [
+        "Yang-Rui Zhang",
+        "Tianjian Jiang",
+        "Z. Cai",
+        "Yi-Ding Ji"
+      ],
+      "year": 2026,
+      "date": null,
+      "citations": 3,
+      "arxivId": "",
+      "doi": "10.1109/LCSYS.2026.3665795",
+      "url": "https://doi.org/10.1109/LCSYS.2026.3665795",
+      "abstract": "Timed reach-avoid specifications, a subset of Signal Temporal Logic (STL), provide an expressive framework for specifying complex tasks in dynamic systems. This letter introduces a novel framework that encodes these specifications into a quadratic programming (QP) controller using backup control barrier functions (backup CBFs). Unlike existing approaches that rely on predefined safe sets, we utilize a backup control strategy within a prediction horizon to construct time-varying implicit sets online. Specifically, we address the limitation of standard backup CBFs regarding finite-time convergence by introducing contractive implicit sets. Rigorous analysis of the time-varying properties confirms that backup CBFs enforce system forward invariance within these contractive sets, driving real-time trajectories to satisfy given specifications. Our method unifies high-level planning with continuous control, while does not require explicit safe set computation for Eventually formulas or predefined performance functions. Numerical simulations validate the performance of our approach in safe planning and control of mobile robots.",
+      "journal": "IEEE Control Systems Letters",
+      "venue": "IEEE Control Systems Letters",
+      "venueLabel": "L-CSS",
       "subjects": []
     },
     {
@@ -87,26 +87,6 @@
       "subjects": []
     },
     {
-      "paperId": "02301ae688ec44bc25cd5660fc9b0736198f1be6",
-      "title": "Thrust-constrained, Soft-Landing of Spacecraft in Hazardous Terrains using a combined Sliding Mode-Control Barrier Function based Guidance Strategy",
-      "authors": [
-        "Vignesh Cg",
-        "Sachit Rao",
-        "Debasish Ghose"
-      ],
-      "year": 2026,
-      "date": "2026-07-01",
-      "citations": 0,
-      "arxivId": "",
-      "doi": "10.1109/VSS69650.2026.11655700",
-      "url": "https://doi.org/10.1109/VSS69650.2026.11655700",
-      "abstract": "Soft landing in the presence of hazardous terrain remains a critical and challenging problem in a spacecraft landing mission. The problem is more daunting when environmental uncertainties/disturbances are considered. Further, the presence of terrain features such as boulders, craters, and uneven topography in the vicinity of the designated landing location pose challenges. This paper explores a sliding-mode-based landing guidance for robustness against matched bounded uncertainties, encountered during terminal descent. To provide safety guarantees in a hazardous terrain, a Control Barrier Function (CBF) based safety filter that minimally modifies the nominal Sliding Mode (SM) based guidance law is developed while honoring the thrust constraints. A time-varying altitude barrier function is used as an upper bound for the vertical motion, thereby ensuring that the landing mission is completed within a predefined time. Simulation results demonstrate robustness and safety of the proposed guidance framework.",
-      "journal": "2026 IEEE 18th International Workshop on Variable Structure Systems (VSS)",
-      "venue": "International Workshop on Variable Structure Systems",
-      "venueLabel": "IEEE",
-      "subjects": []
-    },
-    {
       "paperId": "4ec242123526e060e8f0a1e33a71c0032c4692f1",
       "title": "Distributed Execution of Signal Temporal Logic Tasks in Open Networked Robotic System via Predefined-Time Control",
       "authors": [
@@ -125,6 +105,26 @@
       "journal": "IEEE Transactions on Automation Science and Engineering",
       "venue": "IEEE Transactions on Automation Science and Engineering",
       "venueLabel": "IEEE Trans",
+      "subjects": []
+    },
+    {
+      "paperId": "02301ae688ec44bc25cd5660fc9b0736198f1be6",
+      "title": "Thrust-constrained, Soft-Landing of Spacecraft in Hazardous Terrains using a combined Sliding Mode-Control Barrier Function based Guidance Strategy",
+      "authors": [
+        "Vignesh Cg",
+        "Sachit Rao",
+        "Debasish Ghose"
+      ],
+      "year": 2026,
+      "date": "2026-07-01",
+      "citations": 0,
+      "arxivId": "",
+      "doi": "10.1109/VSS69650.2026.11655700",
+      "url": "https://doi.org/10.1109/VSS69650.2026.11655700",
+      "abstract": "Soft landing in the presence of hazardous terrain remains a critical and challenging problem in a spacecraft landing mission. The problem is more daunting when environmental uncertainties/disturbances are considered. Further, the presence of terrain features such as boulders, craters, and uneven topography in the vicinity of the designated landing location pose challenges. This paper explores a sliding-mode-based landing guidance for robustness against matched bounded uncertainties, encountered during terminal descent. To provide safety guarantees in a hazardous terrain, a Control Barrier Function (CBF) based safety filter that minimally modifies the nominal Sliding Mode (SM) based guidance law is developed while honoring the thrust constraints. A time-varying altitude barrier function is used as an upper bound for the vertical motion, thereby ensuring that the landing mission is completed within a predefined time. Simulation results demonstrate robustness and safety of the proposed guidance framework.",
+      "journal": "2026 IEEE 18th International Workshop on Variable Structure Systems (VSS)",
+      "venue": "International Workshop on Variable Structure Systems",
+      "venueLabel": "IEEE",
       "subjects": []
     },
     {
@@ -947,7 +947,7 @@
       ],
       "year": 2023,
       "date": "2023-02-15",
-      "citations": 68,
+      "citations": 69,
       "arxivId": "2302.07469",
       "doi": "10.48550/arXiv.2302.07469",
       "url": "https://doi.org/10.48550/arXiv.2302.07469",
@@ -1615,6 +1615,30 @@
     }
   ],
   "arxiv": [
+    {
+      "paperId": "arxiv:2610.27732v1",
+      "title": "Prescribed Performance Guided Safe Reinforcement Learning for Roundabout Navigation of Autonomous Vehicles",
+      "authors": [
+        "Wenhan Li",
+        "Yangrui Zhang",
+        "Hang Zhou",
+        "Peiran Liu",
+        "Yiding Ji"
+      ],
+      "year": null,
+      "date": "2026-10-20",
+      "citations": 0,
+      "arxivId": "2610.27732v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.27732v1",
+      "abstract": "Connected and Autonomous Vehicles (CAVs) face significant challenges in roundabout navigation due to dense traffic interactions and unpredictable agent behaviors, necessitating high levels of adaptability and safety. While the combination of Reinforcement Learning (RL) and Model Predictive Control (MPC) offers a promising approach, existing frameworks suffer from a structural mismatch where pointwise RL decisions fail to align with MPC's trajectory level optimization, and often lack rigorous safety guarantees. This work proposes RLTrajGen-PPMPC-CBF, a hierarchical framework for safe, smooth and comfort roundabout navigation, which regulates the coupling between RL-based planning and MPC-based control. We employ Prescribed Performance Constraints (PPC) to enforce a gradual, stable convergence between reference trajectories and control outputs, ensuring MPC tracking performance remains consistent with intended behavior from RL. Additionally, a Control Barrier Function (CBF) layer provides real-time safety corrections that are fed back into the RL process. Simulation results in the MetaDrive environment demonstrate that our method achieves a 6.25\\% increase in average success rate and a 65.87\\% reduction in Motion Sickness Dose Value (MSDV) compared to the optimal baseline, meanwhile accelerating training convergence.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO"
+      ]
+    },
     {
       "paperId": "arxiv:2610.25272v1",
       "title": "Safe Barrier Function Control for Grid-Following Inverters under Weak Grid Conditions",
@@ -2679,29 +2703,7 @@
       "subjects": [
         "cs.RO"
       ]
-    },
-    {
-      "paperId": "arxiv:2610.02151v2",
-      "title": "Feasibility of Simultaneous Input-Output Constraints for Tracking in a Class of LTI Systems: Part I",
-      "authors": [
-        "Junhyeok Yoon",
-        "Heather Hussain",
-        "Anuradha M. Annaswamy"
-      ],
-      "year": null,
-      "date": "2026-10-01",
-      "citations": 0,
-      "arxivId": "2610.02151v2",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.02151v2",
-      "abstract": "This paper addresses simultaneous input and output constraint satisfaction for a class of multi-input linear time-invariant systems with state feedback and integral action. A control barrier function (CBF)-based governor modifies the reference command while preserving the nominal feedback controller. Necessary and sufficient conditions are derived under which the governor is feasible at every state of a prescribed operating set and ensures simultaneous input and output constraint satisfaction, forward invariance, and bounded closed-loop solutions. The paper also shows that these conditions need not be met for certain choices of the CBF governor parameters due to conflicts between input and output constraints. A systematic design procedure is proposed that first searches for feasible free parameters and, if necessary, proposes a relaxation in the input constraint that restores feasibility. A companion paper provides numerical examples and counterexamples illustrating these results.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY"
-      ]
     }
   ],
-  "updated": "2026-10-20T14:06:41.398623+00:00"
+  "updated": "2026-10-21T01:30:49.972042+00:00"
 }
