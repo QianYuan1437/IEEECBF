@@ -665,27 +665,6 @@
       "subjects": []
     },
     {
-      "paperId": "4bb3bd6e5c08543c04fc8a83325cd40585f5c09a",
-      "title": "Dynamic Log-Gaussian Process Control Barrier Function for Safe Robotic Navigation in Dynamic Environments",
-      "authors": [
-        "Xin Yin",
-        "Chenyang Liang",
-        "Yan-Ning Guo",
-        "Jie Mei"
-      ],
-      "year": 2025,
-      "date": "2025-12-01",
-      "citations": 2,
-      "arxivId": "2512.01668",
-      "doi": "10.1109/CDC57313.2025.11312647",
-      "url": "https://doi.org/10.1109/CDC57313.2025.11312647",
-      "abstract": "Control Barrier Functions (CBFs) have emerged as efficient tools to address the safe navigation problem for robot applications. However, synthesizing informative and obstacle motion-aware CBFs online using real-time sensor data remains challenging, particularly in unknown and dynamic scenarios. Motived by this challenge, this paper aims to propose a novel Gaussian Process-based formulation of CBF, termed the Dynamic Log Gaussian Process Control Barrier Function (DLGP-CBF), to enable real-time construction of CBF which are both spatially informative and responsive to obstacle motion. Firstly, the DLGP-CBF leverages a logarithmic transformation of GP regression to generate smooth and informative barrier values and gradients, even in sparse-data regions. Secondly, by explicitly modeling the DLGP-CBF as a function of obstacle positions, the derived safety constraint integrates predicted obstacle velocities, allowing the controller to proactively respond to dynamic obstacles’ motion. Simulation results demonstrate significant improvements in obstacle avoidance performance, including increased safety margins, smoother trajectories, and enhanced responsiveness compared to baseline methods.",
-      "journal": "2025 IEEE 64th Conference on Decision and Control (CDC)",
-      "venue": "IEEE Conference on Decision and Control",
-      "venueLabel": "CDC",
-      "subjects": []
-    },
-    {
       "paperId": "9dda3267a6fffe92dc4db395edc164c43d581b60",
       "title": "Geometric Control Barrier Function: Extensions on the Lie Group SE(3)",
       "authors": [
@@ -704,6 +683,27 @@
       "journal": "2025 37th Chinese Control and Decision Conference (CCDC)",
       "venue": "Chinese Control and Decision Conference",
       "venueLabel": "Chinese Control and Decision Conference",
+      "subjects": []
+    },
+    {
+      "paperId": "4bb3bd6e5c08543c04fc8a83325cd40585f5c09a",
+      "title": "Dynamic Log-Gaussian Process Control Barrier Function for Safe Robotic Navigation in Dynamic Environments",
+      "authors": [
+        "Xin Yin",
+        "Chenyang Liang",
+        "Yan-Ning Guo",
+        "Jie Mei"
+      ],
+      "year": 2025,
+      "date": "2025-12-01",
+      "citations": 2,
+      "arxivId": "2512.01668",
+      "doi": "10.1109/CDC57313.2025.11312647",
+      "url": "https://doi.org/10.1109/CDC57313.2025.11312647",
+      "abstract": "Control Barrier Functions (CBFs) have emerged as efficient tools to address the safe navigation problem for robot applications. However, synthesizing informative and obstacle motion-aware CBFs online using real-time sensor data remains challenging, particularly in unknown and dynamic scenarios. Motived by this challenge, this paper aims to propose a novel Gaussian Process-based formulation of CBF, termed the Dynamic Log Gaussian Process Control Barrier Function (DLGP-CBF), to enable real-time construction of CBF which are both spatially informative and responsive to obstacle motion. Firstly, the DLGP-CBF leverages a logarithmic transformation of GP regression to generate smooth and informative barrier values and gradients, even in sparse-data regions. Secondly, by explicitly modeling the DLGP-CBF as a function of obstacle positions, the derived safety constraint integrates predicted obstacle velocities, allowing the controller to proactively respond to dynamic obstacles’ motion. Simulation results demonstrate significant improvements in obstacle avoidance performance, including increased safety margins, smoother trajectories, and enhanced responsiveness compared to baseline methods.",
+      "journal": "2025 IEEE 64th Conference on Decision and Control (CDC)",
+      "venue": "IEEE Conference on Decision and Control",
+      "venueLabel": "CDC",
       "subjects": []
     },
     {
@@ -755,7 +755,7 @@
       "title": "Safe Reinforcement Learning for Mixed-Autonomy Platoons: A Cooperative Control Barrier Function Approach",
       "authors": [
         "Jing-Yuan Zhou",
-        "Longhao Yan",
+        "Long-Hao Yan",
         "Jin-Hao Liang",
         "Kai-Di Yang"
       ],
@@ -769,6 +769,25 @@
       "journal": "2025 American Control Conference (ACC)",
       "venue": "American Control Conference",
       "venueLabel": "ACC",
+      "subjects": []
+    },
+    {
+      "paperId": "0c860b3fefa5d3ea28568083f7f61e2e77cb242a",
+      "title": "Robust Adaptive Time-Varying Control Barrier Function with Application to Robotic Surface Treatment",
+      "authors": [
+        "Yitaek Kim",
+        "C. Sloth"
+      ],
+      "year": 2025,
+      "date": "2025-06-17",
+      "citations": 2,
+      "arxivId": "2506.14249",
+      "doi": "10.23919/ECC65951.2025.11187080",
+      "url": "https://doi.org/10.23919/ECC65951.2025.11187080",
+      "abstract": "Set invariance techniques such as control barrier functions (CBFs) can be used to enforce time-varying constraints such as keeping a safe distance from dynamic objects. However, existing methods for enforcing time-varying constraints often overlook model uncertainties. To address this issue, this paper proposes a CBFs-based robust adaptive controller design endowing time-varying constraints while considering parametric uncertainty and additive disturbances. To this end, we first leverage Robust adaptive Control Barrier Functions (RaCBFs) to handle model uncertainty, along with the concept of Input-to-State Safety (ISSf) to ensure robustness towards input disturbances. Furthermore, to alleviate the inherent conservatism in robustness, we also incorporate a set membership identification scheme. We demonstrate the proposed method on robotic surface treatment that requires time-varying force bounds to ensure uniform quality, in numerical simulation and real robotic setup, showing that the quality is formally guaranteed within an acceptable range.",
+      "journal": "2025 European Control Conference (ECC)",
+      "venue": "European Control Conference",
+      "venueLabel": "ECC",
       "subjects": []
     },
     {
@@ -791,25 +810,6 @@
       "journal": "SICE Journal of Control, Measurement, and System Integration",
       "venue": "SICE Journal of Control Measurement and System Integration",
       "venueLabel": "SICE Journal of Control Measurement and System Integration",
-      "subjects": []
-    },
-    {
-      "paperId": "0c860b3fefa5d3ea28568083f7f61e2e77cb242a",
-      "title": "Robust Adaptive Time-Varying Control Barrier Function with Application to Robotic Surface Treatment",
-      "authors": [
-        "Yitaek Kim",
-        "C. Sloth"
-      ],
-      "year": 2025,
-      "date": "2025-06-17",
-      "citations": 2,
-      "arxivId": "2506.14249",
-      "doi": "10.23919/ECC65951.2025.11187080",
-      "url": "https://doi.org/10.23919/ECC65951.2025.11187080",
-      "abstract": "Set invariance techniques such as control barrier functions (CBFs) can be used to enforce time-varying constraints such as keeping a safe distance from dynamic objects. However, existing methods for enforcing time-varying constraints often overlook model uncertainties. To address this issue, this paper proposes a CBFs-based robust adaptive controller design endowing time-varying constraints while considering parametric uncertainty and additive disturbances. To this end, we first leverage Robust adaptive Control Barrier Functions (RaCBFs) to handle model uncertainty, along with the concept of Input-to-State Safety (ISSf) to ensure robustness towards input disturbances. Furthermore, to alleviate the inherent conservatism in robustness, we also incorporate a set membership identification scheme. We demonstrate the proposed method on robotic surface treatment that requires time-varying force bounds to ensure uniform quality, in numerical simulation and real robotic setup, showing that the quality is formally guaranteed within an acceptable range.",
-      "journal": "2025 European Control Conference (ECC)",
-      "venue": "European Control Conference",
-      "venueLabel": "ECC",
       "subjects": []
     },
     {
@@ -1077,6 +1077,24 @@
       "subjects": []
     },
     {
+      "paperId": "61935d09ee3cf0e9700e69511f94f9a114c71b20",
+      "title": "Forward and Control Invariance Analysis of Backup Control Barrier Function Induced Safe Sets for Online Safety of Nonlinear Systems",
+      "authors": [
+        "Phillip M. Rivera"
+      ],
+      "year": 2024,
+      "date": "2024-12-16",
+      "citations": 6,
+      "arxivId": "",
+      "doi": "10.1109/CDC56724.2024.10886669",
+      "url": "https://doi.org/10.1109/CDC56724.2024.10886669",
+      "abstract": "This work analyzes the forward invariance and control invariance properties of the safe set induced by the online backup control barrier function (CBF). This is achieved by proving that this approach to CBF enforcement induces a safe set that verifies the extension of Nagumo’s theorem for non-autonomous systems. The objective of this work is to be self-contained while addressing both theoretical questions on safety guarantees and practical questions regarding online computation and feasibility guarantees. Numerical examples are provided to reinforce the intuition generated throughout the analysis.",
+      "journal": "2024 IEEE 63rd Conference on Decision and Control (CDC)",
+      "venue": "IEEE Conference on Decision and Control",
+      "venueLabel": "CDC",
+      "subjects": []
+    },
+    {
       "paperId": "5cc8eb28cd8e2b61100cfc38ad27a86f6f743684",
       "title": "Safe Reinforcement Learning Using Model Predictive Control with Probabilistic Control Barrier Function",
       "authors": [
@@ -1099,21 +1117,22 @@
       "subjects": []
     },
     {
-      "paperId": "61935d09ee3cf0e9700e69511f94f9a114c71b20",
-      "title": "Forward and Control Invariance Analysis of Backup Control Barrier Function Induced Safe Sets for Online Safety of Nonlinear Systems",
+      "paperId": "26cc7c75e4671283365effa56a3cd8a5e864a6fb",
+      "title": "Sensor-Based Safety-Critical Control Using an Incremental Control Barrier Function Formulation via Reduced-Order Approximate Models",
       "authors": [
-        "Phillip M. Rivera"
+        "J. Autenrieb",
+        "Hyo-Sang Shin"
       ],
       "year": 2024,
-      "date": "2024-12-16",
-      "citations": 6,
-      "arxivId": "",
-      "doi": "10.1109/CDC56724.2024.10886669",
-      "url": "https://doi.org/10.1109/CDC56724.2024.10886669",
-      "abstract": "This work analyzes the forward invariance and control invariance properties of the safe set induced by the online backup control barrier function (CBF). This is achieved by proving that this approach to CBF enforcement induces a safe set that verifies the extension of Nagumo’s theorem for non-autonomous systems. The objective of this work is to be self-contained while addressing both theoretical questions on safety guarantees and practical questions regarding online computation and feasibility guarantees. Numerical examples are provided to reinforce the intuition generated throughout the analysis.",
-      "journal": "2024 IEEE 63rd Conference on Decision and Control (CDC)",
-      "venue": "IEEE Conference on Decision and Control",
-      "venueLabel": "CDC",
+      "date": "2024-10-10",
+      "citations": 4,
+      "arxivId": "2410.08096",
+      "doi": "10.23919/ACC63710.2025.11107913",
+      "url": "https://doi.org/10.23919/ACC63710.2025.11107913",
+      "abstract": "The existing control barrier function literature generally relies on precise mathematical models to guarantee system safety, limiting their applicability in scenarios with parametric uncertainties. While incremental control techniques have shown promise in addressing model uncertainties in flight control applications, translating these approaches to safety-critical control presents significant challenges. This paper bridges this gap by introducing measurement-robust incremental control barrier functions (MRICBFs), which leverage sensor-based reduced-order models to provide formal safety guarantees for uncertain systems. By carefully addressing the challenges of sensor accuracy and approximation errors in the incremental formulation, our approach enables substituting specific model components with real-time sensor measurements while maintaining rigorous safety guarantees. This formulation overcomes the limitations of traditional adaptive control methods that adjust system parameters over time, enabling immediate and reliable safety measures for a class of model uncertainties. The efficacy of MRICBFs is demonstrated in two simulation case studies: a simple first-order system with time-varying sensor biases and a more complex overactuated hypersonic glide vehicle with multiple state constraints.",
+      "journal": "2025 American Control Conference (ACC)",
+      "venue": "American Control Conference",
+      "venueLabel": "ACC",
       "subjects": []
     },
     {
@@ -1153,25 +1172,6 @@
       "journal": "2025 European Control Conference (ECC)",
       "venue": "European Control Conference",
       "venueLabel": "ECC",
-      "subjects": []
-    },
-    {
-      "paperId": "26cc7c75e4671283365effa56a3cd8a5e864a6fb",
-      "title": "Sensor-Based Safety-Critical Control Using an Incremental Control Barrier Function Formulation via Reduced-Order Approximate Models",
-      "authors": [
-        "J. Autenrieb",
-        "Hyo-Sang Shin"
-      ],
-      "year": 2024,
-      "date": "2024-10-10",
-      "citations": 4,
-      "arxivId": "2410.08096",
-      "doi": "10.23919/ACC63710.2025.11107913",
-      "url": "https://doi.org/10.23919/ACC63710.2025.11107913",
-      "abstract": "The existing control barrier function literature generally relies on precise mathematical models to guarantee system safety, limiting their applicability in scenarios with parametric uncertainties. While incremental control techniques have shown promise in addressing model uncertainties in flight control applications, translating these approaches to safety-critical control presents significant challenges. This paper bridges this gap by introducing measurement-robust incremental control barrier functions (MRICBFs), which leverage sensor-based reduced-order models to provide formal safety guarantees for uncertain systems. By carefully addressing the challenges of sensor accuracy and approximation errors in the incremental formulation, our approach enables substituting specific model components with real-time sensor measurements while maintaining rigorous safety guarantees. This formulation overcomes the limitations of traditional adaptive control methods that adjust system parameters over time, enabling immediate and reliable safety measures for a class of model uncertainties. The efficacy of MRICBFs is demonstrated in two simulation case studies: a simple first-order system with time-varying sensor biases and a more complex overactuated hypersonic glide vehicle with multiple state constraints.",
-      "journal": "2025 American Control Conference (ACC)",
-      "venue": "American Control Conference",
-      "venueLabel": "ACC",
       "subjects": []
     },
     {
@@ -1261,26 +1261,6 @@
       "subjects": []
     },
     {
-      "paperId": "c6aa56cc511e78b318912527c229e3eda3cb460c",
-      "title": "Pareto Control Barrier Function for Inner Safe Set Maximization Under Input Constraints",
-      "authors": [
-        "Xiao-Yan Cao",
-        "Zhe Fu",
-        "A. Bayen"
-      ],
-      "year": 2024,
-      "date": "2024-10-05",
-      "citations": 1,
-      "arxivId": "2410.04260",
-      "doi": "10.23919/ACC63710.2025.11107990",
-      "url": "https://doi.org/10.23919/ACC63710.2025.11107990",
-      "abstract": "Control Barrier Functions (CBFs) enforce safety in dynamical systems by ensuring trajectories stay within prescribed safe sets. However, traditional CBFs often overlook realistic input constraints, potentially limiting their practical effectiveness. To address this research gap, we introduce the Pareto Control Barrier Function (PCBF) algorithm, which employs a Pareto multi-task learning framework to simultaneously balance the competing objectives of maintaining safety and maximizing the volume of the safe set under input limitations. The PCBF algorithm is computationally efficient and scalable to high-dimensional systems. We demonstrate its effectiveness through comparisons with Hamilton-Jacobi reachability on an inverted pendulum and extensive simulations on a 12-dimensional quadrotor system, where PCBF consistently outperforms existing methods by yielding larger safe sets while ensuring robust safety under input constraints. Codes are available at https://github.com/XiaoyangCao1113/Pareto_CBF.",
-      "journal": "2025 American Control Conference (ACC)",
-      "venue": "American Control Conference",
-      "venueLabel": "ACC",
-      "subjects": []
-    },
-    {
       "paperId": "fc65f8c4491bdbff0f484328d0050286ea9b8f27",
       "title": "An Energy Shaping-Based Control Barrier Function for Constrained Control of Robot Manipulator",
       "authors": [
@@ -1318,6 +1298,26 @@
       "journal": "2024 IEEE 63rd Conference on Decision and Control (CDC)",
       "venue": "IEEE Conference on Decision and Control",
       "venueLabel": "CDC",
+      "subjects": []
+    },
+    {
+      "paperId": "c6aa56cc511e78b318912527c229e3eda3cb460c",
+      "title": "Pareto Control Barrier Function for Inner Safe Set Maximization Under Input Constraints",
+      "authors": [
+        "Xiao-Yan Cao",
+        "Zhe Fu",
+        "A. Bayen"
+      ],
+      "year": 2024,
+      "date": "2024-10-05",
+      "citations": 1,
+      "arxivId": "2410.04260",
+      "doi": "10.23919/ACC63710.2025.11107990",
+      "url": "https://doi.org/10.23919/ACC63710.2025.11107990",
+      "abstract": "Control Barrier Functions (CBFs) enforce safety in dynamical systems by ensuring trajectories stay within prescribed safe sets. However, traditional CBFs often overlook realistic input constraints, potentially limiting their practical effectiveness. To address this research gap, we introduce the Pareto Control Barrier Function (PCBF) algorithm, which employs a Pareto multi-task learning framework to simultaneously balance the competing objectives of maintaining safety and maximizing the volume of the safe set under input limitations. The PCBF algorithm is computationally efficient and scalable to high-dimensional systems. We demonstrate its effectiveness through comparisons with Hamilton-Jacobi reachability on an inverted pendulum and extensive simulations on a 12-dimensional quadrotor system, where PCBF consistently outperforms existing methods by yielding larger safe sets while ensuring robust safety under input constraints. Codes are available at https://github.com/XiaoyangCao1113/Pareto_CBF.",
+      "journal": "2025 American Control Conference (ACC)",
+      "venue": "American Control Conference",
+      "venueLabel": "ACC",
       "subjects": []
     },
     {
@@ -1576,7 +1576,7 @@
       ],
       "year": 2022,
       "date": "2022-04-05",
-      "citations": 80,
+      "citations": 81,
       "arxivId": "2204.01930",
       "doi": "10.1109/TAC.2023.3306492",
       "url": "https://doi.org/10.1109/TAC.2023.3306492",
@@ -2024,7 +2024,7 @@
       ],
       "year": 2016,
       "date": "2016-09-21",
-      "citations": 3082,
+      "citations": 3083,
       "arxivId": "1609.06408",
       "doi": "10.1109/TAC.2016.2638961",
       "url": "https://doi.org/10.1109/TAC.2016.2638961",
@@ -2044,7 +2044,7 @@
       ],
       "year": 2014,
       "date": "2014-12-01",
-      "citations": 1103,
+      "citations": 1104,
       "arxivId": "",
       "doi": "10.1109/CDC.2014.7040372",
       "url": "https://doi.org/10.1109/CDC.2014.7040372",
@@ -2067,7 +2067,7 @@
       ],
       "year": 2016,
       "date": "2016-09-21",
-      "citations": 3077,
+      "citations": 3083,
       "arxivId": "1609.06408",
       "doi": "10.1109/TAC.2016.2638961",
       "url": "https://doi.org/10.1109/TAC.2016.2638961",
@@ -2109,7 +2109,7 @@
       ],
       "year": 2020,
       "date": "2020-04-16",
-      "citations": 246,
+      "citations": 247,
       "arxivId": "2004.07584",
       "doi": "10.15607/rss.2020.xvi.088",
       "url": "https://doi.org/10.15607/rss.2020.xvi.088",
@@ -2501,7 +2501,7 @@
       ],
       "year": 2025,
       "date": "2025-12-01",
-      "citations": 33,
+      "citations": 34,
       "arxivId": "",
       "doi": "10.1109/JIOT.2025.3614857",
       "url": "https://doi.org/10.1109/JIOT.2025.3614857",
@@ -3688,5 +3688,5 @@
       ]
     }
   ],
-  "updated": "2026-10-28T02:11:17.903455+00:00"
+  "updated": "2026-10-28T10:29:35.438487+00:00"
 }
