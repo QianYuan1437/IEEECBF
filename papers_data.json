@@ -87,27 +87,6 @@
       "subjects": []
     },
     {
-      "paperId": "4ec242123526e060e8f0a1e33a71c0032c4692f1",
-      "title": "Distributed Execution of Signal Temporal Logic Tasks in Open Networked Robotic System via Predefined-Time Control",
-      "authors": [
-        "Wen-Tao Zhang",
-        "Ming Chi",
-        "Zhi-Wei Liu",
-        "Jing-Zhe Xu"
-      ],
-      "year": 2026,
-      "date": null,
-      "citations": 0,
-      "arxivId": "",
-      "doi": "10.1109/TASE.2026.3658586",
-      "url": "https://doi.org/10.1109/TASE.2026.3658586",
-      "abstract": "This paper addresses the distributed execution of signal temporal logic (STL) tasks in second-order open networked robotic systems (ONRSs), where robots can dynamically join or leave during task execution. A novel control framework is developed that integrates a predefined-time state estimator, a distributed control barrier function-based optimization strategy, and a task decomposition and reconstruction mechanism. This approach enables each robot to accomplish temporally and logically constrained tasks using only local information from its neighbors, without relying on global communication. Theoretical analysis rigorously establishes predefined-time convergence of the estimator and optimality of the distributed control strategy, even under dynamic team compositions. Simulation and experimental results validate the proposed method’s effectiveness and robustness in executing complex temporal tasks in realistic multi-robot scenarios. Note to Practitioners—This study presents a distributed framework enabling multi-robot systems to reliably execute complex STL tasks despite communication constraints and dynamic team changes. The approach is particularly beneficial for real-world applications like logistics sorting, power grid inspection, and disaster response. Practitioners can directly deploy the developed predefined-time state estimator and distributed control barrier function (CBF)-based optimization algorithm on individual robots, eliminating centralized computations. This ensures real-time, scalable coordination, robust task execution under fluctuating team structures, and maintains task compliance during sudden robot arrivals or departures.",
-      "journal": "IEEE Transactions on Automation Science and Engineering",
-      "venue": "IEEE Transactions on Automation Science and Engineering",
-      "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
       "paperId": "02301ae688ec44bc25cd5660fc9b0736198f1be6",
       "title": "Thrust-constrained, Soft-Landing of Spacecraft in Hazardous Terrains using a combined Sliding Mode-Control Barrier Function based Guidance Strategy",
       "authors": [
@@ -146,6 +125,27 @@
       "journal": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
       "venue": "",
       "venueLabel": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
+      "subjects": []
+    },
+    {
+      "paperId": "4ec242123526e060e8f0a1e33a71c0032c4692f1",
+      "title": "Distributed Execution of Signal Temporal Logic Tasks in Open Networked Robotic System via Predefined-Time Control",
+      "authors": [
+        "Wen-Tao Zhang",
+        "Ming Chi",
+        "Zhi-Wei Liu",
+        "Jing-Zhe Xu"
+      ],
+      "year": 2026,
+      "date": null,
+      "citations": 0,
+      "arxivId": "",
+      "doi": "10.1109/TASE.2026.3658586",
+      "url": "https://doi.org/10.1109/TASE.2026.3658586",
+      "abstract": "This paper addresses the distributed execution of signal temporal logic (STL) tasks in second-order open networked robotic systems (ONRSs), where robots can dynamically join or leave during task execution. A novel control framework is developed that integrates a predefined-time state estimator, a distributed control barrier function-based optimization strategy, and a task decomposition and reconstruction mechanism. This approach enables each robot to accomplish temporally and logically constrained tasks using only local information from its neighbors, without relying on global communication. Theoretical analysis rigorously establishes predefined-time convergence of the estimator and optimality of the distributed control strategy, even under dynamic team compositions. Simulation and experimental results validate the proposed method’s effectiveness and robustness in executing complex temporal tasks in realistic multi-robot scenarios. Note to Practitioners—This study presents a distributed framework enabling multi-robot systems to reliably execute complex STL tasks despite communication constraints and dynamic team changes. The approach is particularly beneficial for real-world applications like logistics sorting, power grid inspection, and disaster response. Practitioners can directly deploy the developed predefined-time state estimator and distributed control barrier function (CBF)-based optimization algorithm on individual robots, eliminating centralized computations. This ensures real-time, scalable coordination, robust task execution under fluctuating team structures, and maintains task compliance during sudden robot arrivals or departures.",
+      "journal": "IEEE Transactions on Automation Science and Engineering",
+      "venue": "IEEE Transactions on Automation Science and Engineering",
+      "venueLabel": "IEEE Trans",
       "subjects": []
     },
     {
@@ -570,6 +570,28 @@
     }
   ],
   "arxiv": [
+    {
+      "paperId": "arxiv:2610.41873v1",
+      "title": "Safe Planning for Black-Box Systems via MAP Inference with Truncated Diffusion Priors and CBF-Informed Gibbs Likelihoods",
+      "authors": [
+        "Shanghan Liu",
+        "Jitao Sun",
+        "Junhui Zhang"
+      ],
+      "year": null,
+      "date": "2026-10-30",
+      "citations": 0,
+      "arxivId": "2610.41873v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.41873v1",
+      "abstract": "This paper proposes a maximum a posteriori (MAP) inference framework with a truncated diffusion prior for safe planning (TDP-SafeMAP). Under a generalized Bayesian formulation, a criterion based on covariance condition number determines the reverse diffusion truncation timestep, and the clean control distribution predicted at that timestep is approximated by a Gaussian prior encoding the control regularities and uncertainty of expert data. An energy function containing a control barrier function (CBF) constraint violation measure defines a Gibbs task likelihood that incorporates physical constraint information. After fusing the prior and likelihood, the covariance matrix adaptation evolution strategy (CMA-ES), whose core update admits an interpretation as a sampling-based approximation to natural-gradient ascent, approximates the posterior mode using only black-box evaluations. Bézier-curve-based dimensionality reduction and related techniques further improve computational efficiency and task-completion capability. Theoretical analysis establishes an error bound for the approximate MAP solution, an explicit condition for CBF safety preservation, and the equivalence of the MAP problem under prior whitening. Experimental results show that the proposed framework consistently generates safe, smooth, and goal-reaching trajectories, providing an effective and practical statistical inference approach to safe planning for black-box systems.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
     {
       "paperId": "arxiv:2610.41214v1",
       "title": "Capability-Conditioned Graph Control Barrier Functions for Zero-Shot Safe Navigation of Heterogeneous Mobile Robot Teams",
@@ -1633,31 +1655,7 @@
       "subjects": [
         "eess.SY"
       ]
-    },
-    {
-      "paperId": "arxiv:2610.05542v1",
-      "title": "Neural Barriers: An Online Certifiable Learning-enhanced Adaptive High Order Safety Critical Control",
-      "authors": [
-        "Lishuo Pan",
-        "Mattia Catellani",
-        "An Cao",
-        "Lorenzo Sabattini",
-        "Nora Ayanian"
-      ],
-      "year": null,
-      "date": "2026-10-04",
-      "citations": 0,
-      "arxivId": "2610.05542v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.05542v1",
-      "abstract": "Control barrier functions are an effective model-based tool to formally certify the safety of a system. However, transferring their theoretical guarantees to real-world robotics systems requires high model fidelity. For example, payloads or wind disturbances can cause significant model perturbations to an aerial vehicle, leading to safety compromises. In this work, we propose a certifiable online learning-enhanced robust adaptive control barrier function, which adapts to disturbances using a Neural ODE and quantifies its adaptation uncertainty with conformal prediction. Our approach guarantees safety at all time under unknown time-varying model disturbances. It adopts a conservative strategy when the adaptation uncertainty is high; and efficiently adapts to reduce controller conservativeness as it receives more data. Our approach provides a provable safety guarantee with a probability bound under suitable Lipschitz smoothness assumptions on the underlying model and trajectory. These results demonstrate the potential of our method as a practical safety controller for robotics system operating under model perturbations.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO"
-      ]
     }
   ],
-  "updated": "2026-11-02T02:19:07.753505+00:00"
+  "updated": "2026-11-02T12:08:20.314138+00:00"
 }
