@@ -87,6 +87,27 @@
       "subjects": []
     },
     {
+      "paperId": "4ec242123526e060e8f0a1e33a71c0032c4692f1",
+      "title": "Distributed Execution of Signal Temporal Logic Tasks in Open Networked Robotic System via Predefined-Time Control",
+      "authors": [
+        "Wen-Tao Zhang",
+        "Ming Chi",
+        "Zhi-Wei Liu",
+        "Jing-Zhe Xu"
+      ],
+      "year": 2026,
+      "date": null,
+      "citations": 0,
+      "arxivId": "",
+      "doi": "10.1109/TASE.2026.3658586",
+      "url": "https://doi.org/10.1109/TASE.2026.3658586",
+      "abstract": "This paper addresses the distributed execution of signal temporal logic (STL) tasks in second-order open networked robotic systems (ONRSs), where robots can dynamically join or leave during task execution. A novel control framework is developed that integrates a predefined-time state estimator, a distributed control barrier function-based optimization strategy, and a task decomposition and reconstruction mechanism. This approach enables each robot to accomplish temporally and logically constrained tasks using only local information from its neighbors, without relying on global communication. Theoretical analysis rigorously establishes predefined-time convergence of the estimator and optimality of the distributed control strategy, even under dynamic team compositions. Simulation and experimental results validate the proposed method’s effectiveness and robustness in executing complex temporal tasks in realistic multi-robot scenarios. Note to Practitioners—This study presents a distributed framework enabling multi-robot systems to reliably execute complex STL tasks despite communication constraints and dynamic team changes. The approach is particularly beneficial for real-world applications like logistics sorting, power grid inspection, and disaster response. Practitioners can directly deploy the developed predefined-time state estimator and distributed control barrier function (CBF)-based optimization algorithm on individual robots, eliminating centralized computations. This ensures real-time, scalable coordination, robust task execution under fluctuating team structures, and maintains task compliance during sudden robot arrivals or departures.",
+      "journal": "IEEE Transactions on Automation Science and Engineering",
+      "venue": "IEEE Transactions on Automation Science and Engineering",
+      "venueLabel": "IEEE Trans",
+      "subjects": []
+    },
+    {
       "paperId": "02301ae688ec44bc25cd5660fc9b0736198f1be6",
       "title": "Thrust-constrained, Soft-Landing of Spacecraft in Hazardous Terrains using a combined Sliding Mode-Control Barrier Function based Guidance Strategy",
       "authors": [
@@ -125,27 +146,6 @@
       "journal": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
       "venue": "",
       "venueLabel": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
-      "subjects": []
-    },
-    {
-      "paperId": "4ec242123526e060e8f0a1e33a71c0032c4692f1",
-      "title": "Distributed Execution of Signal Temporal Logic Tasks in Open Networked Robotic System via Predefined-Time Control",
-      "authors": [
-        "Wen-Tao Zhang",
-        "Ming Chi",
-        "Zhi-Wei Liu",
-        "Jing-Zhe Xu"
-      ],
-      "year": 2026,
-      "date": null,
-      "citations": 0,
-      "arxivId": "",
-      "doi": "10.1109/TASE.2026.3658586",
-      "url": "https://doi.org/10.1109/TASE.2026.3658586",
-      "abstract": "This paper addresses the distributed execution of signal temporal logic (STL) tasks in second-order open networked robotic systems (ONRSs), where robots can dynamically join or leave during task execution. A novel control framework is developed that integrates a predefined-time state estimator, a distributed control barrier function-based optimization strategy, and a task decomposition and reconstruction mechanism. This approach enables each robot to accomplish temporally and logically constrained tasks using only local information from its neighbors, without relying on global communication. Theoretical analysis rigorously establishes predefined-time convergence of the estimator and optimality of the distributed control strategy, even under dynamic team compositions. Simulation and experimental results validate the proposed method’s effectiveness and robustness in executing complex temporal tasks in realistic multi-robot scenarios. Note to Practitioners—This study presents a distributed framework enabling multi-robot systems to reliably execute complex STL tasks despite communication constraints and dynamic team changes. The approach is particularly beneficial for real-world applications like logistics sorting, power grid inspection, and disaster response. Practitioners can directly deploy the developed predefined-time state estimator and distributed control barrier function (CBF)-based optimization algorithm on individual robots, eliminating centralized computations. This ensures real-time, scalable coordination, robust task execution under fluctuating team structures, and maintains task compliance during sudden robot arrivals or departures.",
-      "journal": "IEEE Transactions on Automation Science and Engineering",
-      "venue": "IEEE Transactions on Automation Science and Engineering",
-      "venueLabel": "IEEE Trans",
       "subjects": []
     },
     {
@@ -243,7 +243,7 @@
       ],
       "year": 2023,
       "date": "2023-07-01",
-      "citations": 47,
+      "citations": 48,
       "arxivId": "",
       "doi": "10.1109/JAS.2023.123573",
       "url": "https://doi.org/10.1109/JAS.2023.123573",
@@ -1652,5 +1652,5 @@
       ]
     }
   ],
-  "updated": "2026-11-03T11:46:32.194137+00:00"
+  "updated": "2026-11-03T16:51:30.785674+00:00"
 }
