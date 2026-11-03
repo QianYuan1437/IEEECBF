@@ -571,6 +571,118 @@
   ],
   "arxiv": [
     {
+      "paperId": "arxiv:2611.03346v1",
+      "title": "Algebraic Characterization of Time-Varying Set Invariance",
+      "authors": [
+        "S. B. Alaoui",
+        "E. J. Wafo Wembe",
+        "A. Saoud"
+      ],
+      "year": null,
+      "date": "2026-11-02",
+      "citations": 0,
+      "arxivId": "2611.03346v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.03346v1",
+      "abstract": "The verification of temporal forward invariance for dynamical systems subject to time-varying constraints is a foundational problem in the analysis of safety-critical systems. Existing methodologies rely on restrictive geometric assumptions, such as the Linear Independence Constraint Qualification (LICQ), or suffer from exponential computational complexity when applied to time-varying polytopes. This paper establishes a rigorous, unified, and computationally tractable framework for temporal safety verification. First, utilizing tools from nonsmooth analysis, we prove that a Nagumo-type geometric inclusion evaluated strictly on the boundary of the augmented graph is both necessary and sufficient for temporal forward invariance. Second, we provide an algebraic characterization of this condition requiring only the weaker Abadie Constraint Qualification (ACQ), generalizing standard Control Barrier Function (CBF) boundary conditions to non-smooth, multi-constraint domains. Finally, for the practical class of Linear Time-Invariant (LTI) systems with time-varying polytopic constraints, we deploy Farkas' Lemma to eliminate exponential vertex enumeration. By introducing a Lipschitz-bounded time-discretization scheme, we reduce the infinite-dimensional continuous-time verification problem to a finite, highly tractable set of decoupled Linear Programs (LPs).",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2611.03307v1",
+      "title": "Safe-Ballbot: Tilt-Consistent MPC with Control Barrier Functions for Ballbot Navigation",
+      "authors": [
+        "Duc Cuong Vu",
+        "Tung Lam Nguyen"
+      ],
+      "year": null,
+      "date": "2026-11-02",
+      "citations": 0,
+      "arxivId": "2611.03307v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.03307v1",
+      "abstract": "Ball-balancing robots (ballbots) must lean to accelerate, and the lean is limited by the wheel torques and by safety. Planners that use the full robot model are expensive, while planners that ignore the balance dynamics produce references that cannot be followed. This paper presents a two-layer navigation scheme for a three-omni-wheel ballbot. The upper layer is a model predictive controller on a \\emph{jerk model} of the ball position, with discrete-time control barrier functions for static, moving, rotating and concave obstacles. The lower layer is a hierarchical sliding mode controller with an extended state observer and a robust exponential control barrier function on the tilt (HSMC-ESO-ECBF). The layers are linked by an acceleration bound derived in closed form from the largest steady tilt that the barrier function admits, so that the plan never asks for a lean the tracker refuses. For obstacles whose motion is only predicted, the obstacles are inflated by conformal prediction radii that bound the prediction error with a prescribed probability. In MuJoCo, with omni-wheel roller contacts and torque saturation, the scheme keeps at least $10$\\,cm of clearance, tracks the plan within $2$\\,cm RMS, keeps the tilt below the limit and plans in $9$--$12$\\,ms, $10$--$15$ times faster than a full-model nonlinear MPC that enters the inflated obstacles; with predicted obstacles, the conformal inflation removes the collisions of a constant-velocity predictor in $30$ random crossing scenarios and reduces them in an endless run on a closed path.The source code and video illustrations are available at https://safe-ballbot.github.io",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO",
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2611.02922v1",
+      "title": "An intelligent satellite must do nothing well",
+      "authors": [
+        "Fabrizio Pilone",
+        "Giordana Bucchioni"
+      ],
+      "year": null,
+      "date": "2026-11-02",
+      "citations": 0,
+      "arxivId": "2611.02922v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.02922v1",
+      "abstract": "Autonomous inspection of a resident space object is usually posed as a contest between classical next-best-view planning and reinforcement learning. We argue that the choice of algorithm is the least informative of the design axes. An inspector spacecraft has no rest state: when it stops thrusting, orbital dynamics carry it along a natural trajectory that can be used to observe the target at no fuel cost. On a controlled ladder in which one design axis is varied at a time, fuel efficiency turns out to be set by three things: whether the agent is allowed to drift, whether its state records where drifting has taken it, and whether its planning horizon is long enough for the benefit to appear. Removing any one of them doubles the fuel bill or more. The algorithm still matters, but through what it can represent: a model-based agent whose learned world model ignores fuel spends several times more of it. Finally, no learned policy is safe by construction, and a control barrier function filter beneath the decision layer removed every keep-out-zone violation in two thousand evaluation episodes.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO"
+      ]
+    },
+    {
+      "paperId": "arxiv:2611.02626v1",
+      "title": "Neural Integral Control Barrier Functions for Agile Collision Avoidance",
+      "authors": [
+        "Dasari Raj Vamsi",
+        "Vrushabh Zinage",
+        "Efstathios Bakolas",
+        "Rohan Chandra"
+      ],
+      "year": null,
+      "date": "2026-11-02",
+      "citations": 0,
+      "arxivId": "2611.02626v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.02626v1",
+      "abstract": "Control barrier functions (CBFs) are a standard way to keep a planner inside a safe set, but they assume control affine dynamics, a barrier function given in closed form, and a known nominal controller. Integral control barrier functions (ICBFs) remove the first assumption and absorb input constraints, yet they still assume a given nominal controller and a barrier function. In this work, we present an approach to learn all three from data, using neural ordinary differential equations (ODEs) for the dynamics, imitation for the nominal controller, and supervised regression for the barrier function. The learned dynamics, nominal controller, and the barrier function are used to build the ICBF filter constraint analytically. Furthermore, the barrier is trained on viability rather than geometry, meaning that a state counts as safe only if some emergency maneuver can still avoid the constraint under the actuator limits, a correction that geometric labels miss entirely and that grows with speed. Actuator limits then enter the online program as hard bounds while the learned barrier rows may be relaxed, which keeps the program solvable at every state and the actuator limits exact, and we bound how far the input it returns can drift from the one the true models would give. On agile racing with a 6-D dynamic bicycle, the filter removes all 12 unsafe episodes from 200 held out layouts at an unchanged success rate and above 100 Hz on one CPU core, holds the input constraint on every episode of a benchmark where a jointly trained baseline holds it on 53.38%, and keeps that advantage under large errors in the plant friction.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO",
+        "cs.LG",
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2611.01814v1",
+      "title": "Control Barrier Functions for Safety-Aware Latent-Space Motion Planning",
+      "authors": [
+        "Chandrakiran Ravula",
+        "Siddhanth Ramesh"
+      ],
+      "year": null,
+      "date": "2026-11-01",
+      "citations": 0,
+      "arxivId": "2611.01814v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.01814v1",
+      "abstract": "Latent-space path planning (LSPP) compresses the configuration space of a robotic manipulator into a compact, differentiable manifold learned by a variational autoencoder, enabling fast gradient-based planning without explicit inverse kinematics. Existing LSPP frameworks enforce obstacle avoidance with a binary collision classifier, whose saturated gradients near obstacle boundaries and lack of temporal structure cause the optimizer to stall and provide no forward-invariance guarantee. We replace the classifier with a neural control barrier function (CBF) learned directly in the latent space. The barrier is trained with a three-term objective that combines safe and unsafe sign constraints with a discrete-time decrease condition evaluated on transitions of an obstacle-blind nominal planner, and it is enforced at planning time by a closed-form, first-order correction that projects each goal-directed latent step back onto the CBF constraint. On a 7-DoF Franka Panda manipulator, the CBF planner achieves a 75.6\\% success rate on a fixed-obstacle task, 12.0 percentage points above the best of 35 tuned classifier configurations, and 83.8\\% on a multi-position task. A sweep of the decay rate $α$ characterizes the safety--performance trade-off, with the best operating points in $α\\in [0.10, 0.20]$. In a fully general random-obstacle setting, success drops to 33.0\\%, which we trace to covariate shift between the obstacle-blind training transitions and the states visited by the corrected planner.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO",
+        "cs.AI"
+      ]
+    },
+    {
       "paperId": "arxiv:2611.01266v1",
       "title": "Singular Perturbations for Control Systems Safety",
       "authors": [
@@ -1538,126 +1650,7 @@
         "cs.RO",
         "cs.LG"
       ]
-    },
-    {
-      "paperId": "arxiv:2610.08765v1",
-      "title": "LBA-CBF: Rapidly Adaptive Safety Filters via Parallel Dynamics Inference",
-      "authors": [
-        "Maitham F. AL-Sunni",
-        "Timeea-Andreea Radu",
-        "Hassan Almubarak",
-        "Henry Z. Liao",
-        "Michael Görner",
-        "Francesco Maurelli",
-        "John M. Dolan"
-      ],
-      "year": null,
-      "date": "2026-10-06",
-      "citations": 0,
-      "arxivId": "2610.08765v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.08765v1",
-      "abstract": "Control barrier functions (CBFs) certify commands through an assumed dynamics model, so an abrupt, unmeasured regime change can undermine the certificate exactly when safety matters most. We present Look-Back Adaptive Control Barrier Functions (LBA-CBF), which rank a finite bank of candidate dynamics by recent prediction error over a short look-back window and enforce the high-order CBF condition against every model within a tolerance of the best, spanning best-fit adaptation to full-bank robust filtering. The dynamics may depend nonlinearly on the unknown parameters, and no switching model or continuously parameterized estimator is required. We prove that any feasible filtered input satisfies the true CBF condition whenever a safety-representative candidate is retained. In quadrotor simulation with abrupt wind reversals and an unknown payload, LBA-CBF is safe and reaches the goal from all random initial conditions, matching an oracle, while adaptive and robust baselines achieve 0-88% success. Banks of up to 250,000 models run inside the control loop, and Crazyflie 2.1 and F1TENTH experiments demonstrate adaptation to wind, payload release, and varying tire-road friction. Code, videos, and project details are available at: https://lla-control.github.io",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO",
-        "eess.SY"
-      ]
-    },
-    {
-      "paperId": "arxiv:2610.08441v1",
-      "title": "Safe Multi-Robot Collaborative Transport Using Density Functions",
-      "authors": [
-        "Jagannath Prasad Sahoo",
-        "Sriram S. K. S. Narayanan",
-        "Umesh Vaidya"
-      ],
-      "year": null,
-      "date": "2026-10-06",
-      "citations": 0,
-      "arxivId": "2610.08441v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.08441v1",
-      "abstract": "This paper presents a hierarchical density-based model predictive control framework for safe collaborative manipulation by multiple quadrupedal robots. The framework enables a team of robots to push a shared object to a desired pose using only the initial and goal poses, without requiring a precomputed reference trajectory. A centralized box-level MPC optimizes contact forces while enforcing a control-density constraint for goal convergence and obstacle avoidance. Each robot then solves its own distributed robot-level whole-body MPC, under a stated shared-information assumption, to track its moving contact location while accounting for static obstacles and the time-varying positions of neighboring robots. The approach is evaluated in MuJoCo using whole-body contact dynamics for two and three Unitree Go2 quadrupeds collaboratively pushing rigid objects through narrow passages. Comparisons with matched Control Barrier Function and RRT* based tracking baselines demonstrate the effectiveness of the proposed density-based formulation for push-only, force- and torque-coupled manipulation tasks. Implementation videos are available at https://jaggu2606.github.io/go2-density-mpc-pushing/",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO"
-      ]
-    },
-    {
-      "paperId": "arxiv:2610.08332v1",
-      "title": "SC3BF: Shifted Collision Cone Control Barrier Function for Dynamic Obstacle Avoidance",
-      "authors": [
-        "Amin Kashiri",
-        "Yasin Yazıcıoğlu"
-      ],
-      "year": null,
-      "date": "2026-10-06",
-      "citations": 0,
-      "arxivId": "2610.08332v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.08332v1",
-      "abstract": "The collision cone used by velocity-space control barrier functions is conservative: it rejects every relative velocity aimed into an obstacle, however slow. We propose the \\emph{shifted collision-cone CBF} (SC3BF), which adds a state-dependent \\emph{allowance} to the cone condition, so the robot may approach the obstacle at a rate that grows with distance and with its own speed. SC3BF is enforced by an ordinary quadratic program, and its safe set is forward invariant under bounded inputs without a minimum forward speed or a clearance margin. We prove that a nonzero allowance preserving safety always exists, and derive one in closed form. Against three velocity-space baselines on a kinematic bicycle among up to $100$ moving obstacles, SC3BF reaches the goal more often and modifies the nominal input less than half as much.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO",
-        "cs.MA",
-        "eess.SY"
-      ]
-    },
-    {
-      "paperId": "arxiv:2610.08115v1",
-      "title": "Context-Conditioned Hamilton-Jacobi Reachability for Adaptive Safety Filtering",
-      "authors": [
-        "Ali Fuat Sahin",
-        "Yunus Yazoglu",
-        "John Talbot",
-        "Zeyuan Feng",
-        "James Dallas",
-        "Somil Bansal"
-      ],
-      "year": null,
-      "date": "2026-10-06",
-      "citations": 0,
-      "arxivId": "2610.08115v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.08115v1",
-      "abstract": "Hamilton-Jacobi reachability constructs safety certificates for specified dynamics and safety constraints, tying each certificate to the deployment context for which it is synthesized. We ask whether a single certificate can instead represent a family of context-dependent safety problems and be queried across deployment conditions without re-synthesis. We learn a backward reachable tube for an eight-state vehicle model conditioned on local boundary geometry, friction coefficient, and adversarial disturbance scale. Geometry enters through an ego-frame boundary observation that defines the local containment constraint, while friction and disturbance scale enter as explicit operating-condition variables. This allows the same value function to be queried across friction coefficients from 0.4 to 2.0 and on geometries absent from synthesis. On 11 held-out evaluation geometries, the certificate maintains containment across the full tested friction range, including simultaneous geometry and grip shifts, while remaining within 1.2 percentage points in intervention rate and 0.09 m/s in speed of certificates re-synthesized with knowledge of the test geometry. We then deploy the certificate as a sampled discrete-time control barrier function filter on a full-scale vehicle near the handling limit. Lateral containment holds in every hardware session under both adversarial driving and autonomous racing, with 99th-percentile acceleration magnitude reaching 0.99 g. Across three certificates evaluated under a fixed autonomous racing controller, lap time varies by only 3.1%, demonstrating that a context-conditioned reachability certificate can transfer to deployment geometries absent from synthesis with modest performance cost.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY",
-        "cs.RO"
-      ]
-    },
-    {
-      "paperId": "arxiv:2610.07369v1",
-      "title": "Exact-Safe MPPI: Safety-Aware Sampling with Nonsmooth Control Barrier Functions",
-      "authors": [
-        "Alexander Coker",
-        "Leilei Cui"
-      ],
-      "year": null,
-      "date": "2026-10-05",
-      "citations": 0,
-      "arxivId": "2610.07369v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.07369v1",
-      "abstract": "Model predictive path integral (MPPI) control plans actions by sampling and evaluating trajectories, but standard MPPI does not guarantee safety. Incorporating control barrier function (CBF) filters into each rollout allows the planner to account for safety corrections. However, combining multiple CBFs through a soft-minimum approximation can exclude states that satisfy the original safety constraints, restricting the trajectories available to the planner. This paper proposes Exact-Safe MPPI, which uses the exact minimum of multiple barrier functions and applies a CBF-based quadratic program during both planning and control execution. To handle nondifferentiability where multiple barriers attain the minimum, the filter simultaneously enforces the CBF conditions for all $δ$-active barriers, whose values lie within a prescribed tolerance $δ>0$ of the minimum. Under suitable feasibility and regularity assumptions, we establish forward invariance of the certified safe set without the shrinkage introduced by soft-minimum smoothing. We also characterize the state-dependent approximation gap and explain how multiple barriers with values at or near the minimum increase this shrinkage. Furthermore, we show that increasing the number of MPPI samples cannot recover trajectories excluded by the soft-minimum filter. We demonstrate the effectiveness of the proposed approach in a navigation task requiring passage through a narrow gap between two obstacles. Video demonstrations are available at https://github.com/lc-lab25/Exact-Safe-MPPI .",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY"
-      ]
     }
   ],
-  "updated": "2026-11-03T03:59:20.330590+00:00"
+  "updated": "2026-11-03T11:46:32.194137+00:00"
 }
