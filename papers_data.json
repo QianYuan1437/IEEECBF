@@ -327,7 +327,7 @@
       ],
       "year": 2016,
       "date": "2016-09-21",
-      "citations": 3087,
+      "citations": 3103,
       "arxivId": "1609.06408",
       "doi": "10.1109/TAC.2016.2638961",
       "url": "https://doi.org/10.1109/TAC.2016.2638961",
@@ -350,8 +350,8 @@
       "date": "2020-04-16",
       "citations": 248,
       "arxivId": "2004.07584",
-      "doi": "10.15607/rss.2020.xvi.088",
-      "url": "https://doi.org/10.15607/rss.2020.xvi.088",
+      "doi": "10.48550/arXiv.2004.07584",
+      "url": "https://doi.org/10.48550/arXiv.2004.07584",
       "abstract": "In this paper, the issue of model uncertainty in safety-critical control is addressed with a data-driven approach. For this purpose, we utilize the structure of an input-ouput linearization controller based on a nominal model along with a Control Barrier Function and Control Lyapunov Function based Quadratic Program (CBF-CLF-QP). Specifically, we propose a novel reinforcement learning framework which learns the model uncertainty present in the CBF and CLF constraints, as well as other control-affine dynamic constraints in the quadratic program. The trained policy is combined with the nominal model-based CBF-CLF-QP, resulting in the Reinforcement Learning-based CBF-CLF-QP (RL-CBF-CLF-QP), which addresses the problem of model uncertainty in the safety constraints. The performance of the proposed method is validated by testing it on an underactuated nonlinear bipedal robot walking on randomly spaced stepping stones with one step preview, obtaining stable and safe walking under model uncertainty.",
       "journal": "ArXiv",
       "venue": "Robotics: Science and Systems Conference",
@@ -363,7 +363,7 @@
       "title": "Robust Control Barrier–Value Functions for Safety-Critical Control",
       "authors": [
         "J. Choi",
-        "Donggun Lee",
+        "Dong-Gun Lee",
         "K. Sreenath",
         "C. Tomlin",
         "S. Herbert"
@@ -411,10 +411,10 @@
       ],
       "year": 2021,
       "date": "2021-03-23",
-      "citations": 98,
+      "citations": 99,
       "arxivId": "2103.12375",
-      "doi": "10.23919/ACC50511.2021.9482626",
-      "url": "https://doi.org/10.23919/ACC50511.2021.9482626",
+      "doi": "10.48550/arXiv.2103.12375",
+      "url": "https://doi.org/10.48550/arXiv.2103.12375",
       "abstract": "Safety is one of the fundamental problems in robotics. Recently, a quadratic program based control barrier function (CBF) method has emerged as a way to enforce safety-critical constraints. Together with control Lyapunov function (CLF), it forms a safety-critical control strategy, named CLF-CBF-QP, which can mediate between achieving the control objective and ensuring safety, while being executable in real-time. However, once additional constraints such as input constraints are introduced, the CLF-CBF-QP may encounter infeasibility. In order to address the challenge arises due to the infeasibility, we propose an optimal-decay form for safety-critical control wherein the decay rate of the CBF is optimized point-wise in time so as to guarantee point-wise feasibility when the state lies inside the safe set. The proposed control design is numerically validated using an adaptive cruise control example.",
       "journal": "2021 American Control Conference (ACC)",
       "venue": "American Control Conference",
@@ -560,8 +560,8 @@
       "date": "2022-01-04",
       "citations": 32,
       "arxivId": "2201.01347",
-      "doi": "10.23919/ECC55457.2022.9838179",
-      "url": "https://doi.org/10.23919/ECC55457.2022.9838179",
+      "doi": "10.48550/arXiv.2201.01347",
+      "url": "https://doi.org/10.48550/arXiv.2201.01347",
       "abstract": "Control barrier functions (CBFs) have become a popular tool to enforce safety of a control system. CBFs are commonly utilized in a quadratic program formulation (CBF-QP) as safety-critical constraints. A class $\\mathcal{K}$ function in CBFs usually needs to be tuned manually in order to balance the trade-off between performance and safety for each environment. However, this process is often heuristic and can become intractable for high relative-degree systems. Moreover, it prevents the CBF-QP from generalizing to different envi-ronments in the real world. By embedding the optimization procedure of the exponential control barrier function based quadratic program (ECBF-QP) as a differentiable layer within a deep learning architecture, we propose a differentiable safety-critical control framework that enables generalization to new environments for high relative-degree systems with forward invariance guarantees. Finally, we validate the proposed control design with 2D double and quadruple integrator systems in various environments.",
       "journal": "2022 European Control Conference (ECC)",
       "venue": "European Control Conference",
@@ -570,6 +570,51 @@
     }
   ],
   "arxiv": [
+    {
+      "paperId": "arxiv:2611.01266v1",
+      "title": "Singular Perturbations for Control Systems Safety",
+      "authors": [
+        "Stefano Di Gregorio",
+        "Guido Carnevale",
+        "Giuseppe Notarstefano"
+      ],
+      "year": null,
+      "date": "2026-10-31",
+      "citations": 0,
+      "arxivId": "2611.01266v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.01266v1",
+      "abstract": "Control Barrier Functions (CBFs) offer a powerful theory for enforcing safety in dynamical systems. Yet, applying this framework to complex systems is challenging when subsystems are feedback-interconnected and operate at different timescales. Such structures arise naturally in multiphysics systems and in control architectures where physical plants interact with optimization, estimation, and control algorithms. In many of these settings, safety involves only part of the system, motivating the design of reduced-order certificates. Inspired by singular perturbation theory, we establish sufficient conditions, involving separation between slow and fast dynamics, under which a reduced-order safety certificate can be lifted to the full interconnected system. Specifically, we construct a composite CBF ensuring forward invariance of a lifted subset of the original safe set. We also show that the certified safe set expands monotonically as the tuning parameter accelerating the fast dynamics is reduced. Numerical results validate the approach on two robotic systems: a planar 2-DoF manipulator with motor dynamics and a 6-DoF UR10e manipulator controlled by a suboptimal optimization algorithm.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "math.OC",
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2611.01100v1",
+      "title": "Co-design of Output-Feedback Neural Network Control Barrier Functions and Observers for Stochastic Jump-Diffusion Systems",
+      "authors": [
+        "Vaishnavi Jagabathula",
+        "Ahan Basu",
+        "Pushpak Jagtap"
+      ],
+      "year": null,
+      "date": "2026-10-31",
+      "citations": 0,
+      "arxivId": "2611.01100v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.01100v1",
+      "abstract": "In this paper, we present a framework for designing controllers for partially observed continuous-time stochastic systems. We use the notion of control barrier functions (CBF) and provide an upper bound to the probability of state trajectories violating the system's safety when starting in an initial region. Our framework co-designs a neural network-based controller, an output-feedback observer, and a control barrier function for the given system. Although CBF requires full state information, we formulate CBF conditions over an augmented state space of actual and observer states. We train the neural networks simultaneously by defining appropriate loss functions, and finally demonstrate the effectiveness through two case studies: a linear DC motor and a nonlinear system.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
     {
       "paperId": "arxiv:2610.41873v1",
       "title": "Safe Planning for Black-Box Systems via MAP Inference with Truncated Diffusion Priors and CBF-Informed Gibbs Likelihoods",
@@ -1098,7 +1143,7 @@
       ]
     },
     {
-      "paperId": "arxiv:2610.17916v2",
+      "paperId": "arxiv:2610.17916v3",
       "title": "Safe Unicycle Navigation Among Multiple Obstacles Under Bounded Disturbances: A Learning-Augmented CLF-CBF Approach (Extended Version)",
       "authors": [
         "Shubham Singh",
@@ -1109,9 +1154,9 @@
       "year": null,
       "date": "2026-10-13",
       "citations": 0,
-      "arxivId": "2610.17916v2",
+      "arxivId": "2610.17916v3",
       "doi": "",
-      "url": "https://arxiv.org/abs/2610.17916v2",
+      "url": "https://arxiv.org/abs/2610.17916v3",
       "abstract": "This paper presents a robust control framework for safe navigation of a unicycle robot to a goal among multiple static obstacles under an unknown, time-varying disturbance. The controller solves a single real-time quadratic program (QP) that combines a goal-reaching term with one safety term per obstacle. The goal-reaching term is a cross-track control Lyapunov function built from body-frame tracking errors rather than a bearing angle, which keeps its Lie derivatives bounded everywhere, including the goal. Safety is encoded using robust control barrier functions, one per obstacle, each tightened by a closed-form, state-dependent disturbance bound. When stabilization and safety conflict, a slack variable relaxes only the convergence requirement, so that the safety constraints remain strictly enforced. Whenever the QP is feasible, the robust barrier constraints guarantee forward invariance of every obstacle's safe set under all admissible disturbances. Complementing this safety guarantee, a Lyapunov analysis yields an explicit ultimate bound on the distance to the goal. A learning-augmented variant replaces the fixed objective with a reinforcement-learning reference, which accelerates convergence when multiple constraints are simultaneously active. We further derive the obstacle separation below which the gap between two obstacles becomes too narrow to pass through under the robust constraints. For such gaps, a learned virtual goal for the Lyapunov function steers the robot around the obstacles without compromising safety. Simulations, a Monte Carlo study, and a comparison against a sampled-data robust baseline support the theoretical results.",
       "journal": "",
       "venue": "",
@@ -1612,50 +1657,7 @@
       "subjects": [
         "eess.SY"
       ]
-    },
-    {
-      "paperId": "arxiv:2610.06629v1",
-      "title": "Vector Field Following for Quadrotors via Reduced Attitude Representations with Applications to Safety-Critical Control",
-      "authors": [
-        "Mohammad Mirtaba",
-        "Max H. Cohen"
-      ],
-      "year": null,
-      "date": "2026-10-05",
-      "citations": 0,
-      "arxivId": "2610.06629v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.06629v1",
-      "abstract": "Vector field tracking for quadrotors provides a systematic framework for specifying complex behaviors at the translational level and transferring them to the full vehicle dynamics. Objectives such as safety, for example, can be encoded into a low-dimensional vector field, which is then embedded into the full dynamics through appropriate tracking conditions. The development of such tracking controllers for quadrotors can be facilitated by the fact that their translational dynamics depend only on the thrust direction and are independent of the vehicle's heading. Thus, reduced-attitude representations, leveraging the geometry of the unit sphere, provide a natural framework for vector field tracking on quadrotors. In this work, we propose two vector field tracking controllers for quadrotors using reduced-attitude representations based on dynamic extension and geometric control, respectively. Next, we illustrate how safety can be encoded into the desired vector field using control barrier functions and enforced for the full system. The effectiveness of the proposed approaches is demonstrated via simulations and experimental flight tests.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY"
-      ]
-    },
-    {
-      "paperId": "arxiv:2610.06284v1",
-      "title": "Safe Receding-Horizon Control of Fixed-Wing Aircraft Using Constrained Approximate Dynamic Programming",
-      "authors": [
-        "Felipe Arenas-Uribe",
-        "Ricardo Gutierrez",
-        "Jesse B. Hoagg"
-      ],
-      "year": null,
-      "date": "2026-10-05",
-      "citations": 0,
-      "arxivId": "2610.06284v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.06284v1",
-      "abstract": "We present a receding-horizon optimal control for fixed-wing aircraft subject to state constraints. These constraints include operational constraints such as altitude, geofencing, and obstacle avoidance, as well as bounds on flight-path angle, roll angle, and airspeed. The state constraints are composed into a single soft-minimum control barrier function (CBF). We use this composite CBF in a constrained-approximate dynamic program to obtain a sequence of analytic closed-form control functions that approximately minimize a quadratic finite-horizon integral cost subject to the CBF constraint. The resulting receding-horizon control is non-myopic in the sense that it approximately optimizes the integral cost while satisfying the state constraint at all times along the entire prediction horizon. We demonstrate constraint satisfaction and performance in simulations of a fixed-wing aircraft navigating an obstacle-filled airspace under wind uncertainty. We also compare this receding-horizon control with 2 other methods.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY"
-      ]
     }
   ],
-  "updated": "2026-11-02T19:06:51.297012+00:00"
+  "updated": "2026-11-03T03:59:20.330590+00:00"
 }
