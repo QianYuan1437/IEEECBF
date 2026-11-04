@@ -322,6 +322,54 @@
   ],
   "arxiv": [
     {
+      "paperId": "arxiv:2611.05074v1",
+      "title": "Nested Field-of-View Barriers for Teleoperated Multi-Robot Relay Chains",
+      "authors": [
+        "Arthur Vangasse",
+        "Theo Cruz",
+        "Thales Soares",
+        "André Cid",
+        "Vinícius Gonçalves",
+        "Gustavo Freitas",
+        "Luciano Pimenta"
+      ],
+      "year": null,
+      "date": "2026-11-03",
+      "citations": 0,
+      "arxivId": "2611.05074v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.05074v1",
+      "abstract": "Teleoperation of mobile robots in communication-denied environments requires maintaining a communication link while allowing the operator to maneuver freely. We propose a shared-autonomy framework in which a teleoperated leader is followed by a chain of autonomous robots that relays a line of sight to a fixed base station, a geometric proxy for the link. Connectivity is enforced geometrically through visibility-based Control Barrier Functions (CBFs), with each agent computing its control input locally through a quadratic program. A strict visibility constraint guarantees connectivity, but a follower with no independent motion objective remains stationary, stalling the leader at the boundary of the safe set. Relaxing it preserves mobility at the cost of the guarantee. Our framework resolves this conflict through nested hard-soft visibility constraints: a full field-of-view (FoV) constraint enforced strictly to guarantee connectivity and a contracted FoV constraint imposed on each follower as a relaxed behavioral objective that drives it inward before the connectivity boundary is reached. We prove feasibility of the local quadratic programs and forward invariance of the connected, collision-free set under the resulting distributed controller. The contraction parameter shapes follower behavior without affecting the guarantee, which follows from the strict constraint alone. The framework is evaluated in confined and cluttered environments on two simulated systems: a kinematic integrator and software-in-the-loop Crazyflie quadrotors. Compared with a baseline tuned to reach the goal in comparable time, the framework keeps the links far closer to the connected set and moves the followers less.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO"
+      ]
+    },
+    {
+      "paperId": "arxiv:2611.04957v1",
+      "title": "Safeguarding Multi-Agent Reinforcement Learning for Connected and Automated Vehicles with Recursively Feasible Control Barrier Functions",
+      "authors": [
+        "Jianye Xu",
+        "Yousef Sayed",
+        "Bassam Alrifaee"
+      ],
+      "year": null,
+      "date": "2026-11-03",
+      "citations": 0,
+      "arxivId": "2611.04957v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.04957v1",
+      "abstract": "Multi-Agent Reinforcement Learning (MARL) shows promise in coordinating connected and automated vehicles but offers no safety guarantee. Although Control Barrier Functions (CBFs) can add this guarantee, their optimization problem can become infeasible in practice due to control bounds. Moreover, they often overapproximate vehicle and road geometry, which makes them conservative. This paper proposes the Backup-Horizon CBF (BH-CBF), which evaluates safety along a horizon until all vehicles stop. BH-CBF is recursively feasible under control bounds, and it considers the exact vehicle and road geometry. Based on BH-CBF, we derive a fully decentralized safety filter that only needs a single broadcast of vehicle states and routes per step and stays real-time in dense traffic. We use BH-CBF to safeguard a MARL policy over its life cycle: as a reward during pre-training, as a run-time filter at deployment, and as a filter in the training loop that keeps fine-tuning on unseen maps collision-free. In simulations on real-world maps of a roundabout and an intersection, BH-CBF avoids all collisions of unsafe MARL policies and keeps its safety guarantee at every step. Existing filters either collide, lose the guarantee, or fall back to full braking far more often. In recorded roundabout traffic with 1264 human-driven vehicles over 115 km, our safeguarded policies shorten the median travel time by 14% compared with the human drivers, without any collision.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO"
+      ]
+    },
+    {
       "paperId": "arxiv:2611.03346v1",
       "title": "Algebraic Characterization of Time-Varying Set Invariance",
       "authors": [
@@ -1373,35 +1421,7 @@
         "eess.SY",
         "math.OC"
       ]
-    },
-    {
-      "paperId": "arxiv:2610.08970v1",
-      "title": "HULK: Learning Whole-Body Forceful Loco-Manipulation for Humanoids",
-      "authors": [
-        "An Dang",
-        "Arturo Flores Alvarez",
-        "Yu-Ming Chen",
-        "Conor Mc Gartoll",
-        "Helen Sun",
-        "Aaron Ames",
-        "Nima Fazeli",
-        "Manikantan Nambi"
-      ],
-      "year": null,
-      "date": "2026-10-06",
-      "citations": 0,
-      "arxivId": "2610.08970v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.08970v1",
-      "abstract": "Humanoid loco-manipulation of large, heavy objects demands forceful interaction across the entire body. However, such payloads shift a humanoid's center of mass and impose sustained loads across the upper body, challenging balance and command tracking. We present HULK, a whole-body control framework for forceful loco-manipulation. Using model predictive control (MPC) to guide reinforcement learning with predictions of the loaded dynamics, we train two teachers: one tracks arm motions under wrist forces, and the other locomotes while holding large objects against the body. A capture-point control barrier function augments the wrist-force teacher during training to improve balance under load. We distill both teachers into a single policy. Evaluation spans simulation and the Unitree G1. In simulation, the teacher with the barrier function achieves the lowest forward and lateral velocity tracking errors at 10 kg per arm among evaluated controllers and reduces aggregate divergent component of motion (DCM) excursion magnitude by 35.7% relative to MPC-guided reinforcement learning alone. Our wrist-force teacher withstands torso push disturbances of up to 130 N.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO",
-        "cs.LG"
-      ]
     }
   ],
-  "updated": "2026-11-04T03:03:32.296309+00:00"
+  "updated": "2026-11-04T11:59:42.623995+00:00"
 }
