@@ -719,7 +719,7 @@
       ],
       "year": 2016,
       "date": "2016-09-21",
-      "citations": 3129,
+      "citations": 3133,
       "arxivId": "1609.06408",
       "doi": "10.1109/TAC.2016.2638961",
       "url": "https://doi.org/10.1109/TAC.2016.2638961",
@@ -739,7 +739,7 @@
       ],
       "year": 2014,
       "date": "2014-12-01",
-      "citations": 1112,
+      "citations": 1114,
       "arxivId": "",
       "doi": "10.1109/CDC.2014.7040372",
       "url": "https://doi.org/10.1109/CDC.2014.7040372",
@@ -1357,7 +1357,7 @@
       ],
       "year": 2022,
       "date": "2022-07-01",
-      "citations": 59,
+      "citations": 60,
       "arxivId": "",
       "doi": "10.1109/TITS.2021.3066154",
       "url": "https://doi.org/10.1109/TITS.2021.3066154",
@@ -1888,6 +1888,62 @@
     }
   ],
   "arxiv": [
+    {
+      "paperId": "arxiv:2611.07537v1",
+      "title": "Unified Overview of Safety Certificate Functions: Techniques from Hamilton--Jacobi Reachability and Control Barrier Functions",
+      "authors": [
+        "Hao Wang",
+        "Max Cohen",
+        "Zeyuan Feng",
+        "Donggeon David Oh",
+        "Oswin So",
+        "Songyuan Zhang",
+        "Javier Borquez",
+        "Chuchu Fan",
+        "Jaime Fernández Fisac",
+        "Haimin Hu",
+        "Jason J. Choi",
+        "Somil Bansal"
+      ],
+      "year": null,
+      "date": "2026-11-05",
+      "citations": 0,
+      "arxivId": "2611.07537v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.07537v1",
+      "abstract": "Safety is a central concern in modern autonomous systems. Safety certificates---functions whose existence guarantees that a system meets its safety specification---have long been used as a principled tool for rigorously reasoning about safety. Methods for synthesizing such certificates are scattered across research areas, with little guidance on when to use a particular approach. This tutorial provides a holistic treatment of safety certificate synthesis centered on two widely used families: Hamilton--Jacobi (HJ) reachability analysis and control barrier functions (CBFs). For each family of methods, we first introduce its general formulation, along with classical and learning-based tools for certificate synthesis. Next, we introduce two benchmark problems consisting of vehicle systems of differing complexity to assess the certificate quality of different synthesis methods and their effectiveness in safety-critical control. We use these benchmarks to compare various methods and provide practical guidance for selecting an approach.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO",
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2611.07436v1",
+      "title": "Safe Output-Regulation Flows for Constrained Optimization via Control Barrier Functions",
+      "authors": [
+        "Zihao Ren",
+        "Bingqi Liu",
+        "Lei Wang",
+        "Hongye Su",
+        "Guodong Shi"
+      ],
+      "year": null,
+      "date": "2026-11-05",
+      "citations": 0,
+      "arxivId": "2611.07436v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.07436v1",
+      "abstract": "Control-theoretic approaches to constrained optimization have been widely studied by interpreting optimization algorithms as dynamical systems. This paper formulates constrained optimization as an output-regulation problem with state constraints, where equality-constraint residuals are treated as regulated outputs and inequality constraints as state constraints. Proportional--integral feedback is employed to drive the equality-constraint residuals asymptotically to zero, while a control barrier function (CBF) safety filter is used to ensure inequality safety throughout the optimization process. We establish feasibility of the CBF filtering program throughout the inequality-feasible set and local exponential convergence of the resulting flow. Under stronger global conditions, we further prove convergence from an entire connected component of the inequality-feasible set. Since exact implementation of the flow requires solving a CBF quadratic program at each state, we further develop a flow that approximates the CBF solution through multiplier updates. Moreover, we provide a unified formulation encompassing the two proposed flows and projected primal--dual dynamics. Numerical examples demonstrate convergence, safety, and computational tradeoffs of the proposed flows.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
     {
       "paperId": "arxiv:2611.05524v1",
       "title": "MA-SafeDiffuser: Safe Multi-Agent Planning with Diffusion Probabilistic Models",
@@ -2938,54 +2994,7 @@
         "eess.SY",
         "math.OC"
       ]
-    },
-    {
-      "paperId": "arxiv:2610.10987v1",
-      "title": "Constructive Safety-Critical Control for a Class of Underactuated Systems: A Hierarchical Approach",
-      "authors": [
-        "Massimiliano de Sa",
-        "Aaron D. Ames"
-      ],
-      "year": null,
-      "date": "2026-10-07",
-      "citations": 0,
-      "arxivId": "2610.10987v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.10987v1",
-      "abstract": "Underactuated systems with nontrivial geometry are abundant in practical robotic problems. However, little is known about constructive safety-critical control design in the presence of underactuation. In this work, we provide a constructive framework for synthesizing safe control architectures and control barrier functions for a class of quadrotor-like underactuated systems. By studying the geometry of their underactuation, we characterize when these systems have natural layered architectures useful for safety-critical control design. Using these architectures, we devise a constructive, hierarchical CBF synthesis procedure and provide conditions under which it succeeds.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY",
-        "math.OC"
-      ]
-    },
-    {
-      "paperId": "arxiv:2610.10797v1",
-      "title": "Compute-Constrained Safety Filters with Neuromorphic Event Triggering",
-      "authors": [
-        "Tochukwu E. Ogri",
-        "Opeyemi Owolabi",
-        "Luke Fina",
-        "Christopher Petersen",
-        "Rushikesh Kamalapurkar"
-      ],
-      "year": null,
-      "date": "2026-10-07",
-      "citations": 0,
-      "arxivId": "2610.10797v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.10797v1",
-      "abstract": "Safety filters that rely on control barrier function (CBF) quadratic programs (QPs) are typically analyzed under the assumption that the QP is solved instantaneously, although nonzero computation time can render a computed input unsafe by the time it is applied. This paper develops a dual leaky integrate-and-fire (LIF) event-triggered safety filter for linear systems that accounts for this delay. Two LIF states monitor a shifted CBF residual and the deviation of the held input from the nominal feedback law. A computation is initiated when either LIF state reaches its threshold; the previous input remains applied until the prescribed application time, and any solution returned earlier is stored until then. A closed-form charging profile relates the safety-LIF threshold to residual-growth bounds, ensuring sufficient residual margin over the application delay. Under the stated assumptions, the resulting hybrid system guarantees forward invariance, completeness, and non-Zeno execution, with positive lower bounds on computation-initiation and input-application times. A spacecraft terminal-approach simulation demonstrates safety with fewer optimizer calls than a delay-tightened periodic filter.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY",
-        "math.OC"
-      ]
     }
   ],
-  "updated": "2026-11-05T17:05:59.822752+00:00"
+  "updated": "2026-11-06T03:25:17.299839+00:00"
 }
