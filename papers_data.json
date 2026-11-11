@@ -938,7 +938,7 @@
       ],
       "year": 2023,
       "date": "2023-12-01",
-      "citations": 63,
+      "citations": 64,
       "arxivId": "",
       "doi": "10.1109/TAC.2023.3283697",
       "url": "https://doi.org/10.1109/TAC.2023.3283697",
@@ -3729,6 +3729,51 @@
   ],
   "arxiv": [
     {
+      "paperId": "arxiv:2611.13286v1",
+      "title": "Multiple Control Barrier Functions for Geometric Hybrid Systems: Modeling and Safe Control Synthesis",
+      "authors": [
+        "Piyush P. Jirwankar",
+        "Daniel E. Ochoa",
+        "Carlos A. Montenegro G.",
+        "Ricardo G. Sanfelice"
+      ],
+      "year": null,
+      "date": "2026-11-09",
+      "citations": 0,
+      "arxivId": "2611.13286v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.13286v1",
+      "abstract": "We formulate geometric hybrid dynamical systems with states on intrinsic manifolds and inputs in topological spaces using relaxed C1-control bundles. Within this framework, we establish a barrier certificate that guarantees forward invariance of a closed set for closed-loop systems. We introduce multiple control barrier functions and derive conditions that render their sublevel sets forward invariant. We then construct pointwise optimal safe control laws, establish regularity conditions for measurable selections, and use these laws to design safety filters for geometric hybrid systems on manifolds. A second-order bouncing-pendulum example illustrates the framework and results.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "math.OC"
+      ]
+    },
+    {
+      "paperId": "arxiv:2611.13067v1",
+      "title": "Control Barrier Functions for Counting Tasks in Multi-Agent Systems",
+      "authors": [
+        "Georgios Mitsos",
+        "Sofie Haesaert",
+        "Siyuan Liu"
+      ],
+      "year": null,
+      "date": "2026-11-09",
+      "citations": 0,
+      "arxivId": "2611.13067v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.13067v1",
+      "abstract": "Multi-agent systems increasingly operate in dynamic environments and execute complex tasks that require coordination, posing significant computational challenges. Counting tasks, which require a minimum number of agents to satisfy a given condition, arise naturally in such systems. Examples include surveillance tasks, where at least m drones must continuously monitor a critical area, and emergency-response tasks, where at least m robots must converge to an incident location. The identities of the agents assigned to these tasks may change dynamically depending on their states, input bounds, and individual objectives. In this work, we propose a control barrier function (CBF)-based framework for enforcing counting invariance and counting convergence tasks, without explicitly assigning agents or enumerating all possible subteams. We develop a recursion-based method for constructing differentiable CBFs for counting tasks. The resulting CBF constraints are incorporated into quadratic programs, enabling online controller synthesis. Numerical experiments demonstrate scalability to large multi-agent systems, while a multi-drone emergency-response case study illustrates the satisfaction of counting tasks.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
+    {
       "paperId": "arxiv:2611.12378v1",
       "title": "Safety-Constrained Intelligent Control of a 2-DOF Robotic Manipulator Using Control Barrier Functions",
       "authors": [
@@ -3790,6 +3835,29 @@
       "doi": "",
       "url": "https://arxiv.org/abs/2611.11755v1",
       "abstract": "This paper presents a distributed model predictive control (MPC) architecture for collision-avoiding motion planning of planar robots with double-integrator dynamics. To reduce coordination demands, a time-varying predicted conflict graph selects relevant pairwise interactions. The associated collision-avoidance constraints are convexified once per MPC update using warm-start trajectories, yielding a fixed convex quadratic program (QP). The resulting QP is then decomposed using an edge-consensus formulation of the alternating direction method of multipliers (ADMM), enabling parallel robot-local optimization and independent closed-form projections onto separating half-spaces. Execution is selectively supervised by a centralized high-order control barrier function (HOCBF) QP when the distributed candidate does not satisfy the direct-execution conditions. Evaluated in C++ simulations involving 8, 16, and 32 robots, the proposed architecture achieves collision-free execution and substantially improves computational scalability while maintaining task-level performance comparable to a centralized complete-graph baseline.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO",
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2611.12949v1",
+      "title": "Maze Runner: Autonomous Maze Navigation with Line-Based Localization and Control Barrier Functions",
+      "authors": [
+        "Alvaro J. Gaona",
+        "Lucas Gómez-Velayos",
+        "Peter Pasuy-Quevedo"
+      ],
+      "year": null,
+      "date": "2026-11-06",
+      "citations": 0,
+      "arxivId": "2611.12949v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.12949v1",
+      "abstract": "Maze navigation requires localization from sparse, repetitive geometry, planning through narrow corridors, and control that stays safe when the estimate or the map is wrong. We present Maze Runner, an open autonomy stack in C++ and ROS 2 that addresses these needs end to end on a simulated Husarion ROSbot XL with a 2D LiDAR in Gazebo. Perception extracts wall lines from each scan with RANSAC and total least squares, with per-line uncertainty. The same line front end feeds two estimators: an Extended Kalman Filter (EKF) that localizes against a line map built from the maze mesh, and an EKF SLAM variant that builds the line map online. Planning runs online on an inflated occupancy grid with A* plus line-of-sight shortcutting, or with a forward-only Hybrid A*. A nonlinear Model Predictive Controller (NMPC) tracks the plan while discrete-time Control Barrier Functions (CBFs) on world-frame LiDAR points keep the robot clear of walls and unmapped obstacles. The algorithms live in a ROS-free, unit-tested core library, and the whole stack builds and runs from a single reproducible environment. In simulation, the robot drives a 135 m route through the maze with 1.0 cm localization RMSE against the known map and 24 cm in SLAM mode, the planner returns a path in 6 ms, and the NMPC solves in 11.7 ms on average, never exceeding its 80 ms budget.",
       "journal": "",
       "venue": "",
       "venueLabel": "arXiv",
@@ -4721,94 +4789,7 @@
       "subjects": [
         "eess.SY"
       ]
-    },
-    {
-      "paperId": "arxiv:2610.17337v1",
-      "title": "Filtering for Liveness: Recurrence via Backup Reachability Control Barrier Functions",
-      "authors": [
-        "David E. J. van Wijk",
-        "Pio Ong",
-        "Aaron D. Ames",
-        "Joel W. Burdick"
-      ],
-      "year": null,
-      "date": "2026-10-12",
-      "citations": 0,
-      "arxivId": "2610.17337v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.17337v1",
-      "abstract": "Liveness requires a dynamical system to repeatedly accomplish a desired objective over time. In this work, we consider a particular form of liveness known as recurrence, which requires the closed-loop trajectory to regularly revisit a prescribed set, with no more than a specified amount of time between visits. Inspired by the control barrier function (CBF) safety-filter paradigm, we develop a controller-filtering framework that makes adjustments to a nominal controller only when necessary to guarantee recurrence. Unlike conventional CBF methods, which enforce set forward invariance, our framework allows the trajectory to leave the set while guaranteeing its timely return. To achieve this, our framework combines two components: a backup reachability CBF that preserves the ability to return to the prescribed set within the allowable time, and a timing-based mechanism that invokes a reaching controller only when the nominal behavior would otherwise fail to meet the return-time requirement. The resulting framework guarantees recurrence while preserving the nominal behavior when possible, enabling control objectives that require temporary excursions from the set, such as traversal between disjoint regions. Our method is successfully utilized in a drone racing example with a recurrence constraint on beacon visibility.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY",
-        "cs.RO"
-      ]
-    },
-    {
-      "paperId": "arxiv:2610.17274v1",
-      "title": "Safety-Aware Dimension Selection for Reduced-Order Model Predictive Control",
-      "authors": [
-        "Amirhossein Asadi",
-        "Nitin Sharma"
-      ],
-      "year": null,
-      "date": "2026-10-12",
-      "citations": 0,
-      "arxivId": "2610.17274v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.17274v1",
-      "abstract": "Model reduction can substantially reduce the computational burden of model predictive control (MPC) for high-dimensional systems, but a reduced dimension chosen for performance may be insufficient for safety-critical operation. This paper introduces a safety-aware dimension-selection framework in which the prediction model adapts to the order of the model required to maintain a certified finite-horizon safety condition. Dynamic active subspaces provide a performance-oriented ordering of reduced coordinates, while finite-horizon error bounds robustly enforce discrete-time control barrier function constraints. The controller selects the smallest prediction order for which the resulting safety-critical MPC problem remains feasible. We establish full-order horizon safety, recursive feasibility, and closed-loop invariance of the safe set under the proposed reduced-order formulation. The proposed approach therefore adapts the prediction complexity to safety requirements, avoiding unnecessary high-dimensional prediction during benign operation.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY"
-      ]
-    },
-    {
-      "paperId": "arxiv:2610.16978v1",
-      "title": "Joint-Feasibility Margin Feedback for Bounded-Input Second-Order Control Barrier Functions",
-      "authors": [
-        "Siyuan Yang",
-        "Shaoming He"
-      ],
-      "year": null,
-      "date": "2026-10-12",
-      "citations": 0,
-      "arxivId": "2610.16978v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.16978v1",
-      "abstract": "Multiple second-order control barrier function constraints can exhaust their common control authority under bounded acceleration, even when the current state remains feasible. We define a signed local joint-feasibility margin whose sign exactly identifies whether the current barrier half-spaces intersect the admissible input set. For unit-scaled distance constraints, it has acceleration units and a support-function dual that identifies weighted constraint conflicts. We predict the margin one sample ahead for nine task-directed candidates, selecting either the least-deviating candidate that attains a desired margin or the candidate with the largest predicted margin before solving the same hard HOCBF quadratic program. A controlled one-step case shows that, at the state predicted under the hard-QP command, two constraints remain individually feasible but become jointly infeasible, whereas the margin-feedback controller retains a positive next margin. Separately, across 20 paired initial conditions, the margin-feedback controller retains the hard-QP command in a low-pressure task and acts at positive margin in a critical task before the hard-QP problem becomes infeasible; its trajectories remain feasible at that time and complete the task. Source code is publicly available. https://github.com/xirhxq/cbf/tree/robio2026-preventive-regulation",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO"
-      ]
-    },
-    {
-      "paperId": "arxiv:2610.16718v1",
-      "title": "Safeguarding Intelligent Power Dispatch:A Performance-Equivalent-Model-Based Safety-Critical Control Method for DC Microgrids",
-      "authors": [
-        "Shaoliang Zhou",
-        "Ziqing Zhu"
-      ],
-      "year": null,
-      "date": "2026-10-12",
-      "citations": 0,
-      "arxivId": "2610.16718v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.16718v1",
-      "abstract": "Intelligent power dispatch is enabling fast and self-adaptive decision-making in microgrids, yet its deployment in real-world industry remains limited due to unresolved safety concerns. Existing safety-preserving approaches typically rely on an accurate characterization of the feasible operating region, which is impossible to obtain under uncertain and heterogeneous system dynamics. Moreover, even a dispatch command verified as feasible at a discrete setpoint may become unsafe during its continuous physical execution. To address these challenges, this paper proposes a safety-aware dispatch adjustment framework that uses performance-equivalent modeling of closed-loop systems (PEM-CLS) and embeds high-order control barrier functions and control Lyapunov functions within a quadratic programming formulation (HOCBF-CLF-QP). PEM-CLS captures EMS-required power-regulation dynamics solely from port-level responses, without requiring internal subsystem models, parameters, or controller information. Its modeling error is analytically characterized and explicitly bounded, enabling requirement-oriented dynamic abstraction for safety-critical control. Based on these PEMs, the HOCBF-CLF-QP safety controller coordinates heterogeneous transient power responses and corrects unsafe EMS commands to maintain dynamic safety during command execution. Four deliberately constructed extreme stress-test scenarios are used to expose conflicts between nominal EMS commands and physical safety. Without intervention, the DC-bus voltage violates its safety limit in all four cases, whereas the proposed framework maintains QP feasibility and limits the voltage deviation. The results demonstrate that the proposed framework provides an algorithm-agnostic safety execution layer for intelligent power dispatch without requiring an exact feasible-region model or detailed internal information of lower-level devices.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY"
-      ]
     }
   ],
-  "updated": "2026-11-10T16:48:46.996548+00:00"
+  "updated": "2026-11-11T02:45:02.153900+00:00"
 }
