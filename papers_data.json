@@ -147,29 +147,6 @@
       "subjects": []
     },
     {
-      "paperId": "5d8246cb5a47121643032202d37366fb10b0caf5",
-      "title": "Resilient Formation Containment for Multi-UAV Systems With Hybrid Safety Constraints and Prescribed-Time Recovery",
-      "authors": [
-        "Hua-Guang Shi",
-        "Tong-Qing Li",
-        "Zhuang-Zhuang Ma",
-        "Pan-Pan Zhu",
-        "Yi Zhou",
-        "Lei Shi"
-      ],
-      "year": 2026,
-      "date": "2026-10-01",
-      "citations": 1,
-      "arxivId": "",
-      "doi": "10.1109/TII.2026.3702937",
-      "url": "https://doi.org/10.1109/TII.2026.3702937",
-      "abstract": "Barycentric multiagent formations rely on strict spatial coupling, which inherently contradicts the local spatial decoupling needed for dynamic obstacle avoidance. This creates a fundamental spatiotemporal conflict in complex environments, as essential safety interventions introduce spatial deviations that disrupt the cooperative structure. To address this issue, we propose a hierarchical resilient formation containment framework (Hi-RFC). Instead of treating planning and control as isolated modules, Hi-RFC explicitly links global containment with local safety. A high-level multiagent reinforcement learning planner generates global spatiotemporal trajectories within a reduced-order state space. At the execution layer, a control barrier function (CBF) safety filter is integrated with an event-triggered prescribed-time control (PTC) law. The CBF strictly enforces local safety limits, while the PTC acts as a time-bounded energy compensator. It eliminates the residual repulsive potential energy and spatial errors caused by CBF interventions, mathematically guaranteeing that the distorted formation recovers and resynchronizes within a strictly defined time horizon. Simulations confirm that this architecture successfully resolves the spatiotemporal conflict, avoiding the deadlocks typical of artificial potential fields and the feasibility failures common in pure CBF approaches.",
-      "journal": "IEEE Transactions on Industrial Informatics",
-      "venue": "IEEE Transactions on Industrial Informatics",
-      "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
       "paperId": "c38f5c889f9a6ffe36b8eee34083b5b3c668b4cd",
       "title": "Exact-Time Safety Recovery using Time-Varying Control Barrier Functions with Optimal Barrier Tracking",
       "authors": [
@@ -251,27 +228,6 @@
       "subjects": []
     },
     {
-      "paperId": "4ec242123526e060e8f0a1e33a71c0032c4692f1",
-      "title": "Distributed Execution of Signal Temporal Logic Tasks in Open Networked Robotic System via Predefined-Time Control",
-      "authors": [
-        "Wen-Tao Zhang",
-        "Ming Chi",
-        "Zhi-Wei Liu",
-        "Jing-Zhe Xu"
-      ],
-      "year": 2026,
-      "date": null,
-      "citations": 0,
-      "arxivId": "",
-      "doi": "10.1109/TASE.2026.3658586",
-      "url": "https://doi.org/10.1109/TASE.2026.3658586",
-      "abstract": "This paper addresses the distributed execution of signal temporal logic (STL) tasks in second-order open networked robotic systems (ONRSs), where robots can dynamically join or leave during task execution. A novel control framework is developed that integrates a predefined-time state estimator, a distributed control barrier function-based optimization strategy, and a task decomposition and reconstruction mechanism. This approach enables each robot to accomplish temporally and logically constrained tasks using only local information from its neighbors, without relying on global communication. Theoretical analysis rigorously establishes predefined-time convergence of the estimator and optimality of the distributed control strategy, even under dynamic team compositions. Simulation and experimental results validate the proposed method’s effectiveness and robustness in executing complex temporal tasks in realistic multi-robot scenarios. Note to Practitioners—This study presents a distributed framework enabling multi-robot systems to reliably execute complex STL tasks despite communication constraints and dynamic team changes. The approach is particularly beneficial for real-world applications like logistics sorting, power grid inspection, and disaster response. Practitioners can directly deploy the developed predefined-time state estimator and distributed control barrier function (CBF)-based optimization algorithm on individual robots, eliminating centralized computations. This ensures real-time, scalable coordination, robust task execution under fluctuating team structures, and maintains task compliance during sudden robot arrivals or departures.",
-      "journal": "IEEE Transactions on Automation Science and Engineering",
-      "venue": "IEEE Transactions on Automation Science and Engineering",
-      "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
       "paperId": "02301ae688ec44bc25cd5660fc9b0736198f1be6",
       "title": "Thrust-constrained, Soft-Landing of Spacecraft in Hazardous Terrains using a combined Sliding Mode-Control Barrier Function based Guidance Strategy",
       "authors": [
@@ -310,6 +266,27 @@
       "journal": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
       "venue": "",
       "venueLabel": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
+      "subjects": []
+    },
+    {
+      "paperId": "4ec242123526e060e8f0a1e33a71c0032c4692f1",
+      "title": "Distributed Execution of Signal Temporal Logic Tasks in Open Networked Robotic System via Predefined-Time Control",
+      "authors": [
+        "Wen-Tao Zhang",
+        "Ming Chi",
+        "Zhi-Wei Liu",
+        "Jing-Zhe Xu"
+      ],
+      "year": 2026,
+      "date": null,
+      "citations": 0,
+      "arxivId": "",
+      "doi": "10.1109/TASE.2026.3658586",
+      "url": "https://doi.org/10.1109/TASE.2026.3658586",
+      "abstract": "This paper addresses the distributed execution of signal temporal logic (STL) tasks in second-order open networked robotic systems (ONRSs), where robots can dynamically join or leave during task execution. A novel control framework is developed that integrates a predefined-time state estimator, a distributed control barrier function-based optimization strategy, and a task decomposition and reconstruction mechanism. This approach enables each robot to accomplish temporally and logically constrained tasks using only local information from its neighbors, without relying on global communication. Theoretical analysis rigorously establishes predefined-time convergence of the estimator and optimality of the distributed control strategy, even under dynamic team compositions. Simulation and experimental results validate the proposed method’s effectiveness and robustness in executing complex temporal tasks in realistic multi-robot scenarios. Note to Practitioners—This study presents a distributed framework enabling multi-robot systems to reliably execute complex STL tasks despite communication constraints and dynamic team changes. The approach is particularly beneficial for real-world applications like logistics sorting, power grid inspection, and disaster response. Practitioners can directly deploy the developed predefined-time state estimator and distributed control barrier function (CBF)-based optimization algorithm on individual robots, eliminating centralized computations. This ensures real-time, scalable coordination, robust task execution under fluctuating team structures, and maintains task compliance during sudden robot arrivals or departures.",
+      "journal": "IEEE Transactions on Automation Science and Engineering",
+      "venue": "IEEE Transactions on Automation Science and Engineering",
+      "venueLabel": "IEEE Trans",
       "subjects": []
     },
     {
@@ -1886,7 +1863,7 @@
       ],
       "year": 2025,
       "date": "2025-12-01",
-      "citations": 39,
+      "citations": 40,
       "arxivId": "",
       "doi": "10.1109/JIOT.2025.3614857",
       "url": "https://doi.org/10.1109/JIOT.2025.3614857",
@@ -3324,5 +3301,5 @@
       ]
     }
   ],
-  "updated": "2026-11-13T16:59:20.699573+00:00"
+  "updated": "2026-11-14T03:03:00.716334+00:00"
 }
