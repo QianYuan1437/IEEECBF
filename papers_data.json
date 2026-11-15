@@ -761,7 +761,7 @@
       ],
       "year": 2016,
       "date": "2016-09-21",
-      "citations": 3170,
+      "citations": 3176,
       "arxivId": "1609.06408",
       "doi": "10.1109/TAC.2016.2638961",
       "url": "https://doi.org/10.1109/TAC.2016.2638961",
@@ -800,7 +800,7 @@
       ],
       "year": 2021,
       "date": "2021-08-18",
-      "citations": 668,
+      "citations": 670,
       "arxivId": "",
       "doi": "10.1109/tac.2021.3105491",
       "url": "https://doi.org/10.1109/tac.2021.3105491",
@@ -965,7 +965,7 @@
       ],
       "year": 2023,
       "date": "2023-03-01",
-      "citations": 144,
+      "citations": 145,
       "arxivId": "",
       "doi": "10.1109/JAS.2023.123075",
       "url": "https://doi.org/10.1109/JAS.2023.123075",
@@ -1227,6 +1227,25 @@
       "subjects": []
     },
     {
+      "paperId": "6ff84f296bf045e09bf57c93798705674cf22bcc",
+      "title": "Disturbance Observer-based Robust Control Barrier Functions",
+      "authors": [
+        "Yujie Wang",
+        "Xiangru Xu"
+      ],
+      "year": 2022,
+      "date": "2022-03-24",
+      "citations": 75,
+      "arxivId": "2203.12855",
+      "doi": "10.23919/ACC55779.2023.10156095",
+      "url": "https://doi.org/10.23919/ACC55779.2023.10156095",
+      "abstract": "This work presents a safe control design approach that integrates the disturbance observer (DOB) and the control barrier function (CBF) for systems with external disturbances. Different from existing robust CBF results that consider the \"worst case\" of disturbances, this work utilizes a DOB to estimate and compensate for the disturbances. DOB-CBF-based controllers are constructed with provably safe guarantees by solving convex quadratic programs online, to achieve a better tradeoff between safety and performance. Two types of systems are considered individually depending on the magnitude of the input and disturbance relative degrees. The effectiveness of the proposed methods is illustrated via numerical simulations.",
+      "journal": "2023 American Control Conference (ACC)",
+      "venue": "American Control Conference",
+      "venueLabel": "ACC",
+      "subjects": []
+    },
+    {
       "paperId": "338bbe73857b626180be6c03be511a7ff39c8092",
       "title": "Safe Control Under Input Limits with Neural Control Barrier Functions",
       "authors": [
@@ -1244,25 +1263,6 @@
       "journal": "",
       "venue": "Conference on Robot Learning",
       "venueLabel": "CoRL",
-      "subjects": []
-    },
-    {
-      "paperId": "6ff84f296bf045e09bf57c93798705674cf22bcc",
-      "title": "Disturbance Observer-based Robust Control Barrier Functions",
-      "authors": [
-        "Yujie Wang",
-        "Xiangru Xu"
-      ],
-      "year": 2022,
-      "date": "2022-03-24",
-      "citations": 75,
-      "arxivId": "2203.12855",
-      "doi": "10.23919/ACC55779.2023.10156095",
-      "url": "https://doi.org/10.23919/ACC55779.2023.10156095",
-      "abstract": "This work presents a safe control design approach that integrates the disturbance observer (DOB) and the control barrier function (CBF) for systems with external disturbances. Different from existing robust CBF results that consider the \"worst case\" of disturbances, this work utilizes a DOB to estimate and compensate for the disturbances. DOB-CBF-based controllers are constructed with provably safe guarantees by solving convex quadratic programs online, to achieve a better tradeoff between safety and performance. Two types of systems are considered individually depending on the magnitude of the input and disturbance relative degrees. The effectiveness of the proposed methods is illustrated via numerical simulations.",
-      "journal": "2023 American Control Conference (ACC)",
-      "venue": "American Control Conference",
-      "venueLabel": "ACC",
       "subjects": []
     },
     {
@@ -1334,7 +1334,7 @@
       "authors": [
         "Jun-Jie Fu",
         "Guang-Hui Wen",
-        "Xing-Huo Yu"
+        "X. Yu"
       ],
       "year": 2023,
       "date": "2023-12-01",
@@ -1739,6 +1739,26 @@
       "subjects": []
     },
     {
+      "paperId": "948c5f9c458d9f36d1e45fce462a443bcfaedb6d",
+      "title": "Time-varying Control Barrier Function and Its Application to Environment-Adaptive Human Assist Control",
+      "authors": [
+        "Motoi Igarashi",
+        "Issei Tezuka",
+        "Hisakazu Nakamura"
+      ],
+      "year": 2019,
+      "date": null,
+      "citations": 33,
+      "arxivId": "",
+      "doi": "10.1016/j.ifacol.2019.12.050",
+      "url": "https://doi.org/10.1016/j.ifacol.2019.12.050",
+      "abstract": "Abstract Human assist control for a control system driven by a human operator attracts much attention, and we have proposed a human assist control strategy by using a control barrier function (CBF). However, the method is valid only for time-invariant environments; we cannot apply the method to a moving obstacle avoidance problem of a vehicle. In fact, the time-varying state constraint problem is a difficult problem. In this paper, we consider a time-invariant graph space for a time-varying state space. Then, we propose a time-varying CBF and human assist control based on the time-varying CBF for given time-varying environments. Moreover, we propose environment-adaptive human assist control for unknown environments. Finally, we confirm the effectiveness of the proposed method by computer simulation.",
+      "journal": "IFAC-PapersOnLine",
+      "venue": "IFAC-PapersOnLine",
+      "venueLabel": "IFAC-PapersOnLine",
+      "subjects": []
+    },
+    {
       "paperId": "1b48059a8e0433ce635cba48b38d6ac44cf0af20",
       "title": "Control Barrier Function-Guided Deep Reinforcement Learning for Decision-Making of Autonomous Vehicle at On-Ramp Merging",
       "authors": [
@@ -1757,26 +1777,6 @@
       "journal": "IEEE Transactions on Intelligent Transportation Systems",
       "venue": "IEEE transactions on intelligent transportation systems (Print)",
       "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
-      "paperId": "948c5f9c458d9f36d1e45fce462a443bcfaedb6d",
-      "title": "Time-varying Control Barrier Function and Its Application to Environment-Adaptive Human Assist Control",
-      "authors": [
-        "Motoi Igarashi",
-        "Issei Tezuka",
-        "Hisakazu Nakamura"
-      ],
-      "year": 2019,
-      "date": null,
-      "citations": 32,
-      "arxivId": "",
-      "doi": "10.1016/j.ifacol.2019.12.050",
-      "url": "https://doi.org/10.1016/j.ifacol.2019.12.050",
-      "abstract": "Abstract Human assist control for a control system driven by a human operator attracts much attention, and we have proposed a human assist control strategy by using a control barrier function (CBF). However, the method is valid only for time-invariant environments; we cannot apply the method to a moving obstacle avoidance problem of a vehicle. In fact, the time-varying state constraint problem is a difficult problem. In this paper, we consider a time-invariant graph space for a time-varying state space. Then, we propose a time-varying CBF and human assist control based on the time-varying CBF for given time-varying environments. Moreover, we propose environment-adaptive human assist control for unknown environments. Finally, we confirm the effectiveness of the proposed method by computer simulation.",
-      "journal": "IFAC-PapersOnLine",
-      "venue": "IFAC-PapersOnLine",
-      "venueLabel": "IFAC-PapersOnLine",
       "subjects": []
     },
     {
@@ -2996,5 +2996,5 @@
       ]
     }
   ],
-  "updated": "2026-11-14T15:33:39.943514+00:00"
+  "updated": "2026-11-15T02:35:32.758663+00:00"
 }
