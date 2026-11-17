@@ -529,7 +529,7 @@
       ],
       "year": 2014,
       "date": "2014-12-01",
-      "citations": 1119,
+      "citations": 1120,
       "arxivId": "",
       "doi": "10.1109/CDC.2014.7040372",
       "url": "https://doi.org/10.1109/CDC.2014.7040372",
@@ -548,7 +548,7 @@
       ],
       "year": 2021,
       "date": "2021-08-18",
-      "citations": 670,
+      "citations": 672,
       "arxivId": "",
       "doi": "10.1109/tac.2021.3105491",
       "url": "https://doi.org/10.1109/tac.2021.3105491",
@@ -564,11 +564,11 @@
       "authors": [
         "Jun Zeng",
         "Bi-Ke Zhang",
-        "K. Sreenath"
+        "Koushil Sreenath"
       ],
       "year": 2020,
       "date": "2020-07-22",
-      "citations": 513,
+      "citations": 514,
       "arxivId": "2007.11718",
       "doi": "10.48550/arXiv.2007.11718",
       "url": "https://doi.org/10.48550/arXiv.2007.11718",
@@ -796,7 +796,7 @@
         "Jun Zeng",
         "Bi-Ke Zhang",
         "Zhongyu Li",
-        "K. Sreenath"
+        "Koushil Sreenath"
       ],
       "year": 2021,
       "date": "2021-03-23",
@@ -972,6 +972,26 @@
       "journal": "IEEE Robotics and Automation Letters",
       "venue": "IEEE Robotics and Automation Letters",
       "venueLabel": "RA-L",
+      "subjects": []
+    },
+    {
+      "paperId": "338bbe73857b626180be6c03be511a7ff39c8092",
+      "title": "Safe Control Under Input Limits with Neural Control Barrier Functions",
+      "authors": [
+        "Simin Liu",
+        "Chang-Liu Liu",
+        "J. Dolan"
+      ],
+      "year": 2022,
+      "date": "2022-11-20",
+      "citations": 75,
+      "arxivId": "2211.11056",
+      "doi": "10.48550/arXiv.2211.11056",
+      "url": "https://doi.org/10.48550/arXiv.2211.11056",
+      "abstract": "We propose new methods to synthesize control barrier function (CBF)-based safe controllers that avoid input saturation, which can cause safety violations. In particular, our method is created for high-dimensional, general nonlinear systems, for which such tools are scarce. We leverage techniques from machine learning, like neural networks and deep learning, to simplify this challenging problem in nonlinear control design. The method consists of a learner-critic architecture, in which the critic gives counterexamples of input saturation and the learner optimizes a neural CBF to eliminate those counterexamples. We provide empirical results on a 10D state, 4D input quadcopter-pendulum system. Our learned CBF avoids input saturation and maintains safety over nearly 100% of trials.",
+      "journal": "",
+      "venue": "Conference on Robot Learning",
+      "venueLabel": "CoRL",
       "subjects": []
     },
     {
@@ -1183,7 +1203,7 @@
       "title": "Safe, Task-Consistent Manipulation with Operational Space Control Barrier Functions",
       "authors": [
         "Daniel Morton",
-        "Marco Pavone"
+        "M. Pavone"
       ],
       "year": 2025,
       "date": "2025-03-09",
@@ -1470,9 +1490,9 @@
       "paperId": "948c5f9c458d9f36d1e45fce462a443bcfaedb6d",
       "title": "Time-varying Control Barrier Function and Its Application to Environment-Adaptive Human Assist Control",
       "authors": [
-        "Motoi Igarashi",
+        "M. Igarashi",
         "Issei Tezuka",
-        "Hisakazu Nakamura"
+        "H. Nakamura"
       ],
       "year": 2019,
       "date": null,
@@ -1576,7 +1596,7 @@
       "authors": [
         "Massimiliano de Sa",
         "Prasanth Kotaru",
-        "K. Sreenath"
+        "Koushil Sreenath"
       ],
       "year": 2024,
       "date": "2024-05-13",
@@ -1658,6 +1678,143 @@
     }
   ],
   "arxiv": [
+    {
+      "paperId": "arxiv:2611.20689v1",
+      "title": "Distribution-Free Probabilistic Environmental Control Barrier Functions with Application to Adaptive Cruise Control",
+      "authors": [
+        "Byeongyu Lee",
+        "Kyoungseok Han",
+        "Chung Choo Chung"
+      ],
+      "year": null,
+      "date": "2026-11-16",
+      "citations": 0,
+      "arxivId": "2611.20689v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.20689v1",
+      "abstract": "Safety control under environmental uncertainty is challenging when the uncertainty distribution is unknown and reliable support bounds are unavailable. This paper introduces CPP-ECBF, a distribution-free approach that combines conformal predictive programming with probabilistic environmental control barrier functions. For separable environmental safety functions and i.i.d. uncertainty, CPP-ECBF converts the probabilistic safety condition into a sample-based deterministic control constraint that provides finite-horizon safety with prescribed probability $1-ε$ and calibration confidence $1-\\tildeβ$. For adaptive cruise control, an offline conformal uncertainty bound yields an explicit linear upper bound on the ego-vehicle acceleration, which is enforced by a quadratic-programming safety filter. In 10,000 Monte Carlo trials, 99.97% of trials satisfied the finite-horizon safety criterion, exceeding the prescribed confidence of 85%. Moreover, CPP-ECBF reduced the conservatism of worst-case robust enforcement, increasing the admissible acceleration upper limit by $5.90\\,\\mathrm{m/s^2}$ on average.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2611.20306v1",
+      "title": "Ontology-Compiled Control Barrier Functions for Heterogeneous Robot Teams",
+      "authors": [
+        "Peng Wu",
+        "Seyede Fatemeh Ghoreishi",
+        "Nathan Bastian",
+        "Mohsen Imani",
+        "Tian Lan",
+        "Mahdi Imani"
+      ],
+      "year": null,
+      "date": "2026-11-15",
+      "citations": 0,
+      "arxivId": "2611.20306v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.20306v1",
+      "abstract": "Safety filters for heterogeneous robot teams fail because of missing constraints, overestimated braking capabilities and conflicts between individually satisfiable constraints. We present OntoCBF, which compiles a domain ontology with a class taxonomy, typed relations, safety axioms and a dynamics profile per robot class into a control barrier function filter with one quadratic program per agent. Description-logic entailment supplies the constraints of any team online, including those that follow from chains of relations and from classes defined by what a robot carries, so the existing safety axioms cover new robot classes, payload classes and combinations. We prove that a subclass may reuse the braking capability of its parent whenever it can produce every velocity of the parent, a property separate from subsumption. For box-bounded double integrators this property is also necessary, and every loss of safety then begins with a conflict. Once three robots interact, the safe set of pairwise barriers contains states from which a collision is unavoidable, and such states persist in larger teams under any fixed capability reduction. In a simulated warehouse where humans ignore the robots, a filter written for the design classes violates safety in 89-100 % of the episodes with unseen classes. In all scenarios, including one with 32 robots, OntoCBF violates safety in 20-70 % of the episodes, each time after a conflict, with a median deepest intrusion of 10-17 % of the keep-out distance. A multi-agent PPO policy trained with the filter in the loop lowers the rate of infeasible quadratic programs, nearly all of them conflicts, by 18-41 %.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO",
+        "cs.LG"
+      ]
+    },
+    {
+      "paperId": "arxiv:2611.19469v1",
+      "title": "Representing Differential Inclusions as Monads: A Framework for Compositional Controller Synthesis",
+      "authors": [
+        "Ahmad Ahmad",
+        "Kevin LEahy"
+      ],
+      "year": null,
+      "date": "2026-11-14",
+      "citations": 0,
+      "arxivId": "2611.19469v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.19469v1",
+      "abstract": "Sequential composition of safety-certified controllers for hybrid and non-smooth robotic systems is well studied piecewise. Yet no existing framework reduces this question to a single algebraic condition. We construct a \\emph{trajectory monad} for Filippov-regular differential inclusions. Its Kleisli category treats controllers as morphisms and sequential execution as trajectory concatenation. Control Barrier Function (CBF) certification, a guarantee of forward invariance, corresponds to a sub-monad of this category. Joint safety of composed controllers then follows from one algebraic condition. All controllers must land in a common sub-monad, which is closed under the monad multiplication.\n  The sub-monad condition recasts recasts existing CBF composition practice categorically. It explains why a smooth intersection of multiple barriers supports safe composition, while enforcing barriers phase by phase does not. For the phase-by-phase case, we derive a closed-form Bernoulli model of the failure rate. We validate it over a randomized sweep of 3{,}000 instances. The same sweep shows that the standard baseline degrades under constraint conflict as the barrier count grows. This baseline enforces all barriers simultaneously as constraints in a single quadratic program (QP). We instantiate the framework on a four-mode piecewise-affine system and on a unicycle reduced-order model over heterogeneous terrain.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY",
+        "cs.RO"
+      ]
+    },
+    {
+      "paperId": "arxiv:2611.19466v1",
+      "title": "Successive Convexification in Learned World Models for Safe Offline Planning",
+      "authors": [
+        "Samuel Younger"
+      ],
+      "year": null,
+      "date": "2026-11-14",
+      "citations": 0,
+      "arxivId": "2611.19466v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.19466v1",
+      "abstract": "World models learned from offline data allow an agent to plan without further interaction with the environment, but the sampling-based planners used with them handle safety constraints only by scoring or rejecting sampled action sequences. We instead pose safe planning in the latent space of a learned world model as a successive convex program (SCP), in which a learned discrete-time control barrier function is imposed as a constraint at every step of the horizon. SCP requires smooth dynamics, so we build the networks from smoothed MaxMin activations and spectrally normalised layers, and bound the resulting linearisation error in terms of the Lipschitz bound and the smoothing width. As SCP is a local method, we start it from a sampled plan. On two Safety-Gymnasium navigation tasks with offline data, this planner has fewer violations than MPPI and CEM drawing 128 times as many samples at equal wall-clock time in our main comparison, though not significantly, and earns greater return at longer horizons, and is much safer than SCP without a sampled start. SCP converged more often on Lipschitz-bounded models. Unlike sampling, it also reports at each step whether its plan is a feasible, first-order optimal KKT point of the planning problem in the model, or that no feasible plan was found nearby. Our implementation is publicly available at https://github.com/youngers2006/scwm.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.LG",
+        "cs.RO",
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2611.19190v1",
+      "title": "Distilling Safety Filters for Filter-free Multi-agent RL",
+      "authors": [
+        "Srikar Babu Gadipudi",
+        "Somayeh Sojoudi",
+        "Claire J. Tomlin"
+      ],
+      "year": null,
+      "date": "2026-11-14",
+      "citations": 0,
+      "arxivId": "2611.19190v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.19190v1",
+      "abstract": "Reinforcement learning (RL) can teach robot teams to navigate shared spaces, but trial and error causes collisions that real robots cannot afford. Control barrier function (CBF) safety filters prevent these collisions by correcting unsafe actions, yet in a team the filter becomes a centralized optimization whose number of constraints grows quadratically with the team size. We propose an approach that builds the filter's safety into the RL policy and examine how such a system behaves during filter-free deployment. However, the filter that keeps training safe also hides what the policy must learn: it masks the cost of unsafe actions, which actor-critic methods then overvalue, and it keeps near-collision states out of the training data. Our approach therefore learns only from executed safe actions with implicit Q-learning and distills the filter into the policy at synthetic near-collision states. We prove that filter distillation loss bounds the policy's constraint violation and hence how far agents can cross their safety margin, so errors never accumulate. When distillation states cover deployed states, the loss also bounds the collision probability at every step. Without a filter and acting only on local observations, our policies have no collisions in 1,800 test episodes with multiple agents. A policy trained with three agents transfers zero-shot to teams of twenty at constant per-agent computation and stays collision-free with up to eight agents. We test our policies on Crazyflie quadrotors with up to five flying at the same time.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO"
+      ]
+    },
+    {
+      "paperId": "arxiv:2611.19025v1",
+      "title": "Distance-Certified Safe Control in Unknown Environments via Spatio-Temporal Composition of Gaussian Processes",
+      "authors": [
+        "Davide Zarabini",
+        "Stefano Di Gregorio",
+        "Giuseppe Notarstefano"
+      ],
+      "year": null,
+      "date": "2026-11-13",
+      "citations": 0,
+      "arxivId": "2611.19025v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.19025v1",
+      "abstract": "In this paper, we propose a distance-certified safety control framework for unknown and dynamic environments. The proposed strategy relies on a spatio-temporal composition of Gaussian Process (GP) barriers from environment point clouds. A point-cloud-dependent covariance kernel is constructed to smoothly combine individual GP representations, yielding a continuously differentiable posterior mean and a diagonal observation Gram matrix that avoids dense covariance inversions. We then derive a closed-form calibration of the GP length scale accounting for spatial approximation errors and finite point-cloud coverage, guaranteeing a prescribed minimum distance from the true obstacle boundary. To handle moving obstacles and updated observations, the scan-based barriers are certified over finite validity horizons and smoothly combined into a time-varying Control Barrier Function (CBF). Under problem feasibility conditions, the associated CBF-based safety control guarantees forward invariance of the certified safe set, thereby ensuring the prescribed distance from the obstacles. Unicycle simulations with static and moving obstacles illustrate the effectiveness of the proposed approach.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY",
+        "math.OC"
+      ]
+    },
     {
       "paperId": "arxiv:2611.18390v1",
       "title": "CS-MPC: Contraction-Certified Sampling-Based MPC for Nonlinear Systems Under Uncertainty",
@@ -2604,143 +2761,7 @@
       "subjects": [
         "cs.RO"
       ]
-    },
-    {
-      "paperId": "arxiv:2610.24149v1",
-      "title": "FLASH-CBF-RRT: Fast Lipschitz-Adaptive Safe Horizon CBF Steering for Certified Motion Planning",
-      "authors": [
-        "Mani Amani",
-        "Hesam Mojtahedi",
-        "Reza Akhavian",
-        "Nikolay Atanasov",
-        "Ki Myung Brian Lee"
-      ],
-      "year": null,
-      "date": "2026-10-16",
-      "citations": 0,
-      "arxivId": "2610.24149v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.24149v1",
-      "abstract": "Fast motion planning requires both sample-efficient exploration and computationally efficient local steering. Conventional straight-line steering is inexpensive but wastes samples by rejecting colliding extensions. Quadratic program controllers with control barrier function (CBF) constraints can be used to achieve effective local steering but can increase the planning time due to the expensive sequential evaluations. We develop a method to accelerate CBF steering by computing a time horizon within which CBF-filtered velocity may be applied constantly using closed-form kinematic bounds on collision-clearance. Our method, FLASH-CBF-RRT, significantly reduces the number of evaluations compared to prior CBF-RRT approaches because the planner can take adaptive steering step sizes that are shorter near obstacles and longer in open space. We implement this steering procedure as an extension of RRT-Connect in OMPL. Across 689 MotionBenchMaker problems, FLASH-CBF-RRT matches RRT-Connect's 100% success rate while reducing median planning time by 3.82x, and is 3.88x faster than fixed-step CBF-RRT. Hardware experiments on a 17-DoF mobile manipulator demonstrate 2.2x faster planning and 4.2x fewer evaluations. Videos and results are available at: https://mamani828.github.io/FLASH-CBF-RRT/.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO"
-      ]
-    },
-    {
-      "paperId": "arxiv:2610.23746v1",
-      "title": "Anytime-Valid Certification of Robustness Margins for Safe Control via E-Values",
-      "authors": [
-        "Panagiotis S. Trakas",
-        "Omid Mirzaeedodangeh",
-        "Lars Lindemann"
-      ],
-      "year": null,
-      "date": "2026-10-16",
-      "citations": 0,
-      "arxivId": "2610.23746v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.23746v1",
-      "abstract": "Robust control uses the error between a known model and the true system as a robustness margin. However, this error is usually unknown: conservative estimates restrict feasibility and performance, while underestimates can result in violations of the control property. We estimate this robustness margin from online data using e-values, a statistical tool for hypothesis testing, in the setting of discrete-time control barrier functions (CBFs). Here, we measure the robustness margin as the difference between the observed CBF and the model-based CBF prediction. We then design a robust CBF controller in three steps by: (1) selecting a set of candidate margins, (2) obtaining validity certificates for these candidates via sequential tests based on e-values, and (3) updating the CBF controller with the smallest certified candidate. The deployed tests accumulate evidence against the hypothesis that an exceedance risk, the probability of the robustness margin exceeding the candidate margin, remains at or above a pre-specified failure probability $α$. Our tests are anytime valid and thus enable the use of certified candidates in the CBF controller, guaranteeing that the probability that the exceedance risk of a certified margin exceeds $α$ is at most a user-chosen confidence $δ$. We validate our approach on navigation problems across different environments with visualizations in NVIDIA Isaac Sim.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY"
-      ]
-    },
-    {
-      "paperId": "arxiv:2610.22198v1",
-      "title": "Robust Multi-Agent Pursuit with Preemptive Communication via Reachability-Based Control Barrier Functions",
-      "authors": [
-        "Madison Book",
-        "Justin Bradley"
-      ],
-      "year": null,
-      "date": "2026-10-15",
-      "citations": 0,
-      "arxivId": "2610.22198v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.22198v1",
-      "abstract": "Safe multi-agent coordination typically assumes what real-world, deployed, resource-constrained robots cannot provide: continuous, perfect state sharing. Robust control strategies must be complemented with robust communication strategies to deliver resilient deployments. In this work, we propose a unified control/communication strategy that provides safe control to guarantee inter-agent safety under intermittent communication and demonstrate its effectiveness in a pursuit-evasion scenario. Each agent computes the reachable set of neighboring agents based on the last state information received, then solves for a safe control input based on control barrier functions to ensure agents avoid collision. We prove that inter-agent collision avoidance is guaranteed provided communication staleness remains bounded. As the reachable set inflates between state transmissions, each agent reasons about when to preemptively transmit its state information to neighboring agents based on novel metrics characterizing uncertainty risk and kinematic risk. We implement and simulate a variety of pursuit-evasion scenarios and show that preemptive communication reduces messages by 77.5% compared to periodic and event-triggered baselines with zero collisions.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY",
-        "cs.MA",
-        "cs.RO"
-      ]
-    },
-    {
-      "paperId": "arxiv:2610.22057v1",
-      "title": "CBF-Based Control Allocation for Omnidirectional Tiltrotor Aerial Robots",
-      "authors": [
-        "Seobeom Lee",
-        "Hyondong Oh"
-      ],
-      "year": null,
-      "date": "2026-10-15",
-      "citations": 0,
-      "arxivId": "2610.22057v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.22057v1",
-      "abstract": "Actively tilting aerial robots can generate six-dimensional wrenches, but slow servo response can make a desired wrench infeasible during reconfiguration. This paper develops a control barrier function (CBF) allocator that preserves wrench feasibility under bounded servo-configuration mismatch. An exact equivalent-wrench identity connects the thrust required at nominal and actual configurations. For a nonsingular six-channel allocation map, inverse allocation reduces robust wrench containment to twelve thrust margins tightened by an ellipsoidal reserve. Their complete derivatives yield a six-variable servo-rate quadratic program, followed by differential thrust allocation for tracking. A conditional forward-invariance result establishes actual-configuration feasibility under reserve coverage, feasible initialization, and admissible CBF inputs. A complementary MuJoCo study evaluates a measured-angle implementation against geometric, augmented differential, and normalized differential allocation in circular and cartwheel maneuvers, with and without disturbances. The proposed implementation achieves lower position error in all four recorded scenarios, with an attitude tradeoff in circular tracking. During the disturbed cartwheel, the desired wrench is feasible at all 1751 stored samples of continuous rotation; baseline violation rates range from 60.8% to 100%. These comparisons evaluate sampled feasibility; validation of the nominal-trajectory certificate requires nominal-state and reserve-coverage records.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO"
-      ]
-    },
-    {
-      "paperId": "arxiv:2610.21374v2",
-      "title": "From Optical Flow to Safety: Visual Safety Certification via Scale-Free Relative Motion",
-      "authors": [
-        "Bazeela Banday",
-        "Jishnu Keshavan"
-      ],
-      "year": null,
-      "date": "2026-10-15",
-      "citations": 0,
-      "arxivId": "2610.21374v2",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.21374v2",
-      "abstract": "Safe autonomous navigation using monocular vision remains challenging because explicit obstacle states are not directly observable. This letter introduces a visual safety-certification paradigm that uses scale-free, depth-normalized relative motion encoded by monocular optical flow as the representation for collision-risk certification, without reconstructing obstacle position, velocity, geometry, or a metric world model. Unlike conventional optical-flow-based navigation approaches that rely on image motion to shape avoidance behavior, the proposed framework directly encodes collision-cone geometry and safety constraints in this relative-motion representation. An online Concurrent Learning observer estimates the normalized relative velocity and provides a computable estimation-error bound. This uncertainty is propagated into the collision cone through angular inflation and a monocular robot-footprint margin, yielding a Robust Vision-Based Collision Cone Control Barrier Function (RV-C$^3$BF). An optimal-decay CBF quadratic program minimally modifies the nominal control input to enforce the resulting robust safety constraint under the stated assumptions. Extensive simulation and real-world experiments on a TurtleBot3 in cluttered environments with static and dynamic obstacles demonstrate collision avoidance using only monocular vision and onboard proprioception, with the estimation-error bound containing the measured error in $98.3\\%$ of simulation samples and the robot achieving collision-free navigation in $93$ of $100$ real-world trials.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "cs.RO",
-        "eess.SY"
-      ]
-    },
-    {
-      "paperId": "arxiv:2610.21221v1",
-      "title": "Regions of Attraction of CBF-Based Safety Filters for Stable Planar Linear Systems",
-      "authors": [
-        "Adam K. Kiss",
-        "Pol Mestres",
-        "Andras Bartfai",
-        "Shima Sadat Mousavi",
-        "Aaron D. Ames"
-      ],
-      "year": null,
-      "date": "2026-10-15",
-      "citations": 0,
-      "arxivId": "2610.21221v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.21221v1",
-      "abstract": "In this paper we study the dynamical properties induced by safety filters based on control barrier functions (CBFs). These are obtained by minimally modifying a nominal controller with the goal of rendering it safe. We consider the simple setting of a planar linear plant with a stable linear nominal controller and an affine constraint. We show that even in this simple setting, the filtered system can oscillate or diverge while remaining safe. We fully characterize the parameters for which the origin is globally (exponentially or asymptotically) stable. For all other parameters, the filter creates a saddle on the constraint boundary, and we characterize the region of attraction of the origin. For underdamped nominal dynamics, its boundary is an unstable periodic orbit, a homoclinic loop, or the saddle's stable manifold, depending on whether the CBF gain is below, at, or above a homoclinic transition value. A vehicle sideslip example and two three-dimensional examples illustrate the results and what changes beyond planar dynamics.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY"
-      ]
     }
   ],
-  "updated": "2026-11-16T19:13:33.526711+00:00"
+  "updated": "2026-11-17T05:06:52.405759+00:00"
 }
