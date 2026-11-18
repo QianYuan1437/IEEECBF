@@ -733,6 +733,74 @@
   ],
   "arxiv": [
     {
+      "paperId": "arxiv:2611.22954v1",
+      "title": "Sim2CBF: From Forward Simulations to Implicit Control Barrier Function Safety Filtering without Model Derivatives",
+      "authors": [
+        "Luzia Knoedler",
+        "Yihan Liu",
+        "Shaohang Han",
+        "Yifei Dong",
+        "Jana Tumova"
+      ],
+      "year": null,
+      "date": "2026-11-17",
+      "citations": 0,
+      "arxivId": "2611.22954v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.22954v1",
+      "abstract": "Failure avoidance in complex robot-environment interactions is challenging because the underlying dynamics are difficult to model accurately, and available predictive models may not provide reliable derivatives. We present Sim2CBF, a failure-avoidance framework that solves the Control Barrier Function (CBF)-Safety Filter (SF) optimization problem using only forward-model evaluations, thereby avoiding differentiation of the predictive model. Specifically, we approximate the CBF constraint using finite differences and local linear interpolation over sampled control inputs while preserving failure-avoidance guarantees. The underlying CBF is implicit and constructed from backup-policy rollouts, enabling the use of expressive predictive models such as physics-based simulators and learned world models. Compared with purely sampling-based SFs, our formulation requires fewer control samples and yields less conservative behavior than direct nominal-backup blending. We evaluate Sim2CBF in simulation, hardware box-toppling, and vision-based control tasks, demonstrating its applicability to contact-rich and learned dynamics, as well as its adaptability to changes in the predictive model.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO",
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2611.22927v1",
+      "title": "Sideslip-Conditioned Drift Trajectory Planning with Flow Matching and Control Barrier Functions",
+      "authors": [
+        "Seokjun Lee",
+        "Seung-Hyun Kong"
+      ],
+      "year": null,
+      "date": "2026-11-17",
+      "citations": 0,
+      "arxivId": "2611.22927v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.22927v1",
+      "abstract": "Drifting, the deliberate control of a vehicle at large sideslip angles, is relevant to both motorsport and recovery from unexpected oversteer. Existing autonomous drifting methods typically determine drift intensity through predefined reference trajectories, optimization objectives, or learned policy rewards, rather than accepting a desired sideslip angle as an explicit input. We propose, to the best of our knowledge, the first generative drift trajectory planner explicitly conditioned on a requested peak sideslip angle. A conditional flow matching model is trained on demonstrated drift laps with hindsight-derived sideslip labels and refined through reinforcement fine-tuning. A control barrier function (CBF) correction is then applied to satisfy model-based road, tire friction, and actuator constraints at the planning waypoints. In closed-loop experiments in the racing simulator Assetto Corsa, a nonlinear model predictive controller tracks the generated plans for six requested sideslip angles from 20 deg to 45 deg, with 30 laps (approximately 75 km) per request. The median peak sideslip angle measured across drift-corner passes follows the requested angle, with a mean absolute error of 1.2 deg across the six conditions. Ablation experiments show that reinforcement fine-tuning improves conditioning accuracy, while CBF correction substantially reduces off-road and spin events.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "cs.RO"
+      ]
+    },
+    {
+      "paperId": "arxiv:2611.21987v1",
+      "title": "Safe Reinforcement Learning with Hard Constraints: Policy Gradient Methods with Intersample Guarantees",
+      "authors": [
+        "Vipul K. Sharma",
+        "S. Sivaranjani"
+      ],
+      "year": null,
+      "date": "2026-11-16",
+      "citations": 0,
+      "arxivId": "2611.21987v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.21987v1",
+      "abstract": "We develop a policy-gradient (PG) reinforcement learning (RL) framework with hard inter-sample control barrier function (CBF)-based safety constraints for nonlinear sampled-data systems. We first design a class of stochastic policies with support truncated to sampling-period-dependent safe control sets, that guarantee safety-by-construction at sampling instants. We then propose a model-free PG algorithm that searches over the class of safe-by-design policies and establish sufficient conditions on sampling-period such that any action sampled from safe control sets remains safe throughout the sampling interval, providing inter-sample guarantees. We further establish finite-time convergence and sample complexity guarantees for the proposed PG algorithm and characterize its global optimality under gradient dominance. Finally, we illustrate inter-sample safety guarantees on a safe quadrotor navigation environment.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY",
+        "math.OC"
+      ]
+    },
+    {
       "paperId": "arxiv:2611.21309v1",
       "title": "Safe Physical Interaction of All-Electric Heavy-Duty Robotic Manipulators via Control Barrier Functions and Variable Impedance Control",
       "authors": [
@@ -1750,74 +1818,7 @@
       "subjects": [
         "cs.RO"
       ]
-    },
-    {
-      "paperId": "arxiv:2610.31525v1",
-      "title": "History-Aware Control Barrier Functionals with Nonsingular Fading-Memory Kernels",
-      "authors": [
-        "Ege C. Altunkaya",
-        "Esra Demir",
-        "Murad Abu-Khalaf",
-        "İbrahim Özkol"
-      ],
-      "year": null,
-      "date": "2026-10-22",
-      "citations": 0,
-      "arxivId": "2610.31525v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.31525v1",
-      "abstract": "Safety-critical protection often depends not only on the state and physical limits of the system, but on how that state evolved over time. Here, the safety margin measures the remaining allowance before a physical limit is reached. In this context, the objective is to enforce both physical safety and history-dependent retention of this margin for integer-order control-affine systems. To this end, changes in this margin are converted into memory through fading-memory kernels with finite nonnegative weights. A history-aware control barrier functional (HA-CBFal) is constructed explicitly, with nonnegativity equivalent to retaining a prescribed fraction of this margin's weighted historical value. This condition is enforced by an affine input constraint and proved to imply physical safety under stated kernel, initialization, and feasibility conditions, without finite-dimensional memory realization. In 36 calibration cases on the ADMIRE flight-control benchmark, mean per-case tracking-RMSE reductions of 27.2\\% and 7.0\\% are obtained relative to calibrated state-only CBF and moving-average control barrier functional (MA-CBFal), respectively, with both constraints preserved to numerical tolerance. In a shorter-recovery maneuver outside calibration with frozen gains, both constraints are preserved to tolerance by HA-CBFal and state-only CBF, but the retention requirement is violated despite MA-CBFal nonnegativity.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY"
-      ]
-    },
-    {
-      "paperId": "arxiv:2610.30545v1",
-      "title": "Using Finite-Time Control to Synthesize Dynamic Backup Control Barrier Functions",
-      "authors": [
-        "Victor Turpin-Aguayo",
-        "Victor Freire",
-        "Marco M. Nicotra"
-      ],
-      "year": null,
-      "date": "2026-10-22",
-      "citations": 0,
-      "arxivId": "2610.30545v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.30545v1",
-      "abstract": "This paper presents a novel approach for the construction of control barrier functions (CBFs) for controllable linear systems subject to multiple state and input constraints. The approach is based on the Dynamic Backup CBF (DB-CBF) framework, where the control policy is parametrized using the equilibrium subspace of the system. By using a minimum-energy finite-time controller, we show that the terminal set constraint trivially reduces to having an admissible equilibrium point. The proposed DB-CBF is easy to tune (one parameter), fully takes advantage of the input range (by minimizing the control effort), and guarantees constraint enforcement (by tracking a backup equilibrium point that can be reached safely in finite time).",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY"
-      ]
-    },
-    {
-      "paperId": "arxiv:2610.29149v1",
-      "title": "SAFTER: Safety-Aware Filtering Through Explicit Recoverability for Robust Reinforcement Learning under Distribution Shift",
-      "authors": [
-        "Benedictus C. G. Cinun",
-        "Bin Hu"
-      ],
-      "year": null,
-      "date": "2026-10-21",
-      "citations": 0,
-      "arxivId": "2610.29149v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.29149v1",
-      "abstract": "Learning safe policies that generalize to unseen environments is difficult under bounded actuation, where an unsafe decision may become unrecoverable. Conventional control barrier function (CBF) filters enforce only instantaneous safety and ignore future recoverability. We propose SAFTER (Safety-Aware Filtering Through Explicit Recoverability), which embeds a differentiable, closed-form backup-CBF filter into Soft Actor-Critic training. SAFTER unifies current safety, finite-horizon backup safety, terminal recoverability, and input admissibility into a single differentiable certificate. Its CBF condition yields an exact minimum-intervention projection without iterative online optimization. In quadruped navigation, SAFTER reaches 90% training success with 30.6% fewer transitions than Vanilla SAC and 34.1-35.1% fewer than current-state CBF-filtered SAC baselines. Across unseen simulated environments, SAFTER improves success by up to 42.4 and 61.4 percentage points over the state-of-the-art methods CBF-RL and SEA-Nav, respectively, and achieves 73.3% and 76.7% success on two real-world navigation maps. Ablations identify accurate differentiation through the safety filter as a key contributor to robustness, in which replacing the projection Jacobian with the identity approximation reduces success rate in a High-Shift environment from 61.4% to 6.2%. These results show that recoverability-aware filtering serves as both a runtime safety mechanism and a learning mechanism for sample-efficient, robust policies.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY",
-        "cs.LG"
-      ]
     }
   ],
-  "updated": "2026-11-17T18:07:31.492634+00:00"
+  "updated": "2026-11-18T04:11:39.114361+00:00"
 }
