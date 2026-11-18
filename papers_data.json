@@ -6,7 +6,7 @@
       "authors": [
         "D. Gadginmath",
         "Ahmed Allibhoy",
-        "Fabio Pasqualetti"
+        "F. Pasqualetti"
       ],
       "year": 2026,
       "date": "2026-03-17",
@@ -45,7 +45,7 @@
       "authors": [
         "Anni Li",
         "Ying-Qing Chen",
-        "Christos G. Cassandras",
+        "C. Cassandras",
         "Wei Xiao"
       ],
       "year": 2026,
@@ -58,50 +58,6 @@
       "journal": "ArXiv",
       "venue": "arXiv.org",
       "venueLabel": "arXiv.org",
-      "subjects": []
-    },
-    {
-      "paperId": "c38f5c889f9a6ffe36b8eee34083b5b3c668b4cd",
-      "title": "Exact-Time Safety Recovery using Time-Varying Control Barrier Functions with Optimal Barrier Tracking",
-      "authors": [
-        "Ying-Qing Chen",
-        "Christos G. Cassandras",
-        "Wei Xiao",
-        "Anni Li"
-      ],
-      "year": 2026,
-      "date": "2026-03-19",
-      "citations": 1,
-      "arxivId": "2603.19119",
-      "doi": "10.48550/arXiv.2603.19119",
-      "url": "https://doi.org/10.48550/arXiv.2603.19119",
-      "abstract": "This paper is motivated by controllers developed for autonomous vehicles which occasionally result into conditions where safety is no longer guaranteed. We develop an exact-time safety recovery framework for any control-affine nonlinear system when its state is outside a safe region using time-varying Control Barrier Functions (CBFs) with optimal barrier tracking. Unlike conventional formulations that provide only conservative upper bounds on recovery time convergence, the proposed approach guarantees recovery to the safe set at a prescribed time. The key mechanism is an active barrier tracking condition that forces the barrier function to follow exactly a designer-specified recovery trajectory. This transforms safety recovery into a trajectory design problem. The recovery trajectory is parameterized and optimized to achieve optimal performance while preserving feasibility under input constraints, avoiding the aggressive corrective actions typically induced by conventional finite-time formulations. The safety recovery framework is applied to the roundabout traffic coordination problem for Connected and Automated Vehicles (CAVs), where any initially violated safe merging constraint is replaced by an exact-time recovery barrier constraint to ensure safety guarantee restoration before CAV conflict points are reached. Simulation results demonstrate improved feasibility and performance.",
-      "journal": "ArXiv",
-      "venue": "arXiv.org",
-      "venueLabel": "arXiv.org",
-      "subjects": []
-    },
-    {
-      "paperId": "5d8246cb5a47121643032202d37366fb10b0caf5",
-      "title": "Resilient Formation Containment for Multi-UAV Systems With Hybrid Safety Constraints and Prescribed-Time Recovery",
-      "authors": [
-        "Hua-Guang Shi",
-        "Tong-Qing Li",
-        "Zhuang-Zhuang Ma",
-        "Pan-Pan Zhu",
-        "Yi Zhou",
-        "Lei Shi"
-      ],
-      "year": 2026,
-      "date": "2026-10-01",
-      "citations": 1,
-      "arxivId": "",
-      "doi": "10.1109/TII.2026.3702937",
-      "url": "https://doi.org/10.1109/TII.2026.3702937",
-      "abstract": "Barycentric multiagent formations rely on strict spatial coupling, which inherently contradicts the local spatial decoupling needed for dynamic obstacle avoidance. This creates a fundamental spatiotemporal conflict in complex environments, as essential safety interventions introduce spatial deviations that disrupt the cooperative structure. To address this issue, we propose a hierarchical resilient formation containment framework (Hi-RFC). Instead of treating planning and control as isolated modules, Hi-RFC explicitly links global containment with local safety. A high-level multiagent reinforcement learning planner generates global spatiotemporal trajectories within a reduced-order state space. At the execution layer, a control barrier function (CBF) safety filter is integrated with an event-triggered prescribed-time control (PTC) law. The CBF strictly enforces local safety limits, while the PTC acts as a time-bounded energy compensator. It eliminates the residual repulsive potential energy and spatial errors caused by CBF interventions, mathematically guaranteeing that the distorted formation recovers and resynchronizes within a strictly defined time horizon. Simulations confirm that this architecture successfully resolves the spatiotemporal conflict, avoiding the deadlocks typical of artificial potential fields and the feasibility failures common in pure CBF approaches.",
-      "journal": "IEEE Transactions on Industrial Informatics",
-      "venue": "IEEE Transactions on Industrial Informatics",
-      "venueLabel": "IEEE Trans",
       "subjects": []
     },
     {
@@ -131,7 +87,7 @@
       "authors": [
         "Biao Ma",
         "Mou Chen",
-        "Mihai Lungu"
+        "M. Lungu"
       ],
       "year": 2026,
       "date": null,
@@ -142,25 +98,6 @@
       "abstract": "This paper develops a robust safety tracking control framework for unmanned aerial helicopter (UAH) systems subject to output constraints, input saturation, and external disturbances. To achieve this objective, a prescribed-time disturbance observer (PTDO) is first designed to estimate and compensate for unknown disturbances within a designer-specified time. Then, dynamic high-order control barrier functions (DHOCBFs) are constructed using positive system theory, where time-varying parameters are introduced to enhance feasibility under multiple safety constraints and input saturation. Building on the DHOCBF mechanism, auxiliary positive systems are employed to generate self-adjustable prescribed-performance bounds, allowing the performance envelope to expand adaptively when safety, performance, and input constraints conflict. The resulting optimization-based controller integrates robust DHOCBF constraints, prescribed-performance constraints, input bounds, and a relaxed control Lyapunov function condition to ensure safe and practical tracking. Numerical simulations on a UAH model validate the effectiveness of the proposed method. Note to Practitioners—This paper is motivated by safety-critical UAH operations in low-altitude inspection, infrastructure monitoring, and emergency response, where the aircraft is required to track a desired trajectory while output and input constraints are satisfied under disturbances. To meet these requirements, a robust safety tracking framework is developed by integrating the PTDO, DHOCBF, and self-adjustable prescribed performance. Unknown disturbances are estimated and compensated within a designer-specified time by the PTDO, thereby improving robustness against wind-like disturbances. Multiple output and input constraints are incorporated by the DHOCBF into a unified quadratic program, and online feasibility is enhanced under actuator saturation. Self-adjustable performance bounds are further generated by auxiliary positive systems, so that the performance envelope is allowed to relax according to operating conditions rather than being fixed conservatively in advance. The resulting controller can be implemented as an optimization-based safety filter for UAH and can be extended to related safety-critical aerial platforms.",
       "journal": "IEEE Transactions on Automation Science and Engineering",
       "venue": "IEEE Transactions on Automation Science and Engineering",
-      "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
-      "paperId": "44225db42be2d017da0d530506b5b68b9b09f535",
-      "title": "Multiple Autonomous Underwater Vehicles Practical Prescribed-Time Formation Tracking Control With Collision-Free Constraints",
-      "authors": [
-        "Xiao-Hui Liu",
-        "Guang-Hong Yang"
-      ],
-      "year": 2026,
-      "date": "2026-10-01",
-      "citations": 0,
-      "arxivId": "",
-      "doi": "10.1109/TVT.2026.3709785",
-      "url": "https://doi.org/10.1109/TVT.2026.3709785",
-      "abstract": "This paper studies the practical prescribed-time collision-free formation tracking (PPT-CFT) control problem for multi-AUV (autonomous underwater vehicle) systems. A dual-layer collision avoidance framework is proposed. Specifically, a distributed state observer with a collision avoidance mechanism is designed first to generate collision-free command signals. Then, based on a zeroing control barrier function (ZCBF), a controller is designed to achieve PPT-CFT control. Compared with the existing works, the proposed method offers a simpler structure but provides stronger safety guarantees. Finally, simulation results are provided to illustrate the effectiveness of the developed approach. This study lays the foundation for future extensions to systems with model uncertainties.",
-      "journal": "IEEE Transactions on Vehicular Technology",
-      "venue": "IEEE Transactions on Vehicular Technology",
       "venueLabel": "IEEE Trans",
       "subjects": []
     },
@@ -236,12 +173,12 @@
         "Pio Ong",
         "Li-Zhi Yang",
         "Ersin Daş",
-        "Joel W. Burdick",
+        "J. Burdick",
         "A. Ames"
       ],
       "year": 2025,
       "date": "2025-12-10",
-      "citations": 12,
+      "citations": 13,
       "arxivId": "2512.10118",
       "doi": "10.48550/arXiv.2512.10118",
       "url": "https://doi.org/10.48550/arXiv.2512.10118",
@@ -300,7 +237,7 @@
         "Andrea Botta",
         "Luigi Tagliavini",
         "Carmen Visconte",
-        "Giuseppe Quaglia"
+        "G. Quaglia"
       ],
       "year": 2025,
       "date": "2025-03-01",
@@ -420,7 +357,7 @@
         "Ryo Namerikawa",
         "A. Wiltz",
         "Farhad Mehdifar",
-        "Toru Namerikawa",
+        "T. Namerikawa",
         "Dimos V. Dimarogonas"
       ],
       "year": 2024,
@@ -454,27 +391,6 @@
       "journal": "IEEE/CAA Journal of Automatica Sinica",
       "venue": "IEEE/CAA Journal of Automatica Sinica",
       "venueLabel": "Automatica",
-      "subjects": []
-    },
-    {
-      "paperId": "b8d3fe3f0f3fc01d524192ea4d0ebf5516bd7cd8",
-      "title": "Null-Space Compliance Variation for Safe Human-Robot Collaboration in Redundant Manipulators using Safety Control Barrier Functions",
-      "authors": [
-        "Julián M. Salt Ducajú",
-        "Björn Olofsson",
-        "A. Robertsson",
-        "Rolf Johansson"
-      ],
-      "year": 2023,
-      "date": "2023-10-01",
-      "citations": 5,
-      "arxivId": "",
-      "doi": "10.1109/IROS55552.2023.10342181",
-      "url": "https://doi.org/10.1109/IROS55552.2023.10342181",
-      "abstract": "In this paper, Safety Control Barrier Functions (SCBFs) were used to adjust the null-space compliant behavior of a redundant robot to improve safety in Human-Robot Collaboration (HRC) without modifying the robot behavior with respect to its main Cartesian task. A Lyapunov function was included in an energy storage formulation compatible with strict passivity to provide global asymptotic stability guarantees for the null-space compliance variation, and the necessary conditions for stability were formulated as inequality constraints of the optimization problem used for the null-space compliance variation. Experimental validation was performed using a Franka Emika Panda robot for a collaborative assembly application and its results showed that safety can be improved by using SCBFs simultaneously to the optimization of the robot configuration, while employing a single degree of freedom.",
-      "journal": "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
-      "venue": "IEEE/RJS International Conference on Intelligent RObots and Systems",
-      "venueLabel": "IROS",
       "subjects": []
     },
     {
@@ -1820,5 +1736,5 @@
       ]
     }
   ],
-  "updated": "2026-11-18T04:11:39.114361+00:00"
+  "updated": "2026-11-18T12:48:48.701327+00:00"
 }
