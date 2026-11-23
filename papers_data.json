@@ -61,6 +61,29 @@
       "subjects": []
     },
     {
+      "paperId": "5d8246cb5a47121643032202d37366fb10b0caf5",
+      "title": "Resilient Formation Containment for Multi-UAV Systems With Hybrid Safety Constraints and Prescribed-Time Recovery",
+      "authors": [
+        "Hua-Guang Shi",
+        "Tong-Qing Li",
+        "Zhuang-Zhuang Ma",
+        "Pan-Pan Zhu",
+        "Yi Zhou",
+        "Lei Shi"
+      ],
+      "year": 2026,
+      "date": "2026-10-01",
+      "citations": 1,
+      "arxivId": "",
+      "doi": "10.1109/TII.2026.3702937",
+      "url": "https://doi.org/10.1109/TII.2026.3702937",
+      "abstract": "Barycentric multiagent formations rely on strict spatial coupling, which inherently contradicts the local spatial decoupling needed for dynamic obstacle avoidance. This creates a fundamental spatiotemporal conflict in complex environments, as essential safety interventions introduce spatial deviations that disrupt the cooperative structure. To address this issue, we propose a hierarchical resilient formation containment framework (Hi-RFC). Instead of treating planning and control as isolated modules, Hi-RFC explicitly links global containment with local safety. A high-level multiagent reinforcement learning planner generates global spatiotemporal trajectories within a reduced-order state space. At the execution layer, a control barrier function (CBF) safety filter is integrated with an event-triggered prescribed-time control (PTC) law. The CBF strictly enforces local safety limits, while the PTC acts as a time-bounded energy compensator. It eliminates the residual repulsive potential energy and spatial errors caused by CBF interventions, mathematically guaranteeing that the distorted formation recovers and resynchronizes within a strictly defined time horizon. Simulations confirm that this architecture successfully resolves the spatiotemporal conflict, avoiding the deadlocks typical of artificial potential fields and the feasibility failures common in pure CBF approaches.",
+      "journal": "IEEE Transactions on Industrial Informatics",
+      "venue": "IEEE Transactions on Industrial Informatics",
+      "venueLabel": "IEEE Trans",
+      "subjects": []
+    },
+    {
       "paperId": "c38f5c889f9a6ffe36b8eee34083b5b3c668b4cd",
       "title": "Exact-Time Safety Recovery using Time-Varying Control Barrier Functions with Optimal Barrier Tracking",
       "authors": [
@@ -82,6 +105,26 @@
       "subjects": []
     },
     {
+      "paperId": "87df4a51740900f9939ae162b46eabd113a76360",
+      "title": "Safety-Critical Control of Environmental Pressure Simulation Systems via Prescribed-Time Control Lyapunov–Barrier Function",
+      "authors": [
+        "Yi Fang",
+        "Chao Zhai",
+        "He-Hong Zhang"
+      ],
+      "year": 2026,
+      "date": null,
+      "citations": 0,
+      "arxivId": "",
+      "doi": "10.1109/LCSYS.2026.3754184",
+      "url": "https://doi.org/10.1109/LCSYS.2026.3754184",
+      "abstract": "In recent years, environmental pressure simulation systems have faced increasingly stringent requirements for rapid regulation and safe operation. Rapid and safe pressure regulation is essential for environmental simulation systems because the main-pipe pressure determines test fidelity, while the compressor pressure ratio must remain within its safe range. However, ensuring compressor pressure-ratio safety under strongly coupled dynamics is inherently challenging, and simultaneously achieving rapid main-pipe pressure convergence without compromising safety poses an even greater control difficulty. To address this problem, a safety-prioritized prescribed-time control Lyapunov–barrier function strategy is proposed, in which boundary-sensitive information is incorporated into prescribed-time pressure regulation, while robust control barrier function constraints are imposed as unrelaxed hard constraints to explicitly enforce pressure-ratio safety. On this basis, the compatibility between tracking and safety objectives is analyzed. Under bounded linear extended state observer errors, pressure-ratio forward invariance is established, while prescribed-time pressure convergence is guaranteed when the prescribed-time control Lyapunov–barrier function constraint is satisfied without relaxation. Comparative hardware-in-the-loop tests against a standard control Lyapunov function–control barrier function controller demonstrate that the proposed method achieves faster pressure regulation within the prescribed-time horizon while preserving the prescribed compressor pressure-ratio safety requirement.",
+      "journal": "IEEE Control Systems Letters",
+      "venue": "IEEE Control Systems Letters",
+      "venueLabel": "L-CSS",
+      "subjects": []
+    },
+    {
       "paperId": "6ca2a2c379965eb09928b1d650bf0e388e3fc1c1",
       "title": "Prescribed-time active disturbance rejection control of aeroengine environment simulation system via robust control barrier function",
       "authors": [
@@ -100,26 +143,6 @@
       "journal": "Control Engineering Practice",
       "venue": "Control Engineering Practice",
       "venueLabel": "Control Engineering Practice",
-      "subjects": []
-    },
-    {
-      "paperId": "87df4a51740900f9939ae162b46eabd113a76360",
-      "title": "Safety-Critical Control of Environmental Pressure Simulation Systems via Prescribed-Time Control Lyapunov–Barrier Function",
-      "authors": [
-        "Yi Fang",
-        "Chao Zhai",
-        "He-Hong Zhang"
-      ],
-      "year": 2026,
-      "date": null,
-      "citations": 0,
-      "arxivId": "",
-      "doi": "10.1109/LCSYS.2026.3754184",
-      "url": "https://doi.org/10.1109/LCSYS.2026.3754184",
-      "abstract": "In recent years, environmental pressure simulation systems have faced increasingly stringent requirements for rapid regulation and safe operation. Rapid and safe pressure regulation is essential for environmental simulation systems because the main-pipe pressure determines test fidelity, while the compressor pressure ratio must remain within its safe range. However, ensuring compressor pressure-ratio safety under strongly coupled dynamics is inherently challenging, and simultaneously achieving rapid main-pipe pressure convergence without compromising safety poses an even greater control difficulty. To address this problem, a safety-prioritized prescribed-time control Lyapunov–barrier function strategy is proposed, in which boundary-sensitive information is incorporated into prescribed-time pressure regulation, while robust control barrier function constraints are imposed as unrelaxed hard constraints to explicitly enforce pressure-ratio safety. On this basis, the compatibility between tracking and safety objectives is analyzed. Under bounded linear extended state observer errors, pressure-ratio forward invariance is established, while prescribed-time pressure convergence is guaranteed when the prescribed-time control Lyapunov–barrier function constraint is satisfied without relaxation. Comparative hardware-in-the-loop tests against a standard control Lyapunov function–control barrier function controller demonstrate that the proposed method achieves faster pressure regulation within the prescribed-time horizon while preserving the prescribed compressor pressure-ratio safety requirement.",
-      "journal": "IEEE Control Systems Letters",
-      "venue": "IEEE Control Systems Letters",
-      "venueLabel": "L-CSS",
       "subjects": []
     },
     {
@@ -164,25 +187,6 @@
       "journal": "Aerospace",
       "venue": "Aerospace",
       "venueLabel": "Aerospace",
-      "subjects": []
-    },
-    {
-      "paperId": "44225db42be2d017da0d530506b5b68b9b09f535",
-      "title": "Multiple Autonomous Underwater Vehicles Practical Prescribed-Time Formation Tracking Control With Collision-Free Constraints",
-      "authors": [
-        "Xiao-Hui Liu",
-        "Guang-Hong Yang"
-      ],
-      "year": 2026,
-      "date": "2026-10-01",
-      "citations": 0,
-      "arxivId": "",
-      "doi": "10.1109/TVT.2026.3709785",
-      "url": "https://doi.org/10.1109/TVT.2026.3709785",
-      "abstract": "This paper studies the practical prescribed-time collision-free formation tracking (PPT-CFT) control problem for multi-AUV (autonomous underwater vehicle) systems. A dual-layer collision avoidance framework is proposed. Specifically, a distributed state observer with a collision avoidance mechanism is designed first to generate collision-free command signals. Then, based on a zeroing control barrier function (ZCBF), a controller is designed to achieve PPT-CFT control. Compared with the existing works, the proposed method offers a simpler structure but provides stronger safety guarantees. Finally, simulation results are provided to illustrate the effectiveness of the developed approach. This study lays the foundation for future extensions to systems with model uncertainties.",
-      "journal": "IEEE Transactions on Vehicular Technology",
-      "venue": "IEEE Transactions on Vehicular Technology",
-      "venueLabel": "IEEE Trans",
       "subjects": []
     },
     {
@@ -2750,5 +2754,5 @@
       ]
     }
   ],
-  "updated": "2026-11-23T03:43:16.296802+00:00"
+  "updated": "2026-11-23T14:11:56.478318+00:00"
 }
