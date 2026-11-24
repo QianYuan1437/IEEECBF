@@ -1940,6 +1940,54 @@
   ],
   "arxiv": [
     {
+      "paperId": "arxiv:2611.29089v1",
+      "title": "Construction of Universal Safe Stabilizing Formulas with Weighted Centroid Methodology",
+      "authors": [
+        "Pio Ong",
+        "Max H. Cohen",
+        "Aaron D. Ames",
+        "Jorge Cortes"
+      ],
+      "year": null,
+      "date": "2026-11-21",
+      "citations": 0,
+      "arxivId": "2611.29089v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.29089v1",
+      "abstract": "Control Lyapunov and control barrier functions ensure stability and safety, respectively, by imposing state-dependent affine constraints on the control input. Controller design can therefore be viewed as the problem of selecting an admissible input from the set defined by these constraints. This paper adopts this perspective and develops a weighted-centroid methodology for constructing explicit feedback formulas that are provably smooth. The selection method relies on the fact that weighted centroids of a convex set lie within the set. We establish conditions on the weight functions that guarantee smoothness and continuity for several classes of constraints, including single constraints, mirrored constraints, linearly independent multiple constraints, and two-constraint Gaussian constructions. The framework recovers Sontag's universal formula and generates other new explicit formulas. When specialized to control-theoretic settings, the resulting formulas yield smooth safety filters, stabilizing controllers, and safe-stabilizing controllers. Simulation and hardware experiments on a small quadrotor illustrate the practical benefits of the proposed construction.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "math.OC",
+        "eess.SY"
+      ]
+    },
+    {
+      "paperId": "arxiv:2611.28200v1",
+      "title": "Control Barrier Functions in Motion Control",
+      "authors": [
+        "Stijn Hanegraaf",
+        "Giannis Delimpaltadakis",
+        "Hoang Chu",
+        "W. P. M. H.",
+        " Heemels"
+      ],
+      "year": null,
+      "date": "2026-11-20",
+      "citations": 0,
+      "arxivId": "2611.28200v1",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.28200v1",
+      "abstract": "Projection-based controllers (PBCs) have significant engineering success in industrial high-precision motion systems by restricting their input-output behavior to performance-enhancing sector-sets thereby overcoming fundamental limitations of linear control. The projection results in continuous control signals, but their vector fields are discontinuous, potentially causing unwanted excitation of higher-order dynamics in the plant. Inspired by these projected controllers and the recent interest in control barrier functions (CBFs), we propose a new class of CBF-based motion controllers that (i) can mimic and exceed the performance benefits demonstrated by PBCs and (ii) have continuous dynamics thereby resulting in smooth control signals. We specialize our novel CBF-based control design to integrator dynamics, essentially connecting to a projected integrator, called Hybrid Integrator-Gain System (HIGS), thereby introducing CBF-HIGS. We analyze the CBF-HIGS's behavior using a describing function analysis, which reveals improved phase characteristics and a favorable trade-off in higher-order harmonic distortion compared to HIGS. Simulation and experimental results demonstrate that CBF-HIGS enhances disturbance attenuation and reduces the excitation of higher-order harmonics compared to HIGS due to its continuous vector field, without compromising robustness properties. The paper provides the first use of CBFs for performance improvement of mechatronic motion systems.",
+      "journal": "",
+      "venue": "",
+      "venueLabel": "arXiv",
+      "subjects": [
+        "eess.SY"
+      ]
+    },
+    {
       "paperId": "arxiv:2611.27845v1",
       "title": "Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter",
       "authors": [
@@ -2977,56 +3025,7 @@
       "subjects": [
         "cs.RO"
       ]
-    },
-    {
-      "paperId": "arxiv:2610.38781v1",
-      "title": "From Local to Global: Sheaf-Theoretic Control Barrier Functions on Manifolds",
-      "authors": [
-        "Keith A. Currier",
-        "Wilmer Leal",
-        "Brandon C. Fallin",
-        "James Fairbanks",
-        "Warren E. Dixon"
-      ],
-      "year": null,
-      "date": "2026-10-28",
-      "citations": 0,
-      "arxivId": "2610.38781v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.38781v1",
-      "abstract": "Control barrier functions (CBFs) provide formal safety guarantees for dynamical systems by rendering a safe set forward-invariant via pointwise-optimal feedback control. While the CBF framework is well established for dynamical systems in Euclidean space, there exist gaps for systems evolving on non-Euclidean manifolds. For systems modeled as constrained control differential inclusions, we introduce the Sheaf-CBF: a sheaf-theoretic framework for CBFs on smooth manifolds and vector bundles. The differential inclusions are formulated intrinsically on the control bundle, and analogous regularity properties in the Euclidean case are established fiberwise under local trivializations. Regularity conditions are given under which a pointwise-optimal feedback law is single-valued and continuous over local charts. Framed as a local-to-global optimization problem, sheaf-theoretic restriction and gluing compatibility conditions on overlapping charts are shown to uniquely determine a continuous global section of the control bundle, thereby guaranteeing forward invariance of the safe set. Numerical simulations on a nontrivial M{ö}bius strip demonstrate that failure of sheaf compatibility results in violations of safety, whereas the Sheaf-CBF maintains forward invariance.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "eess.SY"
-      ]
-    },
-    {
-      "paperId": "arxiv:2610.38108v1",
-      "title": "Safety of layered control systems via control barrier morphisms",
-      "authors": [
-        "Aaron D. Ames",
-        "Joe Moeller",
-        "Massimiliano de Sa",
-        "Paulo Tabuada"
-      ],
-      "year": null,
-      "date": "2026-10-28",
-      "citations": 0,
-      "arxivId": "2610.38108v1",
-      "doi": "",
-      "url": "https://arxiv.org/abs/2610.38108v1",
-      "abstract": "Layered control architectures provide a powerful paradigm for synthesizing controllers for complex systems. Yet, translating guarantees at each layer to system-level guarantees is challenging due to the interactions between layers. To address this problem, this paper presents a categorical perspective on layered control architectures. Individual systems are represented as control coalgebras, their interactions are specified as morphisms to mediators, and system-level behaviors are obtained via composition defined categorically as a pullback. To analyze the safety of these systems, we formulate control barrier morphisms (CBMs), the categorical generalization of control barrier functions. We prove that feedback controllers satisfying a CBM condition render the associated safe subobject forward invariant. It is through CBMs that we can establish the safety of layered systems: given a CBM at each layer subject to compatibility conditions, the universal property of the pullback implies the existence of a CBM for the composed system. Safety of a full-order model being safety filtered by a reduced-order model is recovered as a specialization of the categorical framework.",
-      "journal": "",
-      "venue": "",
-      "venueLabel": "arXiv",
-      "subjects": [
-        "math.CT",
-        "eess.SY",
-        "math.OC"
-      ]
     }
   ],
-  "updated": "2026-11-23T20:51:32.770696+00:00"
+  "updated": "2026-11-24T07:03:05.560548+00:00"
 }
