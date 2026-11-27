@@ -61,47 +61,23 @@
       "subjects": []
     },
     {
-      "paperId": "5d8246cb5a47121643032202d37366fb10b0caf5",
-      "title": "Resilient Formation Containment for Multi-UAV Systems With Hybrid Safety Constraints and Prescribed-Time Recovery",
+      "paperId": "87df4a51740900f9939ae162b46eabd113a76360",
+      "title": "Safety-Critical Control of Environmental Pressure Simulation Systems via Prescribed-Time Control Lyapunov–Barrier Function",
       "authors": [
-        "Hua-Guang Shi",
-        "Tong-Qing Li",
-        "Zhuang-Zhuang Ma",
-        "Pan-Pan Zhu",
-        "Yi Zhou",
-        "Lei Shi"
+        "Yi Fang",
+        "Chao Zhai",
+        "He-Hong Zhang"
       ],
       "year": 2026,
-      "date": "2026-10-01",
-      "citations": 1,
+      "date": null,
+      "citations": 0,
       "arxivId": "",
-      "doi": "10.1109/TII.2026.3702937",
-      "url": "https://doi.org/10.1109/TII.2026.3702937",
-      "abstract": "Barycentric multiagent formations rely on strict spatial coupling, which inherently contradicts the local spatial decoupling needed for dynamic obstacle avoidance. This creates a fundamental spatiotemporal conflict in complex environments, as essential safety interventions introduce spatial deviations that disrupt the cooperative structure. To address this issue, we propose a hierarchical resilient formation containment framework (Hi-RFC). Instead of treating planning and control as isolated modules, Hi-RFC explicitly links global containment with local safety. A high-level multiagent reinforcement learning planner generates global spatiotemporal trajectories within a reduced-order state space. At the execution layer, a control barrier function (CBF) safety filter is integrated with an event-triggered prescribed-time control (PTC) law. The CBF strictly enforces local safety limits, while the PTC acts as a time-bounded energy compensator. It eliminates the residual repulsive potential energy and spatial errors caused by CBF interventions, mathematically guaranteeing that the distorted formation recovers and resynchronizes within a strictly defined time horizon. Simulations confirm that this architecture successfully resolves the spatiotemporal conflict, avoiding the deadlocks typical of artificial potential fields and the feasibility failures common in pure CBF approaches.",
-      "journal": "IEEE Transactions on Industrial Informatics",
-      "venue": "IEEE Transactions on Industrial Informatics",
-      "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
-      "paperId": "c38f5c889f9a6ffe36b8eee34083b5b3c668b4cd",
-      "title": "Exact-Time Safety Recovery using Time-Varying Control Barrier Functions with Optimal Barrier Tracking",
-      "authors": [
-        "Ying-Qing Chen",
-        "C. Cassandras",
-        "Wei Xiao",
-        "Anni Li"
-      ],
-      "year": 2026,
-      "date": "2026-03-19",
-      "citations": 1,
-      "arxivId": "2603.19119",
-      "doi": "10.48550/arXiv.2603.19119",
-      "url": "https://doi.org/10.48550/arXiv.2603.19119",
-      "abstract": "This paper is motivated by controllers developed for autonomous vehicles which occasionally result into conditions where safety is no longer guaranteed. We develop an exact-time safety recovery framework for any control-affine nonlinear system when its state is outside a safe region using time-varying Control Barrier Functions (CBFs) with optimal barrier tracking. Unlike conventional formulations that provide only conservative upper bounds on recovery time convergence, the proposed approach guarantees recovery to the safe set at a prescribed time. The key mechanism is an active barrier tracking condition that forces the barrier function to follow exactly a designer-specified recovery trajectory. This transforms safety recovery into a trajectory design problem. The recovery trajectory is parameterized and optimized to achieve optimal performance while preserving feasibility under input constraints, avoiding the aggressive corrective actions typically induced by conventional finite-time formulations. The safety recovery framework is applied to the roundabout traffic coordination problem for Connected and Automated Vehicles (CAVs), where any initially violated safe merging constraint is replaced by an exact-time recovery barrier constraint to ensure safety guarantee restoration before CAV conflict points are reached. Simulation results demonstrate improved feasibility and performance.",
-      "journal": "ArXiv",
-      "venue": "arXiv.org",
-      "venueLabel": "arXiv.org",
+      "doi": "10.1109/LCSYS.2026.3754184",
+      "url": "https://doi.org/10.1109/LCSYS.2026.3754184",
+      "abstract": "In recent years, environmental pressure simulation systems have faced increasingly stringent requirements for rapid regulation and safe operation. Rapid and safe pressure regulation is essential for environmental simulation systems because the main-pipe pressure determines test fidelity, while the compressor pressure ratio must remain within its safe range. However, ensuring compressor pressure-ratio safety under strongly coupled dynamics is inherently challenging, and simultaneously achieving rapid main-pipe pressure convergence without compromising safety poses an even greater control difficulty. To address this problem, a safety-prioritized prescribed-time control Lyapunov–barrier function strategy is proposed, in which boundary-sensitive information is incorporated into prescribed-time pressure regulation, while robust control barrier function constraints are imposed as unrelaxed hard constraints to explicitly enforce pressure-ratio safety. On this basis, the compatibility between tracking and safety objectives is analyzed. Under bounded linear extended state observer errors, pressure-ratio forward invariance is established, while prescribed-time pressure convergence is guaranteed when the prescribed-time control Lyapunov–barrier function constraint is satisfied without relaxation. Comparative hardware-in-the-loop tests against a standard control Lyapunov function–control barrier function controller demonstrate that the proposed method achieves faster pressure regulation within the prescribed-time horizon while preserving the prescribed compressor pressure-ratio safety requirement.",
+      "journal": "IEEE Control Systems Letters",
+      "venue": "IEEE Control Systems Letters",
+      "venueLabel": "L-CSS",
       "subjects": []
     },
     {
@@ -123,26 +99,6 @@
       "journal": "Control Engineering Practice",
       "venue": "Control Engineering Practice",
       "venueLabel": "Control Engineering Practice",
-      "subjects": []
-    },
-    {
-      "paperId": "87df4a51740900f9939ae162b46eabd113a76360",
-      "title": "Safety-Critical Control of Environmental Pressure Simulation Systems via Prescribed-Time Control Lyapunov–Barrier Function",
-      "authors": [
-        "Yi Fang",
-        "Chao Zhai",
-        "He-Hong Zhang"
-      ],
-      "year": 2026,
-      "date": null,
-      "citations": 0,
-      "arxivId": "",
-      "doi": "10.1109/LCSYS.2026.3754184",
-      "url": "https://doi.org/10.1109/LCSYS.2026.3754184",
-      "abstract": "In recent years, environmental pressure simulation systems have faced increasingly stringent requirements for rapid regulation and safe operation. Rapid and safe pressure regulation is essential for environmental simulation systems because the main-pipe pressure determines test fidelity, while the compressor pressure ratio must remain within its safe range. However, ensuring compressor pressure-ratio safety under strongly coupled dynamics is inherently challenging, and simultaneously achieving rapid main-pipe pressure convergence without compromising safety poses an even greater control difficulty. To address this problem, a safety-prioritized prescribed-time control Lyapunov–barrier function strategy is proposed, in which boundary-sensitive information is incorporated into prescribed-time pressure regulation, while robust control barrier function constraints are imposed as unrelaxed hard constraints to explicitly enforce pressure-ratio safety. On this basis, the compatibility between tracking and safety objectives is analyzed. Under bounded linear extended state observer errors, pressure-ratio forward invariance is established, while prescribed-time pressure convergence is guaranteed when the prescribed-time control Lyapunov–barrier function constraint is satisfied without relaxation. Comparative hardware-in-the-loop tests against a standard control Lyapunov function–control barrier function controller demonstrate that the proposed method achieves faster pressure regulation within the prescribed-time horizon while preserving the prescribed compressor pressure-ratio safety requirement.",
-      "journal": "IEEE Control Systems Letters",
-      "venue": "IEEE Control Systems Letters",
-      "venueLabel": "L-CSS",
       "subjects": []
     },
     {
@@ -190,25 +146,6 @@
       "subjects": []
     },
     {
-      "paperId": "44225db42be2d017da0d530506b5b68b9b09f535",
-      "title": "Multiple Autonomous Underwater Vehicles Practical Prescribed-Time Formation Tracking Control With Collision-Free Constraints",
-      "authors": [
-        "Xiao-Hui Liu",
-        "Guang-Hong Yang"
-      ],
-      "year": 2026,
-      "date": "2026-10-01",
-      "citations": 0,
-      "arxivId": "",
-      "doi": "10.1109/TVT.2026.3709785",
-      "url": "https://doi.org/10.1109/TVT.2026.3709785",
-      "abstract": "This paper studies the practical prescribed-time collision-free formation tracking (PPT-CFT) control problem for multi-AUV (autonomous underwater vehicle) systems. A dual-layer collision avoidance framework is proposed. Specifically, a distributed state observer with a collision avoidance mechanism is designed first to generate collision-free command signals. Then, based on a zeroing control barrier function (ZCBF), a controller is designed to achieve PPT-CFT control. Compared with the existing works, the proposed method offers a simpler structure but provides stronger safety guarantees. Finally, simulation results are provided to illustrate the effectiveness of the developed approach. This study lays the foundation for future extensions to systems with model uncertainties.",
-      "journal": "IEEE Transactions on Vehicular Technology",
-      "venue": "IEEE Transactions on Vehicular Technology",
-      "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
       "paperId": "f9b7cfc3d51ea24020766010352d509c2ad09e1b",
       "title": "Constrained Safe Cooperative Maneuvering of Autonomous Surface Vehicles: A Control Barrier Function Approach",
       "authors": [
@@ -231,6 +168,30 @@
       "subjects": []
     },
     {
+      "paperId": "ebe4e2b7c47bf755bebd6b8fee154a0c8cf83638",
+      "title": "Explicit Control Barrier Function-based Safety Filters and their Resource-Aware Computation",
+      "authors": [
+        "Pol Mestres",
+        "S. Mousavi",
+        "Pio Ong",
+        "Li-Zhi Yang",
+        "Ersin Daş",
+        "J. Burdick",
+        "A. Ames"
+      ],
+      "year": 2025,
+      "date": "2025-12-10",
+      "citations": 15,
+      "arxivId": "2512.10118",
+      "doi": "10.48550/arXiv.2512.10118",
+      "url": "https://doi.org/10.48550/arXiv.2512.10118",
+      "abstract": "This paper studies the efficient implementation of safety filters that are designed using control barrier functions (CBFs), which minimally modify a nominal controller to render it safe with respect to a prescribed set of states. Although CBF-based safety filters are often implemented by solving a quadratic program (QP) in real time, the use of off-the-shelf solvers for such optimization problems poses a challenge in applications where control actions need to be computed efficiently at very high frequencies. In this paper, we introduce a closed-form expression for controllers obtained through CBF-based safety filters. This expression is obtained by partitioning the state-space into different regions, with a different closed-form solution in each region. We leverage this formula to introduce a resource-aware implementation of CBF-based safety filters that detects changes in the partition region and uses the closed-form expression between changes. We showcase the applicability of our approach in examples ranging from aerospace control to safe reinforcement learning.",
+      "journal": "ArXiv",
+      "venue": "arXiv.org",
+      "venueLabel": "arXiv.org",
+      "subjects": []
+    },
+    {
       "paperId": "4c439ac7fa78458daf9cf93563cdab330c543587",
       "title": "Performance-Prescribed Optimal Control for Target Enclosing of Vehicles via Control Barrier Function-Based Reinforcement Learning",
       "authors": [
@@ -248,30 +209,6 @@
       "journal": "IEEE Transactions on Intelligent Transportation Systems",
       "venue": "IEEE transactions on intelligent transportation systems (Print)",
       "venueLabel": "IEEE Trans",
-      "subjects": []
-    },
-    {
-      "paperId": "ebe4e2b7c47bf755bebd6b8fee154a0c8cf83638",
-      "title": "Explicit Control Barrier Function-based Safety Filters and their Resource-Aware Computation",
-      "authors": [
-        "Pol Mestres",
-        "S. Mousavi",
-        "Pio Ong",
-        "Li-Zhi Yang",
-        "Ersin Daş",
-        "J. Burdick",
-        "A. Ames"
-      ],
-      "year": 2025,
-      "date": "2025-12-10",
-      "citations": 14,
-      "arxivId": "2512.10118",
-      "doi": "10.48550/arXiv.2512.10118",
-      "url": "https://doi.org/10.48550/arXiv.2512.10118",
-      "abstract": "This paper studies the efficient implementation of safety filters that are designed using control barrier functions (CBFs), which minimally modify a nominal controller to render it safe with respect to a prescribed set of states. Although CBF-based safety filters are often implemented by solving a quadratic program (QP) in real time, the use of off-the-shelf solvers for such optimization problems poses a challenge in applications where control actions need to be computed efficiently at very high frequencies. In this paper, we introduce a closed-form expression for controllers obtained through CBF-based safety filters. This expression is obtained by partitioning the state-space into different regions, with a different closed-form solution in each region. We leverage this formula to introduce a resource-aware implementation of CBF-based safety filters that detects changes in the partition region and uses the closed-form expression between changes. We showcase the applicability of our approach in examples ranging from aerospace control to safe reinforcement learning.",
-      "journal": "ArXiv",
-      "venue": "arXiv.org",
-      "venueLabel": "arXiv.org",
       "subjects": []
     },
     {
@@ -471,7 +408,7 @@
       ],
       "year": 2023,
       "date": "2023-07-01",
-      "citations": 48,
+      "citations": 49,
       "arxivId": "",
       "doi": "10.1109/JAS.2023.123573",
       "url": "https://doi.org/10.1109/JAS.2023.123573",
@@ -513,7 +450,7 @@
       ],
       "year": 2016,
       "date": "2016-09-21",
-      "citations": 3235,
+      "citations": 3275,
       "arxivId": "1609.06408",
       "doi": "10.1109/TAC.2016.2638961",
       "url": "https://doi.org/10.1109/TAC.2016.2638961",
@@ -577,7 +514,7 @@
       ],
       "year": 2021,
       "date": "2021-03-23",
-      "citations": 101,
+      "citations": 104,
       "arxivId": "2103.12375",
       "doi": "10.48550/arXiv.2103.12375",
       "url": "https://doi.org/10.48550/arXiv.2103.12375",
@@ -620,7 +557,7 @@
       ],
       "year": 2021,
       "date": "2021-06-13",
-      "citations": 71,
+      "citations": 72,
       "arxivId": "2106.07108",
       "doi": "10.1109/CDC45484.2021.9683743",
       "url": "https://doi.org/10.1109/CDC45484.2021.9683743",
@@ -663,7 +600,7 @@
       ],
       "year": 2021,
       "date": "2021-05-25",
-      "citations": 47,
+      "citations": 48,
       "arxivId": "",
       "doi": "10.23919/ACC50511.2021.9483057",
       "url": "https://doi.org/10.23919/ACC50511.2021.9483057",
@@ -732,6 +669,28 @@
       "journal": "2022 European Control Conference (ECC)",
       "venue": "European Control Conference",
       "venueLabel": "ECC",
+      "subjects": []
+    },
+    {
+      "paperId": "e731bd5c1888bc1efbb071b6652d6564625a15a9",
+      "title": "A Robust Safety–Critical Control Framework for Control Affine Systems With Applications to AUVs",
+      "authors": [
+        "Yongchao Jiang",
+        "Chenggang Wang",
+        "Bochen Li",
+        "Lei Song",
+        "Xin-Ping Guan"
+      ],
+      "year": 2025,
+      "date": "2025-06-01",
+      "citations": 30,
+      "arxivId": "",
+      "doi": "10.1109/TMECH.2024.3427372",
+      "url": "https://doi.org/10.1109/TMECH.2024.3427372",
+      "abstract": "This article proposes a robust safety–critical control framework based on high order control barrier function (HOCBF) and disturbance observer (DOB) for control affine systems in the presence of unknown disturbances. Specifically, we apply the proposed framework for the obstacle avoidance of autonomous underwater vehicles (AUVs) to consider the nonlinear characteristics and current disturbance. The system stability is proved to be uniformly ultimately bounded (UUB). The proposed framework first estimates the unknown term of the Lie derivative of HOCBF by employing a first-order high-gain DOB. The bounded property of the DOB estimation error is combined with the Tunable Input-to-State Safe (TISSf) to compensate for the forward invariant condition of CBF. We construct the DOB-TISSf-based robust safety–critical control framework based on quadratic programming to guarantee safety and control performance simultaneously. We show that the safety–critical framework still renders the system UUB. Simulations and field experiments are validated on AUV to avoid obstacles. The results demonstrate that the proposed framework ensures the safety of AUV. Moreover, the framework allows for lower conservativeness of the disturbed system and thus a better tradeoff between system performance and safety.",
+      "journal": "IEEE/ASME Transactions on Mechatronics",
+      "venue": "IEEE/ASME transactions on mechatronics",
+      "venueLabel": "IEEE",
       "subjects": []
     }
   ],
@@ -1827,5 +1786,5 @@
       ]
     }
   ],
-  "updated": "2026-11-26T18:51:42.159511+00:00"
+  "updated": "2026-11-27T04:59:07.794519+00:00"
 }
